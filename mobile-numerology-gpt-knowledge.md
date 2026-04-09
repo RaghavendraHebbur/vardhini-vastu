@@ -1,6 +1,4 @@
-# Mobile Numerology Interpreter — GPT Knowledge Base
-> **System Prompt & Knowledge File for ChatGPT Custom GPT**
-> Based on: *Advanced Mobile Numerology Guide* (Scribd, 176 pages) and *Mobile Numerology Master Sheet* (Scribd)
+# Mobile Numerology Interpreter — GPT Knowledge Bas> Based on: *Advanced Mobile Numerology Guide* (Scribd, 176 pages) and *Mobile Numerology Master Sheet* (Scribd)
 > Author: Shweta Baba (Professional Numerologist)
 > Built for: Raghu Hebbur | Vardhini Vastu | Bengaluru
 
@@ -491,10 +489,8 @@ The Lo Shu Grid contains 8 planes (arrows) that reveal personality traits, stren
 - **5** = Stability, balance, good health (Mercury)
 - **6** = Hard work, money magnet, fame (Venus)
 - **If Complete:** Exceptional luck and divine support, success in every aspect of life, enjoys luxury from parents and ancestors, power to express views with confidence, rare combination (only 2-3% of people have it). Considered one of the most powerful formations in numerology.
-- **If Incomplete:** May not achieve same level of all-round success, needs to work harder for recognition
-
-- ## SECTION 3 — KUA NUMBER AND FENG SHUI DIRECTIONS
-
+- - **If Incomplete:** May not achieve same level of all-round success, needs to work harder for recognition
+## SECTION 3 — KUA NUMBER AND FENG SHUI DIRECTIONS
 ### Calculate Kua Number
 
 The Kua (Gua) number is derived from the birth year and gender. It determines 8 auspicious and inauspicious directions for a person.
@@ -743,6 +739,383 @@ A Rajyog in numerology is formed when specific planets/digits combine to create 
 - Rajyog is strongest when the person's Life Path aligns with the Rajyog digits
 
 ---
+
+
+## Marriage Compatibility in Mobile Number Numerology
+
+### How to Assess Marriage Compatibility
+
+Marriage compatibility in mobile number numerology is determined by comparing the Mulank (Birth Number), Bhagyank (Destiny Number), and mobile number digits of both partners.
+
+**Key Factors:**
+- **Mulank Compatibility:** Compare the birth numbers of both partners
+- **Bhagyank Compatibility:** Compare the destiny/life path numbers
+- **Mobile Number Harmony:** Check if the mobile numbers support each other's life path
+- **Digit Interactions:** Look for complementary or conflicting digit combinations
+
+### Compatible Number Combinations
+
+**Highly Compatible Pairs:**
+- **1 and 3:** Sun (1) and Jupiter (3) create a powerful leadership combination
+- **2 and 4:** Moon (2) and Rahu (4) form a balanced emotional-material partnership
+- **5 and 6:** Mercury (5) and Venus (6) create romantic and intellectual harmony
+- **1 and 5:** Sun and Mercury - ambition meets communication
+- **3 and 6:** Jupiter and Venus - wisdom and love combine beautifully
+- **2 and 7:** Moon and Ketu - intuitive and spiritual connection
+- **4 and 8:** Rahu and Saturn - ambitious power couple with material success
+- **5 and 9:** Mercury and Mars - dynamic energy with quick thinking
+
+**Moderately Compatible Pairs:**
+- **1 and 9:** Leadership meets passion - can work with effort
+- **2 and 6:** Emotional sensitivity with romantic charm
+- **3 and 9:** Wisdom and courage - respectful partnership
+- **4 and 5:** Innovation meets adaptability
+- **7 and 8:** Spiritual depth meets material ambition
+- **6 and 9:** Harmony and passion - balanced relationship
+
+**Challenging Combinations (Require Extra Effort):**
+- **1 and 8:** Sun and Saturn - ego clashes, power struggles
+- **1 and 6:** Leadership and harmony may conflict
+- **2 and 5:** Emotional sensitivity vs restless energy
+- **3 and 4:** Wisdom vs materialism - different priorities
+- **4 and 9:** Rahu vs Mars - conflicting drives
+- **5 and 7:** Restlessness vs introspection
+- **6 and 8:** Venus vs Saturn - pleasure vs restriction
+- **8 and 9:** Saturn vs Mars - both aggressive, can clash
+
+### Mobile Number Compatibility Rules
+
+1. **Matching Vibrations:** Partners' mobile numbers should have complementary totals
+2. **Avoid Clashing Digits:** If one partner has dominant 8s and the other has dominant 1s, there may be power struggles
+3. **Harmonious Totals:** Mobile totals that are friendly (1-3, 2-4, 5-6, etc.) indicate smoother relationship energy
+4. **Shared Lucky Numbers:** If both partners share the same lucky numbers, the mobile number supports both
+5. **Balanced Elements:** One partner's mobile number should balance the other's weaknesses
+
+### Remedies for Incompatible Numbers
+
+- **Use Partner's Lucky Number:** Incorporate the partner's lucky number in your mobile number or important contacts
+- **Add Harmonious Digits:** Add a harmonious digit as a SIM suffix or in secondary numbers
+- **Color Remedies:** Use colors associated with the partner's favorable planet
+- **Gemstone Remedies:** Wear gemstones that strengthen the relationship planet
+- **Name Adjustment:** Modify signatures or nicknames to include favorable numbers
+- **Joint Number Selection:** Choose a common family mobile number that suits both partners
+
+### Best Marriage Numbers
+
+**For Men:**
+- **Mulank 1, 3, 5, 9:** Natural leaders, do well with partners who appreciate strength
+- **Best Match:** Partner with Mulank 3, 5, 6, or 9
+
+**For Women:**
+- **Mulank 2, 4, 6:** Nurturing and harmonious, thrive with stable partners
+- **Best Match:** Partner with Mulank 1, 3, 5, or 7
+
+**Universal Compatibility:**
+- **Number 6 (Venus):** The most marriage-friendly number, represents love and harmony
+- **Number 2 (Moon):** Emotional compatibility and understanding
+- **Number 3 (Jupiter):** Wisdom and growth in relationship
+
+---
+
+## Lucky and Unlucky Numbers in Mobile Number Numerology
+
+### Lucky Numbers by Mulank
+
+**Mulank 1 (Sun):**
+- **Lucky Numbers:** 1, 3, 5, 9
+- **Unlucky Numbers:** 4, 8
+- **Best Mobile Digits:** 1, 3, 5
+- **Color:** Golden, Orange, Red
+
+**Mulank 2 (Moon):**
+- **Lucky Numbers:** 2, 6, 7, 9
+- **Unlucky Numbers:** 4, 8
+- **Best Mobile Digits:** 2, 6, 7
+- **Color:** Silver, White, Light Blue
+
+**Mulank 3 (Jupiter):**
+- **Lucky Numbers:** 1, 3, 5, 6, 9
+- **Unlucky Numbers:** 4, 8
+- **Best Mobile Digits:** 3, 6, 9
+- **Color:** Yellow, Gold, Purple
+
+**Mulank 4 (Rahu):**
+- **Lucky Numbers:** 1, 4, 5, 8
+- **Unlucky Numbers:** 2, 7
+- **Best Mobile Digits:** 4, 5, 8
+- **Color:** Grey, Blue, Black
+
+**Mulank 5 (Mercury):**
+- **Lucky Numbers:** 1, 5, 6, 9
+- **Unlucky Numbers:** 2, 4
+- **Best Mobile Digits:** 5, 6, 9
+- **Color:** Green, Light Grey
+
+**Mulank 6 (Venus):**
+- **Lucky Numbers:** 2, 5, 6, 9
+- **Unlucky Numbers:** 1, 3
+- **Best Mobile Digits:** 6, 2, 5
+- **Color:** White, Pink, Light Blue
+
+**Mulank 7 (Ketu):**
+- **Lucky Numbers:** 2, 7, 9
+- **Unlucky Numbers:** 1, 5
+- **Best Mobile Digits:** 7, 2, 9
+- **Color:** Grey, Brown, White
+
+**Mulank 8 (Saturn):**
+- **Lucky Numbers:** 1, 4, 5, 8
+- **Unlucky Numbers:** 2, 6
+- **Best Mobile Digits:** 8, 4, 5
+- **Color:** Black, Dark Blue, Grey
+
+**Mulank 9 (Mars):**
+- **Lucky Numbers:** 1, 3, 5, 9
+- **Unlucky Numbers:** 2, 4, 6
+- **Best Mobile Digits:** 9, 1, 5
+- **Color:** Red, Orange, Blood Red
+
+### Lucky Numbers by Mobile Total
+
+| Mobile Total | Lucky Numbers | Unlucky Numbers | Best For |
+|-------------|---------------|-----------------|----------|
+| 1 | 1, 3, 5, 9 | 4, 8 | Leadership, career growth |
+| 2 | 2, 6, 7, 9 | 4, 8 | Relationships, emotions |
+| 3 | 1, 3, 6, 9 | 4, 8 | Creativity, communication |
+| 4 | 1, 4, 5, 8 | 2, 7 | Material success, stability |
+| 5 | 1, 5, 6, 9 | 2, 4 | Business, communication |
+| 6 | 2, 5, 6, 9 | 1, 3 | Love, family, comfort |
+| 7 | 2, 7, 9 | 1, 5 | Spirituality, introspection |
+| 8 | 1, 4, 5, 8 | 2, 6 | Power, authority, wealth |
+| 9 | 1, 3, 5, 9 | 2, 4, 6 | Courage, action, success |
+
+### Unlucky Number Patterns to Avoid
+
+1. **Triple 4 (444):** Associated with Rahu's shadow, creates confusion and instability
+2. **Triple 8 (888):** Excessive Saturn energy - delays, obstacles, loneliness
+3. **Triple 0 (000):** Void energy - lack of direction, financial drain
+4. **Ending in 4 or 8:** Can attract chronic health issues and relationship problems
+5. **All Even Digits:** Creates excessive passive/receptive energy - lack of initiative
+6. **All Odd Digits:** Creates excessive aggressive energy - conflict and impulsiveness
+7. **No 1s or 3s:** Missing Sun and Jupiter energy - lack of leadership and wisdom
+8. **No 5s or 6s:** Missing Mercury and Venus - poor communication and relationship issues
+
+### Lucky Digits for Different Life Goals
+
+**For Career Success:** 1, 3, 5, 8
+**For Wealth:** 6, 8, 9
+**For Relationships:** 2, 5, 6
+**For Health:** 2, 3, 6
+**For Spiritual Growth:** 7, 9
+**For Business:** 5, 6, 8
+**For Fame:** 1, 5, 9
+**For Peace of Mind:** 2, 6, 7
+
+---
+
+## Numerology Secrets - 43 Compatibility Rules
+
+### Core Compatibility Principles
+
+1. **Mulank Matching:** Same Mulank creates understanding but may lack growth potential
+2. **Bhagyank Alignment:** Matching destiny numbers indicate shared life goals
+3. **Planet Harmony:** Compatible ruling planets create natural attraction
+4. **Element Balance:** Fire-Air and Water-Earth combinations work best
+5. **Number Frequency:** The digit that appears most in both numbers creates shared energy
+6. **Total Synergy:** Mobile totals that add to 3, 6, or 9 are universally auspicious
+7. **Zero Impact:** Zeros amplify the energy of adjacent digits - use sparingly
+8. **Repeating Patterns:** Triple digits indicate intense focus in that area of life
+9. **Ascending Sequence:** Numbers like 1234 or 4567 indicate progressive growth
+10. **Descending Sequence:** Numbers like 9876 indicate declining energy - avoid
+
+### Planet-Based Compatibility Rules
+
+11. **Sun-Moon (1-2):** Opposite energies - needs compromise
+12. **Sun-Jupiter (1-3):** Excellent - leadership with wisdom
+13. **Sun-Rahu (1-4):** Challenging - ego vs manipulation
+14. **Sun-Mercury (1-5):** Good - authority with intelligence
+15. **Sun-Venus (1-6):** Moderate - leadership with charm
+16. **Sun-Ketu (1-7):** Difficult - material vs spiritual focus
+17. **Sun-Saturn (1-8):** Very difficult - power struggles
+18. **Sun-Mars (1-9):** Good but intense - two strong personalities
+19. **Moon-Mars (2-9):** Emotional vs aggressive - needs patience
+20. **Moon-Venus (2-6):** Excellent - emotional and romantic harmony
+
+### Mobile Number Specific Rules
+
+21. **First Three Digits:** Represent your public persona - should be strong
+22. **Last Three Digits:** Represent your private life - should be harmonious
+23. **Middle Digits:** Bridge between public and private - should be balanced
+24. **Even Distribution:** Digits 1-9 should appear fairly evenly
+25. **Avoid Dominance:** No single digit should appear more than 3 times
+26. **SIM Number Matters:** The SIM number carries additional numerological energy
+27. **IMEI Number:** Device IMEI also carries numerological significance
+28. **Phone Model:** The model number adds another layer of influence
+29. **Network Provider:** The provider's name number affects the overall energy
+30. **Activation Date:** The date of activation sets the number's energy cycle
+
+### Advanced Compatibility Secrets
+
+31. **Chaldean Calculation:** Use Chaldean numerology for more accurate results
+32. **Vedic Calculation:** Vedic system is better for Indian contexts
+33. **Pythagorean System:** Best for Western audiences
+34. **Compound Numbers:** 11, 22, 33 are master numbers with special power
+35. **Karmic Numbers:** 13, 14, 16, 19 indicate past life lessons
+36. **Soul Urge Number:** Inner desires revealed by vowel numbers
+37. **Personality Number:** Outer image revealed by consonant numbers
+38. **Life Path Reduction:** Always reduce to single digit except master numbers
+39. **Name Number:** The name number should support the mobile number
+40. **Birth Date Synergy:** Mobile number should complement birth date
+41. **Anniversary Numbers:** Significant dates should align with mobile digits
+42. **Dream Numbers:** Numbers from dreams carry subconscious significance
+43. **Intuition Check:** If a number feels right intuitively, it probably is
+
+### Quick Compatibility Checklist
+
+- [ ] Both partners' Mulanks are compatible (check compatibility chart)
+- [ ] Mobile totals are friendly to each other
+- [ ] No excessive dominant digits (more than 3 of the same)
+- [ ] Mobile number supports both partners' life goals
+- [ ] No triple zeros or triple 4s/8s
+- [ ] Balanced mix of even and odd digits
+- [ ] Contains both partners' lucky numbers
+- [ ] Name number and mobile number are in harmony
+- [ ] Activation date is auspicious for both
+- [ ] Intuitive feeling is positive for both partners
+
+---
+
+## 81 Mulank-Bhagyank Combinations
+
+The combination of Mulank (Birth Number) and Bhagyank (Destiny/Life Path Number) creates 81 unique personality profiles. Here are the key combinations:
+
+### Mulank 1 Combinations
+
+| Bhagyank | Personality Profile | Strengths | Challenges |
+|----------|-------------------|-----------|------------|
+| 1-1 | Double Sun - Ultimate Leader | Natural authority, self-reliant, pioneering | Ego issues, domination |
+| 1-2 | Sun-Moon | Charismatic and sensitive | Mood swings, indecision |
+| 1-3 | Sun-Jupiter | Wise leader, teacher | Overconfidence, preaching |
+| 1-4 | Sun-Rahu | Ambitious innovator | Manipulative tendencies |
+| 1-5 | Sun-Mercury | Brilliant communicator | Restlessness, scattered |
+| 1-6 | Sun-Venus | Charming authority | Vanity, relationship issues |
+| 1-7 | Sun-Ketu | Spiritual leader | Detachment from material |
+| 1-8 | Sun-Saturn | Disciplined achiever | Delayed success, struggles |
+| 1-9 | Sun-Mars | Dynamic warrior | Aggression, impatience |
+
+### Mulank 2 Combinations
+
+| Bhagyank | Personality Profile | Strengths | Challenges |
+|----------|-------------------|-----------|------------|
+| 2-1 | Moon-Sun | Emotional leader | Oversensitivity |
+| 2-2 | Double Moon | Highly intuitive | Overly emotional |
+| 2-3 | Moon-Jupiter | Wise counselor | Indecisive wisdom |
+| 2-4 | Moon-Rahu | Imaginative dreamer | Confusion, anxiety |
+| 2-5 | Moon-Mercury | Creative communicator | Overthinking |
+| 2-6 | Moon-Venus | Romantic soul | Excessive emotionality |
+| 2-7 | Moon-Ketu | Mystical intuitive | Withdrawal, isolation |
+| 2-8 | Moon-Saturn | Patient nurturer | Depression, delays |
+| 2-9 | Moon-Mars | Emotional warrior | Mood aggression |
+
+### Mulank 3 Combinations
+
+| Bhagyank | Personality Profile | Strengths | Challenges |
+|----------|-------------------|-----------|------------|
+| 3-1 | Jupiter-Sun | Inspirational leader | Arrogance |
+| 3-2 | Jupiter-Moon | Compassionate teacher | Over-giving |
+| 3-3 | Double Jupiter | Wise philosopher | Excessive optimism |
+| 3-4 | Jupiter-Rahu | Material success seeker | Greed, expansion |
+| 3-5 | Jupiter-Mercury | Brilliant educator | Over-teaching |
+| 3-6 | Jupiter-Venus | Harmonious guide | Indulgence |
+| 3-7 | Jupiter-Ketu | Spiritual teacher | Detachment |
+| 3-8 | Jupiter-Saturn | Disciplined wisdom | Pessimism |
+| 3-9 | Jupiter-Mars | Courageous leader | Impulsiveness |
+
+### Mulank 4 Combinations
+
+| Bhagyank | Personality Profile | Strengths | Challenges |
+|----------|-------------------|-----------|------------|
+| 4-1 | Rahu-Sun | Innovative achiever | Manipulation |
+| 4-2 | Rahu-Moon | Imaginative builder | Confusion |
+| 4-3 | Rahu-Jupiter | Ambitious planner | Over-expansion |
+| 4-4 | Double Rahu | Material transformer | Obsession, illusion |
+| 4-5 | Rahu-Mercury | Clever strategist | Deceitful tendencies |
+| 4-6 | Rahu-Venus | Sensual materialist | Excessive desires |
+| 4-7 | Rahu-Ketu | Spiritual materialist | Inner conflict |
+| 4-8 | Rahu-Saturn | Power builder | Ruthlessness |
+| 4-9 | Rahu-Mars | Aggressive innovator | Violence, anger |
+
+### Mulank 5 Combinations
+
+| Bhagyank | Personality Profile | Strengths | Challenges |
+|----------|-------------------|-----------|------------|
+| 5-1 | Mercury-Sun | Intelligent leader | Ego intellect |
+| 5-2 | Mercury-Moon | Creative thinker | Overthinking |
+| 5-3 | Mercury-Jupiter | Wise communicator | Know-it-all |
+| 5-4 | Mercury-Rahu | Cunning strategist | Manipulation |
+| 5-5 | Double Mercury | Brilliant adapter | Restlessness, inconsistency |
+| 5-6 | Mercury-Venus | Artistic communicator | Indecisive charm |
+| 5-7 | Mercury-Ketu | Analytical mystic | Detached thinking |
+| 5-8 | Mercury-Saturn | Practical intellect | Over-analysis |
+| 5-9 | Mercury-Mars | Quick-witted fighter | Sharp tongue |
+
+### Mulank 6 Combinations
+
+| Bhagyank | Personality Profile | Strengths | Challenges |
+|----------|-------------------|-----------|------------|
+| 6-1 | Venus-Sun | Charismatic lover | Vanity |
+| 6-2 | Venus-Moon | Romantic nurturer | Over-sensitivity |
+| 6-3 | Venus-Jupiter | Harmonious wise | Indulgent wisdom |
+| 6-4 | Venus-Rahu | Material romantic | Excessive desires |
+| 6-5 | Venus-Mercury | Charming communicator | Superficiality |
+| 6-6 | Double Venus | Ultimate lover | Self-indulgence |
+| 6-7 | Venus-Ketu | Spiritual romantic | Detachment from love |
+| 6-8 | Venus-Saturn | Responsible lover | Restriction in love |
+| 6-9 | Venus-Mars | Passionate lover | Impulsive romance |
+
+### Mulank 7 Combinations
+
+| Bhagyank | Personality Profile | Strengths | Challenges |
+|----------|-------------------|-----------|------------|
+| 7-1 | Ketu-Sun | Spiritual authority | Detachment from power |
+| 7-2 | Ketu-Moon | Intuitive mystic | Emotional withdrawal |
+| 7-3 | Ketu-Jupiter | Wise sage | Over-spirituality |
+| 7-4 | Ketu-Rahu | Material-spiritual seeker | Inner conflict |
+| 7-5 | Ketu-Mercury | Analytical mystic | Over-analysis |
+| 7-6 | Ketu-Venus | Detached lover | Lack of affection |
+| 7-7 | Double Ketu | Deep mystic | Complete detachment 7-8 | Ketu-Saturn | Disciplined spiritual | Harsh spirituality |
+| 7-9 | Ketu-Mars | Spiritual warrior | Inner battle |
+
+### Mulank 8 Combinations
+
+| Bhagyank | Personality Profile | Strengths | Challenges |
+|----------|-------------------|-----------|------------|
+| 8-1 | Saturn-Sun | Authority builder | Power struggles |
+| 8-2 | Saturn-Moon | Patient nurturer | Emotional suppression |
+| 8-3 | Saturn-Jupiter | Disciplined wisdom | Pessimistic wisdom |
+| 8-4 | Saturn-Rahu | Material power | Ruthless ambition |
+| 8-5 | Saturn-Mercury | Practical intellect | Over-caution |
+| 8-6 | Saturn-Venus | Responsible lover | Restriction in love |
+| 8-7 | Saturn-Ketu | Spiritual discipline | Harsh spirituality |
+| 8-8 | Double Saturn | Ultimate achiever | Excessive delays, loneliness |
+| 8-9 | Saturn-Mars | Powerful warrior | Aggressive authority |
+
+### Mulank 9 Combinations
+
+| Bhagyank | Personality Profile | Strengths | Challenges |
+|----------|-------------------|-----------|------------|
+| 9-1 | Mars-Sun | Dynamic leader | Aggressive authority |
+| 9-2 | Mars-Moon | Emotional warrior | Mood aggression |
+| 9-3 | Mars-Jupiter | Courageous teacher | Impulsive wisdom |
+| 9-4 | Mars-Rahu | Aggressive innovator | Destructive tendencies |
+| 9-5 | Mars-Mercury | Quick fighter | Sharp aggression |
+| 9-6 | Mars-Venus | Passionate lover | Impulsive romance |
+| 9-7 | Mars-Ketu | Spiritual warrior | Inner conflict |
+| 9-8 | Mars-Saturn | Powerful achiever | Delayed victories |
+| 9-9 | Double Mars | Ultimate warrior | Excessive aggression |
+
+---
+
 
 *Knowledge Base prepared by Perplexity AI for Raghu Hebbur | Vardhini Vastu*
 *Sources: Advanced Mobile Numerology Guide (Scribd) and Mobile Numerology Master Sheet (Scribd) | April 2026*
