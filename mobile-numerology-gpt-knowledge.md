@@ -1,6 +1,6 @@
 # Mobile Numerology Interpreter — GPT Knowledge Bas> Based on: *Advanced Mobile Numerology Guide* (Scribd, 176 pages) and *Mobile Numerology Master Sheet* (Scribd)
-> Author: Shweta Baba (Professional Numerologist)
-> Built for: Raghu Hebbur | Vardhini Vastu | Bengaluru
+> Author: Raghavendra hebbur (Professional Numerologist)
+> Built for: Raghavendra Hebbur | Vardhini Vastu | Bengaluru
 
 ---
 
