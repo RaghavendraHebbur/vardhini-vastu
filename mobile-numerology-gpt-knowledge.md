@@ -1231,6 +1231,117 @@ Each day of the week corresponds to a planet and number:
 
 ---
 
+## REPORTING REQUIREMENTS
+
+> Based on: Astro Arun Pandit - Advanced Numerology Course (639 pages, occultgurukul.com)
+> This section defines the complete structure and components required for a comprehensive numerology report.
+
+### Required Report Sections (21 Core Components)
+
+A complete numerology report MUST include the following 21 sections:
+
+| # | Component | Description | Page Range |
+|---|-----------|-------------|------------|
+| 1 | **Moolank (Psychic Number)** | Birth day number, ruling planet, core personality traits | 2-69 |
+| 2 | **Destiny Number (Bhagyank)** | Life path derived from full date of birth | 70-111 |
+| 3 | **Missing & Repetitive Numbers** | Numbers absent or repeated in DOB, indicating karmic patterns | 112-172 |
+| 4 | **Master Numbers** | Special numbers 11, 22, 33, 44 with amplified energy | 173-183 |
+| 5 | **Name Analysis Grid** | Chaldean numerology grid for name total analysis | 184-223 |
+| 6 | **Personality Number** | Outer personality derived from consonants in name | 224-236 |
+| 7 | **Success Number** | Number indicating path to achievement | 237-264 |
+| 8 | **Challenge Number** | Obstacles and tests in life journey | 265-332 |
+| 9 | **Maturity Number** | Traits that develop later in life (after age 35) | 333-365 |
+| 10 | **Karmic Depth Number** | Past-life lessons and debts to resolve | 366-387 |
+| 11 | **Personal Year Number** | Current year energy and themes | 388-406 |
+| 12 | **Personal Day & Month Number** | Daily and monthly energy cycles | 407-433 |
+| 13 | **Missing Plane Remedies** | Remedies for missing Lo Shu grid planes | 434 |
+| 14 | **Personality-Secret Dream Number** | Hidden desires and inner motivations | 435-459 |
+| 15 | **Compound Number** | Combined number analysis from multiple factors | 460-522 |
+| 16 | **First Letter A-Z Analysis** | Numerology of first letter of name | 523-548 |
+| 17 | **Career & Numerology** | Career guidance based on numbers | 549-566 |
+| 18 | **What Can You Do On Days** | Day-by-day activity recommendations | 567-572 |
+| 19 | **Angel Numbers** | Repeated number sequences and their meanings | 573-575 |
+| 20 | **Remedies** | Lal Kitab, Anti-Number remedies, gemstones | 576-620 |
+| 21 | **Yantra** | Sacred geometric remedies for number balancing | 621-639 |
+
+### Report Format Requirements
+
+#### For Mobile Number Analysis Reports:
+
+1. **Header Section**
+   - Client Name
+   - Mobile Number (masked: XXXXX-XXXXX)
+   - Date of Birth
+   - Gender
+   - Report Date
+
+2. **Core Numbers Summary**
+   - Psychic Number (Driver) - with planet
+   - Destiny Number (Conductor) - with planet
+   - Mobile Total - with planet
+   - Lucky Numbers (1-3 numbers)
+   - Unlucky/Avoid Numbers
+   - Neutral Numbers
+
+3. **Lo Shu Grid / Ludhoo Grid**
+   - 3x3 grid showing number distribution
+   - Mark missing numbers
+   - Mark repeated numbers
+   - Identify planes and their status
+
+4. **Compatibility Analysis**
+   - Mobile Total vs Psychic Number compatibility
+   - Mobile Total vs Destiny Number compatibility
+   - Overall compatibility score (percentage)
+   - King Number identification
+
+5. **Interpretation**
+   - Personality traits from Psychic Number
+   - Life path from Destiny Number
+   - Mobile number energy and its effects
+   - Strengths and challenges
+
+6. **Remedies**
+   - Gemstone recommendations
+   - Mantra/chanting suggestions
+   - Lucky colors, days, directions
+   - Yantra recommendations
+   - Donation/remedial actions
+
+7. **Actionable Advice**
+   - Best days for important calls/decisions
+   - Numbers to avoid in future selections
+   - Career and relationship guidance
+
+#### For Full Numerology Reports (Name + DOB + Mobile):
+
+In addition to the above, include:
+
+- **Name Analysis** - Name number total, Chaldean grid
+- **Personality Number** - Outer self traits
+- **Success & Challenge Numbers** - Life journey markers
+- **Maturity Number** - Later-life development
+- **Karmic Depth Numbers** - Past-life lessons
+- **Personal Year/Month/Day** - Current cycle analysis
+- **Angel Numbers** - Recurring number patterns
+- **Compound Numbers** - Multi-factor combinations
+- **First Letter Analysis** - A-Z numerology
+- **Career Guidance** - Suitable professions by number
+- **Yantra Recommendations** - Sacred geometry remedies
+
+### Quality Standards
+
+- All calculations must be **double-verified**
+- Planetary associations must be **accurate** (Sun=1, Moon=2, Mars=9, Mercury=5, Jupiter=3, Venus=6, Saturn=8, Rahu=4, Ketu=7)
+- Remedies must be **culturally appropriate** and **actionable**
+- Report tone should be **positive, empowering, and practical**
+- Use **tables and grids** for easy readability
+- Include **percentage-based compatibility scores** where applicable
+- Always provide **3-5 specific remedies** minimum
+- Highlight **karmic lessons** and **growth opportunities**
+
+---
+
 
 *Knowledge Base prepared by Perplexity AI for Raghu Hebbur | Vardhini Vastu*
 *Sources: Advanced Mobile Numerology Guide (Scribd) and Mobile Numerology Master Sheet (Scribd) | April 2026*
