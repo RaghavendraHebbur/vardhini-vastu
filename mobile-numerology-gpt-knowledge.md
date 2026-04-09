@@ -433,6 +433,316 @@ Unless there is a clear remedial strategy, avoid:
    - One caution or risk factor (enemy digits, malefic combo, repeat pattern)
 
 ---
+## SECTION 2 — LO SHU GRID 8 PLANES
+
+The Lo Shu Grid contains 8 planes (arrows) that reveal personality traits, strengths, and life areas. Check if each plane is complete (all 3 numbers present) in the person's numeroscope.
+
+### Plane 1: Mental Plane (4, 9, 2)
+- **4** = Logical mind, curiosity
+- **9** = Intelligence, wisdom
+- **2** = Emotional balance, intuition
+- **If Complete:** Strong planning ability, logical thinking, good memory, clear decision-making, fairness-oriented
+- **If Incomplete:** Poor planning, scattered thoughts, difficulty remembering details
+
+### Plane 2: Emotional Plane (3, 5, 7)
+- **3** = Spirituality, creativity, expression
+- **5** = Communication, adaptability, balance
+- **7** = Intuition, spirituality, inner peace
+- **If Complete:** Emotionally stable, spiritually inclined, good at expressing feelings, balanced temperament
+- **If Incomplete:** Emotional instability, difficulty expressing feelings, spiritual confusion
+
+### Plane 3: Practical Plane / Material Plane (8, 1, 6)
+- **8** = Hard work, discipline, material success
+- **1** = Leadership, independence, authority
+- **6** = Responsibility, family, luxury, money magnet
+- **If Complete:** Materially successful, prosperous, family-oriented, enjoys luxury, financially stable
+- **If Incomplete:** Financial struggles, lack of material success, difficulty managing responsibilities
+
+### Plane 4: Thought Plane (4, 3, 8)
+- **4** = Logical thinking, planning
+- **3** = Creative thinking, spirituality
+- **8** = Practical thinking, results-oriented
+- **If Complete:** Thinks before acting, never too excited, evaluates complete scenarios before decisions, balanced mindset
+- **If Incomplete:** Impulsive decisions, poor thinking patterns, lacks foresight
+
+### Plane 5: Will Plane (9, 5, 1)
+- **9** = Vision, humanitarianism, compassion
+- **5** = Adaptability, freedom, change
+- **1** = Leadership, ambition, new beginnings
+- **If Complete:** Strong willpower, fighting spirit, king-like qualities, natural leader, visionary, potential for great success. Many successful people (Mukesh Ambani, Narendra Modi, Bernard Arnault) have this combination.
+- **If Incomplete:** Weak willpower, difficulty taking initiative, lacks leadership drive
+
+### Plane 6: Action Plane (2, 7, 6)
+- **2** = Moon (Water) - emotions, intuition
+- **7** = Ketu (Earth) - reliability, trustworthiness
+- **6** = Venus - capability to own path, self-dependence
+- **If Complete:** Puts thoughts into action, completes tasks, fulfills commitments, self-reliant, trustworthy
+- **If Incomplete:** Leaves tasks incomplete, fails to fulfill commitments, procrastinates
+
+### Plane 7: Silver Success Plane (2, 5, 8)
+- **2** = Moon (Queen) - decision-making power, emotional intelligence
+- **5** = Mercury (Water) - communication, flexibility
+- **8** = Saturn (Air) - hard work, discipline, creates own space
+- **If Complete:** Creates own wealth and luck through hard work, flexible and adaptable, self-made success, might not get much from parents but builds immense personal fortune
+- **If Incomplete:** Stubborn, looks for shortcuts, relationships may suffer due to rigidity, struggles with self-discipline
+
+### Plane 8: Golden Success Plane / Golden Yog / Maha Yog / Rajyog (4, 5, 6)
+- **4** = Logical mind, curiosity (Rahu)
+- **5** = Stability, balance, good health (Mercury)
+- **6** = Hard work, money magnet, fame (Venus)
+- **If Complete:** Exceptional luck and divine support, success in every aspect of life, enjoys luxury from parents and ancestors, power to express views with confidence, rare combination (only 2-3% of people have it). Considered one of the most powerful formations in numerology.
+- **If Incomplete:** May not achieve same level of all-round success, needs to work harder for recognition
+
+- ## SECTION 3 — KUA NUMBER AND FENG SHUI DIRECTIONS
+
+### Calculate Kua Number
+
+The Kua (Gua) number is derived from the birth year and gender. It determines 8 auspicious and inauspicious directions for a person.
+
+**For Men:**
+1. Take last two digits of birth year
+2. Add the digits together
+3. Keep adding until single digit (1–9)
+4. Subtract from 10 = Kua number
+
+**Example (Male, 1985):** 8 + 5 = 13 → 1 + 3 = 4 → 10 - 4 = **Kua 6**
+
+**For Women:**
+1. Take last two digits of birth year
+2. Add the digits together
+3. Keep adding until single digit
+4. Add 5 = Kua number (if result > 9, add digits again)
+
+**Example (Female, 1985):** 8 + 5 = 13 → 1 + 3 = 4 → 4 + 5 = **Kua 9**
+
+### Kua Directions Table
+
+| Kua | Element | Group | Sheng Qi (Wealth) | Tian Yi (Health) | Yan Nian (Love) | Fu Wei (Growth) | Huo Hai (Mishaps) | Wu Gui (5 Ghosts) | Liu Sha (6 Killings) | Jue Ming (Total Loss) |
+|-----|---------|-------|-------------------|------------------|-----------------|-----------------|-------------------|-------------------|----------------------|----------------------|
+| 1   | Water   | East  | SE                | E                | S               | N               | W                 | SW                | NE                   | S                    |
+| 2   | Earth   | West  | NE                | W                | NW              | SW              | N                 | SE                | E                    | N                    |
+| 3   | Wood    | East  | S                 | N                | SE              | E               | SW                | NW                | W                    | NE                   |
+| 4   | Wood    | East  | N                 | S                | E               | SE              | NE                | W                 | SW                   | NW                   |
+| 5 (M) | Earth | West  | W                 | NE               | SW              | NE              | SE                | N                 | NW                   | S                    |
+| 5 (F) | Earth | West  | SW                | W                | NE              | SW              | N                 | SE                | E                    | N                    |
+| 6   | Metal   | West  | W                 | NE               | SW              | NW              | N                 | S                 | E                    | SE                   |
+| 7   | Metal   | West  | NW                | SW               | NE              | W               | S                 | E                 | N                    | SE                   |
+| 8   | Earth   | West  | SW                | W                | SE              | NE              | N                 | S                 | E                    | NW                   |
+| 9   | Fire    | East  | E                 | SE               | N               | S               | NW                | W                 | SW                   | NE                   |
+
+**East Group Kua:** 1, 3, 4, 9 — Best directions: N, S, E, SE
+**West Group Kua:** 2, 5, 6, 7, 8 — Best directions: W, NW, SW, NE
+
+### Mobile Number Connection to Kua
+- If a number's totals align with the person's Kua element, it amplifies that energy.
+- Kua 1 (Water): Numbers with totals 1, 6 (Water element) are supportive.
+- Kua 9 (Fire): Numbers with totals 2, 7 (Fire element) are supportive.
+- Kua 3/4 (Wood): Numbers with totals 3, 4 (Wood element) are supportive.
+- Kua 6/7 (Metal): Numbers with totals 6, 7 (Metal element) are supportive.
+- Kua 2/5/8 (Earth): Numbers with totals 5, 8 (Earth element) are supportive.
+
+---
+
+## SECTION 4 — ANGEL NUMBERS AND REPEATING PATTERNS
+
+### Repeating Digit Sequences in Mobile Numbers
+
+Repeated digits in a mobile number create amplified energy. This section helps GPT identify and interpret angel number patterns.
+
+### Angel Number Meanings (111–999)
+
+| Pattern | Meaning | Energy Type | Mobile Number Impact |
+|---------|---------|-------------|---------------------|
+| 111 | New beginnings, manifestation, alignment | Highly Positive | Strong initiative, fresh start energy |
+| 222 | Balance, harmony, partnerships | Positive | Diplomatic, cooperative relationships |
+| 333 | Creativity, self-expression, joy | Positive | Artistic, communicative, optimistic |
+| 444 | Stability, protection, foundation | Neutral/Positive | Grounded, reliable, structured |
+| 555 | Change, transformation, freedom | Neutral | Dynamic, adventurous, restless |
+| 666 | Material focus, responsibility, balance needed | Warning | Over-focus on material, needs spiritual balance |
+| 777 | Spiritual awakening, intuition, wisdom | Highly Positive | Deeply intuitive, spiritual growth |
+| 888 | Abundance, financial success, power | Highly Positive | Wealth attraction, leadership |
+| 999 | Completion, letting go, humanitarianism | Positive | Compassionate, wise, closure-oriented |
+
+### Double Digit Angel Numbers
+
+| Pattern | Meaning |
+|---------|--------|
+| 11/1111 | Gateway number, spiritual awakening, manifestation portal |
+| 22/2222 | Master builder, turning dreams into reality |
+| 33/3333 | Master teacher, spiritual communication |
+| 44/4444 | Master healer, building solid foundations |
+| 55/5555 | Major life changes, freedom seeking |
+| 66/6666 | Balance between material and spiritual |
+| 77/7777 | Spiritual mastery, divine wisdom |
+| 88/8888 | Infinite abundance, karmic reward |
+| 99/9999 | Completion of a major life cycle |
+
+### How to Apply in Mobile Number Analysis
+
+1. **Count consecutive repeats:** 3+ same digits = angel number pattern
+2. **Check position:** Repeats at start = personality expression; at end = life outcome
+3. **Cross-reference with Life Path:** Angel numbers matching the Life Path amplify that energy
+4. **Warning patterns:** 666, 4444, 8888 in excess can indicate over-focus (materialism, rigidity, greed)
+
+### Example Analysis
+- Number ending in 777: Highly spiritual person, intuitive gifts, good for healing/teaching professions
+- Number with 8888: Strong wealth energy but beware of materialism; pair with spiritual digits for balance
+- Number starting with 111: Person who initiates change, entrepreneur energy
+
+---
+
+## SECTION 5 — MARRIAGE AND RELATIONSHIP COMPATIBILITY
+
+### Numerology Compatibility Analysis for Couples
+
+This section guides GPT to analyze compatibility between two people based on their mobile number totals and Life Path numbers.
+
+### Core Compatibility Factors
+
+**1. Life Path Number Compatibility**
+
+| Your Life Path | Most Compatible | Compatible | Challenging |
+|----------------|-----------------|------------|-------------|
+| 1 | 1, 3, 5 | 2, 6 | 4, 8 |
+| 2 | 2, 4, 8 | 6, 9 | 1, 5 |
+| 3 | 1, 3, 5, 7 | 6, 9 | 2, 4 |
+| 4 | 2, 4, 8 | 6, 7 | 1, 3, 5 |
+| 5 | 1, 3, 5, 7 | 6, 9 | 2, 4 |
+| 6 | 2, 3, 6, 9 | 1, 5 | 4, 7 |
+| 7 | 3, 5, 7 | 1, 6 | 2, 4 |
+| 8 | 2, 4, 8 | 6, 9 | 1, 3, 5 |
+| 9 | 3, 6, 9 | 1, 5 | 2, 4 |
+
+**2. Mobile Number Total Compatibility**
+
+- Compare both partners' Mobile Number Totals
+- Same totals = deep understanding but potential for boredom
+- Complementary totals (e.g., 1 and 6, 3 and 9) = balance and growth
+- Challenging totals (e.g., 1 and 8, 4 and 5) = friction but can work with effort
+
+### Planet-Based Compatibility
+
+| Your Planet | Compatible Planets | Reason |
+|-------------|-------------------|--------|
+| Sun (1) | Jupiter (3), Venus (6), Moon (2) | Sun gets support from Jupiter's wisdom, Venus' harmony, Moon's care |
+| Moon (2) | Sun (1), Jupiter (3), Venus (6) | Moon needs Sun's leadership, Jupiter's expansion, Venus' comfort |
+| Jupiter (3) | Sun (1), Moon (2), Mars (9) | Jupiter thrives with Sun's authority, Moon's emotions, Mars' drive |
+| Rahu (4) | Mercury (5), Saturn (8), Mars (9) | Rahu works with Mercury's adaptability, Saturn's discipline, Mars' action |
+| Mercury (5) | Rahu (4), Venus (6), Sun (1) | Mercury needs Rahu's innovation, Venus' charm, Sun's direction |
+| Venus (6) | Sun (1), Moon (2), Jupiter (3) | Venus harmonizes with Sun's power, Moon's care, Jupiter's abundance |
+| Ketu (7) | Mars (9), Venus (6), Jupiter (3) | Ketu connects with Mars' spiritual fire, Venus' beauty, Jupiter's wisdom |
+| Saturn (8) | Rahu (4), Mercury (5), Ketu (7) | Saturn builds with Rahu's ambition, Mercury's intellect, Ketu's depth |
+| Mars (9) | Jupiter (3), Ketu (7), Sun (1) | Mars channels with Jupiter's vision, Ketu's spirituality, Sun's leadership |
+
+### Two-Digit Combo Compatibility
+
+**Good Combos for Relationships:**
+- 12/21: Leadership + Partnership = balanced relationship
+- 15/51: Ambition + Communication = dynamic couple
+- 26/62: Nurturing + Harmony = deeply caring bond
+- 36/63: Creativity + Love = artistic, romantic pair
+- 39/93: Expression + Completion = spiritual connection
+
+**Challenging Combos for Relationships:**
+- 16/61: Authority vs Harmony = power struggles
+- 18/81: Ego vs Ambition = competitive tension
+- 28/82: Sensitivity vs Ruthlessness = emotional friction
+- 48/84: Restriction vs Materialism = conflicting values
+
+### How GPT Should Evaluate Couple Compatibility
+
+1. **Calculate both partners'** Life Path, Mobile Total, and Destiny Number
+2. **Check Life Path compatibility** using the table above
+3. **Analyze Mobile Number Totals** for complementarity
+4. **Compare planetary influences** from both numbers
+5. **Look for repeating digit conflicts** (e.g., both have too much 8 = power struggle)
+6. **Provide verdict:** Highly Compatible / Compatible / Needs Work / Challenging
+7. **Give remedies:** Suggest color changes, digit additions, or name corrections to improve compatibility
+
+### Sample Compatibility Report Structure
+
+- Partner A: Life Path X, Mobile Total Y, Planet Z
+- Partner B: Life Path A, Mobile Total B, Planet C
+- Compatibility Score: X/10
+- Strengths: [list 3-5]
+- Challenges: [list 2-3]
+- Remedies: [list 2-3]
+
+---
+
+## SECTION 6 — RAJYOG / MAHA YOG / SPECIAL FORMATIONS
+
+### Powerful Numerological Combinations in Mobile Numbers
+
+This section helps GPT identify rare and powerful digit combinations that indicate exceptional fortune, wealth, or spiritual success.
+
+### Rajyog (Royal Combination) Indicators
+
+A Rajyog in numerology is formed when specific planets/digits combine to create exceptional luck.
+
+**Key Rajyog Digit Patterns:**
+
+| Pattern | Formation | Result |
+|---------|-----------|--------|
+| 1-5-9 | Sun + Mercury + Mars | Leadership Rajyog - person becomes a natural leader, ruler, or CEO |
+| 1-6-8 | Sun + Venus + Saturn | Wealth Rajyog - massive financial success, luxury lifestyle |
+| 3-6-9 | Jupiter + Venus + Mars | Creative Rajyog - fame through arts, entertainment, or communication |
+| 2-6-8 | Moon + Venus + Saturn | Relationship Rajyog - marriage into wealth, powerful connections |
+| 4-5-8 | Rahu + Mercury + Saturn | Business Rajyog - unconventional wealth through innovation |
+| 1-3-5 | Sun + Jupiter + Mercury | Wisdom Rajyog - respected authority, teaching, spiritual leadership |
+
+### Maha Yog (Great Combination)
+
+**The Golden Success Plane (4, 5, 6):**
+- When digits 4, 5, 6 all appear in a mobile number (especially as totals)
+- Creates Maha Yog = exceptional luck across all life areas
+- Rahu (4) gives ambition, Mercury (5) gives adaptability, Venus (6) gives charm
+- Only 2-3% of people have this combination
+
+**The Silver Success Plane (2, 5, 8):**
+- Moon (2) + Mercury (5) + Saturn (8)
+- Creates self-made success through hard work
+- Person builds wealth from scratch, highly disciplined
+
+### Special Number Patterns
+
+**Lucky Repeating Patterns:**
+- 1234, 2345, 3456, 4567, 5678, 6789: Sequential digits indicate progressive growth
+- 1357, 2468: Odd/even sequences create balanced energy flow
+- 1212, 1313, 1414: Mirror patterns amplify the digit's energy
+
+**Power Number Combinations:**
+- 111 + 888 = Manifestation + Abundance = ultimate success formula
+- 333 + 666 = Creativity + Material = artist who monetizes talent
+- 777 + 999 = Spiritual + Completion = spiritual teacher/healer
+
+### How GPT Should Identify Rajyog in Mobile Numbers
+
+1. **Scan for Rajyog digit patterns** (1-5-9, 1-6-8, 3-6-9, etc.)
+2. **Check if all 3 digits appear** in the mobile number (not necessarily consecutively)
+3. **Evaluate frequency:** More appearances = stronger Rajyog
+4. **Check totals:** If Mobile Total, BN, and DN all contribute to the Rajyog pattern = exceptional strength
+5. **Cross-check with planes:** Does the person also have Golden/Silver success plane?
+6. **Provide Rajyog verdict:** Strong Rajyog / Moderate Rajyog / No Rajyog
+7. **Explain the impact:** What area of life will be most affected (wealth, career, relationships, spirituality)
+
+### Example Rajyog Analysis
+
+**Number: 9876543210**
+- Contains: 1, 2, 3, 4, 5, 6, 7, 8, 9 (all digits)
+- Rajyog: 1-5-9 present = Leadership Rajyog
+- Maha Yog: 4-5-6 present = Golden Success Plane
+- Verdict: Extremely powerful number with multiple Rajyog formations
+- Impact: Natural leader, wealth through innovation, respect and authority
+
+### Caveats and Warnings
+
+- A Rajyog number does NOT guarantee success if the person doesn't take action
+- Strong malefic digits (excessive 8s, 4s) can dilute the Rajyog effect
+- Rajyog numbers may attract envy and competition - recommend protection remedies
+- Rajyog is strongest when the person's Life Path aligns with the Rajyog digits
+
+---
 
 *Knowledge Base prepared by Perplexity AI for Raghu Hebbur | Vardhini Vastu*
 *Sources: Advanced Mobile Numerology Guide (Scribd) and Mobile Numerology Master Sheet (Scribd) | April 2026*
