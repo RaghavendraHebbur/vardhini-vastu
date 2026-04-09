@@ -1116,6 +1116,121 @@ The combination of Mulank (Birth Number) and Bhagyank (Destiny/Life Path Number)
 
 ---
 
+---
+
+## Mobile Number Compatibility Rules (Advanced)
+
+> Source: Advanced Numerology Secrets compiled from Arun Pandit Mobile Numerology course materials
+
+### Karmic Debt Numbers
+
+Numbers with karmic debt require extra attention in numerology analysis:
+
+- **10** - Karmic debt number
+- **13** - Karmic debt number
+- **14** - Karmic debt number
+- **16** - Karmic debt number
+- **19** - Karmic debt number
+
+### Critical Number Combinations
+
+1. **8 and 4 combination** - A very disastrous combination. Should be avoided in mobile numbers, names, and important dates.
+
+2. **4 and 5 together** - When these two numbers come together, it creates conflict and instability.
+
+3. **3 and 8 combination** - This pairing creates challenges and should be approached with caution.
+
+### Lucky and Unlucky Number Rules
+
+- All **lucky names** should total to favorable numbers (1, 2, 3, 5, 6, 9)
+- Avoid names totaling to **8** (Saturn) unless specifically remedied
+- Number **4** (Rahu) combined with **8** (Saturn) is inauspicious
+- Number **7** (Ketu) should be paired carefully with other numbers
+
+### Rajyog Number Combinations
+
+Rajyog (auspicious) combinations occur when specific numbers appear together:
+
+- **4, 5, 6 in Date of Birth** - Considered a powerful Rajyog combination for success
+- **3, 6, 9 together** - Creative and spiritual success combination
+- **1, 5, 9 in mobile number** - Leadership and recognition combination
+
+### Mobile Number Compatibility Guidelines
+
+- Mobile numbers should **not end with 0** (considered incomplete/inactive energy)
+- Mobile numbers ending in **1, 3, 5, 6, 9** are generally favorable
+- Avoid mobile numbers with **repeated 4s or 8s** unless specifically remedied
+- Mobile numbers with **77, 88, 44** patterns require careful analysis
+
+### Remedial Measures for Bad Combinations
+
+- If mobile number has **8-4 or 4-8 pattern**: Consider changing last 3-4 digits
+- Use **gemstones** corresponding to weak planets in the number analysis
+- **Chanting mantras** of the benefic planets (Jupiter, Venus, Sun) can mitigate negative effects
+- **Donating** items related to malefic planets on their respective days
+
+### Day-Number Compatibility
+
+Each day of the week corresponds to a planet and number:
+
+| Day | Planet | Number | Mobile Activity |
+|-----|--------|--------|----------------|
+| Sunday | Sun | 1 | Good for important calls |
+| Monday | Moon | 2 | Emotional conversations |
+| Tuesday | Mars | 9 | Avoid important negotiations |
+| Wednesday | Mercury | 5 | Best for business calls |
+| Thursday | Jupiter | 3 | Auspicious for all activities |
+| Friday | Venus | 6 | Good for relationship matters |
+| Saturday | Saturn | 8 | Avoid starting new ventures |
+
+### Additional Numerology Insights
+
+- **1 and 2 together** - Creates confusion between ego and emotions
+- **5 and 8 combination** - Material ambition but requires hard work
+- **6 and 9 pairing** - Harmonious for family and relationships
+- **2 and 7 together** - Spiritual and intuitive but can be impractical
+- **3 and 5 combination** - Highly creative and expressive but scattered energy
+
+### Karmic Lessons from Numbers
+
+- Numbers appearing **frequently in your life** (repeated in dates, addresses, names) indicate karmic lessons
+- **Missing numbers** in mobile number indicate areas requiring conscious development
+- **Repeated digits** (like 11, 22, 33) amplify the energy of that number
+
+---
+
+## Number Compatibility Matrix
+
+> Advanced compatibility reference for GPT interpretation
+
+### Partner/Relationship Number Compatibility
+
+| Your Number | Compatible Numbers | Neutral | Avoid |
+|-------------|-------------------|---------|--------|
+| 1 (Sun) | 3, 5, 6, 9 | 2 | 4, 7, 8 |
+| 2 (Moon) | 3, 6, 7 | 1, 5 | 4, 8, 9 |
+| 3 (Jupiter) | 1, 5, 6, 9 | 2, 7 | 4, 8 |
+| 4 (Rahu) | 5, 8 | - | 1, 2, 3, 6, 7, 9 |
+| 5 (Mercury) | 1, 3, 6 | 2, 7, 9 | 4, 8 |
+| 6 (Venus) | 1, 3, 5, 9 | 2, 7 | 4, 8 |
+| 7 (Ketu) | 2, 3, 9 | 5, 6 | 1, 4, 8 |
+| 8 (Saturn) | 4, 5 | - | 1, 2, 3, 6, 7, 9 |
+| 9 (Mars) | 1, 3, 6, 7 | 5 | 2, 4, 8 |
+
+### Career Number Compatibility
+
+- **Number 1**: Best for leadership, politics, government, entrepreneurship
+- **Number 2**: Suitable for counseling, hospitality, public relations
+- **Number 3**: Ideal for teaching, writing, entertainment, spirituality
+- **Number 4**: Engineering, architecture, research, technology
+- **Number 5**: Sales, marketing, travel, journalism, communication
+- **Number 6**: Arts, fashion, luxury goods, family business
+- **Number 7**: Research, analysis, spirituality, occult sciences
+- **Number 8**: Business, finance, real estate, administration
+- **Number 9**: Social work, military, sports, humanitarian causes
+
+---
+
 
 *Knowledge Base prepared by Perplexity AI for Raghu Hebbur | Vardhini Vastu*
 *Sources: Advanced Mobile Numerology Guide (Scribd) and Mobile Numerology Master Sheet (Scribd) | April 2026*
