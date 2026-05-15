@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Secrets
+.env
+*.env.local
+client_secret*.json
+oauth-token.json
+
+# Build artifacts
+*.log
+dist/
+build/
+
+# Keep Excel trackers but ignore temp files
+~$*.xlsx
+~$*.xls

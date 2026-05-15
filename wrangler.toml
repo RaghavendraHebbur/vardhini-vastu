@@ -1,0 +1,9 @@
+name = "vardhini-vastu"
+compatibility_date = "2024-01-01"
+
+[env.production]
+name = "vardhini-vastu"
+
+# Cloudflare Pages — static site deployment
+# Deploy command: wrangler pages deploy . --project-name=vardhini-vastu
+# The index.html at the root is served as the homepage
