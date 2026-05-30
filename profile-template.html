@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vardhini Vastu - Company Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    /* RESET EVERY COMPLEX LAYOUT - BULLETPROOF PDF CSS */
+    * { 
+      box-sizing: border-box; 
+      margin: 0; 
+      padding: 0; 
+    }
+    
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #333;
+      background: #fff;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+      font-size: 11pt;
+      line-height: 1.6;
+    }
+
+    /* Cover Page */
+    .cover {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      page-break-after: always;
+      min-height: 850px; /* Forces it to fill roughly one page without strict mm */
+      position: relative;
+    }
+    
+    .cover .logo { font-size: 2rem; font-weight: 900; color: #fff; margin-bottom: 60px; }
+    .cover .logo span { color: #ea580c; }
+    .cover h1 { font-family: 'Outfit', sans-serif; font-size: 4rem; line-height: 1.1; margin-bottom: 20px; font-weight: 900; }
+    .cover .accent-text { color: #ea580c; }
+    .cover .subtitle { font-size: 1.5rem; color: #cbd5e1; font-weight: 400; margin-bottom: 80px; }
+
+    .cover-footer {
+      position: absolute;
+      bottom: 40px;
+      left: 40px;
+      right: 40px;
+    }
+    
+    .cover-footer h3 { font-family: 'Outfit', sans-serif; color: #fff; font-size: 1.8rem; margin-bottom: 5px; }
+    .cover-footer p { color: #cbd5e1; margin-bottom: 20px; }
+    .cover-contact {
+      border-top: 1px solid rgba(255,255,255,0.2); 
+      padding-top: 20px;
+      font-size: 10pt; 
+      line-height: 1.8;
+      color: #cbd5e1;
+    }
+
+    /* Content Pages */
+    h2, h3 { font-family: 'Outfit', sans-serif; }
+    h2 { font-size: 1.8rem; color: #ea580c; margin-bottom: 10px; margin-top: 15px; border-bottom: 2px solid #ea580c; padding-bottom: 2px; display: inline-block; }
+    h3 { font-size: 1.2rem; color: #1e293b; margin-bottom: 4px; }
+    p { margin-bottom: 8px; color: #475569; font-size: 10pt; line-height: 1.4; }
+    
+    /* Avoid Grid, use basic blocks for safety */
+    .block-section { margin-bottom: 15px; }
+    
+    .card { 
+      background: #f8fafc; 
+      padding: 12px 15px; 
+      border-radius: 8px; 
+      border-left: 4px solid #ea580c; 
+      margin-bottom: 10px; 
+      page-break-inside: avoid; /* Prevents card from cutting in half */
+    }
+    .card h3 { color: #ea580c; margin-bottom: 4px; font-size: 1.1rem; }
+    .card p { margin: 0; }
+    
+    .hero-img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 12px;
+    }
+    
+    .stats-row { margin-bottom: 15px; }
+    .stat {
+      background: #fff3ed;
+      padding: 10px 20px;
+      border-radius: 8px;
+      border: 1px solid #ffdbcc;
+      display: inline-block;
+      margin-right: 15px;
+    }
+    .stat-num { font-size: 1.6rem; font-weight: 800; color: #ea580c; }
+    .stat-label { font-size: 9pt; font-weight: 600; color: #475569; text-transform: uppercase; }
+
+    .page-break { page-break-before: always; }
+    
+    .cta-box {
+      background: #0f172a; 
+      color: white; 
+      padding: 15px; 
+      border-radius: 10px; 
+      margin-top: 20px; 
+      text-align: center; 
+      page-break-inside: avoid;
+    }
+    .cta-box h3 { color: white; margin-bottom: 5px; font-size: 1.4rem; }
+    .cta-box p { color: #cbd5e1; margin-bottom: 5px; }
+    .cta-box .highlight { font-size: 1.1rem; font-weight: bold; color: #ea580c; }
+  </style>
+</head>
+<body>
+
+  <!-- COVER PAGE -->
+  <div class="cover">
+    <div class="logo">Vardhini <span>Vastu</span></div>
+    <h1>Align Your Space.<br><span class="accent-text">Elevate Your Life.</span></h1>
+    <p class="subtitle">India's Leading Scientific & Non-Demolition Vastu Consultancy</p>
+    
+    <div class="cover-footer">
+      <p style="color: #94a3b8; margin-bottom: 5px;">Prepared By</p>
+      <h3>Raghavendra Hebbur</h3>
+      <p>Certified Geo Master & Vastu Expert</p>
+      
+      <div class="cover-contact">
+        <strong>📞 Phone:</strong> +91 97391 05574 <br>
+        <strong>🌐 Website:</strong> www.vardhinivastu.in <br>
+        <strong>📍 Address:</strong> 3rd Cross, Saraswati Road, Ajit Layout, Virgo Nagar, Bengaluru 560049
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTENT PAGES -->
+  <div class="block-section">
+    <h2 style="margin-top: 0;">The Visionary Behind Vardhini Vastu</h2>
+    <img src="https://assets.zyrosite.com/mv0DEjQxOGiDlo89/sam_1727-ALpe0v75j3Tjeqpb.JPG" class="hero-img" alt="Raghavendra Hebbur">
+    <p>As the founder of Vardhini Vastu, <strong>Raghavendra Hebbur</strong> has spent over a decade helping families, startups, and industrial giants harmonize their spaces. Combining traditional Vedic wisdom with modern scientific diagnostics, he provides precise, non-demolition energy alignment that delivers measurable results.</p>
+    
+    <div class="stats-row">
+      <div class="stat">
+        <div class="stat-num">10+</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">600+</div>
+        <div class="stat-label">Properties Aligned</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block-section">
+    <h2>The Three Pillars of Our Practice</h2>
+    <p>We do not rely on fear tactics, generic remedies, or expensive renovations. Our consulting framework is structured around three core tenets:</p>
+    
+    <div class="card">
+      <h3>1. Sanskrit Source Research</h3>
+      <p>Ongoing research and translation of the 12th-century Sanskrit treatise <strong>Aparajitapṛcchā</strong>. This ensures all energy-balancing techniques are derived directly from classical Indian architecture texts.</p>
+    </div>
+    <div class="card">
+      <h3>2. VIDS™ 16-Zone Overlay</h3>
+      <p>Our proprietary Vastu Integrated Diagnosis System maps your property into 16 discrete directional segments. We analyze your layout with single-degree compass precision.</p>
+    </div>
+    <div class="card">
+      <h3>3. 100% Non-Demolition</h3>
+      <p>No breaking of walls, toilets, or doors. Imbalances are corrected using metal strips (copper, brass, iron), colors, shapes, and elemental energy modulators.</p>
+    </div>
+  </div>
+
+  <div class="page-break"></div>
+
+  <div class="block-section">
+    <h2 style="margin-top: 0;">Scientific Diagnostics</h2>
+    <p>We use certified diagnostic tools to measure electromagnetic, subtle auric, and geopathic energy fields.</p>
+    
+    <div class="card">
+      <h3>Universal Aura Scanner</h3>
+      <p>Measures the energetic aura of spaces. It identifies blockages, reads spatial frequencies, and tests compatibility of remedies before installation.</p>
+    </div>
+    <div class="card">
+      <h3>Lecher Antenna</h3>
+      <p>A precise bio-resonance instrument that reads biological and environmental frequencies. It pinpoints electromagnetic imbalances.</p>
+    </div>
+    <div class="card">
+      <h3>Geopathic Stress Rods</h3>
+      <p>Detects Hartmann, Curry, and geological fault lines running beneath the property, which can cause chronic fatigue and business failures.</p>
+    </div>
+    <div class="card">
+      <h3>Reiki Space Clearing</h3>
+      <p>Integrates space-clearing protocols to eliminate stagnant, negative energetic footprints and re-energize the environment.</p>
+    </div>
+  </div>
+
+  <div class="block-section">
+    <h2>Professional Services</h2>
+    <div class="card">
+      <h3>🏠 Residential Vastu</h3>
+      <p>Perfect for apartments, villas, and independent homes. Harmonize relationships, health, and finances.</p>
+    </div>
+    <div class="card">
+      <h3>🏢 Commercial Vastu</h3>
+      <p>Optimize offices, shops, and IT parks for productivity, cash flow, and team synergy.</p>
+    </div>
+    <div class="card">
+      <h3>🏭 Industrial Vastu</h3>
+      <p>Detailed macro-analysis for factories and warehouses to prevent machine breakdown and labor issues.</p>
+    </div>
+    <div class="card">
+      <h3>🌍 Online Consultation</h3>
+      <p>Video call + detailed report for overseas homes and investments with accurate digital zoning.</p>
+    </div>
+  </div>
+
+  <div class="cta-box">
+    <h3>Ready to Align Your Space?</h3>
+    <p>Book your professional consultation today.</p>
+    <p class="highlight">📞 +91 97391 05574 &nbsp; | &nbsp; ✉️ info@vardhinivastu.in</p>
+  </div>
+
+</body>
+</html>

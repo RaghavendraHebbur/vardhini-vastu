@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vardhini Vastu — Company Profile 2026</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    @page { size: A4; margin: 0; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #fff;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      height: 297mm;
+      position: relative;
+      overflow: hidden;
+      page-break-after: always;
+      page-break-inside: avoid;
+    }
+    .page:last-child { page-break-after: avoid; }
+
+    /* ── PAGE 1 : COVER ───────────────────────────────── */
+    .cover {
+      background: linear-gradient(150deg, #0c0a09 0%, #1c1917 60%, #292524 100%);
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      padding: 0;
+    }
+
+    .cover-top-bar {
+      background: #ea580c;
+      height: 5px;
+      width: 100%;
+    }
+
+    .cover-inner {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: 28mm 22mm 0;
+    }
+
+    .cover-logo {
+      font-family: 'Outfit', sans-serif;
+      font-size: 15pt;
+      font-weight: 900;
+      color: #fff;
+      letter-spacing: -0.02em;
+    }
+    .cover-logo span { color: #ea580c; }
+
+    .cover-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #1c1917;
+      border: 1px solid #292524;
+      border-radius: 100px;
+      padding: 5px 14px;
+      margin-top: 24mm;
+      width: fit-content;
+    }
+    .cover-badge-dot {
+      width: 7px; height: 7px;
+      background: #ea580c;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .cover-badge span {
+      font-size: 7.5pt;
+      font-weight: 700;
+      color: #a8a29e;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .cover h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 46pt;
+      font-weight: 900;
+      line-height: 1.05;
+      color: #fff;
+      letter-spacing: -0.03em;
+      margin-top: 14px;
+    }
+    .cover h1 em { font-style: normal; color: #ea580c; }
+
+    .cover-sub {
+      font-size: 12pt;
+      color: #a8a29e;
+      line-height: 1.5;
+      margin-top: 14px;
+      max-width: 130mm;
+    }
+
+    .cover-stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      margin-top: 22mm;
+      border-top: 1px solid #292524;
+      border-bottom: 1px solid #292524;
+      padding: 18px 0;
+    }
+    .cover-stat {
+      padding: 0 16px;
+      border-right: 1px solid #292524;
+    }
+    .cover-stat:first-child { padding-left: 0; }
+    .cover-stat:last-child { border-right: none; }
+    .cover-stat-num {
+      font-family: 'Outfit', sans-serif;
+      font-size: 22pt;
+      font-weight: 900;
+      color: #fff;
+      letter-spacing: -0.03em;
+    }
+    .cover-stat-label {
+      font-size: 8pt;
+      font-weight: 600;
+      color: #78716c;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-top: 2px;
+    }
+
+    .cover-bottom {
+      background: #111009;
+      margin-top: auto;
+      padding: 16px 22mm;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #1c1917;
+    }
+    .cover-contact-label {
+      font-size: 7.5pt;
+      font-weight: 700;
+      color: #ea580c;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 4px;
+    }
+    .cover-contact-value {
+      font-size: 9pt;
+      color: #e7e5e0;
+    }
+    .cover-author {
+      text-align: right;
+    }
+    .cover-author-name {
+      font-family: 'Outfit', sans-serif;
+      font-size: 13pt;
+      font-weight: 700;
+      color: #fff;
+    }
+    .cover-author-title {
+      font-size: 8.5pt;
+      color: #78716c;
+      margin-top: 2px;
+    }
+
+    /* ── PAGE 2 : ABOUT + PILLARS ─────────────────────── */
+    .content-page {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+    }
+
+    .page-top-bar {
+      background: #ea580c;
+      height: 4px;
+      width: 100%;
+    }
+
+    .page-body {
+      flex: 1;
+      padding: 16mm 20mm 8mm;
+      overflow: hidden;
+    }
+
+    .eyebrow {
+      font-size: 7.5pt;
+      font-weight: 700;
+      color: #ea580c;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 8px;
+    }
+
+    .section-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 22pt;
+      font-weight: 900;
+      color: #0c0a09;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      margin-bottom: 6px;
+    }
+    .section-title em { font-style: normal; color: #ea580c; }
+
+    .section-lead {
+      font-size: 10pt;
+      color: #57534e;
+      line-height: 1.6;
+      margin-bottom: 18px;
+    }
+
+    /* About two-col */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 24px;
+      margin-bottom: 20px;
+    }
+
+    .about-photo {
+      width: 100%;
+      height: 76mm;
+      object-fit: cover;
+      object-position: center top;
+      border-radius: 10px;
+      display: block;
+    }
+
+    .about-bio {
+      font-size: 9.5pt;
+      color: #57534e;
+      line-height: 1.65;
+      margin-bottom: 14px;
+    }
+
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .stat-box {
+      background: #fff7ed;
+      border: 1px solid #fed7aa;
+      border-radius: 8px;
+      padding: 10px 12px;
+    }
+    .stat-box-num {
+      font-family: 'Outfit', sans-serif;
+      font-size: 18pt;
+      font-weight: 900;
+      color: #ea580c;
+      letter-spacing: -0.03em;
+    }
+    .stat-box-label {
+      font-size: 7.5pt;
+      font-weight: 600;
+      color: #78716c;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-top: 2px;
+    }
+
+    /* Pillar cards */
+    .pillars {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 9px;
+      margin-top: 16px;
+    }
+    .pillar-card {
+      background: #fff;
+      border: 1px solid #e7e5e0;
+      border-left: 3px solid #ea580c;
+      border-radius: 8px;
+      padding: 11px 14px;
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+    .pillar-num {
+      font-family: 'Outfit', sans-serif;
+      font-size: 16pt;
+      font-weight: 900;
+      color: #fed7aa;
+      line-height: 1;
+      flex-shrink: 0;
+      width: 22px;
+    }
+    .pillar-title {
+      font-size: 9.5pt;
+      font-weight: 700;
+      color: #0c0a09;
+      margin-bottom: 3px;
+    }
+    .pillar-text {
+      font-size: 8.5pt;
+      color: #57534e;
+      line-height: 1.55;
+    }
+
+    /* Page footer */
+    .page-footer {
+      border-top: 1px solid #e7e5e0;
+      padding: 8px 20mm;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-shrink: 0;
+    }
+    .pf-brand { font-size: 8pt; font-weight: 600; color: #a8a29e; }
+    .pf-page  { font-size: 8pt; color: #a8a29e; }
+
+    /* ── PAGE 3 : METHODOLOGY + SERVICES ─────────────── */
+    .tools-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .tool-card {
+      background: #fafaf9;
+      border: 1px solid #e7e5e0;
+      border-radius: 8px;
+      padding: 13px 14px;
+    }
+    .tool-title {
+      font-size: 9pt;
+      font-weight: 700;
+      color: #ea580c;
+      margin-bottom: 5px;
+    }
+    .tool-text {
+      font-size: 8.5pt;
+      color: #57534e;
+      line-height: 1.55;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .service-item {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      padding: 11px 12px;
+      border: 1px solid #e7e5e0;
+      border-radius: 8px;
+      background: #fff;
+    }
+    .service-icon {
+      font-size: 16pt;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+    .service-title {
+      font-size: 9pt;
+      font-weight: 700;
+      color: #0c0a09;
+      margin-bottom: 3px;
+    }
+    .service-text {
+      font-size: 8pt;
+      color: #57534e;
+      line-height: 1.5;
+    }
+    .service-price {
+      font-size: 8.5pt;
+      font-weight: 700;
+      color: #ea580c;
+      margin-top: 4px;
+    }
+
+    .cta-box {
+      background: #0c0a09;
+      border-radius: 10px;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .cta-left h3 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 13pt;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 3px;
+    }
+    .cta-left p {
+      font-size: 8.5pt;
+      color: #a8a29e;
+    }
+    .cta-right {
+      flex-shrink: 0;
+      text-align: right;
+    }
+    .cta-phone {
+      font-family: 'Outfit', sans-serif;
+      font-size: 14pt;
+      font-weight: 900;
+      color: #ea580c;
+    }
+    .cta-email {
+      font-size: 8.5pt;
+      color: #78716c;
+      margin-top: 2px;
+    }
+    .cta-web {
+      font-size: 8.5pt;
+      color: #57534e;
+      margin-top: 1px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════════════════
+       PAGE 1 — COVER
+  ════════════════════════════════════════════════════ -->
+  <div class="page">
+    <div class="cover">
+      <div class="cover-top-bar"></div>
+      <div class="cover-inner">
+
+        <div class="cover-logo">Vardhini <span>Vastu</span></div>
+
+        <div class="cover-badge">
+          <span class="cover-badge-dot"></span>
+          <span>VIDS™ Scientific Methodology</span>
+        </div>
+
+        <h1>Align Your Space.<br><em>Elevate Your Life.</em></h1>
+        <p class="cover-sub">India's leading scientific &amp; non-demolition Vastu consultancy — serving homes, offices, and industries across Bangalore and beyond.</p>
+
+        <div class="cover-stats">
+          <div class="cover-stat">
+            <div class="cover-stat-num">18+</div>
+            <div class="cover-stat-label">Years Active</div>
+          </div>
+          <div class="cover-stat">
+            <div class="cover-stat-num">3,200+</div>
+            <div class="cover-stat-label">Consultations</div>
+          </div>
+          <div class="cover-stat">
+            <div class="cover-stat-num">620+</div>
+            <div class="cover-stat-label">Properties</div>
+          </div>
+          <div class="cover-stat">
+            <div class="cover-stat-num">★ 5.0</div>
+            <div class="cover-stat-label">Google Rating</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="cover-bottom">
+        <div>
+          <div class="cover-contact-label">Contact</div>
+          <div class="cover-contact-value">+91 97391 05574 &nbsp;·&nbsp; Info@vardhinivastu.in</div>
+          <div class="cover-contact-value" style="margin-top:3px; color:#78716c;">vardhinivastu.in &nbsp;·&nbsp; Bangalore, Karnataka, India</div>
+        </div>
+        <div class="cover-author">
+          <div class="cover-author-name">Raghavendra Hebbur</div>
+          <div class="cover-author-title">Lead Vastu Consultant &amp; Founder</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════════════
+       PAGE 2 — ABOUT + THREE PILLARS
+  ════════════════════════════════════════════════════ -->
+  <div class="page">
+    <div class="content-page">
+      <div class="page-top-bar"></div>
+      <div class="page-body">
+
+        <p class="eyebrow">About the Consultant</p>
+        <h2 class="section-title">Raghavendra <em>Hebbur</em></h2>
+        <p class="section-lead">Founder &amp; Lead Vastu Consultant — Vardhini Vastu, Bangalore</p>
+
+        <div class="about-grid">
+          <div>
+            <p class="about-bio">
+              With over 18 years of dedicated practice, <strong>Raghavendra Hebbur</strong> has established himself as one of India's most trusted scientific Vastu consultants. His approach bridges the gap between classical Vedic wisdom and modern instrumentation — delivering results that are measurable, practical, and completely free of demolition.
+            </p>
+            <p class="about-bio">
+              Trained in classical Vastu Shastra with single-degree compass precision, he is also a certified Lecher Antenna practitioner for geopathic stress detection. Clients across Bangalore, India, and internationally (USA, UK, UAE, Singapore, Australia) rely on his VIDS™ methodology for property alignment.
+            </p>
+            <div class="stats-row">
+              <div class="stat-box">
+                <div class="stat-box-num">18+</div>
+                <div class="stat-box-label">Years</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-box-num">3,200+</div>
+                <div class="stat-box-label">Consults</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-box-num">★ 5.0</div>
+                <div class="stat-box-label">Google</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="https://assets.zyrosite.com/mv0DEjQxOGiDlo89/sam_1727-ALpe0v75j3Tjeqpb.JPG"
+                 class="about-photo" alt="Raghavendra Hebbur — Vastu Consultant Bangalore">
+          </div>
+        </div>
+
+        <p class="eyebrow" style="margin-top:14px;">Our Framework</p>
+        <h2 class="section-title">The Three <em>Pillars</em></h2>
+
+        <div class="pillars">
+          <div class="pillar-card">
+            <div class="pillar-num">1</div>
+            <div>
+              <div class="pillar-title">Sanskrit Source Research</div>
+              <div class="pillar-text">Ongoing research and translation of the 12th-century Sanskrit treatise <em>Aparajitapṛcchā</em> ensures all energy-balancing techniques are derived directly from classical Indian architectural texts — not folklore.</div>
+            </div>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-num">2</div>
+            <div>
+              <div class="pillar-title">VIDS™ 16-Zone Overlay</div>
+              <div class="pillar-text">Our proprietary Vastu Integral Diagnostic System maps your property into 16 discrete directional segments, analysed with single-degree compass precision for granular energy diagnosis.</div>
+            </div>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-num">3</div>
+            <div>
+              <div class="pillar-title">100% Non-Demolition</div>
+              <div class="pillar-text">No breaking of walls, toilets, or doors — ever. Imbalances are corrected using metal strips, colour therapy, elemental energy modulators, yantras, and crystals.</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="page-footer">
+        <span class="pf-brand">VARDHINI VASTU &nbsp;·&nbsp; vardhinivastu.in</span>
+        <span class="pf-page">Page 1 of 3</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════════════
+       PAGE 3 — METHODOLOGY + SERVICES + CTA
+  ════════════════════════════════════════════════════ -->
+  <div class="page">
+    <div class="content-page">
+      <div class="page-top-bar"></div>
+      <div class="page-body">
+
+        <p class="eyebrow">Scientific Diagnostics</p>
+        <h2 class="section-title">Instruments &amp; <em>Methodology</em></h2>
+        <p class="section-lead">We use certified bio-resonance and geo-detection tools to measure electromagnetic, auric, and geopathic energy fields with scientific precision.</p>
+
+        <div class="tools-grid">
+          <div class="tool-card">
+            <div class="tool-title">Lecher Antenna</div>
+            <div class="tool-text">A precise bio-resonance instrument that reads biological and environmental frequencies. Pinpoints electromagnetic imbalances invisible to the naked eye.</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-title">Universal Aura Scanner (UAS)</div>
+            <div class="tool-text">Measures the energetic aura of spaces. Identifies blockages, reads spatial frequencies, and verifies remedy compatibility before installation.</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-title">Geopathic Stress Rods</div>
+            <div class="tool-text">Detects Hartmann, Curry, and geological fault lines beneath the property — a common cause of chronic health issues and business stagnation.</div>
+          </div>
+          <div class="tool-card">
+            <div class="tool-title">16-Zone Compass Analysis</div>
+            <div class="tool-text">Single-degree compass-accurate zoning of the entire property. Every directional segment is mapped and scored against classical Vastu principles.</div>
+          </div>
+        </div>
+
+        <p class="eyebrow" style="margin-top: 16px;">Services &amp; Fees</p>
+        <h2 class="section-title">What We <em>Offer</em></h2>
+
+        <div class="services-grid">
+          <div class="service-item">
+            <div class="service-icon">🏠</div>
+            <div>
+              <div class="service-title">Residential Vastu</div>
+              <div class="service-text">Apartments, villas &amp; independent homes. Full VIDS™ analysis + written report.</div>
+              <div class="service-price">From ₹15,000</div>
+            </div>
+          </div>
+          <div class="service-item">
+            <div class="service-icon">🏢</div>
+            <div>
+              <div class="service-title">Commercial Vastu</div>
+              <div class="service-text">Offices, retail spaces &amp; showrooms. Optimise for productivity and cash flow.</div>
+              <div class="service-price">From ₹51,000</div>
+            </div>
+          </div>
+          <div class="service-item">
+            <div class="service-icon">🏭</div>
+            <div>
+              <div class="service-title">Industrial Vastu</div>
+              <div class="service-text">Factories, warehouses &amp; IT parks. Prevent machine faults and labour issues.</div>
+              <div class="service-price">From ₹51,000</div>
+            </div>
+          </div>
+          <div class="service-item">
+            <div class="service-icon">🌐</div>
+            <div>
+              <div class="service-title">Online / NRI Consultation</div>
+              <div class="service-text">Floor plan + video call. Accurate digital zoning for overseas properties.</div>
+              <div class="service-price">₹5,000 (Worldwide)</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-box">
+          <div class="cta-left">
+            <h3>Ready to Align Your Space?</h3>
+            <p>Book a zero-demolition VIDS™ consultation. Written report delivered in 48 hrs.</p>
+          </div>
+          <div class="cta-right">
+            <div class="cta-phone">+91 97391 05574</div>
+            <div class="cta-email">Info@vardhinivastu.in</div>
+            <div class="cta-web">vardhinivastu.in</div>
+          </div>
+        </div>
+
+      </div>
+      <div class="page-footer">
+        <span class="pf-brand">VARDHINI VASTU &nbsp;·&nbsp; vardhinivastu.in</span>
+        <span class="pf-page">Page 3 of 3</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

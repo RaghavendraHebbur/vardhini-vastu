@@ -1,0 +1,125 @@
+const fs = require('fs');
+
+const pages = [
+  {
+    file: 'vastu-for-prestige-tranquility.html',
+    builder: 'Prestige',
+    project: 'Tranquility',
+    location: 'Budigere Cross',
+    defect: 'missing North-East corners',
+    remedy: 'Zinc wire loops on the floor'
+  },
+  {
+    file: 'vastu-for-brigade-apartments.html',
+    builder: 'Brigade',
+    project: 'Apartments',
+    location: 'Bangalore',
+    defect: 'South-West entrances and irregular cuts',
+    remedy: 'Lead or brass threshold protectors'
+  },
+  {
+    file: 'vastu-for-sowparnika-projects.html',
+    builder: 'Sowparnika',
+    project: 'Projects',
+    location: 'Bangalore',
+    defect: 'master bedrooms in the North-East',
+    remedy: 'Water Element balancing'
+  },
+  {
+    file: 'vastu-for-total-environment.html',
+    builder: 'Total Environment',
+    project: 'Villas & Apartments',
+    location: 'Bangalore',
+    defect: 'irregular layouts due to terrace gardens',
+    remedy: 'VIDS™ 16-zone Virtual Squaring'
+  }
+];
+
+function generateSchema(p) {
+  return `<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Vastu Consultation for ${p.builder} ${p.project}",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Vardhini Vastu",
+      "url": "https://vardhinivastu.in",
+      "image": "https://vardhinivastu.in/wp-content/uploads/2026/05/logo-A85ekJJyQgURRZvX.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bengaluru",
+        "addressRegion": "Karnataka",
+        "addressCountry": "IN"
+      }
+    },
+    "description": "Scientific, zero-demolition Vastu analysis and correction services for apartments and villas in ${p.builder} ${p.project}, ${p.location}.",
+    "areaServed": {
+      "@type": "Place",
+      "name": "${p.location}, Bengaluru"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://vardhinivastu.in/contact",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Are the apartments in ${p.builder} ${p.project} Vastu compliant?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "While ${p.builder} designs premium layouts, full Vastu compliance depends on the specific tower, facing, and floor plan of your unit. We frequently find modern architectural elements that require energetic balancing without structural demolition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can Vastu defects in a ${p.project} high-rise be fixed without breaking walls?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. At Vardhini Vastu, we use the VIDS™ methodology and advanced Radiesthesia tools like the Lecher Antenna to neutralize spatial defects (like ${p.defect}) using elemental and energetic remedies, requiring absolutely no demolition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Should I check the Vastu before or after buying my unit at ${p.project}?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It is highly recommended to get the floor plan evaluated before finalizing the purchase. If you have already purchased, our non-demolition remedies can be applied before or during the interior design phase."
+        }
+      }
+    ]
+  }
+]
+</script>`;
+}
+
+for (const p of pages) {
+  if (fs.existsSync(p.file)) {
+    let content = fs.readFileSync(p.file, 'utf8');
+    
+    // Replace existing schema
+    const schemaRegex = /<script type="application\/ld\+json">.*?<\/script>/s;
+    if (schemaRegex.test(content)) {
+      content = content.replace(schemaRegex, generateSchema(p));
+      
+      // Update H1 to match blueprint closely if possible
+      // Blueprint H1: Scientific Vastu Analysis for {{builder_name}} {{project_name}}, {{location}}
+      const h1Regex = /<h1[^>]*>.*?<\/h1>/s;
+      const newH1 = `<h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mt-4 leading-tight">Scientific Vastu Analysis for <span class="gradient-text">${p.builder} ${p.project}, ${p.location}</span></h1>`;
+      content = content.replace(h1Regex, newH1);
+      
+      fs.writeFileSync(p.file, content, 'utf8');
+      console.log(`Updated schema and H1 for ${p.file}`);
+    } else {
+      console.log(`No schema found in ${p.file}`);
+    }
+  } else {
+    console.log(`File not found: ${p.file}`);
+  }
+}

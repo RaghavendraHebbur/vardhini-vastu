@@ -1,0 +1,42 @@
+[
+  {
+    "builder_name": "Assetz",
+    "project_name": "Marq",
+    "slug": "vastu-for-assetz-marq",
+    "location": "Whitefield",
+    "project_type": "Luxury 3BHK/4BHK",
+    "common_defect": "Kitchens placed in the South-West zone",
+    "primary_remedy": "Earth Element enhancement & yellow marble",
+    "defect_symptom": "Constant financial instability and health issues for the head of the family"
+  },
+  {
+    "builder_name": "Sobha",
+    "project_name": "City",
+    "slug": "vastu-for-sobha-city",
+    "location": "Thanisandra",
+    "project_type": "Mediterranean Apartments",
+    "common_defect": "Toilets located in the North-East zone",
+    "primary_remedy": "Zinc Helix & Vastu partition tape",
+    "defect_symptom": "Blocked mental clarity, poor academic performance for children, and frequent anxiety"
+  },
+  {
+    "builder_name": "Puravankara",
+    "project_name": "Purva Skydale",
+    "slug": "vastu-for-purva-skydale",
+    "location": "Haralur Road",
+    "project_type": "Premium High-Rise",
+    "common_defect": "Missing corners due to L-shaped architecture",
+    "primary_remedy": "Copper pyramids & virtual boundary creation",
+    "defect_symptom": "Lack of opportunities, career stagnation, and feeling ungrounded"
+  },
+  {
+    "builder_name": "Godrej",
+    "project_name": "Gold County",
+    "slug": "vastu-for-godrej-gold-county",
+    "location": "Tumkur Road",
+    "project_type": "Luxury Townhouses",
+    "common_defect": "Internal staircases in the Brahmasthan (center)",
+    "primary_remedy": "Brass Helix & energy harmonization",
+    "defect_symptom": "Digestive issues, chronic heavy feeling in the house, and disrupted harmony"
+  }
+]

@@ -1,0 +1,107 @@
+<!-- wp:html --><div class="vv2"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--vv-bg:#f8fafc;--vv-sf:#ffffff;--vv-bd:#e2e8f0;--vv-tx:#0f172a;--vv-tx2:#475569;--vv-tx3:#94a3b8;--vv-or:#f97316;--vv-orl:#fff7ed;--vv-orm:#ffedd5;--vv-r:16px;--vv-sh:0 1px 3px rgba(0,0,0,.05),0 4px 16px rgba(0,0,0,.03);--vv-shl:0 4px 24px rgba(0,0,0,.06),0 12px 48px rgba(0,0,0,.04);}
+.vv2{font-family:'Inter',system-ui,sans-serif;background:var(--vv-bg);color:var(--vv-tx);-webkit-font-smoothing:antialiased;margin-left:calc(-50vw + 50%);margin-right:calc(-50vw + 50%);width:100vw;box-sizing:border-box;}
+.vv2 *{box-sizing:border-box;}.vv2 a{text-decoration:none;color:inherit;}
+.w{max-width:1080px;margin:0 auto;padding:0 32px;}
+@media(max-width:640px){.w{padding:0 20px;}}
+.sf{padding:80px 0;background:var(--vv-sf);border-top:1px solid var(--vv-bd);}
+.sw{padding:80px 0;background:var(--vv-orl);border-top:1px solid var(--vv-orm);}
+.sd{padding:80px 0;background:var(--vv-bg);border-top:1px solid var(--vv-bd);}
+@media(max-width:640px){.sf,.sw,.sd{padding:56px 0;}}
+.hero{padding:96px 32px 72px;max-width:1080px;margin:0 auto;}
+@media(max-width:640px){.hero{padding:60px 20px 48px;}}
+.badge{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--vv-bd);border-radius:100px;padding:6px 14px;font-size:.78rem;font-weight:600;color:var(--vv-tx2);margin-bottom:24px;}
+.badge i{width:7px;height:7px;background:var(--vv-or);border-radius:50%;display:inline-block;font-style:normal;}
+.hero h1{font-size:clamp(2.3rem,5vw,3.8rem);font-weight:800;line-height:1.1;letter-spacing:-.03em;color:var(--vv-tx);margin:0 0 22px;max-width:760px;}
+.hero h1 em{font-style:normal;color:var(--vv-or);}
+.sub{font-size:1.15rem;color:var(--vv-tx2);line-height:1.7;max-width:600px;margin:0 0 38px;}
+.acts{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:52px;}
+.vv2 .bp{display:inline-flex;align-items:center;gap:8px;background:var(--vv-or);color:#fff !important;padding:13px 22px;border-radius:10px;font-size:.93rem;font-weight:600;}
+.vv2 .bs{display:inline-flex;align-items:center;gap:8px;background:var(--vv-sf);color:var(--vv-tx) !important;padding:13px 22px;border-radius:10px;font-size:.93rem;font-weight:600;border:1px solid var(--vv-bd);}
+.trust{background:#fff;border-top:1px solid var(--vv-bd);border-bottom:1px solid var(--vv-bd);padding:18px 0;}
+.tr{display:flex;gap:36px;align-items:center;justify-content:center;flex-wrap:wrap;max-width:1080px;margin:0 auto;padding:0 32px;}
+.ti{font-size:.78rem;color:var(--vv-tx3);font-weight:600;text-transform:uppercase;letter-spacing:.08em;white-space:nowrap;}
+.td{width:4px;height:4px;background:var(--vv-bd);border-radius:50%;}
+.eye{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--vv-or);margin:0 0 10px;}
+.h2{font-size:clamp(1.75rem,3.8vw,2.5rem);font-weight:800;letter-spacing:-.03em;color:var(--vv-tx);margin:0 0 14px;line-height:1.15;}
+.h2 em{font-style:normal;color:var(--vv-or);}
+.lead{font-size:.97rem;color:var(--vv-tx2);line-height:1.7;max-width:560px;margin:0 0 44px;}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin:48px 0 0;}
+@media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr);}}
+.stat-n{font-size:2rem;font-weight:800;color:var(--vv-tx);letter-spacing:-.03em;}
+.stat-l{font-size:.78rem;color:var(--vv-tx3);margin-top:4px;}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+@media(max-width:900px){.cards{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:560px){.cards{grid-template-columns:1fr;}}
+.card{background:var(--vv-sf);border:1px solid var(--vv-bd);border-radius:var(--vv-r);padding:28px;transition:transform .15s,box-shadow .15s;}
+.card:hover{transform:translateY(-3px);box-shadow:var(--vv-shl);}
+.card-ico{font-size:1.8rem;margin-bottom:14px;}
+.card h3{font-size:1rem;font-weight:700;color:var(--vv-tx);margin:0 0 8px;}
+.card p{font-size:.85rem;color:var(--vv-tx2);line-height:1.6;margin:0;}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start;}
+@media(max-width:760px){.two-col{grid-template-columns:1fr;gap:40px;}}
+.step-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:20px;}
+.step-item{display:flex;gap:16px;align-items:flex-start;}
+.step-num{width:32px;height:32px;background:var(--vv-orl);border:1.5px solid var(--vv-orm);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.78rem;font-weight:800;color:var(--vv-or);flex-shrink:0;}
+.step-body h4{font-size:.92rem;font-weight:700;color:var(--vv-tx);margin:0 0 4px;}
+.step-body p{font-size:.83rem;color:var(--vv-tx2);margin:0;line-height:1.55;}
+.faq{max-width:720px;margin:0 auto;}
+.fqi{border-bottom:1px solid var(--vv-bd);padding:18px 0;}
+.fqi:last-child{border-bottom:none;}
+.fqq{font-size:.95rem;font-weight:700;color:var(--vv-tx);margin:0 0 8px;}
+.fqa{font-size:.88rem;color:var(--vv-tx2);line-height:1.65;margin:0;}
+.ctac{max-width:600px;margin:0 auto;text-align:center;padding:0 20px;}
+.ctac h2{font-size:clamp(1.75rem,4vw,2.5rem);font-weight:800;color:var(--vv-tx);letter-spacing:-.03em;margin:0 0 14px;}
+.ctac p{font-size:1.05rem;color:var(--vv-tx2);margin:0 0 32px;line-height:1.6;}
+.ca{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;}
+.vv2 .bwa{display:inline-flex;align-items:center;gap:8px;background:#25D366;color:#fff !important;padding:13px 26px;border-radius:10px;font-size:.93rem;font-weight:600;}
+.vv2 .bgh{display:inline-flex;align-items:center;gap:8px;background:var(--vv-sf);color:var(--vv-tx) !important;padding:13px 26px;border-radius:10px;font-size:.93rem;font-weight:600;border:1px solid var(--vv-bd);}
+.ig{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+@media(max-width:760px){.ig{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:480px){.ig{grid-template-columns:1fr;}}
+.icard{background:#fff;border:1px solid var(--vv-bd);border-radius:var(--vv-r);padding:20px;}
+.icard-ico{font-size:1.4rem;margin-bottom:10px;}
+.icard h4{font-size:.88rem;font-weight:700;color:var(--vv-tx);margin:0 0 6px;}
+.icard p{font-size:.81rem;color:var(--vv-tx2);margin:0;line-height:1.55;}
+.tcard{background:var(--vv-orl);border:1px solid var(--vv-orm);border-radius:var(--vv-r);padding:28px;}
+.tcard-stars{color:var(--vv-or);font-size:1.1rem;margin-bottom:12px;}
+.tcard-text{font-size:.9rem;color:var(--vv-tx2);line-height:1.7;margin:0 0 16px;font-style:italic;}
+.tcard-name{font-size:.85rem;font-weight:700;color:var(--vv-tx);}
+.tcard-loc{font-size:.78rem;color:var(--vv-tx3);}
+</style><div style="background:var(--vv-bg);padding:96px 0 72px;border-bottom:1px solid var(--vv-bd);">
+<div class="hero" style="padding-top:0;padding-bottom:0;">
+<div class="badge"><i></i> International Vastu Services</div>
+<h1>Vastu Consultant in Canada</h1>
+<p class="sub">100% Online, Zero-Demolition Vastu for NRI and Global Clients.</p>
+<div class="acts">
+<a href="https://wa.me/919739105574" class="bp">&#128241; WhatsApp Consultation</a>
+<a href="tel:+919739105574" class="bs">&#128222; +91 97391 05574</a>
+</div>
+<div class="stats">
+<div><div class="stat-n">3,200+</div><div class="stat-l">Consultations</div></div>
+<div><div class="stat-n">10+</div><div class="stat-l">Years Experience</div></div>
+<div><div class="stat-n">620+</div><div class="stat-l">Properties</div></div>
+<div><div class="stat-n">&#11088; 5.0</div><div class="stat-l">Google Rating</div></div>
+</div>
+</div>
+</div>
+  <section class="sf"><div class="w">
+  <h2>Scientific Vastu for Canada Homes</h2>
+  <p>Whether you have a suburban house, an apartment, or a commercial office, our remote VIDS™ methodology ensures degree-accurate alignment without physical visits. We use Google Earth for precise coordinate mapping.</p>
+  <div class="cards">
+    <div class="card"><h3>Online Consultation Fee</h3><p>Starting at $200 CAD</p></div>
+  </div>
+  </div></section></div><!-- /wp:html -->
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Vastu Consultation Canada",
+    "provider": { "@type": "LocalBusiness", "name": "Vardhini Vastu" },
+    "offers": { "@type": "Offer", "price": "200", "priceCurrency": "CAD" }
+  }
+  </script>

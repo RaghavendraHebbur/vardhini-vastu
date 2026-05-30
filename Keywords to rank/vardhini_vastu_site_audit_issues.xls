@@ -1,0 +1,167 @@
+
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  body { font-family: Arial, sans-serif; }
+  table { border-collapse: collapse; width: 100%; }
+  th { background-color: #1E3A5F; color: white; padding: 10px; border: 1px solid #999; font-weight: bold; }
+  td { padding: 8px 10px; border: 1px solid #ccc; vertical-align: top; }
+  .error { background-color: #FFE6E6; }
+  .error-badge { background-color: #CC0000; color: white; padding: 2px 8px; border-radius: 3px; font-size: 12px; font-weight: bold; }
+  .warning { background-color: #FFF8E1; }
+  .warning-badge { background-color: #E6A817; color: white; padding: 2px 8px; border-radius: 3px; font-size: 12px; font-weight: bold; }
+  .notice { background-color: #E8F5E9; }
+  .notice-badge { background-color: #2E7D32; color: white; padding: 2px 8px; border-radius: 3px; font-size: 12px; font-weight: bold; }
+  .section-header { background-color: #E8EEF7; font-weight: bold; font-size: 14px; }
+  h1 { color: #1E3A5F; }
+  .summary { margin-bottom: 20px; background: #f5f5f5; padding: 10px; border-radius: 5px; }
+</style>
+</head>
+<body>
+<h1>Vardhini Vastu - Site Audit Issues Report</h1>
+<div class="summary">
+  <strong>Website:</strong> vardhinivastu.in &nbsp;|&nbsp; 
+  <strong>Audit Date:</strong> May 29, 2026 &nbsp;|&nbsp; 
+  <strong>Pages Crawled:</strong> 396/500 &nbsp;|&nbsp;
+  <strong>Total Issues:</strong> 11 (1 Error, 4 Warnings, 6 Notices)
+</div>
+<table>
+  <tr>
+    <th>#</th>
+    <th>Severity</th>
+    <th>Category</th>
+    <th>Issue Description</th>
+    <th>Affected Count</th>
+    <th>Status</th>
+    <th>Priority</th>
+    <th>Fix Notes</th>
+  </tr>
+  
+  <!-- ERRORS -->
+  <tr>
+    <td colspan="8" class="section-header">🔴 ERRORS (1)</td>
+  </tr>
+  <tr class="error">
+    <td>1</td>
+    <td><span class="error-badge">ERROR</span></td>
+    <td>Structured Data / Content</td>
+    <td>387 structured data items are invalid</td>
+    <td>387</td>
+    <td>New</td>
+    <td>High</td>
+    <td></td>
+  </tr>
+  
+  <!-- WARNINGS -->
+  <tr>
+    <td colspan="8" class="section-header">🟡 WARNINGS (4)</td>
+  </tr>
+  <tr class="warning">
+    <td>2</td>
+    <td><span class="warning-badge">WARNING</span></td>
+    <td>Content</td>
+    <td>387 pages have low text-HTML ratio</td>
+    <td>387</td>
+    <td>New</td>
+    <td>Medium</td>
+    <td></td>
+  </tr>
+  <tr class="warning">
+    <td>3</td>
+    <td><span class="warning-badge">WARNING</span></td>
+    <td>Crawlability</td>
+    <td>387 outgoing internal links contain nofollow attribute</td>
+    <td>387</td>
+    <td>New</td>
+    <td>Medium</td>
+    <td></td>
+  </tr>
+  <tr class="warning">
+    <td>4</td>
+    <td><span class="warning-badge">WARNING</span></td>
+    <td>Crawlability</td>
+    <td>125 external links are broken</td>
+    <td>125</td>
+    <td>New</td>
+    <td>Medium</td>
+    <td></td>
+  </tr>
+  <tr class="warning">
+    <td>5</td>
+    <td><span class="warning-badge">WARNING</span></td>
+    <td>Meta Tags</td>
+    <td>3 pages have too much text within the title tags</td>
+    <td>3</td>
+    <td>New</td>
+    <td>Medium</td>
+    <td></td>
+  </tr>
+  
+  <!-- NOTICES -->
+  <tr>
+    <td colspan="8" class="section-header">🟢 NOTICES (6)</td>
+  </tr>
+  <tr class="notice">
+    <td>6</td>
+    <td><span class="notice-badge">NOTICE</span></td>
+    <td>Crawlability</td>
+    <td>387 outgoing external links contain nofollow attributes</td>
+    <td>387</td>
+    <td>New</td>
+    <td>Low</td>
+    <td></td>
+  </tr>
+  <tr class="notice">
+    <td>7</td>
+    <td><span class="notice-badge">NOTICE</span></td>
+    <td>Crawlability</td>
+    <td>365 pages have only one incoming internal link</td>
+    <td>365</td>
+    <td>New</td>
+    <td>Low</td>
+    <td></td>
+  </tr>
+  <tr class="notice">
+    <td>8</td>
+    <td><span class="notice-badge">NOTICE</span></td>
+    <td>Crawlability</td>
+    <td>5 URLs with a permanent redirect</td>
+    <td>5</td>
+    <td>New</td>
+    <td>Low</td>
+    <td></td>
+  </tr>
+  <tr class="notice">
+    <td>9</td>
+    <td><span class="notice-badge">NOTICE</span></td>
+    <td>Content</td>
+    <td>4 pages have more than one H1 tag</td>
+    <td>4</td>
+    <td>New</td>
+    <td>Low</td>
+    <td></td>
+  </tr>
+  <tr class="notice">
+    <td>10</td>
+    <td><span class="notice-badge">NOTICE</span></td>
+    <td>Crawlability</td>
+    <td>2 subdomains don't support HSTS</td>
+    <td>2</td>
+    <td>New</td>
+    <td>Low</td>
+    <td></td>
+  </tr>
+  <tr class="notice">
+    <td>11</td>
+    <td><span class="notice-badge">NOTICE</span></td>
+    <td>Content / AI Search</td>
+    <td>1 page requires content optimization</td>
+    <td>1</td>
+    <td>New</td>
+    <td>Low</td>
+    <td></td>
+  </tr>
+</table>
+</body>
+</html>

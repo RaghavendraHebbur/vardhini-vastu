@@ -29,3 +29,7 @@ build/
 # Keep Excel trackers but ignore temp files
 ~$*.xlsx
 ~$*.xls
+# Added by code-review-graph
+.code-review-graph/
+
+*.json

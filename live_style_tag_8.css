@@ -1,0 +1,606 @@
+/*
+=============================================================
+  VARDHINIVASTU.COM — WORDPRESS ADDITIONAL CSS
+=============================================================
+  Paste this entire file into:
+  WordPress Dashboard → Appearance → Customize → Additional CSS
+
+  This CSS powers all content pages sitewide.
+  Fonts are loaded via functions.php or Elementor/Astra settings:
+    Cormorant Garamond (display) + DM Sans (body)
+=============================================================
+*/
+
+/* ── 1. DESIGN TOKENS ──────────────────────────────────── */
+:root {
+  --vv-green:   #1B4332;
+  --vv-green2:  #2D6A4F;
+  --vv-green3:  #40916C;
+  --vv-gold:    #C9A84C;
+  --vv-gold2:   #E8C76A;
+  --vv-gold3:   #F5E6B8;
+  --vv-cream:   #FAFAF5;
+  --vv-sand:    #F4EFE4;
+  --vv-sand2:   #EDE5D5;
+  --vv-text:    #1A1A1A;
+  --vv-muted:   #555555;
+  --vv-muted2:  #777777;
+  --vv-border:  #D9D3C4;
+  --vv-white:   #FFFFFF;
+  --ff-display: 'Cormorant Garamond', Georgia, serif;
+  --ff-body:    'DM Sans', system-ui, sans-serif;
+  --radius:     8px;
+  --radius-lg:  16px;
+  --shadow-sm:  0 2px 8px rgba(27,67,50,0.08);
+  --shadow-md:  0 4px 20px rgba(27,67,50,0.12);
+  --shadow-lg:  0 8px 40px rgba(27,67,50,0.16);
+  --transition: 0.25s ease;
+  --max-w:      860px;
+}
+
+/* ── 2. FONT LOADING (if not loaded by theme) ───────────── */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+/* ── 3. PAGE HERO ───────────────────────────────────────── */
+.vv-page-hero {
+  background: linear-gradient(135deg, var(--vv-green) 0%, var(--vv-green2) 60%, var(--vv-green3) 100%);
+  padding: 72px 24px 60px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.vv-page-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  pointer-events: none;
+}
+.vv-page-hero .vv-container {
+  position: relative;
+  z-index: 1;
+}
+.vv-page-hero-eyebrow {
+  display: inline-block;
+  font-family: var(--ff-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--vv-gold2);
+  background: rgba(201,168,76,0.15);
+  border: 1px solid rgba(201,168,76,0.3);
+  border-radius: 20px;
+  padding: 5px 16px;
+  margin-bottom: 18px;
+}
+.vv-page-title {
+  font-family: var(--ff-display);
+  font-size: clamp(1.9rem, 4vw, 3rem);
+  font-weight: 600;
+  color: var(--vv-white);
+  line-height: 1.2;
+  margin: 0 0 18px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vv-page-subtitle {
+  font-family: var(--ff-body);
+  font-size: 1rem;
+  color: rgba(255,255,255,0.80);
+  max-width: 600px;
+  margin: 0 auto 28px;
+  line-height: 1.7;
+}
+.vv-page-hero-meta {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.vv-page-hero-meta span {
+  font-family: var(--ff-body);
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.65);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ── 4. CONTAINER & BODY ────────────────────────────────── */
+.vv-container {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.vv-page-body {
+  background: var(--vv-cream);
+  padding: 56px 0 80px;
+}
+
+/* ── 5. TYPOGRAPHY INSIDE CONTENT ───────────────────────── */
+.vv-page-body h2,
+.vv-section-title {
+  font-family: var(--ff-display);
+  font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+  font-weight: 600;
+  color: var(--vv-green);
+  margin: 48px 0 16px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--vv-gold3);
+  line-height: 1.25;
+}
+.vv-page-body h2:first-child,
+.vv-page-body .vv-section-title:first-child {
+  margin-top: 0;
+}
+.vv-page-body h3,
+.vv-subsection-title {
+  font-family: var(--ff-display);
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  font-weight: 600;
+  color: var(--vv-green2);
+  margin: 32px 0 12px;
+  line-height: 1.3;
+}
+.vv-page-body p {
+  font-family: var(--ff-body);
+  font-size: 1rem;
+  color: var(--vv-text);
+  line-height: 1.8;
+  margin: 0 0 16px;
+}
+.vv-page-body strong {
+  color: var(--vv-green);
+  font-weight: 600;
+}
+.vv-page-body em {
+  color: var(--vv-muted);
+  font-style: italic;
+}
+.vv-page-body a {
+  color: var(--vv-green2);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.vv-page-body a:hover {
+  color: var(--vv-gold);
+}
+.vv-page-body hr {
+  border: none;
+  border-top: 1px solid var(--vv-border);
+  margin: 40px 0;
+}
+
+/* ── 6. LISTS ───────────────────────────────────────────── */
+.vv-page-body ul {
+  font-family: var(--ff-body);
+  font-size: 1rem;
+  color: var(--vv-text);
+  line-height: 1.8;
+  padding-left: 0;
+  list-style: none;
+  margin: 0 0 20px;
+}
+.vv-page-body ul li {
+  padding: 6px 0 6px 28px;
+  position: relative;
+  border-bottom: 1px solid var(--vv-border);
+}
+.vv-page-body ul li:last-child {
+  border-bottom: none;
+}
+.vv-page-body ul li::before {
+  content: '◆';
+  position: absolute;
+  left: 0;
+  color: var(--vv-gold);
+  font-size: 0.6rem;
+  top: 12px;
+}
+.vv-page-body ol {
+  font-family: var(--ff-body);
+  font-size: 1rem;
+  color: var(--vv-text);
+  line-height: 1.8;
+  padding-left: 24px;
+  margin: 0 0 20px;
+}
+.vv-page-body ol li {
+  margin-bottom: 8px;
+}
+
+/* ── 7. TABLES ──────────────────────────────────────────── */
+.vv-page-body table,
+.vv-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--ff-body);
+  font-size: 0.9rem;
+  margin: 20px 0 32px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+.vv-page-body table thead,
+.vv-table thead {
+  background: var(--vv-green) !important;
+  color: var(--vv-white) !important;
+}
+.vv-page-body table thead th,
+.vv-table thead th {
+  padding: 12px 14px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--vv-white) !important;
+  border: none;
+}
+.vv-page-body table tbody tr,
+.vv-table tbody tr {
+  border-bottom: 1px solid var(--vv-border);
+}
+.vv-page-body table tbody tr:nth-child(even),
+.vv-table tbody tr:nth-child(even) {
+  background: var(--vv-sand);
+}
+.vv-page-body table tbody tr:last-child,
+.vv-table tbody tr:last-child {
+  border-bottom: none;
+}
+.vv-page-body table tbody td,
+.vv-table tbody td {
+  padding: 11px 14px;
+  color: var(--vv-text);
+  line-height: 1.6;
+  border: none;
+}
+.vv-page-body table tbody tr:hover,
+.vv-table tbody tr:hover {
+  background: var(--vv-gold3);
+}
+
+/* ── 8. HIGHLIGHT / CALLOUT BOXES ───────────────────────── */
+.vv-callout {
+  background: var(--vv-sand);
+  border-left: 4px solid var(--vv-gold);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 20px 24px;
+  margin: 24px 0;
+}
+.vv-callout p {
+  margin: 0;
+  font-style: italic;
+  color: var(--vv-muted);
+}
+.vv-tip-box {
+  background: linear-gradient(135deg, var(--vv-gold3) 0%, var(--vv-sand) 100%);
+  border: 1px solid var(--vv-gold);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin: 24px 0;
+}
+.vv-tip-box strong {
+  color: var(--vv-green);
+}
+.vv-defect-box {
+  background: #FFF8F0;
+  border: 1px solid #E8C088;
+  border-left: 4px solid #C9711C;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 20px 24px;
+  margin: 24px 0;
+}
+.vv-remedy-box {
+  background: #F0FFF6;
+  border: 1px solid var(--vv-green3);
+  border-left: 4px solid var(--vv-green2);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 20px 24px;
+  margin: 24px 0;
+}
+
+/* ── 9. ZONE / DIRECTION BADGE ──────────────────────────── */
+.vv-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-family: var(--ff-body);
+  letter-spacing: 0.04em;
+}
+.vv-badge-best   { background: #D1FAE5; color: #065F46; }
+.vv-badge-good   { background: #D1FAE5; color: #065F46; }
+.vv-badge-ok     { background: #FEF3C7; color: #92400E; }
+.vv-badge-avoid  { background: #FEE2E2; color: #991B1B; }
+
+/* ── 10. FAQ ACCORDION ───────────────────────────────────── */
+.vv-faq-section {
+  margin: 48px 0 0;
+}
+.vv-faq-section > h2 {
+  font-family: var(--ff-display);
+  font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+  font-weight: 600;
+  color: var(--vv-green);
+  margin: 0 0 24px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--vv-gold3);
+}
+.vv-faq-item {
+  border: 1px solid var(--vv-border);
+  border-radius: var(--radius);
+  margin-bottom: 10px;
+  overflow: hidden;
+  background: var(--vv-white);
+  transition: box-shadow var(--transition);
+}
+.vv-faq-item:hover {
+  box-shadow: var(--shadow-sm);
+}
+.vv-faq-item.open {
+  box-shadow: var(--shadow-md);
+  border-color: var(--vv-gold);
+}
+.vv-faq-q {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 18px 52px 18px 20px;
+  text-align: left;
+  font-family: var(--ff-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--vv-green);
+  cursor: pointer;
+  position: relative;
+  line-height: 1.4;
+  transition: color var(--transition), background var(--transition);
+}
+.vv-faq-q:hover {
+  color: var(--vv-gold);
+  background: var(--vv-sand);
+}
+.vv-faq-item.open .vv-faq-q {
+  background: var(--vv-sand);
+  color: var(--vv-green);
+  border-bottom: 1px solid var(--vv-border);
+}
+.vv-faq-icon {
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 26px;
+  height: 26px;
+  background: var(--vv-gold3);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  color: var(--vv-green);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1;
+  transition: background var(--transition), transform var(--transition);
+  pointer-events: none;
+}
+.vv-faq-item.open .vv-faq-icon {
+  background: var(--vv-gold);
+  transform: translateY(-50%) rotate(45deg);
+}
+.vv-faq-a {
+  display: none;
+  padding: 18px 20px 20px;
+  font-family: var(--ff-body);
+  font-size: 0.97rem;
+  color: var(--vv-muted);
+  line-height: 1.8;
+}
+.vv-faq-item.open .vv-faq-a {
+  display: block;
+}
+.vv-faq-a p {
+  margin: 0 0 10px;
+  font-size: 0.97rem;
+}
+.vv-faq-a p:last-child {
+  margin-bottom: 0;
+}
+
+/* ── 11. CTA SECTION ─────────────────────────────────────── */
+.vv-cta-section {
+  background: linear-gradient(135deg, var(--vv-green) 0%, var(--vv-green2) 100%);
+  border-radius: var(--radius-lg);
+  padding: 48px 40px;
+  text-align: center;
+  margin: 56px 0 0;
+  position: relative;
+  overflow: hidden;
+}
+.vv-cta-section::before {
+  content: '';
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 200px;
+  height: 200px;
+  background: rgba(201,168,76,0.12);
+  border-radius: 50%;
+}
+.vv-cta-eyebrow {
+  font-family: var(--ff-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--vv-gold2);
+  margin-bottom: 12px;
+  display: block;
+}
+.vv-cta-title {
+  font-family: var(--ff-display);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 600;
+  color: var(--vv-white);
+  margin: 0 0 12px;
+  line-height: 1.25;
+}
+.vv-cta-desc {
+  font-family: var(--ff-body);
+  font-size: 0.97rem;
+  color: rgba(255,255,255,0.80);
+  max-width: 480px;
+  margin: 0 auto 28px;
+  line-height: 1.7;
+}
+.vv-cta-buttons {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+.vv-cta-links {
+  font-family: var(--ff-body);
+  font-size: 0.88rem;
+  color: rgba(255,255,255,0.6);
+}
+.vv-cta-links a {
+  color: var(--vv-gold2);
+  text-decoration: none;
+  margin: 0 8px;
+}
+.vv-cta-links a:hover {
+  text-decoration: underline;
+}
+
+/* ── 12. BUTTONS ─────────────────────────────────────────── */
+.vv-btn-primary,
+.vv-btn-outline,
+.vv-btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 28px;
+  border-radius: var(--radius);
+  font-family: var(--ff-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all var(--transition);
+  letter-spacing: 0.02em;
+}
+.vv-btn-primary {
+  background: var(--vv-gold);
+  color: var(--vv-green) !important;
+  border-color: var(--vv-gold);
+}
+.vv-btn-primary:hover {
+  background: var(--vv-gold2);
+  border-color: var(--vv-gold2);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(201,168,76,0.4);
+}
+.vv-btn-outline {
+  background: transparent;
+  color: var(--vv-white) !important;
+  border-color: rgba(255,255,255,0.5);
+}
+.vv-btn-outline:hover {
+  border-color: var(--vv-white);
+  background: rgba(255,255,255,0.1);
+}
+.vv-btn-ghost {
+  background: transparent;
+  color: var(--vv-green) !important;
+  border-color: var(--vv-border);
+}
+.vv-btn-ghost:hover {
+  border-color: var(--vv-gold);
+  background: var(--vv-gold3);
+}
+
+/* ── 13. INTERNAL LINKS STRIP ────────────────────────────── */
+.vv-also-read {
+  background: var(--vv-sand);
+  border: 1px solid var(--vv-border);
+  border-radius: var(--radius);
+  padding: 18px 22px;
+  margin: 32px 0;
+  font-family: var(--ff-body);
+  font-size: 0.88rem;
+  color: var(--vv-muted);
+}
+.vv-also-read strong {
+  color: var(--vv-green);
+}
+.vv-also-read a {
+  color: var(--vv-green2);
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: 500;
+}
+.vv-also-read a:hover {
+  color: var(--vv-gold);
+  text-decoration: underline;
+}
+
+/* ── 14. TRUST STRIP (inline) ────────────────────────────── */
+.vv-trust-strip {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  margin: 32px 0;
+  border-top: 1px solid var(--vv-border);
+  border-bottom: 1px solid var(--vv-border);
+}
+.vv-trust-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--ff-body);
+  font-size: 0.83rem;
+  color: var(--vv-muted);
+  font-weight: 500;
+}
+.vv-trust-icon {
+  font-size: 1.1rem;
+}
+
+/* ── 15. RESPONSIVE ──────────────────────────────────────── */
+@media (max-width: 640px) {
+  .vv-page-hero { padding: 48px 16px 40px; }
+  .vv-page-body { padding: 36px 0 60px; }
+  .vv-container { padding: 0 16px; }
+  .vv-cta-section { padding: 36px 20px; }
+  .vv-page-body table { font-size: 0.82rem; }
+  .vv-page-body table thead th,
+  .vv-page-body table tbody td { padding: 9px 10px; }
+  .vv-faq-q { padding: 14px 44px 14px 16px; font-size: 0.97rem; }
+}
+
+
+/* Hide SEO intro paragraph site-wide (all pages/posts except home) */
+body.page:not(.home) .entry-content > p:first-of-type,
+body.single .entry-content > p:first-of-type {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0,0,0,0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+  pointer-events: none !important;
+}

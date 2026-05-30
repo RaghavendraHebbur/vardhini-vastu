@@ -1,0 +1,196 @@
+<!--
+=============================================================
+  VARDHINIVASTU.COM — PAGE CONTENT TEMPLATE
+=============================================================
+  HOW TO USE IN WORDPRESS:
+  1. Paste wordpress-additional-css.css into:
+     Appearance → Customize → Additional CSS
+  2. Add Google Fonts in Astra > Typography or enqueue in functions.php:
+     Cormorant Garamond (400,500,600,700 + italic) + DM Sans (300,400,500,600)
+  3. Each WordPress page: add a Custom HTML block and paste page content
+  4. Replace ALL_CAPS placeholders below
+
+  NOTES:
+  - The Astra theme header/footer/nav wrap this content automatically
+  - Do NOT include <html>, <head>, <body> tags
+  - The JSON-LD goes first (before any visible HTML)
+  - "(2026)" in H1: include for current-year pages, omit for timeless pages
+=============================================================
+-->
+
+<!-- ═══ JSON-LD SCHEMA ════════════════════════════════════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "FAQ QUESTION 1?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FAQ ANSWER 1."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "FAQ QUESTION 2?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FAQ ANSWER 2."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "FAQ QUESTION 3?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FAQ ANSWER 3."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "Vardhini Vastu",
+      "description": "Professional Vastu Shastra consultancy by Raghavendra Hebbur, Bangalore. VIDS™ system — 16-zone degree-accurate analysis with zero-demolition corrections.",
+      "url": "https://vardhinivastu.com",
+      "telephone": "+919739105574",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bangalore",
+        "addressRegion": "Karnataka",
+        "addressCountry": "IN"
+      },
+      "areaServed": ["Bangalore", "India", "Worldwide"]
+    }
+  ]
+}
+</script>
+
+<!-- ═══ PAGE HERO ══════════════════════════════════════════ -->
+<section class="vv-page-hero">
+  <div class="vv-container">
+    <span class="vv-page-hero-eyebrow">Vardhini Vastu · VIDS™ System</span>
+    <h1 class="vv-page-title">PAGE TITLE HERE</h1>
+    <p class="vv-page-subtitle">ONE LINE INTRO / SUBTITLE — summarise the core benefit or scope of this page in one sentence.</p>
+  </div>
+</section>
+
+<!-- ═══ PAGE BODY ══════════════════════════════════════════ -->
+<div class="vv-page-body">
+<div class="vv-container">
+
+  <!-- ── INTRO PARAGRAPH ── -->
+  <p>OPENING PARAGRAPH — 2–3 sentences introducing the topic. Establish the vastu principle, mention the VIDS™ system or zero-demolition approach where natural.</p>
+
+  <!-- ── SECTION 1 ── -->
+  <h2>SECTION HEADING</h2>
+  <p>Section content.</p>
+  <ul>
+    <li><strong>Point one:</strong> explanation</li>
+    <li><strong>Point two:</strong> explanation</li>
+  </ul>
+
+  <!-- ── TABLE (use where zone/direction comparisons needed) ── -->
+  <h2>ZONE / DIRECTION TABLE HEADING</h2>
+  <table>
+    <thead>
+      <tr><th>Zone</th><th>Suitability</th><th>Effect</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>North-East (NE)</td><td>Best</td><td>Description</td></tr>
+      <tr><td>South-West (SW)</td><td>Avoid</td><td>Description</td></tr>
+    </tbody>
+  </table>
+
+  <!-- ── DEFECT + REMEDY BLOCKS (use for remedy pages) ── -->
+  <h2>DEFECTS &amp; REMEDIES</h2>
+
+  <div class="vv-defect-box">
+    <p><strong>Defect:</strong> Description of the vastu defect.</p>
+  </div>
+  <div class="vv-remedy-box">
+    <p><strong>Remedy:</strong> Zero-demolition correction. Place [object] in [zone]. Keep [condition].</p>
+  </div>
+
+  <!-- ── ALSO READ STRIP ── -->
+  <div class="vv-also-read">
+    <strong>Also read:</strong>
+    <a href="/related-page-1">Related Page 1 →</a>
+    <a href="/related-page-2">Related Page 2 →</a>
+    <a href="/vastu-remedies">Vastu Remedies →</a>
+  </div>
+
+  <!-- ── FAQ ACCORDION ── -->
+  <div class="vv-faq-section">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="vv-faq-item">
+      <button class="vv-faq-q" onclick="vvToggleFaq(this)" aria-expanded="false">
+        FAQ QUESTION 1?
+        <span class="vv-faq-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="vv-faq-a">
+        <p>FAQ ANSWER 1.</p>
+      </div>
+    </div>
+
+    <div class="vv-faq-item">
+      <button class="vv-faq-q" onclick="vvToggleFaq(this)" aria-expanded="false">
+        FAQ QUESTION 2?
+        <span class="vv-faq-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="vv-faq-a">
+        <p>FAQ ANSWER 2.</p>
+      </div>
+    </div>
+
+    <div class="vv-faq-item">
+      <button class="vv-faq-q" onclick="vvToggleFaq(this)" aria-expanded="false">
+        FAQ QUESTION 3?
+        <span class="vv-faq-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="vv-faq-a">
+        <p>FAQ ANSWER 3.</p>
+      </div>
+    </div>
+
+  </div><!-- /.vv-faq-section -->
+
+  <!-- ── CTA SECTION ── -->
+  <div class="vv-cta-section">
+    <span class="vv-cta-eyebrow">Zero-Demolition Corrections · VIDS™ System</span>
+    <h2 class="vv-cta-title">Get a TOPIC Vastu Assessment</h2>
+    <p class="vv-cta-desc">The VIDS™ consultation identifies [specific benefit for this page] — delivering a complete, zero-demolition correction protocol.</p>
+    <div class="vv-cta-buttons">
+      <a href="https://vardhinivastu.com/vastu-consultant-bangalore-contact/" class="vv-btn-primary">Book a Consultation →</a>
+      <a href="https://wa.me/919739105574" class="vv-btn-outline">WhatsApp +91 97391 05574</a>
+    </div>
+    <p class="vv-cta-links">
+      <a href="/vastu-directions">Vastu Directions</a> ·
+      <a href="/vastu-remedies">Vastu Remedies</a> ·
+      <a href="/what-is-vastu-shastra">What is Vastu?</a>
+    </p>
+  </div>
+
+</div><!-- /.vv-container -->
+</div><!-- /.vv-page-body -->
+
+<!-- ═══ FAQ ACCORDION JS ════════════════════════════════════ -->
+<script>
+function vvToggleFaq(btn) {
+  var item = btn.closest('.vv-faq-item');
+  var isOpen = item.classList.contains('open');
+  document.querySelectorAll('.vv-faq-item.open').forEach(function(el) {
+    el.classList.remove('open');
+    el.querySelector('.vv-faq-q').setAttribute('aria-expanded', 'false');
+  });
+  if (!isOpen) {
+    item.classList.add('open');
+    btn.setAttribute('aria-expanded', 'true');
+  }
+}
+</script>

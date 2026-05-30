@@ -1,0 +1,902 @@
+const fs = require('fs');
+const path = require('path');
+
+const HTML_TEMPLATE = `<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>{meta_title}</title>
+  <meta name="description" content="{meta_description}" />
+  <link rel="canonical" href="https://vardhinivastu.in/{filename}" />
+
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Raghavendra Hebbur" />
+  <meta name="keywords" content="{meta_keywords}" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{meta_title}" />
+  <meta property="og:description" content="{meta_description}" />
+  <meta property="og:image" content="https://vardhinivastu.in/wp-content/uploads/2026/05/picofme-6-1.png" />
+  <meta property="og:url" content="https://vardhinivastu.in/{filename}" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{meta_title}" />
+  <meta name="twitter:description" content="{meta_description}" />
+  <meta name="twitter:image" content="https://vardhinivastu.in/wp-content/uploads/2026/05/picofme-6-1.png" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://vardhinivastu.in/{slug}#article",
+        "isPartOf": {
+          "@type": "WebPage",
+          "@id": "https://vardhinivastu.in/{slug}/"
+        },
+        "headline": "{headline}",
+        "description": "{meta_description}",
+        "author": {
+          "@type": "Person",
+          "name": "Raghavendra Hebbur",
+          "url": "https://vardhinivastu.in/about.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Vardhini Vastu",
+          "url": "https://vardhinivastu.in/"
+        },
+        "datePublished": "2026-05-27",
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://vardhinivastu.in/{slug}#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "{faq1_q}",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "{faq1_a}"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "{faq2_q}",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "{faq2_a}"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "{faq3_q}",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "{faq3_a}"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can scientific Vastu corrections be done without any physical demolition in apartments?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, scientific Vastu focuses on energy balancing and element alignment. By using specific metals (like brass, copper, lead), colors, and geopathic stress resonators under carpets, skirtings, or false ceilings, we can neutralize defects without breaking any walls or altering builder structural designs."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2, h3, h4 { font-family: 'Outfit', sans-serif; }
+    .hero-bg { background: linear-gradient(135deg, #f8f7f4 0%, #f3f1eb 100%); }
+    .section-title-underline { position: relative; padding-bottom: 0.75rem; display: inline-block; }
+    .section-title-underline::after { content: ''; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 80px; height: 4px; background-color: #f97316; border-radius: 2px; }
+    .gradient-text { background: linear-gradient(45deg, #f97316, #ea580c); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .faq-item .answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; }
+    .faq-item.open .answer { max-height: 800px; }
+    .faq-item .icon { transition: transform 0.3s ease; }
+    .faq-item.open .icon { transform: rotate(45deg); }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+<!-- Top Banner -->
+<div class="w-full bg-gradient-to-r from-yellow-50 to-orange-50 shadow-sm flex items-center justify-center py-3 px-4 text-center border-b border-yellow-200">
+  <span class="text-yellow-400 mr-2 text-xl">★★★★★</span>
+  <span class="text-base md:text-lg font-bold text-gray-700">
+    Bangalore’s #1 Scientific Vastu Consultant • 5-Star Google Rating • 600+ Properties Transformed
+  </span>
+</div>
+
+<!-- Header / Navigation Bar -->
+<header class="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+    <a href="/" class="flex items-center gap-2">
+      <span class="text-2xl font-extrabold text-gray-800 tracking-tight">
+        Vardhini <span class="text-orange-600">Vastu</span>
+      </span>
+    </a>
+    
+    <nav class="hidden md:flex items-center gap-8">
+      <a href="/" class="text-sm font-semibold text-gray-600 hover:text-orange-600 transition">Home</a>
+      <a href="/services/" class="text-sm font-semibold text-gray-600 hover:text-orange-600 transition">Services</a>
+      <a href="/about/" class="text-sm font-semibold text-gray-600 hover:text-orange-600 transition">About Us</a>
+      <a href="/testimonials/" class="text-sm font-semibold text-gray-600 hover:text-orange-600 transition">Success Stories</a>
+      <a href="/contact/" class="text-sm font-semibold text-gray-600 hover:text-orange-600 transition">Contact</a>
+    </nav>
+    
+    <div class="hidden md:block">
+      <a href="https://wa.me/919739105574?text=Hello%20Raghu!%20I%20want%20to%20book%20a%20Vastu%20consultation." 
+         target="_blank" rel="noopener noreferrer"
+         class="bg-orange-600 text-white font-semibold px-5 py-2.5 rounded-lg hover:bg-orange-700 transition text-sm shadow-md">
+        Book Consultation
+      </a>
+    </div>
+    
+    <button id="mobile-menu-btn" class="md:hidden p-2 text-gray-600 focus:outline-none" aria-label="Toggle navigation">
+      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path id="menu-icon-path" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  </div>
+  
+  <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 px-6 py-4 flex flex-col gap-4 shadow-inner">
+    <a href="/" class="text-sm font-semibold text-gray-600">Home</a>
+    <a href="/services/" class="text-sm font-semibold text-gray-600 hover:text-orange-600">Services</a>
+    <a href="/about/" class="text-sm font-semibold text-gray-600 hover:text-orange-600">About Us</a>
+    <a href="/testimonials/" class="text-sm font-semibold text-gray-600 hover:text-orange-600">Success Stories</a>
+    <a href="/contact/" class="text-sm font-semibold text-gray-600 hover:text-orange-600">Contact</a>
+    <a href="https://wa.me/919739105574?text=Hello%20Raghu!%20I%20want%20to%20book%20a%20Vastu%20consultation." 
+       target="_blank" rel="noopener noreferrer"
+       class="bg-orange-600 text-white font-semibold py-3 rounded-lg hover:bg-orange-700 transition text-center text-sm w-full block mt-2">
+      Book Consultation
+    </a>
+  </div>
+</header>
+
+<main>
+  <!-- Hero Section -->
+  <section class="hero-bg py-20 border-b border-gray-100">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <span class="bg-orange-100 text-orange-800 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">{category}</span>
+      <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mt-4 leading-tight">
+        {hero_title}
+      </h1>
+      <p class="text-lg text-gray-600 mt-4 leading-relaxed max-w-2xl mx-auto">
+        {hero_tagline}
+      </p>
+    </div>
+  </section>
+
+  <!-- Author Verification Box -->
+  <section class="py-12 bg-white">
+    <div class="max-w-4xl mx-auto px-6">
+      <div class="bg-orange-50 p-6 rounded-2xl border border-orange-100 flex flex-col md:flex-row items-center gap-6">
+        <img src="https://assets.zyrosite.com/mv0DEjQxOGiDlo89/sam_1727-ALpe0v75j3Tjeqpb.JPG" alt="Raghavendra Hebbur" class="w-24 h-24 rounded-full object-cover border-2 border-orange-500 shadow-md" />
+        <div class="text-left">
+          <h3 class="text-lg font-bold text-gray-900">Verified by Raghavendra Hebbur</h3>
+          <p class="text-sm text-gray-500 mb-2">Certified Geo Master & Leading Scientific Vastu Consultant</p>
+          <p class="text-sm text-gray-600">
+            {author_bio}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scientific Rationale -->
+  <section class="py-16 bg-white border-t border-gray-50">
+    <div class="max-w-4xl mx-auto px-6 text-left">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center">{rationale_heading}</h2>
+      <div class="text-gray-600 leading-relaxed space-y-6 text-base">
+        {rationale_content}
+      </div>
+    </div>
+  </section>
+
+  <!-- Zonal Table -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">{table_heading}</h2>
+      <div class="overflow-x-auto rounded-xl shadow-md bg-white border border-gray-100">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="bg-orange-50 text-orange-900 border-b border-orange-100">
+              <th class="p-4 font-bold">{th1}</th>
+              <th class="p-4 font-bold">{th2}</th>
+              <th class="p-4 font-bold">{th3}</th>
+              <th class="p-4 font-bold">{th4}</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-100 text-gray-700">
+            {table_rows}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Defects & Symptoms -->
+  <section class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-6 text-left">
+      <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">{defects_heading}</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="border border-red-100 p-6 rounded-xl bg-red-50/50">
+          <h3 class="text-lg font-bold text-red-800 mb-3 flex items-center gap-2">
+            <span>⚠️</span> {defect1_title}
+          </h3>
+          <p class="text-sm text-gray-700 leading-relaxed">
+            {defect1_desc}
+          </p>
+        </div>
+        <div class="border border-red-100 p-6 rounded-xl bg-red-50/50">
+          <h3 class="text-lg font-bold text-red-800 mb-3 flex items-center gap-2">
+            <span>⚠️</span> {defect2_title}
+          </h3>
+          <p class="text-sm text-gray-700 leading-relaxed">
+            {defect2_desc}
+          </p>
+        </div>
+        <div class="border border-red-100 p-6 rounded-xl bg-red-50/50">
+          <h3 class="text-lg font-bold text-red-800 mb-3 flex items-center gap-2">
+            <span>⚠️</span> {defect3_title}
+          </h3>
+          <p class="text-sm text-gray-700 leading-relaxed">
+            {defect3_desc}
+          </p>
+        </div>
+        <div class="border border-red-100 p-6 rounded-xl bg-red-50/50">
+          <h3 class="text-lg font-bold text-red-800 mb-3 flex items-center gap-2">
+            <span>⚠️</span> {defect4_title}
+          </h3>
+          <p class="text-sm text-gray-700 leading-relaxed">
+            {defect4_desc}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Non-Demolition Remedies -->
+  <section class="py-16 bg-gradient-to-br from-yellow-50 to-orange-50 border-t border-b border-orange-100">
+    <div class="max-w-4xl mx-auto px-6 text-left">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center">100% Non-Demolition Energy Balancing</h2>
+      <p class="text-gray-700 leading-relaxed mb-8 text-center">
+        We neutralize spatial imbalances through scientific energy redirection, avoiding structural changes entirely:
+      </p>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+          <div class="text-orange-500 text-2xl font-bold mb-2">01</div>
+          <h4 class="font-bold text-gray-800 mb-2">{rem1_title}</h4>
+          <p class="text-xs text-gray-600 leading-relaxed">
+            {rem1_desc}
+          </p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+          <div class="text-orange-500 text-2xl font-bold mb-2">02</div>
+          <h4 class="font-bold text-gray-800 mb-2">{rem2_title}</h4>
+          <p class="text-xs text-gray-600 leading-relaxed">
+            {rem2_desc}
+          </p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+          <div class="text-orange-500 text-2xl font-bold mb-2">03</div>
+          <h4 class="font-bold text-gray-800 mb-2">{rem3_title}</h4>
+          <p class="text-xs text-gray-600 leading-relaxed">
+            {rem3_desc}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="py-20 bg-white" id="faq">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-gray-900 mb-12 text-center">Frequently Asked Questions</h2>
+      <div id="faq-accordion" class="space-y-4 text-left">
+        <div class="faq-item bg-gray-50 p-6 rounded-lg border border-gray-100">
+          <button class="question w-full flex justify-between items-center text-left text-lg font-semibold text-gray-800 focus:outline-none">
+            <span>{faq1_q}</span>
+            <span class="icon text-orange-500 text-3xl font-light">+</span>
+          </button>
+          <div class="answer pt-4 text-gray-600 leading-relaxed">
+            <p>
+              {faq1_a}
+            </p>
+          </div>
+        </div>
+        <div class="faq-item bg-gray-50 p-6 rounded-lg border border-gray-100">
+          <button class="question w-full flex justify-between items-center text-left text-lg font-semibold text-gray-800 focus:outline-none">
+            <span>{faq2_q}</span>
+            <span class="icon text-orange-500 text-3xl font-light">+</span>
+          </button>
+          <div class="answer pt-4 text-gray-600 leading-relaxed">
+            <p>
+              {faq2_a}
+            </p>
+          </div>
+        </div>
+        <div class="faq-item bg-gray-50 p-6 rounded-lg border border-gray-100">
+          <button class="question w-full flex justify-between items-center text-left text-lg font-semibold text-gray-800 focus:outline-none">
+            <span>{faq3_q}</span>
+            <span class="icon text-orange-500 text-3xl font-light">+</span>
+          </button>
+          <div class="answer pt-4 text-gray-600 leading-relaxed">
+            <p>
+              {faq3_a}
+            </p>
+          </div>
+        </div>
+        <div class="faq-item bg-gray-50 p-6 rounded-lg border border-gray-100">
+          <button class="question w-full flex justify-between items-center text-left text-lg font-semibold text-gray-800 focus:outline-none">
+            <span>Can scientific Vastu corrections be done without any physical demolition in apartments?</span>
+            <span class="icon text-orange-500 text-3xl font-light">+</span>
+          </button>
+          <div class="answer pt-4 text-gray-600 leading-relaxed">
+            <p>
+              Yes, scientific Vastu focuses on energy balancing and element alignment. By using specific metals (like brass, copper, lead), colors, and geopathic stress resonators under carpets, skirtings, or false ceilings, we can neutralize defects without breaking any walls or altering builder structural designs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-orange-600 to-red-600 text-white">
+    <div class="container mx-auto px-6 text-center max-w-4xl">
+      <h2 class="text-3xl md:text-4xl font-bold mb-6">
+        {cta_heading}
+      </h2>
+      <p class="text-lg mb-8 opacity-90 leading-relaxed">
+        {cta_desc}
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="https://wa.me/919739105574?text=Hello%20Raghu!%20I%20want%20to%20book%20a%20Vastu%20scan%20for%20my%20property."
+           target="_blank" rel="noopener noreferrer"
+           class="bg-white text-orange-600 font-bold text-lg px-8 py-4 rounded-lg hover:bg-gray-100 transition transform hover:scale-105 shadow-xl w-full sm:w-auto">
+          {cta_button}
+        </a>
+        <a href="/contact/"
+           class="bg-transparent border-2 border-white text-white font-bold text-lg px-8 py-4 rounded-lg hover:bg-white hover:text-orange-600 transition w-full sm:w-auto">
+          Contact Us
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hidden SEO keyword div -->
+  <div style="display:none" aria-hidden="true">
+    <h2>{seo_keyword_title}</h2>
+    <p>
+      {seo_keyword_desc}
+    </p>
+    <ul>
+      <li>{seo_kw1}</li>
+      <li>{seo_kw2}</li>
+      <li>{seo_kw3}</li>
+      <li>{seo_kw4}</li>
+    </ul>
+  </div>
+
+  <!-- Academic & Historical References -->
+  <section class="py-12 bg-gray-50 border-t border-gray-100">
+    <div class="max-w-4xl mx-auto px-6 text-left">
+      <h3 class="text-xs font-bold text-orange-600 uppercase tracking-widest mb-3">Academic & Historical References</h3>
+      <p class="text-xs text-gray-500 leading-relaxed">
+        For deeper scientific and historical context on Vastu Shastra principles, physical energy fields, and architecture, explore the <a href="https://en.wikipedia.org/wiki/Vastu_shastra" target="_blank" rel="noopener noreferrer" class="text-orange-600 hover:underline">Vastu Shastra scientific overview on Wikipedia</a> and historical building codes outlined in the <a href="https://en.wikipedia.org/wiki/Samarangana_Sutradhara" target="_blank" rel="noopener noreferrer" class="text-orange-600 hover:underline">Samarangana Sutradhara on Wikipedia</a>.
+      </p>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-gray-950 text-gray-400 pt-16 pb-8 border-t border-gray-900">
+  <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+    <div class="text-left">
+      <h3 class="text-white text-lg font-bold mb-4 font-sans">Vardhini Vastu</h3>
+      <p class="text-sm text-gray-400 leading-relaxed mb-6">
+        Scientific, non-demolition Vastu consultations for residential, commercial, and industrial spaces. Balancing energies using advanced scientific tools.
+      </p>
+    </div>
+    
+    <div class="text-left">
+      <h3 class="text-white text-base font-bold mb-4 font-sans">Services</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="/services/" class="hover:text-orange-500 transition">Residential Vastu</a></li>
+        <li><a href="/services/" class="hover:text-orange-500 transition">Commercial Vastu</a></li>
+        <li><a href="/services/" class="hover:text-orange-500 transition">Industrial Vastu</a></li>
+        <li><a href="/services/" class="hover:text-orange-500 transition">Online Vastu Consultation</a></li>
+        <li><a href="/services/" class="hover:text-orange-500 transition">Geopathic Stress Detection</a></li>
+      </ul>
+    </div>
+    
+    <div class="text-left">
+      <h3 class="text-white text-base font-bold mb-4 font-sans">Quick Links</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="/" class="hover:text-orange-500 transition">Home</a></li>
+        <li><a href="/services/" class="hover:text-orange-500 transition">Vastu Services</a></li>
+        <li><a href="/about/" class="hover:text-orange-500 transition">About Raghavendra Hebbur</a></li>
+        <li><a href="/testimonials/" class="hover:text-orange-500 transition">Success Stories</a></li>
+        <li><a href="/contact/" class="hover:text-orange-500 transition">Contact Us</a></li>
+      </ul>
+    </div>
+    
+    <div class="text-left">
+      <h3 class="text-white text-base font-bold mb-4 font-sans">Contact Info</h3>
+      <p class="text-sm text-gray-400 mb-2 leading-relaxed">
+        <strong>Vardhini Vastu</strong><br>
+        3rd Cross, Saraswati Road, Ajit Layout, Virgo Nagar, Bengaluru, Karnataka 560049
+      </p>
+      <p class="text-sm text-gray-400 mb-2">
+        <strong>Phone:</strong> <a href="tel:+919739105574" class="hover:text-orange-500 transition">+91 97391 05574</a>
+      </p>
+      <p class="text-sm text-gray-400">
+        <strong>Email:</strong> <a href="mailto:info@vardhinivastu.in" class="hover:text-orange-500 transition">info@vardhinivastu.in</a>
+      </p>
+    </div>
+  </div>
+  
+  <div class="max-w-7xl mx-auto px-6 pt-8 border-t border-gray-900 text-center flex flex-col md:flex-row items-center justify-between gap-4">
+    <p class="text-xs text-gray-500">
+      &copy; 2026 Vardhini Vastu. All Rights Reserved. | Dedicated to Scientific and Non-Demolition Vastu.
+    </p>
+    <div class="flex items-center gap-6 text-xs text-gray-500">
+      <a href="/privacy-policy/" class="hover:text-orange-500 transition">Privacy Policy</a>
+      <a href="/terms/" class="hover:text-orange-500 transition">Terms of Service</a>
+      <a href="/disclaimer/" class="hover:text-orange-500 transition">Disclaimer</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const btn = document.getElementById("mobile-menu-btn");
+    const menu = document.getElementById("mobile-menu");
+    const path = document.getElementById("menu-icon-path");
+    if (btn && menu) {
+      btn.addEventListener("click", () => {
+        const isHidden = menu.classList.contains("hidden");
+        if (isHidden) {
+          menu.classList.remove("hidden");
+          path.setAttribute("d", "M6 18L18 6M6 6l12 12");
+        } else {
+          menu.classList.add("hidden");
+          path.setAttribute("d", "M4 6h16M4 12h16M4 18h16");
+        }
+      });
+    }
+  });
+
+  const handleAccordion = (accordionId) => {
+    const accordion = document.getElementById(accordionId);
+    if (!accordion) return;
+    accordion.addEventListener('click', (e) => {
+      const questionButton = e.target.closest('.question');
+      if (!questionButton) return;
+      const faqItem = questionButton.parentElement;
+      const allItems = accordion.querySelectorAll('.faq-item');
+      allItems.forEach(item => {
+        if (item !== faqItem) item.classList.remove('open');
+      });
+      faqItem.classList.toggle('open');
+    });
+  };
+  handleAccordion('faq-accordion');
+</script>
+
+</body>
+</html>
+`;
+
+function interpolate(template, data) {
+  let result = template;
+  for (const key of Object.keys(data)) {
+    const regex = new RegExp('{' + key + '}', 'g');
+    result = result.replace(regex, data[key]);
+  }
+  return result;
+}
+
+const PAGE_DATA = [
+  {
+    "filename": "vastu-for-prestige-tranquility.html",
+    "slug": "vastu-for-prestige-tranquility",
+    "category": "Apartment Vastu",
+    "meta_title": "Vastu for Prestige Tranquility Apartments | Scientific Remedies | Vardhini Vastu",
+    "meta_description": "Scientific Vastu corrections for Prestige Tranquility layout plans. Learn how to fix geopathic stress, corner cuts, and irregular flat orientations without demolition.",
+    "meta_keywords": "Prestige Tranquility Vastu, Vastu for Prestige apartments Bangalore, zero demolition Vastu remedies for flats, Prestige Tranquility floor plan Vastu",
+    "headline": "Scientific Vastu Corrections for Prestige Tranquility Apartments",
+    "hero_title": "Prestige Tranquility: <span class=\"gradient-text\">Aligning Your Apartment Energy</span>",
+    "hero_tagline": "Discover precise, zero-demolition Vastu remedies for typical floor plans at Prestige Tranquility. We neutralize structural cuts and geopathic stress in high-rise towers.",
+    "author_bio": "Specializing in high-rise apartment biophysics. Scanning floor layouts in large residential complexes to balance telluric radiation and spatial energy fields.",
+    "rationale_heading": "Vastu Dynamics in High-Density Residential Projects",
+    "rationale_content": "<p>Large-scale residential projects like Prestige Tranquility involve complex architectural layouts with multiple towers, shared structural walls, and deep basement car parks. In Vastu, these high-density concrete structures create unique energy challenges. Typical apartment units often suffer from <strong>cut corners (missing zones)</strong>, extended balconies in negative sectors, and core energy blockages due to elevator shafts and electrical ducts.</p><p>Moreover, living several floors above the ground disconnects occupants from the Earth's natural magnetic resonance, leading to sleep disturbances and chronic fatigue. Scientific Vastu addresses these specific architectural traits by using Lecher Antenna scanning to map the unique energy grid of your specific flat in Prestige Tranquility, applying metal and color resonators to correct the flow without any structural demolition.</p>",
+    "table_heading": "Common Layout Features & Remedies in Prestige Tranquility",
+    "th1": "Apartment Feature",
+    "th2": "Element Sector Impact",
+    "th3": "Potential Defect Impact",
+    "th4": "Scientific Zero-Demolition Remedy",
+    "table_rows": `
+      <tr>
+        <td class="p-4 font-semibold">Missing North-East (Corner Cut)</td>
+        <td class="p-4">Water / Brain</td>
+        <td class="p-4 text-red-600">Lack of clarity, financial blocks, child education issues</td>
+        <td class="p-4">Virtual extension using Zinc wire loops on the floor.</td>
+      </tr>
+      <tr>
+        <td class="p-4 font-semibold">Balcony in South-West</td>
+        <td class="p-4">Earth / Stability</td>
+        <td class="p-4 text-red-600">Drains wealth, causes instability and relationship stress</td>
+        <td class="p-4">Block energy drain with heavy Brass plates or Yellow tape.</td>
+      </tr>
+      <tr>
+        <td class="p-4 font-semibold">Toilet next to Main Entrance</td>
+        <td class="p-4">Varies (Often Air or Space)</td>
+        <td class="p-4 text-orange-600">Flushes incoming positive opportunities, creates negative aura</td>
+        <td class="p-4">Install specific elemental metal strips around the toilet floor.</td>
+      </tr>
+      <tr>
+        <td class="p-4 font-semibold">High-Rise Geopathic Stress</td>
+        <td class="p-4">Overall Body Vitality</td>
+        <td class="p-4 text-red-600">Insomnia, fatigue, weak immunity due to earth disconnection</td>
+        <td class="p-4">Place Copper/Brass resonance rods under the bed or flooring.</td>
+      </tr>
+    `,
+    "defects_heading": "Specific Vastu Challenges in Prestige Layouts",
+    "defect1_title": "Irregular Floor Shapes (L-Shaped or Angled)",
+    "defect1_desc": "<strong>Symptom:</strong> Modern facade designs often result in angled walls or L-shaped living rooms, which confuse the directional energy flow and cause mental restlessness.",
+    "defect2_title": "Elevator Shafts Sharing Bedroom Walls",
+    "defect2_desc": "<strong>Symptom:</strong> Continuous kinetic movement and heavy electrical motors disrupt the sleep environment, leading to chronic insomnia and anxiety.",
+    "defect3_title": "Kitchens in North or North-East",
+    "defect3_desc": "<strong>Symptom:</strong> A clash of fire (kitchen) and water (North/NE) elements causes severe health issues, particularly related to digestion and blood pressure.",
+    "defect4_title": "Main Doors Facing South-South-West",
+    "defect4_desc": "<strong>Symptom:</strong> This 'disposal' entrance alignment drains resources rapidly, leading to unexpected heavy expenditures and business losses.",
+    "rem1_title": "Virtual Boundary Extensions",
+    "rem1_desc": "Using metallic strips (Zinc/Copper) hidden under carpets or skirting boards to virtually complete missing corners in irregular flats.",
+    "rem2_title": "Electromagnetic Shielding",
+    "rem2_desc": "Installing specific energy blockers on shared walls to protect bedrooms from elevator shaft vibrations and electrical duct EMFs.",
+    "rem3_title": "Element Balancing Colors",
+    "rem3_desc": "Applying subtle, specific paint colors to neutralize element clashes, such as balancing a North kitchen without relocating the stove.",
+    "faq1_q": "Can I fix the Vastu of my Prestige Tranquility flat without breaking walls?",
+    "faq1_a": "Yes, absolutely. Scientific Vastu relies on energy resonance rather than physical structure. We use metals, colors, and crystals to neutralize defects, meaning you don't need permission from the builder or society to make corrections.",
+    "faq2_q": "My flat has a large balcony in the South-West. Is this bad?",
+    "faq2_a": "In traditional Vastu, a South-West balcony is considered a major defect as it 'opens up' the stability zone. However, we can correct this by placing heavy brass elements or specific color tapes near the balcony door to 'seal' the energy leak.",
+    "faq3_q": "How does living on a high floor affect Vastu?",
+    "faq3_a": "Higher floors have a weaker connection to the Earth's grounding magnetic field (telluric energy). This can lead to feeling 'ungrounded' or anxious. We counteract this by introducing grounding metals and earth-element resonators into the apartment.",
+    "cta_heading": "Ensure Prosperity in Your Prestige Tranquility Home",
+    "cta_desc": "Book a comprehensive scientific Vastu scan for your apartment. We provide actionable, zero-demolition remedies tailored to your specific unit's layout.",
+    "cta_button": "📲 Book Apartment Vastu Audit",
+    "seo_keyword_title": "Vastu for Prestige Tranquility Flats in Bangalore",
+    "seo_keyword_desc": "Optimize the energy in your Prestige Tranquility apartment. Raghavendra Hebbur provides specialized, zero-demolition Vastu corrections for high-rise living in Bangalore.",
+    "seo_kw1": "Prestige Tranquility Vastu",
+    "seo_kw2": "Vastu for Prestige apartments Bangalore",
+    "seo_kw3": "zero demolition Vastu remedies for flats",
+    "seo_kw4": "Prestige Tranquility floor plan Vastu"
+  },
+  {
+    "filename": "vastu-for-assetz-marq.html",
+    "slug": "vastu-for-assetz-marq",
+    "category": "Apartment Vastu",
+    "meta_title": "Vastu for Assetz Marq Apartments | Scientific Remedies | Vardhini Vastu",
+    "meta_description": "Scientific Vastu corrections for Assetz Marq floor plans. Fix geopathic stress, structural cuts, and high-rise energy imbalances without breaking walls.",
+    "meta_keywords": "Assetz Marq Vastu, Vastu for Assetz properties Bangalore, flat Vastu remedies without demolition, Assetz Marq floor plan Vastu",
+    "headline": "Scientific Vastu Corrections for Assetz Marq Apartments",
+    "hero_title": "Assetz Marq: <span class=\"gradient-text\">Harmonizing High-Rise Living</span>",
+    "hero_tagline": "Discover precise, zero-demolition Vastu remedies for typical floor plans at Assetz Marq. We neutralize structural cuts and geopathic stress in your premium apartment.",
+    "author_bio": "Expert in geobiological scanning for luxury apartment complexes. Balancing the unique energy signatures of modern, amenity-rich residential layouts.",
+    "rationale_heading": "Vastu Dynamics in Modern Premium Township Projects",
+    "rationale_content": "<p>Premium township projects like Assetz Marq feature expansive layouts, large central amenities, and highly stylized apartment towers. While these designs offer excellent lifestyle benefits, the architectural complexity often introduces specific Vastu challenges. Common issues in such flats include <strong>irregular geometries</strong> to maximize views, large sliding glass doors in sensitive zones, and open-plan layouts that mix elemental energies inappropriately.</p><p>Scientific Vastu provides a sophisticated solution for these modern homes. Instead of suggesting impossible structural changes, we use advanced diagnostic tools like the Universal Aura Scanner to identify the exact elemental imbalances in your Assetz Marq flat. We then apply precise, discreet remedies—such as embedding specific metallic wires in the floor transitions or using specialized color frequencies—to align your home's energy with natural cosmic flows.</p>",
+    "table_heading": "Common Layout Features & Remedies in Assetz Marq",
+    "th1": "Apartment Feature",
+    "th2": "Element Sector Impact",
+    "th3": "Potential Defect Impact",
+    "th4": "Scientific Zero-Demolition Remedy",
+    "table_rows": `
+      <tr>
+        <td class="p-4 font-semibold">Large Glass Facades in South/West</td>
+        <td class="p-4">Fire / Space</td>
+        <td class="p-4 text-orange-600">Excess heat/energy entering, causing restlessness and arguments</td>
+        <td class="p-4">Install sun-control films, heavy curtains, or copper window sill strips.</td>
+      </tr>
+      <tr>
+        <td class="p-4 font-semibold">Open Kitchen blending with Living Area</td>
+        <td class="p-4">Fire mixing with Air/Space</td>
+        <td class="p-4 text-orange-600">Can cause financial volatility if the fire element spreads to wrong zones</td>
+        <td class="p-4">Create a virtual boundary with a yellow or brass strip on the floor.</td>
+      </tr>
+      <tr>
+        <td class="p-4 font-semibold">Master Bedroom in South-East</td>
+        <td class="p-4">Fire / Agni</td>
+        <td class="p-4 text-red-600">High stress, sleep disorders, and frequent health issues for couples</td>
+        <td class="p-4">Balance the fire element using green color therapy and wood elements.</td>
+      </tr>
+      <tr>
+        <td class="p-4 font-semibold">Central Core (Brahmasthan) Blocked</td>
+        <td class="p-4">Space / Ether</td>
+        <td class="p-4 text-red-600">Stagnation in life, feeling stuck, digestive health problems</td>
+        <td class="p-4">Install a 9-pyramid energy centralizer (hidden) to stimulate flow.</td>
+      </tr>
+    `,
+    "defects_heading": "Specific Vastu Challenges in Premium Layouts",
+    "defect1_title": "Cuts in the North-West Sector",
+    "defect1_desc": "<strong>Symptom:</strong> A missing North-West corner can lead to lack of support from peers, legal troubles, and delays in marriage or partnerships.",
+    "defect2_title": "Toilets in the North-East",
+    "defect2_desc": "<strong>Symptom:</strong> This is a severe defect in Vastu, blocking the entry of positive energy and leading to chronic health issues and financial ruin.",
+    "defect3_title": "Extended South-West Balconies",
+    "defect3_desc": "<strong>Symptom:</strong> Extensions in the stability zone create an imbalance, making occupants feel ungrounded and prone to unexpected expenses.",
+    "defect4_title": "Underground Parking beneath the Flat",
+    "defect4_desc": "<strong>Symptom:</strong> Hollow spaces (parking) directly under lower-floor flats weaken the earth element, causing a lack of stability in career and finances.",
+    "rem1_title": "Elemental Tape Blocking",
+    "rem1_desc": "Using specific colored tapes (e.g., blue for North toilets) on the floor to energetically isolate negative zones like misplaced bathrooms.",
+    "rem2_title": "Virtual Corner Completion",
+    "rem2_desc": "Installing zinc or copper L-shaped angles in the floor skirting to virtually complete any cut or missing corners in the layout.",
+    "rem3_title": "Earth Element Fortification",
+    "rem3_desc": "Placing heavy, dense materials (like natural crystals or brass blocks) in the South-West to compensate for hollow spaces below.",
+    "faq1_q": "My Assetz Marq flat has an open kitchen. Is that Vastu compliant?",
+    "faq1_a": "Open kitchens are very common in modern apartments. They are fine as long as they are located in the South-East or North-West. If they are in other zones, we create a 'virtual wall' using metallic strips on the floor to contain the fire element.",
+    "faq2_q": "How do you fix a toilet in the North-East without remodeling?",
+    "faq2_a": "A North-East toilet is a major defect. We cannot move the plumbing, but we can isolate its negative energy. We use specific metal wires (like Aluminum or Zinc) and blue color tape around the toilet floor boundary to block the draining effect.",
+    "faq3_q": "Does the tower direction matter more than the flat direction?",
+    "faq3_a": "Both matter, but the internal layout of your specific flat has a more direct impact on your daily life. The entrance to your flat, the placement of your bed, and the location of the kitchen are the primary factors we balance.",
+    "cta_heading": "Maximize Positivity in Your Assetz Marq Home",
+    "cta_desc": "Book a scientific Vastu consultation for your apartment. We provide discreet, effective remedies to ensure your home supports your success and wellbeing.",
+    "cta_button": "📲 Book Apartment Vastu Audit",
+    "seo_keyword_title": "Vastu for Assetz Marq Flats in Bangalore",
+    "seo_keyword_desc": "Optimize the energy in your Assetz Marq apartment. Raghavendra Hebbur provides specialized, zero-demolition Vastu corrections for premium high-rise living.",
+    "seo_kw1": "Assetz Marq Vastu",
+    "seo_kw2": "Vastu for Assetz properties Bangalore",
+    "seo_kw3": "flat Vastu remedies without demolition",
+    "seo_kw4": "Assetz Marq floor plan Vastu"
+  },
+  {
+    "filename": "vastu-for-total-environment.html",
+    "slug": "vastu-for-total-environment",
+    "category": "Apartment Vastu",
+    "meta_title": "Vastu for Total Environment Homes | Scientific Remedies | Vardhini Vastu",
+    "meta_description": "Scientific Vastu corrections for Total Environment unique floor plans. Harmonize natural elements, terrace gardens, and organic layouts without structural changes.",
+    "meta_keywords": "Total Environment Vastu, Vastu for Total Environment projects Bangalore, Vastu for homes with terrace gardens, organic architecture Vastu remedies",
+    "headline": "Scientific Vastu Corrections for Total Environment Homes",
+    "hero_title": "Total Environment: <span class=\"gradient-text\">Balancing Organic Architecture</span>",
+    "hero_tagline": "Total Environment homes blend nature with architecture. Discover how we fine-tune these unique, organic layouts using scientific Vastu principles to ensure perfect elemental harmony.",
+    "author_bio": "Specializing in the biophysics of organic architecture. Integrating Vastu principles seamlessly with natural, earthy design aesthetics without disrupting the original vision.",
+    "rationale_heading": "Vastu Dynamics in Earth-Centric Architecture",
+    "rationale_content": "<p>Total Environment projects are renowned for their organic architecture, extensive use of natural materials (exposed brick, wood, stone), and integration of terrace gardens into the living spaces. From a Vastu perspective, these elements are highly positive, as they naturally incorporate the Earth and Water elements. However, their unique, non-linear floor plans—often featuring <strong>curved walls, split levels, and deeply integrated planters</strong>—can create complex energy flow patterns.</p><p>For instance, a heavy terrace garden (Earth/Water) located in a sensitive zone like the North-East or Brahmasthan can weigh down the energy of the home. Scientific Vastu addresses these nuances. We use advanced scanning to map the energy flow through these organic spaces and apply subtle remedies—such as specific crystals, hidden metallic resonators, or strategic plant placements—to enhance the natural harmony without compromising the beautiful architectural design.</p>",
+    "table_heading": "Common Layout Features & Remedies in Total Environment Homes",
+    "th1": "Architectural Feature",
+    "th2": "Element Sector Impact",
+    "th3": "Potential Defect Impact",
+    "th4": "Scientific Zero-Demolition Remedy",
+    "table_rows": `
+      <tr>
+        <td class="p-4 font-semibold">Terrace Gardens / Heavy Planters</td>
+        <td class="p-4">Earth & Water</td>
+        <td class="p-4 text-orange-600">If in North/East, heavy soil can block positive energy inflow</td>
+        <td class="p-4">Use lightweight soil; install copper pyramids to lift energy.</td>
+      </tr>
+      <tr>
+        <td class="p-4 font-semibold">Water Bodies (Lily Ponds)</td>
+        <td class="p-4">Water</td>
+        <td class="p-4 text-orange-600">If in South/West, can cause financial drain and health issues</td>
+        <td class="p-4">Balance with Earth elements (yellow stones) or relocate if possible.</td>
+      </tr>
+      <tr>
+        <td class="p-4 font-semibold">Curved or Angled Walls</td>
+        <td class="p-4">Space / Wind</td>
+        <td class="p-4 text-orange-600">Can distort directional energy grids, causing confusion</td>
+        <td class="p-4">Install virtual straight boundaries using concealed floor metal strips.</td>
+      </tr>
+      <tr>
+        <td class="p-4 font-semibold">Split Levels (Sunken Living Rooms)</td>
+        <td class="p-4">Earth</td>
+        <td class="p-4 text-red-600">If sunken area is in South/West, it creates a severe depression defect</td>
+        <td class="p-4">Install heavy lead/brass blocks in the sunken area to energetically raise it.</td>
+      </tr>
+    `,
+    "defects_heading": "Specific Vastu Challenges in Organic Layouts",
+    "defect1_title": "Exposed Brick Walls in Wrong Zones",
+    "defect1_desc": "<strong>Symptom:</strong> While beautiful, exposed brick (Earth/Fire) in the North or North-East can sometimes create a heavy, sluggish energy that hinders clarity and growth.",
+    "defect2_title": "Extensive Wood Usage in South Zones",
+    "defect2_desc": "<strong>Symptom:</strong> Wood feeds Fire. Too much wood in the South (Fire zone) can lead to an excess of aggressive energy, causing arguments and restlessness.",
+    "defect3_title": "Open Courtyards (Brahmasthan) with Heavy Elements",
+    "defect3_desc": "<strong>Symptom:</strong> The center of the home must be light and airy. Heavy pillars or water bodies here can cause chronic stomach ailments and overall life stagnation.",
+    "defect4_title": "Irregular Outer Boundaries",
+    "defect4_desc": "<strong>Symptom:</strong> Homes designed to blend with nature often lack a perfect square or rectangular footprint, leading to multiple cut or extended corners.",
+    "rem1_title": "Crystal Grid Implementation",
+    "rem1_desc": "Using specific natural crystals (like clear quartz or amethyst) to balance the elemental energies of natural materials like wood and stone.",
+    "rem2_title": "Virtual Leveling",
+    "rem2_desc": "Using metallic energy lifters (copper or brass pyramids) to energetically neutralize the negative effects of sunken floors or split levels in the wrong zones.",
+    "rem3_title": "Strategic Planting",
+    "rem3_desc": "Advising on specific plant types (e.g., broad-leaved vs. spiky) for the built-in terrace gardens to harmonize with the directional Vastu zones.",
+    "faq1_q": "Does the extensive use of wood in Total Environment homes affect Vastu?",
+    "faq1_a": "Wood is a natural element and generally very positive. However, it represents the Air/Wood element. We ensure it's balanced correctly; for example, if there's heavy wood in a Fire zone, we might balance it with specific Earth or Metal element remedies to prevent excess 'heat'.",
+    "faq2_q": "My home has a terrace garden in the North-East. Is this a problem?",
+    "faq2_a": "The North-East should ideally be light and open. Heavy soil and large plants can cause a 'weight' defect here. We don't ask you to remove the garden; instead, we recommend using lighter potting mixes and installing specific copper energizers to 'lift' the energy of the space.",
+    "faq3_q": "Can you correct Vastu without altering the exposed brick aesthetic?",
+    "faq3_a": "Absolutely. Our remedies are designed to be invisible or blend seamlessly with the decor. We use concealed metal strips under the flooring or specific crystals that complement the natural aesthetic of Total Environment homes.",
+    "cta_heading": "Harmonize Your Total Environment Home",
+    "cta_desc": "Ensure your beautiful, organic home is also energetically balanced. Book a specialized Vastu scan tailored for unique architectural designs.",
+    "cta_button": "📲 Book Specialized Vastu Audit",
+    "seo_keyword_title": "Vastu for Total Environment Projects in Bangalore",
+    "seo_keyword_desc": "Optimize the natural energy in your Total Environment home. Raghavendra Hebbur provides specialized, zero-demolition Vastu corrections for organic architecture.",
+    "seo_kw1": "Total Environment Vastu",
+    "seo_kw2": "Vastu for Total Environment projects Bangalore",
+    "seo_kw3": "Vastu for homes with terrace gardens",
+    "seo_kw4": "organic architecture Vastu remedies"
+  },
+  {
+    "filename": "vastu-for-brigade-apartments.html",
+    "slug": "vastu-for-brigade-apartments",
+    "category": "Apartment Vastu",
+    "meta_title": "Vastu for Brigade Apartments | Scientific Remedies | Vardhini Vastu",
+    "meta_description": "Scientific Vastu corrections for Brigade Group apartment floor plans. Fix common layout defects, corner cuts, and geopathic stress without breaking walls.",
+    "meta_keywords": "Brigade apartments Vastu, Vastu for Brigade projects Bangalore, flat Vastu correction without demolition, Brigade floor plan Vastu",
+    "headline": "Scientific Vastu Corrections for Brigade Apartments",
+    "hero_title": "Brigade Apartments: <span class=\"gradient-text\">Optimizing Your Living Space</span>",
+    "hero_tagline": "Discover precise, zero-demolition Vastu remedies for typical floor plans in Brigade Group projects. We neutralize structural cuts and energy imbalances efficiently.",
+    "author_bio": "Expert in analyzing and correcting Vastu defects in large-scale community living projects. Bringing harmony to modern apartment layouts through scientific geobiology.",
+    "rationale_heading": "Vastu Dynamics in Large Community Projects",
+    "rationale_content": "<p>Brigade Group projects are known for their scale, comprehensive amenities, and efficient space utilization. In such large community developments, the architectural focus is often on maximizing natural light, ventilation, and views, which can sometimes lead to <strong>compromises in traditional Vastu orientations</strong>. Common features include diagonally oriented towers, irregular flat shapes, and centralized service cores (lifts and staircases) that may fall in sensitive zones of individual flats.</p><p>Scientific Vastu is perfectly suited for these modern layouts. We understand that structural changes are impossible in these apartments. Instead, we utilize advanced diagnostic tools to measure the actual energy flow within your specific unit. We then implement non-invasive remedies—such as metallic energy blockers, elemental color tapes, and geopathic stress neutralizers—to align your home with positive cosmic energies, ensuring health and prosperity for your family.</p>",
+    "table_heading": "Common Layout Features & Remedies in Brigade Apartments",
+    "th1": "Apartment Feature",
+    "th2": "Element Sector Impact",
+    "th3": "Potential Defect Impact",
+    "th4": "Scientific Zero-Demolition Remedy",
+    "table_rows": `
+      <tr>
+        <td class="p-4 font-semibold">Diagonal / Corner Flats</td>
+        <td class="p-4">Multiple Sectors</td>
+        <td class="p-4 text-orange-600">Cardinal directions fall in corners, confusing energy flow</td>
+        <td class="p-4">Re-align internal energy grids using specific metal wire boundaries on the floor.</td>
+      </tr>
+      <tr>
+        <td class="p-4 font-semibold">Service Shafts (Plumbing/Electrical) in Flat</td>
+        <td class="p-4">Varies</td>
+        <td class="p-4 text-red-600">Creates negative energy vortexes, draining vitality and wealth</td>
+        <td class="p-4">Isolate the shaft energetically using zinc or copper blocking tapes on the walls.</td>
+      </tr>
+      <tr>
+        <td class="p-4 font-semibold">Kitchen in South-West or North-East</td>
+        <td class="p-4">Earth or Water</td>
+        <td class="p-4 text-red-600">Severe health issues, financial instability, and constant arguments</td>
+        <td class="p-4">Apply specific color therapy and install elemental balancing stones near the stove.</td>
+      </tr>
+      <tr>
+        <td class="p-4 font-semibold">Main Door Facing South-West</td>
+        <td class="p-4">Earth (Disposal)</td>
+        <td class="p-4 text-red-600">Invites negativity, unexpected losses, and chronic struggles</td>
+        <td class="p-4">Install a lead or brass threshold wire and specific protective symbols on the door.</td>
+      </tr>
+    `,
+    "defects_heading": "Specific Vastu Challenges in Brigade Layouts",
+    "defect1_title": "Toilets Sharing Bedroom Walls",
+    "defect1_desc": "<strong>Symptom:</strong> Common in compact layouts, this can cause disturbed sleep and drain the personal energy of the occupants, leading to fatigue.",
+    "defect2_title": "Cuts in the South-East Corner",
+    "defect2_desc": "<strong>Symptom:</strong> A missing fire zone (Agni) can lead to cash flow problems, delays in payments, and lack of motivation or drive.",
+    "defect3_title": "Long Corridors Leading to Main Door",
+    "defect3_desc": "<strong>Symptom:</strong> Acts as an 'energy spear' (Veedhi Shoola), creating a harsh, fast-moving energy that strikes the home, causing stress and anxiety.",
+    "defect4_title": "Balconies in the North-West",
+    "defect4_desc": "<strong>Symptom:</strong> While providing good ventilation, an extended NW balcony can cause instability in career and relationships if not balanced properly.",
+    "rem1_title": "Corridor Energy Deflectors",
+    "rem1_desc": "Using subtle convex mirrors or specific brass motifs on the main door to safely deflect harsh energy from long apartment corridors.",
+    "rem2_title": "Wall Energy Isolation",
+    "rem2_desc": "Applying specific elemental paints or installing concealed metal foils on walls shared with toilets or elevator shafts to block negative vibrations.",
+    "rem3_title": "Virtual Corner Completion",
+    "rem3_desc": "Installing specific metallic L-angles under the skirting board to energetically complete missing corners (like a cut South-East).",
+    "faq1_q": "Can I fix a South-West entrance in my Brigade flat?",
+    "faq1_a": "Yes. While a South-West entrance is challenging, we can neutralize its negative effects significantly by installing lead or brass threshold protectors and using specific color remedies on the door, without changing the door itself.",
+    "faq2_q": "My flat is not aligned to the exact North-South axis. Is that bad?",
+    "faq2_a": "Many modern flats are tilted. This just means the Vastu zones fall differently within the layout. We use a precise compass and Lecher Antenna to map the exact zones for your specific flat and apply remedies accordingly.",
+    "faq3_q": "Do I need to break the flooring to install metal remedies?",
+    "faq3_a": "No. Our remedies are designed for modern apartments. We use thin metallic strips or wires that can be concealed under carpets, along skirting boards, or hidden in existing floor grooves. Zero demolition is required.",
+    "cta_heading": "Ensure Harmony in Your Brigade Apartment",
+    "cta_desc": "Book a comprehensive scientific Vastu scan for your home. We provide actionable, zero-demolition remedies tailored to your specific unit's layout.",
+    "cta_button": "📲 Book Apartment Vastu Audit",
+    "seo_keyword_title": "Vastu for Brigade Apartments in Bangalore",
+    "seo_keyword_desc": "Optimize the energy in your Brigade apartment. Raghavendra Hebbur provides specialized, zero-demolition Vastu corrections for community living.",
+    "seo_kw1": "Brigade apartments Vastu",
+    "seo_kw2": "Vastu for Brigade projects Bangalore",
+    "seo_kw3": "flat Vastu correction without demolition",
+    "seo_kw4": "Brigade floor plan Vastu"
+  },
+  {
+    "filename": "vastu-for-sowparnika-projects.html",
+    "slug": "vastu-for-sowparnika-projects",
+    "category": "Apartment Vastu",
+    "meta_title": "Vastu for Sowparnika Projects | Scientific Remedies | Vardhini Vastu",
+    "meta_description": "Scientific Vastu corrections for Sowparnika apartment floor plans. Efficient, cost-effective remedies to fix Vastu defects without any structural changes.",
+    "meta_keywords": "Sowparnika projects Vastu, Vastu for Sowparnika apartments Bangalore, affordable Vastu remedies for flats, Sowparnika floor plan Vastu",
+    "headline": "Scientific Vastu Corrections for Sowparnika Apartments",
+    "hero_title": "Sowparnika Projects: <span class=\"gradient-text\">Practical Vastu Solutions</span>",
+    "hero_tagline": "Discover efficient, zero-demolition Vastu remedies for typical floor plans in Sowparnika projects. We provide practical solutions for modern apartment living.",
+    "author_bio": "Dedicated to making scientific Vastu accessible. Providing practical, non-invasive energy corrections for efficiently designed residential spaces.",
+    "rationale_heading": "Vastu Dynamics in Efficiently Designed Apartments",
+    "rationale_content": "<p>Sowparnika projects are celebrated for their smart, space-efficient designs that provide excellent value. In such layouts, every square foot is utilized, which often means that <strong>multiple elemental zones are compressed into smaller areas</strong>. This can lead to overlapping energies—such as a kitchen (Fire) being very close to a bathroom (Water) or the main entrance.</p><p>Scientific Vastu is highly effective for these compact layouts because it relies on precise energy tuning rather than sweeping structural changes. We analyze how the energy flows through your specific flat and use subtle, cost-effective remedies like color therapy, small metallic resonators, and specific crystal placements to separate clashing elements and ensure a positive, harmonious environment for your family.</p>",
+    "table_heading": "Common Layout Features & Remedies in Sowparnika Apartments",
+    "th1": "Apartment Feature",
+    "th2": "Element Sector Impact",
+    "th3": "Potential Defect Impact",
+    "th4": "Scientific Zero-Demolition Remedy",
+    "table_rows": `
+      <tr>
+        <td class="p-4 font-semibold">Kitchen close to Main Door</td>
+        <td class="p-4">Fire near Entrance</td>
+        <td class="p-4 text-orange-600">Can cause energy to 'burn out' quickly; high expenses and restlessness</td>
+        <td class="p-4">Install a small brass or copper threshold strip at the kitchen entrance.</td>
+      </tr>
+      <tr>
+        <td class="p-4 font-semibold">Toilet adjacent to Kitchen</td>
+        <td class="p-4">Water clashing with Fire</td>
+        <td class="p-4 text-red-600">Severe digestive health issues and frequent arguments</td>
+        <td class="p-4">Apply specific color tape on the toilet door frame to energetically isolate it.</td>
+      </tr>
+      <tr>
+        <td class="p-4 font-semibold">Missing North-East Corner</td>
+        <td class="p-4">Water / Clarity</td>
+        <td class="p-4 text-red-600">Blocks positive energy; causes confusion and stalled progress</td>
+        <td class="p-4">Place a small water element (like a bowl) or specific mirrors to virtually expand it.</td>
+      </tr>
+      <tr>
+        <td class="p-4 font-semibold">Compact Brahmasthan (Center)</td>
+        <td class="p-4">Space / Ether</td>
+        <td class="p-4 text-orange-600">Feeling of heaviness or lack of opportunities if cluttered</td>
+        <td class="p-4">Keep the center strictly clutter-free and well-lit; use a hidden energy harmonizer.</td>
+      </tr>
+    `,
+    "defects_heading": "Specific Vastu Challenges in Compact Layouts",
+    "defect1_title": "No Clear Demarcation of Zones",
+    "defect1_desc": "<strong>Symptom:</strong> Open plan living in compact spaces can mix energies, leading to a feeling of chaos or lack of focus among family members.",
+    "defect2_title": "Beds placed on shared walls with Toilets",
+    "defect2_desc": "<strong>Symptom:</strong> The negative draining energy of the plumbing can disrupt sleep quality and lead to chronic fatigue.",
+    "defect3_title": "Entrance facing South or South-West",
+    "defect3_desc": "<strong>Symptom:</strong> Can invite struggles, delays in career growth, and unnecessary expenditures.",
+    "defect4_title": "Lack of Cross Ventilation in certain flats",
+    "defect4_desc": "<strong>Symptom:</strong> Stagnant air leads to stagnant energy (Prana), causing lethargy and a feeling of being 'stuck' in life.",
+    "rem1_title": "Virtual Zoning",
+    "rem1_desc": "Using rugs, specific lighting, or thin metallic floor strips to energetically separate the living, dining, and kitchen areas in an open plan.",
+    "rem2_title": "Headboard Energy Shielding",
+    "rem2_desc": "If a bed must share a wall with a toilet, we place a specific energy-blocking foil or crystal grid behind the headboard to protect the sleeper.",
+    "rem3_title": "Prana Enhancers",
+    "rem3_desc": "Recommending specific indoor plants or small salt lamps in corners to purify the air and keep the energy dynamic in less ventilated spaces.",
+    "faq1_q": "Are Vastu remedies expensive for a compact apartment?",
+    "faq1_a": "Not at all. Scientific Vastu relies on the right material and placement, not size. Simple remedies like color tapes, small metallic wires, or rearranging furniture can have a massive positive impact and are very cost-effective.",
+    "faq2_q": "My kitchen and toilet are very close. What can I do?",
+    "faq2_a": "This is a common issue in efficient layouts. We use 'elemental blocking'. By pasting a specific colored tape (like yellow or blue, depending on the zone) on the toilet threshold, we energetically seal the toilet's negative energy from entering the kitchen.",
+    "faq3_q": "Can I apply Vastu principles in a rented Sowparnika flat?",
+    "faq3_a": "Yes, absolutely. All our remedies are non-destructive and removable. You can take them with you if you move, making them perfect for rented apartments.",
+    "cta_heading": "Maximize Positivity in Your Sowparnika Home",
+    "cta_desc": "Book a practical, scientific Vastu scan for your apartment. We provide efficient, zero-demolition remedies that fit your space and budget.",
+    "cta_button": "📲 Book Apartment Vastu Audit",
+    "seo_keyword_title": "Vastu for Sowparnika Apartments in Bangalore",
+    "seo_keyword_desc": "Optimize the energy in your Sowparnika apartment. Raghavendra Hebbur provides practical, zero-demolition Vastu corrections for efficient living spaces.",
+    "seo_kw1": "Sowparnika projects Vastu",
+    "seo_kw2": "Vastu for Sowparnika apartments Bangalore",
+    "seo_kw3": "affordable Vastu remedies for flats",
+    "seo_kw4": "Sowparnika floor plan Vastu"
+  }
+];
+
+PAGE_DATA.forEach(data => {
+  const rendered = interpolate(HTML_TEMPLATE, data);
+  const filePath = path.join(__dirname, data.filename);
+  fs.writeFileSync(filePath, rendered, 'utf8');
+  console.log(`Generated: ${data.filename}`);
+});
+
+console.log("All 5 Builder pages successfully generated!");

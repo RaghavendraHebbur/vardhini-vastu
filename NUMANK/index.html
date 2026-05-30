@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Numank - Numerology Software</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="Numank home">
+          <span class="brand-mark">N</span>
+          <span>
+            <strong>Numank</strong>
+            <small>Name Correction Studio</small>
+          </span>
+        </a>
+        <nav class="nav">
+          <a href="#calculator">Calculator</a>
+          <a href="#rules">Rules</a>
+          <a href="#chart">Chart</a>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" type="button" title="Change theme" aria-label="Change theme">◐</button>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Web based numerology software</p>
+            <h1>Numank</h1>
+            <p class="lede">Analyze name totals, Mulank, Bhagyank, Kua, Loshu grid strength, compound meanings, sound patterns, and correction priorities in one polished workspace.</p>
+            <div class="hero-actions">
+              <a class="primary-action" href="#calculator">Start analysis</a>
+              <a class="secondary-action" href="#rules">Listen to rules</a>
+            </div>
+            <div class="hero-stats" aria-label="Numank feature highlights">
+              <span><strong>9</strong> Loshu cells</span>
+              <span><strong>108</strong> compounds</span>
+              <span><strong>2</strong> languages</span>
+            </div>
+          </div>
+          <div class="hero-panel" aria-label="Numank dashboard preview">
+            <div class="orbit-grid">
+              <span>4</span><span>9</span><span>2</span>
+              <span>3</span><span>5</span><span>7</span>
+              <span>8</span><span>1</span><span>6</span>
+            </div>
+            <div class="preview-card">
+              <small>Recommended balance</small>
+              <strong>1 / 3 / 5 / 6</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="rules-player" id="rules" aria-labelledby="rules-title">
+          <div>
+            <p class="eyebrow">Guided rules</p>
+            <h2 id="rules-title">Name balance audio guide</h2>
+          </div>
+          <div class="player-controls">
+            <button class="icon-button" id="playRules" type="button" title="Play rules" aria-label="Play rules">
+              <span aria-hidden="true">▶</span>
+            </button>
+            <button class="icon-button" id="stopRules" type="button" title="Stop rules" aria-label="Stop rules">
+              <span aria-hidden="true">■</span>
+            </button>
+            <select id="ruleLanguage" aria-label="Rule language">
+              <option value="en">English</option>
+              <option value="hi">Hindi</option>
+            </select>
+            <select id="ruleRate" aria-label="Speech rate">
+              <option value="0.85">0.85x</option>
+              <option value="1" selected>1x</option>
+              <option value="1.25">1.25x</option>
+              <option value="1.5">1.5x</option>
+            </select>
+          </div>
+          <div class="rule-progress" aria-label="Rule playback progress">
+            <div id="ruleProgressFill"></div>
+            <span id="ruleProgressText">Ready</span>
+          </div>
+          <p class="rule-line" id="currentRule">Ready to play the Numank balancing rules.</p>
+        </section>
+
+        <section class="calculator" id="calculator" aria-labelledby="calculator-title">
+          <div class="section-heading">
+            <p class="eyebrow">Analysis desk</p>
+            <h2 id="calculator-title">Numerology calculator</h2>
+          </div>
+
+          <form class="input-panel" id="analysisForm">
+            <label>
+              First name
+              <input id="firstName" name="firstName" autocomplete="given-name" placeholder="Example: Rahul" required>
+            </label>
+            <label>
+              Middle name
+              <input id="middleName" name="middleName" autocomplete="additional-name" placeholder="Optional">
+            </label>
+            <label>
+              Last name
+              <input id="lastName" name="lastName" autocomplete="family-name" placeholder="Optional">
+            </label>
+            <label>
+              Date of birth
+              <input id="dob" name="dob" inputmode="numeric" maxlength="8" placeholder="DDMMYYYY" required>
+            </label>
+            <label>
+              Gender
+              <select id="gender" name="gender" required>
+                <option value="">Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+              </select>
+            </label>
+            <div class="form-actions">
+              <button class="calculate-button" type="submit">Calculate</button>
+              <button class="ghost-button" id="sampleButton" type="button">Try sample</button>
+              <button class="ghost-button" id="clearButton" type="button">Clear</button>
+            </div>
+          </form>
+
+          <div class="live-studio" aria-label="Interactive name correction studio">
+            <article class="studio-panel live-preview">
+              <div class="panel-title">
+                <h3>Live preview</h3>
+                <span>Updates while typing</span>
+              </div>
+              <div class="live-name" id="liveName">Enter a name to begin</div>
+              <div class="mini-metrics" id="liveMetrics">
+                <div><small>First</small><strong>0</strong></div>
+                <div><small>Full</small><strong>0</strong></div>
+                <div><small>Single</small><strong>0</strong></div>
+              </div>
+              <p class="studio-note" id="liveNote">Use DDMMYYYY for date of birth. The full report appears after calculation.</p>
+            </article>
+
+            <article class="studio-panel">
+              <div class="panel-title">
+                <h3>Correction helper</h3>
+                <span>Target balance</span>
+              </div>
+              <label class="target-control">
+                Target single digit
+                <select id="targetNumber">
+                  <option value="1">1 - Sun</option>
+                  <option value="3">3 - Jupiter</option>
+                  <option value="5">5 - Mercury</option>
+                  <option value="6">6 - Venus</option>
+                </select>
+              </label>
+              <div class="suggestion-grid" id="suggestionGrid"></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="results" id="results" hidden>
+          <div class="summary-strip" id="summaryStrip"></div>
+
+          <div class="result-layout">
+            <article class="panel">
+              <div class="panel-title">
+                <h3>Core numbers</h3>
+                <span>Birth profile</span>
+              </div>
+              <div class="metric-grid" id="coreNumbers"></div>
+            </article>
+
+            <article class="panel">
+              <div class="panel-title">
+                <h3>Loshu grid</h3>
+                <span>DDMMYYYY + M/B/K</span>
+              </div>
+              <div class="loshu-grid" id="loshuGrid"></div>
+              <div class="missing-row" id="missingNumbers"></div>
+            </article>
+          </div>
+
+          <article class="panel">
+            <div class="panel-title">
+              <h3>Name breakdown</h3>
+              <span>Chaldean letter values</span>
+            </div>
+            <div class="name-breakdown" id="nameBreakdown"></div>
+            <div class="total-grid" id="nameTotals"></div>
+          </article>
+
+          <div class="result-layout">
+            <article class="panel">
+              <div class="panel-title">
+                <h3>Compatibility</h3>
+                <span>Name totals vs birth numbers</span>
+              </div>
+              <div class="compatibility-grid" id="compatibilityGrid"></div>
+            </article>
+
+            <article class="panel">
+              <div class="panel-title">
+                <h3>Correction priority</h3>
+                <span>Suggested balance numbers</span>
+              </div>
+              <div class="advice-list" id="adviceList"></div>
+            </article>
+          </div>
+
+          <div class="result-layout">
+            <article class="panel">
+              <div class="panel-title">
+                <h3>Compound meanings</h3>
+                <span>First and full name totals</span>
+              </div>
+              <div class="compound-grid" id="compoundMeanings"></div>
+            </article>
+
+            <article class="panel">
+              <div class="panel-title">
+                <h3>Sound and sequence scan</h3>
+                <span>Name vibration checks</span>
+              </div>
+              <div id="soundScan"></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="chart-panel" id="chart" aria-labelledby="chart-title">
+          <div class="section-heading">
+            <p class="eyebrow">Reference</p>
+            <h2 id="chart-title">Chaldean numerology chart</h2>
+          </div>
+          <div class="chart-grid" id="chaldeanChart"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

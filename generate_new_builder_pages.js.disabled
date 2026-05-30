@@ -1,0 +1,372 @@
+const fs = require('fs');
+
+const projects = [
+  {
+    builder_name: 'Assetz',
+    project_name: 'Marq',
+    slug: 'vastu-for-assetz-marq',
+    location: 'Whitefield',
+    project_type: 'Luxury 3BHK/4BHK',
+    common_defect: 'Kitchens placed in the South-West zone',
+    primary_remedy: 'Earth Element enhancement & yellow marble',
+    defect_symptom: 'Constant financial instability and health issues for the head of the family'
+  },
+  {
+    builder_name: 'Sobha',
+    project_name: 'City',
+    slug: 'vastu-for-sobha-city',
+    location: 'Thanisandra',
+    project_type: 'Mediterranean Apartments',
+    common_defect: 'Toilets located in the North-East zone',
+    primary_remedy: 'Zinc Helix & Vastu partition tape',
+    defect_symptom: 'Blocked mental clarity, poor academic performance for children, and frequent anxiety'
+  },
+  {
+    builder_name: 'Puravankara',
+    project_name: 'Purva Skydale',
+    slug: 'vastu-for-purva-skydale',
+    location: 'Haralur Road',
+    project_type: 'Premium High-Rise',
+    common_defect: 'Missing corners due to L-shaped architecture',
+    primary_remedy: 'Copper pyramids & virtual boundary creation',
+    defect_symptom: 'Lack of opportunities, career stagnation, and feeling ungrounded'
+  },
+  {
+    builder_name: 'Godrej',
+    project_name: 'Gold County',
+    slug: 'vastu-for-godrej-gold-county',
+    location: 'Tumkur Road',
+    project_type: 'Luxury Townhouses',
+    common_defect: 'Internal staircases in the Brahmasthan (center)',
+    primary_remedy: 'Brass Helix & energy harmonization',
+    defect_symptom: 'Digestive issues, chronic heavy feeling in the house, and disrupted harmony'
+  }
+];
+
+function generateHTML(p) {
+  return `<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Vastu for ${p.builder_name} ${p.project_name} | Scientific Remedies | Vardhini Vastu</title>
+  <meta name="description" content="Scientific, zero-demolition Vastu analysis and correction services for ${p.project_type} in ${p.builder_name} ${p.project_name}, ${p.location}." />
+  <link rel="canonical" href="https://vardhinivastu.in/${p.slug}/" />
+
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Raghavendra Hebbur" />
+  <meta name="keywords" content="${p.builder_name} ${p.project_name} Vastu, Vastu for ${p.builder_name} apartments ${p.location}, flat Vastu correction without demolition, ${p.project_name} floor plan Vastu" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Vastu for ${p.builder_name} ${p.project_name} | Scientific Remedies | Vardhini Vastu" />
+  <meta property="og:description" content="Scientific, zero-demolition Vastu analysis and correction services for ${p.project_type} in ${p.builder_name} ${p.project_name}, ${p.location}." />
+  <meta property="og:image" content="https://vardhinivastu.in/wp-content/uploads/2026/05/picofme-6-1.png" />
+  <meta property="og:url" content="https://vardhinivastu.in/${p.slug}/" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Vastu Consultation for ${p.builder_name} ${p.project_name}",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Vardhini Vastu",
+      "url": "https://vardhinivastu.in",
+      "image": "https://vardhinivastu.in/wp-content/uploads/2026/05/logo-A85ekJJyQgURRZvX.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bengaluru",
+        "addressRegion": "Karnataka",
+        "addressCountry": "IN"
+      }
+    },
+    "description": "Scientific, zero-demolition Vastu analysis and correction services for ${p.project_type} in ${p.builder_name} ${p.project_name}, ${p.location}.",
+    "areaServed": {
+      "@type": "Place",
+      "name": "${p.location}, Bengaluru"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://vardhinivastu.in/contact",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Are the apartments in ${p.builder_name} ${p.project_name} Vastu compliant?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "While ${p.builder_name} designs premium layouts, full Vastu compliance depends on the specific tower, facing, and floor plan of your unit. We frequently find modern architectural elements that require energetic balancing without structural demolition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can Vastu defects in a ${p.project_name} high-rise be fixed without breaking walls?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. At Vardhini Vastu, we use the VIDS™ methodology and advanced Radiesthesia tools like the Lecher Antenna to neutralize spatial defects (like ${p.common_defect}) using elemental and energetic remedies, requiring absolutely no demolition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Should I check the Vastu before or after buying my unit at ${p.project_name}?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It is highly recommended to get the floor plan evaluated before finalizing the purchase. If you have already purchased, our non-demolition remedies can be applied before or during the interior design phase."
+        }
+      }
+    ]
+  }
+]
+  </script>
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2, h3, h4 { font-family: 'Outfit', sans-serif; }
+    .hero-bg { background: linear-gradient(135deg, #f8f7f4 0%, #f3f1eb 100%); }
+    .gradient-text { background: linear-gradient(45deg, #f97316, #ea580c); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .faq-item .answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; }
+    .faq-item.open .answer { max-height: 800px; }
+    .faq-item .icon { transition: transform 0.3s ease; }
+    .faq-item.open .icon { transform: rotate(45deg); }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+<!-- Top Banner -->
+<div class="w-full bg-gradient-to-r from-yellow-50 to-orange-50 shadow-sm flex items-center justify-center py-3 px-4 text-center border-b border-yellow-200">
+  <span class="text-yellow-400 mr-2 text-xl">★★★★★</span>
+  <span class="text-base md:text-lg font-bold text-gray-700">
+    Bangalore’s #1 Scientific Vastu Consultant • 5-Star Google Rating • 600+ Properties Transformed
+  </span>
+</div>
+
+<!-- Header / Navigation Bar -->
+<header class="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+    <a href="/" class="flex items-center gap-2">
+      <span class="text-2xl font-extrabold text-gray-800 tracking-tight">
+        Vardhini <span class="text-orange-600">Vastu</span>
+      </span>
+    </a>
+    <nav class="hidden md:flex items-center gap-8">
+      <a href="/" class="text-sm font-semibold text-gray-600 hover:text-orange-600 transition">Home</a>
+      <a href="/services/" class="text-sm font-semibold text-gray-600 hover:text-orange-600 transition">Services</a>
+      <a href="/vastu-unlocked/" style="color:#ea580c; font-weight:700;" class="text-sm font-semibold hover:text-orange-600 transition">&#128214; Free Book</a>
+      <a href="/about/" class="text-sm font-semibold text-gray-600 hover:text-orange-600 transition">About Us</a>
+      <a href="/contact/" class="text-sm font-semibold text-gray-600 hover:text-orange-600 transition">Contact</a>
+    </nav>
+    <div class="hidden md:block">
+      <a href="https://wa.me/919739105574?text=Hello%20Raghu!%20I%20want%20to%20book%20a%20Vastu%20consultation." target="_blank" rel="noopener noreferrer" class="bg-orange-600 text-white font-semibold px-5 py-2.5 rounded-lg hover:bg-orange-700 transition text-sm shadow-md">
+        Book Consultation
+      </a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- Section 1: Hero -->
+  <section class="hero-bg py-20 border-b border-gray-100">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <span class="bg-orange-100 text-orange-800 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Project Vastu Analysis</span>
+      <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mt-4 leading-tight">
+        Scientific Vastu Analysis for <span class="gradient-text">${p.builder_name} ${p.project_name}, ${p.location}</span>
+      </h1>
+      <p class="text-lg text-gray-600 mt-6 leading-relaxed max-w-2xl mx-auto font-medium">
+        Are you investing in a ${p.project_type} at ${p.project_name}? Ensure your new home's energy aligns with your family's prosperity using our zero-demolition VIDS™ methodology.
+      </p>
+      <div class="mt-8">
+        <a href="https://wa.me/919739105574?text=Hello!%20I%20want%20my%20${p.builder_name}%20${p.project_name}%20floor%20plan%20evaluated." target="_blank" rel="noopener noreferrer" class="bg-orange-600 text-white font-bold text-lg px-8 py-4 rounded-lg hover:bg-orange-700 transition shadow-lg inline-block">
+          Get Your Floor Plan Evaluated
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Project Overview -->
+  <section class="py-16 bg-white border-b border-gray-50">
+    <div class="max-w-4xl mx-auto px-6 text-left">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center">Modern Architecture vs. Traditional Energy Flow at ${p.project_name}</h2>
+      <div class="text-gray-600 leading-relaxed space-y-6 text-lg">
+        <p>The premium build quality and luxurious amenities of <strong>${p.builder_name}</strong> are undeniable. However, modern architectural priorities—such as optimizing space, maximizing natural light, and adhering to urban density constraints—frequently overlook the subtle energetic flow of a property.</p>
+        <p>While ${p.builder_name} creates visually stunning homes, architects often unintentionally create geopathic stress or cosmic energy imbalances. Deep basement parking, centralized electrical shafts, and angular tower designs can disturb the natural telluric energy of the land, requiring scientific balancing to prevent health and financial disruptions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Typical Floor Plan Analysis -->
+  <section class="py-16 bg-gray-50 border-b border-gray-100">
+    <div class="max-w-4xl mx-auto px-6 text-left">
+      <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Common Vastu Observations in ${p.project_name} Layouts</h2>
+      
+      <div class="grid md:grid-cols-1 gap-6 mb-8">
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-orange-100">
+          <h3 class="text-xl font-bold text-orange-700 mb-4 flex items-center gap-2">
+            <span>📐</span> The Entrance Alignments
+          </h3>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            Analyzing the typical facing directions offered in the ${p.project_name} towers, we often see main entrances placed off the cardinal axis. A slightly tilted layout can shift the entire Vastu grid of the flat.
+          </p>
+          
+          <h3 class="text-xl font-bold text-orange-700 mb-4 mt-8 flex items-center gap-2">
+            <span>⚠️</span> The Architectural Blindspots
+          </h3>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            In many ${p.project_type} units here, we frequently observe <strong>${p.common_defect}</strong>. This is a common byproduct of standardizing layouts across a massive complex.
+          </p>
+
+          <h3 class="text-xl font-bold text-orange-700 mb-4 mt-8 flex items-center gap-2">
+            <span>📉</span> The Impact
+          </h3>
+          <p class="text-gray-700 leading-relaxed">
+            If left uncorrected, this specific layout defect acts as a continuous energy drain. The primary symptom of this defect is often <strong>${p.defect_symptom}</strong>, significantly impacting the peace of the household.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: The Non-Demolition Solution -->
+  <section class="py-16 bg-gradient-to-br from-yellow-50 to-orange-50 border-b border-orange-100">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6">Zero-Demolition Vastu Corrections for Your ${p.builder_name} Home</h2>
+      <p class="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto mb-10">
+        You <strong>do not</strong> need to break walls or alter ${p.builder_name}'s premium finishing. At Vardhini Vastu, we utilize the scientific principles of Radiesthesia and the Lecher Antenna to diagnose exact energy blocks.
+      </p>
+      
+      <div class="bg-white p-8 rounded-xl shadow-md text-left inline-block w-full max-w-2xl border border-orange-200 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-20 h-20 bg-orange-100 rounded-bl-full -z-10"></div>
+        <h4 class="text-xl font-bold text-gray-900 mb-3">The ${p.project_name} Remedy Protocol</h4>
+        <p class="text-gray-600 mb-4 leading-relaxed">
+          To neutralize the specific issue of ${p.common_defect.toLowerCase()}, our primary protocol involves <strong>${p.primary_remedy}</strong>. 
+        </p>
+        <p class="text-gray-600 leading-relaxed">
+          These elements are seamlessly integrated into the flooring, under carpets, or along skirting boards—completely invisible to the eye but highly effective at harmonizing the space.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5: FAQ -->
+  <section class="py-20 bg-white" id="faq">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-gray-900 mb-12 text-center">Frequently Asked Questions</h2>
+      <div id="faq-accordion" class="space-y-4 text-left">
+        <div class="faq-item bg-gray-50 p-6 rounded-lg border border-gray-100">
+          <button class="question w-full flex justify-between items-center text-left text-lg font-semibold text-gray-800 focus:outline-none">
+            <span>Are the apartments in ${p.builder_name} ${p.project_name} Vastu compliant?</span>
+            <span class="icon text-orange-500 text-3xl font-light">+</span>
+          </button>
+          <div class="answer pt-4 text-gray-600 leading-relaxed">
+            <p>
+              While ${p.builder_name} designs premium layouts, full Vastu compliance depends on the specific tower, facing, and floor plan of your unit. We frequently find modern architectural elements that require energetic balancing without structural demolition.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item bg-gray-50 p-6 rounded-lg border border-gray-100">
+          <button class="question w-full flex justify-between items-center text-left text-lg font-semibold text-gray-800 focus:outline-none">
+            <span>Can Vastu defects in a ${p.project_name} high-rise be fixed without breaking walls?</span>
+            <span class="icon text-orange-500 text-3xl font-light">+</span>
+          </button>
+          <div class="answer pt-4 text-gray-600 leading-relaxed">
+            <p>
+              Yes. At Vardhini Vastu, we use the VIDS™ methodology and advanced Radiesthesia tools like the Lecher Antenna to neutralize spatial defects (like ${p.common_defect}) using elemental and energetic remedies, requiring absolutely no demolition.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item bg-gray-50 p-6 rounded-lg border border-gray-100">
+          <button class="question w-full flex justify-between items-center text-left text-lg font-semibold text-gray-800 focus:outline-none">
+            <span>Should I check the Vastu before or after buying my unit at ${p.project_name}?</span>
+            <span class="icon text-orange-500 text-3xl font-light">+</span>
+          </button>
+          <div class="answer pt-4 text-gray-600 leading-relaxed">
+            <p>
+              It is highly recommended to get the floor plan evaluated before finalizing the purchase. If you have already purchased, our non-demolition remedies can be applied before or during the interior design phase.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="bg-gray-950 text-gray-400 pt-16 pb-8 border-t border-gray-900">
+  <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+    <div class="text-left">
+      <h3 class="text-white text-lg font-bold mb-4 font-sans">Vardhini Vastu</h3>
+      <p class="text-sm text-gray-400 leading-relaxed mb-6">
+        Scientific, non-demolition Vastu consultations for residential spaces. Balancing energies using advanced scientific tools.
+      </p>
+    </div>
+    <div class="text-left">
+      <h3 class="text-white text-base font-bold mb-4 font-sans">Services</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="/services/" class="hover:text-orange-500 transition">Residential Vastu</a></li>
+        <li><a href="/services/" class="hover:text-orange-500 transition">Online Vastu Consultation</a></li>
+      </ul>
+    </div>
+    <div class="text-left">
+      <h3 class="text-white text-base font-bold mb-4 font-sans">Contact Info</h3>
+      <p class="text-sm text-gray-400 mb-2 leading-relaxed">
+        <strong>Phone:</strong> <a href="tel:+919739105574" class="hover:text-orange-500 transition">+91 97391 05574</a><br>
+        <strong>Email:</strong> info@vardhinivastu.in
+      </p>
+    </div>
+  </div>
+  <div class="max-w-7xl mx-auto px-6 pt-8 border-t border-gray-900 text-center text-xs text-gray-500">
+    &copy; 2026 Vardhini Vastu. All Rights Reserved.
+  </div>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const btn = document.getElementById("mobile-menu-btn");
+    const menu = document.getElementById("mobile-menu");
+    if (btn && menu) {
+      btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+    }
+  });
+
+  const handleAccordion = (accordionId) => {
+    const accordion = document.getElementById(accordionId);
+    if (!accordion) return;
+    accordion.addEventListener('click', (e) => {
+      const questionButton = e.target.closest('.question');
+      if (!questionButton) return;
+      const faqItem = questionButton.parentElement;
+      const allItems = accordion.querySelectorAll('.faq-item');
+      allItems.forEach(item => {
+        if (item !== faqItem) item.classList.remove('open');
+      });
+      faqItem.classList.toggle('open');
+    });
+  };
+  handleAccordion('faq-accordion');
+</script>
+</body>
+</html>`;
+}
+
+for (const p of projects) {
+  const fileName = `${p.slug}.html`;
+  fs.writeFileSync(fileName, generateHTML(p), 'utf8');
+  console.log(`Generated ${fileName}`);
+}
+
+fs.writeFileSync('builder_projects_db.json', JSON.stringify(projects, null, 2), 'utf8');
+console.log('Saved builder_projects_db.json');

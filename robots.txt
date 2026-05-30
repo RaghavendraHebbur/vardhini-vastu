@@ -1,64 +1,27 @@
-# robots.txt — vardhinivastu.in
-# Updated: 2026-05-16
+
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: OmgiliBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+User-agent: *
+Disallow: /tag/
+Disallow: /category/
+Disallow: /author/
 
 User-agent: *
 Allow: /
 Disallow: /wp-admin/
-Disallow: /wp-includes/
-Disallow: /?s=
 Allow: /wp-admin/admin-ajax.php
 
-User-agent: Googlebot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
-User-agent: xAI-DarkCrystalBot
-Allow: /
-
-User-agent: Grok
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: BingPreview
-Allow: /
-
-User-agent: meta-externalagent
-Allow: /
-
-User-agent: FacebookBot
-Allow: /
-
-User-agent: Applebot
-Allow: /
-
-User-agent: Applebot-Extended
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
 Sitemap: https://vardhinivastu.in/sitemap_index.xml
-Sitemap: https://vardhinivastu.in/sitemap.xml
-LLMs: https://vardhinivastu.in/llms.txt

@@ -1,0 +1,3047 @@
+#,Keyword,Intent,Volume,KD %,CPC (USD)
+1,"what is vastu",I,1600,37,0.17
+2,"is vastu real",I,880,22,0.00
+3,"is vastu shastra real",I,880,23,0.00
+4,"is vastu true",I,880,23,0.00
+5,"which direction to sleep as per vastu",I,720,21,0.01
+6,"how to check vastu for home entrance",I,590,19,0.04
+7,"what is vastu shastra",I,590,22,0.07
+8,"where should be kitchen as per vastu",I,590,23,0.01
+9,"how to check vastu of house",I,480,10,0.06
+10,"is south facing house good according to vastu",I,480,n/a,0.02
+11,"is south facing house good as per vastu",I,480,19,0.00
+12,"how to check vastu for flat",I,390,17,0.06
+13,"which colour is best for kitchen slab according to vastu",I,390,19,0.00
+14,"which is best facing house as per vastu",I,390,21,0.03
+15,"is west facing house good as per vastu",I,320,17,0.02
+16,"where is to keep vastu pyramid in house",I,320,21,0.00
+17,"where to keep medicines as per vastu",I,320,24,0.00
+18,"which painting is good for bedroom according to vastu",I,320,8,0.05
+19,"which side should we sleep according to vastu",I,320,18,0.00
+20,"does vastu really work",I,260,15,0.00
+21,"how many fish to keep in aquarium as per vastu",I,260,26,0.00
+22,"where to keep shoe rack as per vastu",I,260,30,0.01
+23,"where to keep tortoise at home according to vastu",I,260,17,0.00
+24,"which floor is best according to vastu",C,260,15,0.00
+25,"which is the best direction to sleep as per vastu",C,260,22,0.11
+26,"which shape of clock according to vastu",I,260,11,0.00
+27,"how many doors as per vastu",I,210,11,0.00
+28,"how to calculate brahmasthan in vastu",I,210,13,0.00
+29,"how to find vastu dosh in house",I,210,21,0.05
+30,"where to keep money at home as per vastu",I,210,23,0.00
+31,"which colour is best for bedroom according to vastu",I,210,15,0.00
+32,"which facing plot is good as per vastu",I,210,11,0.00
+33,"which side to sleep vastu",I,210,22,0.00
+34,"does vastu really matter",I,170,13,0.00
+35,"how to balance five elements in vastu",I,170,0,0.00
+36,"how to install vastu copper strip",I,170,13,0.00
+37,"how to learn vastu shastra",I,170,18,0.13
+38,"how to sleep according to vastu",I,170,21,0.00
+39,"how to sleep as per vastu",I,170,21,0.00
+40,"is vastu scientific",I,170,19,0.00
+41,"where to keep dustbin as per vastu",I,170,5,0.00
+42,"where to keep jade plant as per vastu",I,170,5,0.00
+43,"where to place fish tank in home as per vastu",I,170,25,0.00
+44,"which colour is best for kitchen according to vastu",I,170,11,0.00
+45,"which direction should we sleep as per vastu",I,170,23,0.00
+46,"how to check vastu of flat online",I,140,8,0.07
+47,"how to keep broom according to vastu",I,140,17,0.00
+48,"how to keep broom as per vastu",I,140,17,0.00
+49,"is north facing house good as per vastu",I,140,22,0.00
+50,"is pigeon good for home vastu",I,140,23,0.00
+51,"where should be toilet as per vastu",I,140,15,0.00
+52,"where to keep lemon in water as per vastu",I,140,23,0.00
+53,"where to keep rubber plant as per vastu",n/a,140,n/a,0.00
+54,"where to keep shoes as per vastu",I,140,16,0.00
+55,"where to place mirror as per vastu",I,140,12,0.01
+56,"where to place vastu yantra at home",I,140,11,0.00
+57,"where to place wall clock as per vastu",I,140,11,0.01
+58,"where to sleep as per vastu",n/a,140,n/a,0.00
+59,"which colour is good for bedroom as per vastu",I,140,11,0.00
+60,"which direction is best for kitchen as per vastu",I,140,16,0.00
+61,"which direction to sleep according to vastu",I,140,24,0.00
+62,"which floor is best as per vastu",C,140,9,0.00
+63,"which plant is good for home according to vastu",n/a,140,n/a,0.00
+64,"which plants are good for home according to vastu",I,140,14,0.01
+65,"which side to sleep as per vastu",I,140,26,0.00
+66,"which tulsi is best for home as per vastu",n/a,140,n/a,0.00
+67,"how to check direction of house vastu",I,110,16,0.02
+68,"how to count number of doors as per vastu",I,110,12,0.00
+69,"how to find center of house vastu",I,110,27,0.05
+70,"how to remove vastu dosh from home",I,110,18,0.04
+71,"how to use compass for vastu",I,110,16,0.00
+72,"is east facing house good as per vastu",I,110,10,0.00
+73,"is vastu applicable for flats",I,110,13,0.00
+74,"where to hang dead person photo as per vastu",n/a,110,n/a,0.00
+75,"where to keep aloe vera plant in house vastu",n/a,110,n/a,0.00
+76,"where to keep locker as per vastu",n/a,110,n/a,0.00
+77,"where to keep mirror as per vastu",n/a,110,n/a,0.00
+78,"where to keep money as per vastu",n/a,110,n/a,0.00
+79,"where to keep tulsi plant at home according to vastu",n/a,110,n/a,0.00
+80,"where to keep washing machine as per vastu",n/a,110,n/a,0.00
+81,"where to place shoe rack as per vastu",I,110,23,0.01
+82,"which direction is best to sleep as per vastu",n/a,110,n/a,0.00
+83,"which side should we sleep as per vastu",n/a,110,n/a,0.00
+84,"which side to sleep according to vastu",n/a,110,n/a,0.00
+85,"which side we should sleep as per vastu",n/a,110,n/a,0.00
+86,"where should be bathroom as per vastu",n/a,90,n/a,0.00
+87,"where should be pooja room as per vastu",n/a,90,n/a,0.01
+88,"where should toilet be as per vastu",n/a,90,n/a,0.00
+89,"where should wife sleep according to vastu",n/a,90,n/a,0.00
+90,"where to keep almirah as per vastu",n/a,90,n/a,0.00
+91,"where to keep bamboo plant in house as per vastu",n/a,90,n/a,0.00
+92,"where to keep locker in house as per vastu",n/a,90,n/a,0.00
+93,"where to put family photos in home vastu",n/a,90,n/a,0.00
+94,"which side bathroom in vastu",n/a,90,n/a,0.00
+95,"how to check entrance of house as per vastu",n/a,70,n/a,0.00
+96,"how to check vastu",n/a,70,n/a,0.00
+97,"how to check vastu directions",n/a,70,n/a,0.02
+98,"where to keep clock as per vastu",n/a,70,n/a,0.00
+99,"where to keep money plant as per vastu",n/a,70,n/a,0.00
+100,"where to keep peacock feather as per vastu",n/a,70,n/a,0.00
+101,"which direction we should sleep as per vastu",n/a,70,n/a,0.00
+102,"which fish to keep in aquarium as per vastu",n/a,70,n/a,0.00
+103,"which side should wife sleep as per vastu",n/a,70,n/a,0.00
+104,"who wrote vastu shastra",n/a,70,n/a,0.00
+105,"is vastu shastra true",n/a,50,n/a,0.00
+106,"what is vastu dosh",n/a,50,n/a,0.00
+107,"where to keep fish tank as per vastu",n/a,50,n/a,0.00
+108,"where to keep fish tank in house as per vastu",n/a,50,n/a,0.00
+109,"where to sleep according to vastu",n/a,50,n/a,0.00
+110,"which colour is best for living room according to vastu",n/a,50,n/a,0.00
+111,"which direction should we sleep according to vastu",n/a,50,n/a,0.00
+112,"how to attract wealth vastu",n/a,40,n/a,0.00
+113,"how to calculate room size as per vastu",n/a,40,n/a,0.00
+114,"how to find vastu directions for home",n/a,40,n/a,0.01
+115,"what is agnikone in vastu",n/a,40,n/a,0.00
+116,"what is ishan kon in vastu",n/a,40,n/a,0.00
+117,"where to place almirah as per vastu",n/a,40,n/a,0.00
+118,"where to place calendar in home as per vastu",n/a,40,n/a,0.00
+119,"which color is best for master bedroom as per vastu",n/a,40,n/a,0.01
+120,"which side not to sleep as per vastu",n/a,40,n/a,0.00
+121,"do foreigners follow vastu",n/a,30,n/a,0.00
+122,"does vastu matter for rented house",n/a,30,n/a,0.00
+123,"does vastu work in flats",n/a,30,n/a,0.00
+124,"how many burners as per vastu",n/a,30,n/a,0.00
+125,"how many doors and windows as per vastu",n/a,30,n/a,0.00
+126,"how many doors and windows as per vastu in telugu",n/a,30,n/a,0.00
+127,"how many doors in house as per vastu",n/a,30,n/a,0.00
+128,"how many steps as per vastu",n/a,30,n/a,0.00
+129,"how many steps entrance of a house vastu",n/a,30,n/a,0.00
+130,"how should be the vastu of the house",n/a,30,n/a,0.02
+131,"how to be a vastu consultant",n/a,30,n/a,0.00
+132,"how to become vastu consultant",n/a,30,n/a,0.11
+133,"how to check direction of house as per vastu",n/a,30,n/a,0.04
+134,"how to check my house vastu",n/a,30,n/a,0.05
+135,"how to check vastu directions for home",n/a,30,n/a,0.04
+136,"how to correct vastu defects",n/a,30,n/a,0.00
+137,"how to correct vastu dosh",n/a,30,n/a,0.02
+138,"how to cover beams on ceiling as per vastu",n/a,30,n/a,0.00
+139,"how to design home as per vastu shastra",n/a,30,n/a,0.03
+140,"how to find house facing direction vastu",n/a,30,n/a,0.00
+141,"how to find out brahmasthan in vastu",n/a,30,n/a,0.00
+142,"how to know vastu dosh",n/a,30,n/a,0.00
+143,"how to learn vastu shastra in tamil",n/a,30,n/a,0.00
+144,"how to make siddha vastu kalash",n/a,30,n/a,0.00
+145,"how to make vastu shanti invitation card",n/a,30,n/a,0.00
+146,"how to measure pada in vastu",n/a,30,n/a,0.00
+147,"how to place vastu pyramid",n/a,30,n/a,0.00
+148,"how to rectify vastu defects",n/a,30,n/a,0.00
+149,"how to rectify vastu dosh",n/a,30,n/a,0.01
+150,"how to remove vastu dosh",n/a,30,n/a,0.02
+151,"how to remove vastu dosh from house",n/a,30,n/a,0.03
+152,"how to remove vastu dosh of south facing house",n/a,30,n/a,0.00
+153,"how to see vastu for flats",n/a,30,n/a,0.00
+154,"how to sweep the house as per vastu",n/a,30,n/a,0.00
+155,"how to use compass for house vastu",n/a,30,n/a,0.00
+156,"how to use vastu shakti chakra",n/a,30,n/a,0.00
+157,"is aloe vera plant good for home as per vastu",n/a,30,n/a,0.00
+158,"is cactus good for home as per vastu",n/a,30,n/a,0.00
+159,"is it necessary to follow vastu",n/a,30,n/a,0.00
+160,"is south east facing house good as per vastu",n/a,30,n/a,0.00
+161,"is turtle good for vastu",n/a,30,n/a,0.00
+162,"is vastu applicable in usa",n/a,30,n/a,0.00
+163,"is vastu important for flats",n/a,30,n/a,0.00
+164,"is vastu really effective",n/a,30,n/a,0.00
+165,"is vastu shastra a science",n/a,30,n/a,0.00
+166,"is vastu shastra believable",n/a,30,n/a,0.00
+167,"what does vastu compliant mean",n/a,30,n/a,0.00
+168,"what is astro vastu",n/a,30,n/a,0.00
+169,"what is pyramid vastu",n/a,30,n/a,0.00
+170,"what is the best direction to sleep as per vastu",n/a,30,n/a,0.01
+171,"what is the meaning of vastu",n/a,30,n/a,0.00
+172,"what is the right direction to sleep as per vastu",n/a,30,n/a,0.00
+173,"what is vastu pyramid",n/a,30,n/a,0.03
+174,"what is vastu shastra called in english",n/a,30,n/a,0.00
+175,"what is vastu shastra in english",n/a,30,n/a,0.00
+176,"what is vastu vinimay in hindi",n/a,30,n/a,0.00
+177,"where to face in office as per vastu",n/a,30,n/a,0.00
+178,"where to hang calendar as per vastu",n/a,30,n/a,0.00
+179,"where to hang clock as per vastu",n/a,30,n/a,0.01
+180,"where to keep dressing table as per vastu",n/a,30,n/a,0.00
+181,"where to keep medicine in the house as per vastu",n/a,30,n/a,0.00
+182,"where to keep medicines at home as per vastu",n/a,30,n/a,0.00
+183,"where to keep mirror in house as per vastu",n/a,30,n/a,0.00
+184,"where to keep money according to vastu",n/a,30,n/a,0.00
+185,"where to keep photos of dead as per vastu",n/a,30,n/a,0.00
+186,"where to keep stove as per vastu",n/a,30,n/a,0.00
+187,"where to keep tortoise at office according to vastu",n/a,30,n/a,0.00
+188,"where to keep used clothes as per vastu",n/a,30,n/a,0.00
+189,"where to keep vastu plant in home",n/a,30,n/a,0.00
+190,"where to keep water fountain in house as per vastu",n/a,30,n/a,0.01
+191,"where to place cupboard as per vastu",n/a,30,n/a,0.00
+192,"where to place dressing table in bedroom as per vastu",n/a,30,n/a,0.00
+193,"where to place money plant according to vastu",n/a,30,n/a,0.00
+194,"where to place money plant at home as per vastu",n/a,30,n/a,0.00
+195,"where to place vastu yantra",n/a,30,n/a,0.00
+196,"where to plant bamboo tree as per vastu",n/a,30,n/a,0.00
+197,"where to plant pomegranate tree as per vastu",n/a,30,n/a,0.00
+198,"where to plant tulsi plant as per vastu",n/a,30,n/a,0.00
+199,"which color is best for kitchen according to vastu",n/a,30,n/a,0.00
+200,"which color is best for kitchen as per vastu",n/a,30,n/a,0.00
+201,"which color is good for bedroom as per vastu",n/a,30,n/a,0.01
+202,"which direction is good for house according to vastu",n/a,30,n/a,0.00
+203,"which direction is good to sleep as per vastu",n/a,30,n/a,0.00
+204,"which direction should i sleep vastu",n/a,30,n/a,0.00
+205,"which direction sleep vastu",n/a,30,n/a,0.00
+206,"which direction to cook as per vastu",n/a,30,n/a,0.00
+207,"which direction to face while studying according to vastu",n/a,30,n/a,0.00
+208,"which direction to sleep in vastu",n/a,30,n/a,0.00
+209,"which direction to study as per vastu",n/a,30,n/a,0.00
+210,"which entrance is good as per vastu",n/a,30,n/a,0.01
+211,"which painting is good for living room as per vastu",n/a,30,n/a,0.01
+212,"which plant is good for vastu",n/a,30,n/a,0.00
+213,"which position is best for sleeping as per vastu",n/a,30,n/a,0.00
+214,"which side is best to sleep according to vastu",n/a,30,n/a,0.00
+215,"which side should kitchen face as per vastu",n/a,30,n/a,0.00
+216,"which side should wife sleep according to vastu",n/a,30,n/a,0.00
+217,"which tree is best for home according to vastu",n/a,30,n/a,0.00
+218,"who is vastu",n/a,30,n/a,0.00
+219,"why is vastu important",n/a,30,n/a,0.00
+220,"can vastu dosh cause death",n/a,20,n/a,0.00
+221,"can vastu dosh cause health problems",n/a,20,n/a,0.00
+222,"can we keep succulents at home according to vastu",n/a,20,n/a,0.00
+223,"can we sit under beam according to vastu",n/a,20,n/a,0.00
+224,"does vastu affect health",n/a,20,n/a,0.00
+225,"does vastu affect tenants",n/a,20,n/a,0.00
+226,"does vastu apply for flats",n/a,20,n/a,0.00
+227,"does vastu matter",n/a,20,n/a,0.00
+228,"does vastu shastra really work",n/a,20,n/a,0.00
+229,"does vastu work in usa",n/a,20,n/a,0.00
+230,"how important is vastu for flats",n/a,20,n/a,0.00
+231,"how is south east direction vastu",n/a,20,n/a,0.00
+232,"how is south east entrance as per vastu",n/a,20,n/a,0.01
+233,"how is south east facing house in vastu",n/a,20,n/a,0.00
+234,"how is south entrance as per vastu",n/a,20,n/a,0.00
+235,"how many doors as per vastu in kannada",n/a,20,n/a,0.00
+236,"how many fish in aquarium according to vastu shastra",n/a,20,n/a,0.00
+237,"how many fish in aquarium as per vastu",n/a,20,n/a,0.00
+238,"how many fish in aquarium vastu",n/a,20,n/a,0.00
+239,"how many fishes in aquarium according to vastu",n/a,20,n/a,0.00
+240,"how should we sleep according to vastu",n/a,20,n/a,0.00
+241,"how to arrange furniture according to vastu",n/a,20,n/a,0.00
+242,"how to attract customers to your shop vastu",n/a,20,n/a,0.00
+243,"how to attract money as per vastu",n/a,20,n/a,0.00
+244,"how to balance earth element in vastu",n/a,20,n/a,0.00
+245,"how to balance vastu",n/a,20,n/a,0.00
+246,"how to build a house with vastu",n/a,20,n/a,0.00
+247,"how to build house according to vastu shastra",n/a,20,n/a,0.01
+248,"how to build house with vastu",n/a,20,n/a,0.00
+249,"how to calculate aya in vastu",n/a,20,n/a,0.00
+250,"how to calculate vastu direction",n/a,20,n/a,0.00
+251,"how to check direction for vastu",n/a,20,n/a,0.01
+252,"how to check if house is vastu compliant",n/a,20,n/a,0.07
+253,"how to check vastu dosh",n/a,20,n/a,0.03
+254,"how to check vastu entrance",n/a,20,n/a,0.00
+255,"how to check vastu for home",n/a,20,n/a,0.09
+256,"how to check vastu of home",n/a,20,n/a,0.04
+257,"how to check vastu of your house",n/a,20,n/a,0.00
+258,"how to clear vastu dosh",n/a,20,n/a,0.00
+259,"how to correct vastu without demolition",n/a,20,n/a,0.00
+260,"how to count doors as per vastu",n/a,20,n/a,0.00
+261,"how to cure vastu defects without demolition",n/a,20,n/a,0.00
+262,"how to cure vastu dosh",n/a,20,n/a,0.01
+263,"how to decorate bedroom according to vastu shastra",n/a,20,n/a,0.00
+264,"how to decorate main door as per vastu",n/a,20,n/a,0.00
+265,"how to design house as per vastu",n/a,20,n/a,0.06
+266,"how to detect vastu dosh",n/a,20,n/a,0.06
+267,"how to determine house facing direction vastu",n/a,20,n/a,0.01
+268,"how to divide plot as per vastu between brothers",n/a,20,n/a,0.00
+269,"how to do vastu pooja",n/a,20,n/a,0.00
+270,"how to do vastu puja at home",n/a,20,n/a,0.00
+271,"how to draw vastu chitra",n/a,20,n/a,0.00
+272,"how to find brahmasthan in vastu",n/a,20,n/a,0.00
+273,"how to find vastu directions",n/a,20,n/a,0.00
+274,"how to fix vastu defects",n/a,20,n/a,0.00
+275,"how to get rid of vastu dosh",n/a,20,n/a,0.02
+276,"how to grow vastu bamboo plant",n/a,20,n/a,0.00
+277,"how to grow vastu plant",n/a,20,n/a,0.00
+278,"how to improve husband wife relationship through vastu",n/a,20,n/a,0.00
+279,"how to improve vastu of home",n/a,20,n/a,0.00
+280,"how to improve vastu of house",n/a,20,n/a,0.03
+281,"how to improve vastu of south facing house",n/a,20,n/a,0.00
+282,"how to increase wealth vastu",n/a,20,n/a,0.00
+283,"how to install copper wire in vastu",n/a,20,n/a,0.00
+284,"how to keep bed as per vastu",n/a,20,n/a,0.00
+285,"how to keep lemon in water as per vastu",n/a,20,n/a,0.00
+286,"how to keep tawa in kitchen according to vastu",n/a,20,n/a,0.00
+287,"how to know vastu directions",n/a,20,n/a,0.04
+288,"how to know vastu dosh in home",n/a,20,n/a,0.07
+289,"how to know vastu of house not good",n/a,20,n/a,0.00
+290,"how to learn vastu",n/a,20,n/a,0.08
+291,"how to learn vastu shastra in english",n/a,20,n/a,0.00
+292,"how to learn vastu shastra in hindi",n/a,20,n/a,0.09
+293,"how to make house plan as per vastu",n/a,20,n/a,0.06
+294,"how to make vastu grid",n/a,20,n/a,0.00
+295,"how to make vastu kalash",n/a,20,n/a,0.00
+296,"how to make vastu map for a house",n/a,20,n/a,0.04
+297,"how to make vastu pyramid at home",n/a,20,n/a,0.00
+298,"how to perform vastu pooja",n/a,20,n/a,0.00
+299,"how to place almirah as per vastu",n/a,20,n/a,0.00
+300,"how to place bed in bedroom as per vastu",n/a,20,n/a,0.00
+301,"how to plan a house according to vastu",n/a,20,n/a,0.00
+302,"how to read compass for vastu",n/a,20,n/a,0.00
+303,"how to read vastu compass",n/a,20,n/a,0.00
+304,"how to reduce vastu dosh",n/a,20,n/a,0.00
+305,"how to remove negative energy from home vastu tips",n/a,20,n/a,0.00
+306,"how to remove south west vastu dosh",n/a,20,n/a,0.00
+307,"how to remove vastu dosh from home in hindi",n/a,20,n/a,0.00
+308,"how to remove vastu dosh of kitchen",n/a,20,n/a,0.00
+309,"how to see vastu directions",n/a,20,n/a,0.01
+310,"how to see vastu for apartments",n/a,20,n/a,0.00
+311,"how to see vastu for house",n/a,20,n/a,0.00
+312,"how to sleep according to vastu shastra",n/a,20,n/a,0.00
+313,"how to sleep by vastu shastra",n/a,20,n/a,0.00
+314,"how to sleep in bedroom as per vastu shastra",n/a,20,n/a,0.01
+315,"how to sleep vastu",n/a,20,n/a,0.00
+316,"how to study vastu shastra",n/a,20,n/a,0.12
+317,"how to use compass for vastu direction",n/a,20,n/a,0.00
+318,"how to use copper wire in vastu",n/a,20,n/a,0.00
+319,"how to use magnetic compass for vastu",n/a,20,n/a,0.00
+320,"how to use pyramid for vastu correction",n/a,20,n/a,0.00
+321,"how to use vastu compass app",n/a,20,n/a,0.00
+322,"how to use vastu dosh nivaran yantra",n/a,20,n/a,0.00
+323,"how to use vastu pyramid",n/a,20,n/a,0.00
+324,"how to vastu for home",n/a,20,n/a,0.03
+325,"how true is vastu shastra",n/a,20,n/a,0.00
+326,"how vastu shastra works",n/a,20,n/a,0.00
+327,"is 3 burner stove vastu",n/a,20,n/a,0.00
+328,"is aloe vera good for home according to vastu",n/a,20,n/a,0.00
+329,"is basement good as per vastu",n/a,20,n/a,0.00
+330,"is cat good for vastu",n/a,20,n/a,0.00
+331,"is dog good for vastu",n/a,20,n/a,0.00
+332,"is false ceiling good as per vastu",n/a,20,n/a,0.00
+333,"is flowerhorn a vastu fish",n/a,20,n/a,0.00
+334,"is north east entrance good as per vastu",n/a,20,n/a,0.00
+335,"is north east facing house good as per vastu",n/a,20,n/a,0.00
+336,"is north entrance good as per vastu",n/a,20,n/a,0.00
+337,"is north facing house good according to vastu",n/a,20,n/a,0.00
+338,"is parrot good for vastu",n/a,20,n/a,0.00
+339,"is pyramid vastu effective",n/a,20,n/a,0.00
+340,"is rabbit good for vastu",n/a,20,n/a,0.00
+341,"is running horse picture vastu",n/a,20,n/a,0.00
+342,"is sliding door considered as door as per vastu",n/a,20,n/a,0.00
+343,"is south east entrance good as per vastu",n/a,20,n/a,0.00
+344,"is south entrance good as per vastu",n/a,20,n/a,0.00
+345,"is south facing flat good for vastu",n/a,20,n/a,0.00
+346,"is south west entrance good as per vastu",n/a,20,n/a,0.00
+347,"is south west facing house good as per vastu",n/a,20,n/a,0.00
+348,"is southeast facing house good as per vastu",n/a,20,n/a,0.00
+349,"is tortoise good for vastu",n/a,20,n/a,0.00
+350,"is vastu applicable for agricultural lands",n/a,20,n/a,0.00
+351,"is vastu applicable for apartments",n/a,20,n/a,0.00
+352,"is vastu applicable for first floor",n/a,20,n/a,0.00
+353,"is vastu important",n/a,20,n/a,0.00
+354,"is vastu necessary",n/a,20,n/a,0.00
+355,"is vastu real or fake",n/a,20,n/a,0.00
+356,"is vastu really important",n/a,20,n/a,0.00
+357,"is vastu really works",n/a,20,n/a,0.00
+358,"is vastu relevant today",n/a,20,n/a,0.00
+359,"is vastu scientifically proven",n/a,20,n/a,0.00
+360,"is vastu shastra applicable for flats",n/a,20,n/a,0.00
+361,"is vastu shastra scientific",n/a,20,n/a,0.00
+362,"is vastu superstition",n/a,20,n/a,0.00
+363,"is vastu true or false",n/a,20,n/a,0.00
+364,"is west entrance good as per vastu",n/a,20,n/a,0.00
+365,"is west facing flat good as per vastu",n/a,20,n/a,0.00
+366,"is west facing house good according to vastu",n/a,20,n/a,0.00
+367,"should i believe in vastu",n/a,20,n/a,0.00
+368,"should we believe in vastu shastra",n/a,20,n/a,0.00
+369,"should we follow vastu",n/a,20,n/a,0.00
+370,"should we see vastu for rented house",n/a,20,n/a,0.00
+371,"what are vastu principles",n/a,20,n/a,0.00
+372,"what can be kept under staircase as per vastu",n/a,20,n/a,0.00
+373,"what does facing mean in vastu",n/a,20,n/a,0.00
+374,"what facing house is the best as per vastu",n/a,20,n/a,0.00
+375,"what is aaya in vastu",n/a,20,n/a,0.00
+376,"what is best sleeping direction according to vastu",n/a,20,n/a,0.00
+377,"what is brahmasthan in vastu",n/a,20,n/a,0.00
+378,"what is eesanyam in vastu",n/a,20,n/a,0.00
+379,"what is feng shui vastu",n/a,20,n/a,0.00
+380,"what is helix in vastu",n/a,20,n/a,0.00
+381,"what is north east corner in vastu",n/a,20,n/a,0.00
+382,"what is north east cut vastu",n/a,20,n/a,0.00
+383,"what is pada in vastu",n/a,20,n/a,0.00
+384,"what is road hit in vastu",n/a,20,n/a,0.00
+385,"what is the meaning of vastu in english",n/a,20,n/a,0.00
+386,"what is the meaning of vastu in hindi",n/a,20,n/a,0.00
+387,"what is the meaning of vastu shastra",n/a,20,n/a,0.00
+388,"what is the vastu for a north facing house",n/a,20,n/a,0.00
+389,"what is vastu called in english",n/a,20,n/a,0.00
+390,"what is vastu compliant",n/a,20,n/a,0.00
+391,"what is vastu day",n/a,20,n/a,0.00
+392,"what is vastu dosha",n/a,20,n/a,0.00
+393,"what is vastu for house",n/a,20,n/a,0.00
+394,"what is vastu in hindi",n/a,20,n/a,0.00
+395,"what is vastu naal",n/a,20,n/a,0.00
+396,"what is vastu pooja",n/a,20,n/a,0.00
+397,"what is vastu puja",n/a,20,n/a,0.00
+398,"what is vastu science",n/a,20,n/a,0.00
+399,"what is vastu shanti puja",n/a,20,n/a,0.00
+400,"what is vastu shastra for home",n/a,20,n/a,0.00
+401,"what is vastu vihar",n/a,20,n/a,0.00
+402,"what should be the colour of bedroom according to vastu",n/a,20,n/a,0.00
+403,"what should be the direction of toilet according to vastu",n/a,20,n/a,0.00
+404,"what should be the direction of toilet as per vastu",n/a,20,n/a,0.01
+405,"what to do if house is not as per vastu",n/a,20,n/a,0.00
+406,"what to keep under stairs as per vastu",n/a,20,n/a,0.00
+407,"what vastu shastra",n/a,20,n/a,0.00
+408,"what we say vastu in english",n/a,20,n/a,0.00
+409,"what's vastu",n/a,20,n/a,0.00
+410,"where did vastu come from",n/a,20,n/a,0.00
+411,"where kitchen should be as per vastu",n/a,20,n/a,0.00
+412,"where should aquarium be placed according to vastu",n/a,20,n/a,0.00
+413,"where should bathroom be as per vastu",n/a,20,n/a,0.00
+414,"where should be bathroom according to vastu",n/a,20,n/a,0.00
+415,"where should be bedroom as per vastu",n/a,20,n/a,0.01
+416,"where should be kitchen according to vastu",n/a,20,n/a,0.01
+417,"where should be kitchen sink as per vastu",n/a,20,n/a,0.00
+418,"where should be mandir in house according to vastu",n/a,20,n/a,0.00
+419,"where should be septic tank as per vastu",n/a,20,n/a,0.00
+420,"where should be staircase as per vastu",n/a,20,n/a,0.00
+421,"where should be the bathroom as per vastu",n/a,20,n/a,0.00
+422,"where should be the bedroom as per vastu",n/a,20,n/a,0.01
+423,"where should be the pooja room as per vastu",n/a,20,n/a,0.01
+424,"where should be the septic tank as per vastu",n/a,20,n/a,0.00
+425,"where should be the temple as per vastu",n/a,20,n/a,0.00
+426,"where should be toilet according to vastu",n/a,20,n/a,0.00
+427,"where should bed be placed in room according to vastu",n/a,20,n/a,0.00
+428,"where should calendar be placed as per vastu",n/a,20,n/a,0.00
+429,"where should i sit in office as per vastu",n/a,20,n/a,0.00
+430,"where should kitchen be according to vastu",n/a,20,n/a,0.00
+431,"where should the clock be placed as per vastu",n/a,20,n/a,0.01
+432,"where should the kitchen be as per vastu",n/a,20,n/a,0.01
+433,"where should the toilet be according to vastu",n/a,20,n/a,0.00
+434,"where should tv be placed as per vastu",n/a,20,n/a,0.00
+435,"where should wall clock be placed as per vastu",n/a,20,n/a,0.01
+436,"where should we keep medicines as per vastu",n/a,20,n/a,0.00
+437,"where should we place mirror as per vastu",n/a,20,n/a,0.01
+438,"where should we place wall clock according to vastu",n/a,20,n/a,0.01
+439,"where the kitchen should be as per vastu",n/a,20,n/a,0.00
+440,"where to bury vastu purusha",n/a,20,n/a,0.00
+441,"where to hang clock according to vastu",n/a,20,n/a,0.00
+442,"where to hang family pictures as per vastu",n/a,20,n/a,0.00
+443,"where to hang god photos as per vastu",n/a,20,n/a,0.00
+444,"where to hang key holder as per vastu",n/a,20,n/a,0.00
+445,"where to hang wall clock according to vastu",n/a,20,n/a,0.00
+446,"where to keep almirah in bedroom as per vastu",n/a,20,n/a,0.00
+447,"where to keep aquarium in home as per vastu",n/a,20,n/a,0.00
+448,"where to keep aquarium in house according to vastu",n/a,20,n/a,0.00
+449,"where to keep aquarium in office according to vastu",n/a,20,n/a,0.00
+450,"where to keep awards as per vastu",n/a,20,n/a,0.00
+451,"where to keep bed in bedroom as per vastu",n/a,20,n/a,0.01
+452,"where to keep bookshelf according to vastu",n/a,20,n/a,0.00
+453,"where to keep brass tortoise at home according to vastu",n/a,20,n/a,0.00
+454,"where to keep broom in house as per vastu",n/a,20,n/a,0.00
+455,"where to keep brooms and mops as per vastu",n/a,20,n/a,0.00
+456,"where to keep bureau as per vastu",n/a,20,n/a,0.00
+457,"where to keep cactus as per vastu",n/a,20,n/a,0.00
+458,"where to keep calendar as per the vastu",n/a,20,n/a,0.00
+459,"where to keep crystal tortoise at office according to vastu",n/a,20,n/a,0.00
+460,"where to keep cupboard as per vastu",n/a,20,n/a,0.00
+461,"where to keep dining table as per vastu",n/a,20,n/a,0.00
+462,"where to keep dustbin according to vastu",n/a,20,n/a,0.00
+463,"where to keep dustbin at home according to vastu",n/a,20,n/a,0.00
+464,"where to keep family photo according to vastu",n/a,20,n/a,0.00
+465,"where to keep family photos as per vastu",n/a,20,n/a,0.00
+466,"where to keep fish tank at home as per vastu",n/a,20,n/a,0.00
+467,"where to keep fridge according to vastu",n/a,20,n/a,0.00
+468,"where to keep fridge as per vastu",n/a,20,n/a,0.00
+469,"where to keep gas stove in kitchen as per vastu",n/a,20,n/a,0.00
+470,"where to keep glass tortoise at home according to vastu",n/a,20,n/a,0.00
+471,"where to keep globe as per vastu",n/a,20,n/a,0.00
+472,"where to keep god as per vastu",n/a,20,n/a,0.01
+473,"where to keep god in house as per vastu",n/a,20,n/a,0.01
+474,"where to keep head while sleeping according to vastu",n/a,20,n/a,0.00
+475,"where to keep head while sleeping as per vastu",n/a,20,n/a,0.02
+476,"where to keep head while sleeping vastu",n/a,20,n/a,0.00
+477,"where to keep important documents at home as per vastu",n/a,20,n/a,0.00
+478,"where to keep inverter in house according to vastu",n/a,20,n/a,0.00
+479,"where to keep jewellery as per vastu",n/a,20,n/a,0.00
+480,"where to keep keys at home as per vastu",n/a,20,n/a,0.00
+481,"where to keep kitchen as per vastu",n/a,20,n/a,0.00
+482,"where to keep laundry basket vastu",n/a,20,n/a,0.00
+483,"where to keep live tortoise at home according to vastu",n/a,20,n/a,0.00
+484,"where to keep mandir in house as per vastu",n/a,20,n/a,0.01
+485,"where to keep medical reports as per vastu",n/a,20,n/a,0.00
+486,"where to keep medicines according to vastu",n/a,20,n/a,0.00
+487,"where to keep money in house as per vastu",n/a,20,n/a,0.00
+488,"where to keep money locker as per vastu",n/a,20,n/a,0.00
+489,"where to keep money plant according to vastu",n/a,20,n/a,0.00
+490,"where to keep money plant at home according to vastu",n/a,20,n/a,0.00
+491,"where to keep money plant at home as per vastu",n/a,20,n/a,0.00
+492,"where to keep money plant in house as per vastu",n/a,20,n/a,0.00
+493,"where to keep money plant in house vastu",n/a,20,n/a,0.00
+494,"where to keep musical instruments as per vastu",n/a,20,n/a,0.00
+495,"where to keep plants at home as per vastu",n/a,20,n/a,0.00
+496,"where to keep property papers as per vastu",n/a,20,n/a,0.00
+497,"where to keep property papers vastu",n/a,20,n/a,0.00
+498,"where to keep refrigerator according to vastu",n/a,20,n/a,0.00
+499,"where to keep refrigerator as per vastu",n/a,20,n/a,0.00
+500,"where to keep sewing machine as per vastu",n/a,20,n/a,0.00
+501,"where to keep shoe rack vastu",n/a,20,n/a,0.00
+502,"where to keep shoes according to vastu",n/a,20,n/a,0.00
+503,"where to keep study books as per vastu",n/a,20,n/a,0.00
+504,"where to keep tortoise at home as per vastu",n/a,20,n/a,0.00
+505,"where to keep trophies as per vastu",n/a,20,n/a,0.00
+506,"where to keep tulsi as per vastu",n/a,20,n/a,0.00
+507,"where to keep tulsi plant at home as per vastu",n/a,20,n/a,0.00
+508,"where to keep tulsi plant in house as per vastu",n/a,20,n/a,0.00
+509,"where to keep tv as per vastu",n/a,20,n/a,0.00
+510,"where to keep vastu vilakku",n/a,20,n/a,0.00
+511,"where to keep vastu yantra at home",n/a,20,n/a,0.00
+512,"where to keep wall clock as per vastu",n/a,20,n/a,0.00
+513,"where to keep wardrobe as per vastu",n/a,20,n/a,0.00
+514,"where to keep watch as per vastu",n/a,20,n/a,0.01
+515,"where to keep weighing machine as per vastu",n/a,20,n/a,0.00
+516,"where to place almirah according to vastu",n/a,20,n/a,0.00
+517,"where to place bed in bedroom as per vastu",n/a,20,n/a,0.01
+518,"where to place god as per vastu",n/a,20,n/a,0.00
+519,"where to place god in home according to vastu",n/a,20,n/a,0.00
+520,"where to place mirror according to vastu",n/a,20,n/a,0.00
+521,"where to place mirror in bedroom as per vastu",n/a,20,n/a,0.00
+522,"where to place plants in home vastu",n/a,20,n/a,0.00
+523,"where to place rubber plant as per vastu",n/a,20,n/a,0.00
+524,"where to place sampurna vastu yantra",n/a,20,n/a,0.00
+525,"where to place shoe rack in house as per vastu",n/a,20,n/a,0.00
+526,"where to place tulsi plant according to vastu",n/a,20,n/a,0.00
+527,"where to place tulsi plant as per vastu",n/a,20,n/a,0.00
+528,"where to place tv in living room according to vastu",n/a,20,n/a,0.00
+529,"where to place vastu bhagwan photo",n/a,20,n/a,0.00
+530,"where to place vastu dosh nivaran yantra in house",n/a,20,n/a,0.00
+531,"where to place vastu purusha idol in house",n/a,20,n/a,0.00
+532,"where to place vastu purusha in house",n/a,20,n/a,0.00
+533,"where to place washing machine as per vastu",n/a,20,n/a,0.00
+534,"where to plant amla tree as per vastu",n/a,20,n/a,0.00
+535,"where to plant banana tree as per vastu",n/a,20,n/a,0.00
+536,"where to plant curry leaf tree vastu",n/a,20,n/a,0.00
+537,"where to plant lemon tree as per vastu",n/a,20,n/a,0.00
+538,"where to plant mango tree as per vastu",n/a,20,n/a,0.00
+539,"where to put almirah according to vastu",n/a,20,n/a,0.00
+540,"where to put vastu yantra in home",n/a,20,n/a,0.00
+541,"where to sit in office according to vastu",n/a,20,n/a,0.00
+542,"where to sit in office as per vastu",n/a,20,n/a,0.00
+543,"where to sleep vastu",n/a,20,n/a,0.00
+544,"which color is best for bedroom as per vastu",n/a,20,n/a,0.01
+545,"which color is good for kitchen as per vastu",n/a,20,n/a,0.00
+546,"which colour is best for bedroom as per vastu",n/a,20,n/a,0.00
+547,"which colour is best for car as per vastu",n/a,20,n/a,0.00
+548,"which colour is best for drawing room according to vastu",n/a,20,n/a,0.00
+549,"which colour is best for hall according to vastu",n/a,20,n/a,0.00
+550,"which colour is best for home as per vastu",n/a,20,n/a,0.00
+551,"which colour is best for study room according to vastu",n/a,20,n/a,0.00
+552,"which colour is good for bedroom according to vastu",n/a,20,n/a,0.00
+553,"which colour is good for living room as per vastu",n/a,20,n/a,0.00
+554,"which direction is best to study according to vastu shastra",n/a,20,n/a,0.00
+555,"which direction is good for house as per vastu",n/a,20,n/a,0.00
+556,"which direction is good for sleeping as per vastu",n/a,20,n/a,0.00
+557,"which direction is good to sleep according to vastu",n/a,20,n/a,0.00
+558,"which direction one should sleep as per vastu",n/a,20,n/a,0.01
+559,"which direction should house face vastu",n/a,20,n/a,0.00
+560,"which direction should sleep according to vastu",n/a,20,n/a,0.00
+561,"which direction should we sleep vastu",n/a,20,n/a,0.00
+562,"which direction to face in office as per vastu",n/a,20,n/a,0.00
+563,"which direction to face while studying vastu",n/a,20,n/a,0.00
+564,"which direction to keep almirah as per vastu",n/a,20,n/a,0.00
+565,"which direction to sleep at night vastu",n/a,20,n/a,0.00
+566,"which direction to sleep vastu",n/a,20,n/a,0.00
+567,"which direction to study vastu",n/a,20,n/a,0.00
+568,"which direction you should sleep as per vastu",n/a,20,n/a,0.00
+569,"which facing flat is best as per vastu",n/a,20,n/a,0.01
+570,"which facing house is best as per vastu",n/a,20,n/a,0.00
+571,"which facing is best for house as per vastu",n/a,20,n/a,0.00
+572,"which fish is good for home aquarium as per vastu",n/a,20,n/a,0.00
+573,"which fish is good for vastu",n/a,20,n/a,0.00
+574,"which floor is best in apartment as per vastu",n/a,20,n/a,0.00
+575,"which floor is good as per vastu",n/a,20,n/a,0.00
+576,"which is the best direction to sleep according to vastu",n/a,20,n/a,0.01
+577,"which is the best direction to sleep for vastu",n/a,20,n/a,0.00
+578,"which is the best direction to study as per vastu",n/a,20,n/a,0.01
+579,"which is the best position to sleep as per vastu",n/a,20,n/a,0.01
+580,"which is the best side to sleep according to vastu",n/a,20,n/a,0.00
+581,"which painting is good for home according to vastu",n/a,20,n/a,0.00
+582,"which plant is good for home as per vastu",n/a,20,n/a,0.00
+583,"which plants are good for home as per vastu",n/a,20,n/a,0.01
+584,"which plants should be planted in home according to vastu",n/a,20,n/a,0.00
+585,"which side facing house is good as per vastu",n/a,20,n/a,0.00
+586,"which side facing house is good vastu",n/a,20,n/a,0.00
+587,"which side is best to sleep as per vastu",n/a,20,n/a,0.01
+588,"which side is best to sleep vastu",n/a,20,n/a,0.00
+589,"which side is good for sleeping vastu",n/a,20,n/a,0.00
+590,"which side kitchen in vastu",n/a,20,n/a,0.00
+591,"which side of bed should the man sleep vastu",n/a,20,n/a,0.00
+592,"which side should husband sleep as per vastu",n/a,20,n/a,0.00
+593,"which side should sleep according to vastu",n/a,20,n/a,0.00
+594,"which side should we sleep vastu",n/a,20,n/a,0.00
+595,"which side to sleep as per vastu in telugu",n/a,20,n/a,0.00
+596,"which side to sleep at night as per vastu",n/a,20,n/a,0.00
+597,"which side to sleep vastu shastra",n/a,20,n/a,0.00
+598,"which side to study as per vastu",n/a,20,n/a,0.00
+599,"which side we have to sleep as per vastu",n/a,20,n/a,0.00
+600,"which side we should not sleep according to vastu",n/a,20,n/a,0.00
+601,"which side wife should sleep vastu",n/a,20,n/a,0.00
+602,"which vastu is good for house",n/a,20,n/a,0.00
+603,"which wall clock vastu",n/a,20,n/a,0.00
+604,"which way to sleep according to vastu",n/a,20,n/a,0.00
+605,"who created vastu shastra",n/a,20,n/a,0.00
+606,"who invented vastu shastra",n/a,20,n/a,0.00
+607,"who is vastu purusha",n/a,20,n/a,0.00
+608,"who made vastu shastra",n/a,20,n/a,0.00
+609,"why running horse picture vastu",n/a,20,n/a,0.01
+610,"why vastu",n/a,20,n/a,0.00
+611,"why vastu is important in interior",n/a,20,n/a,0.00
+612,"why vastu shastra is important",n/a,20,n/a,0.00
+613,"why you shouldn t eat in bed vastu",n/a,20,n/a,0.00
+614,"do we need to see vastu for rented house",n/a,10,n/a,0.00
+615,"does vastu apply in a rented house",n/a,10,n/a,0.00
+616,"does vastu apply in usa",n/a,10,n/a,0.00
+617,"does vastu work",n/a,10,n/a,0.00
+618,"how does vastu shastra work",n/a,10,n/a,0.00
+619,"how does vastu work",n/a,10,n/a,0.00
+620,"how is north facing house in vastu",n/a,10,n/a,0.00
+621,"how is west facing house in vastu",n/a,10,n/a,0.01
+622,"how many goldfish as per vastu",n/a,10,n/a,0.00
+623,"how to balance vastu zone",n/a,10,n/a,0.00
+624,"how to calculate aaya in vastu",n/a,10,n/a,0.00
+625,"how to calculate pada in vastu",n/a,10,n/a,0.00
+626,"how to determine direction in vastu",n/a,10,n/a,0.00
+627,"how to display awards on a wall as per vastu",n/a,10,n/a,0.00
+628,"how to divide plot as per vastu",n/a,10,n/a,0.00
+629,"how to do vastu pooja at home",n/a,10,n/a,0.00
+630,"how to do vastu pooja in tamil",n/a,10,n/a,0.00
+631,"how to find aya in vastu",n/a,10,n/a,0.00
+632,"how to identify vastu dosh",n/a,10,n/a,0.00
+633,"how to increase wealth as per vastu",n/a,10,n/a,0.00
+634,"how to increase wealth by vastu",n/a,10,n/a,0.00
+635,"how to install vastu pyramid",n/a,10,n/a,0.00
+636,"how to light vastu vilakku",n/a,10,n/a,0.00
+637,"how to make vastu mandal",n/a,10,n/a,0.00
+638,"how to make vastu pyramid",n/a,10,n/a,0.00
+639,"how to place vastu purusha",n/a,10,n/a,0.00
+640,"how to place vastu pyramid at home",n/a,10,n/a,0.00
+641,"how to put copper wire for vastu",n/a,10,n/a,0.00
+642,"how to put horseshoe on door as per vastu",n/a,10,n/a,0.00
+643,"how to remove vastu dosh from office",n/a,10,n/a,0.00
+644,"how to see vastu",n/a,10,n/a,0.00
+645,"how to sit in office as per vastu",n/a,10,n/a,0.00
+646,"how to sit in office vastu",n/a,10,n/a,0.00
+647,"how to solve vastu dosh",n/a,10,n/a,0.01
+648,"how to use space under stairs as per vastu",n/a,10,n/a,0.00
+649,"how vastu works",n/a,10,n/a,0.00
+650,"is open kitchen good as per vastu",n/a,10,n/a,0.00
+651,"is south facing apartment good as per vastu",n/a,10,n/a,0.00
+652,"is vastu effective",n/a,10,n/a,0.00
+653,"is vastu is true",n/a,10,n/a,0.00
+654,"is west facing flat good in vastu",n/a,10,n/a,0.00
+655,"should we believe in vastu",n/a,10,n/a,0.00
+656,"what is east facing house in vastu",n/a,10,n/a,0.00
+657,"what is south east corner in vastu",n/a,10,n/a,0.00
+658,"what is the best direction to sleep according to vastu",n/a,10,n/a,0.00
+659,"what is the sleeping direction as per vastu",n/a,10,n/a,0.00
+660,"what is vastu consultant",n/a,10,n/a,0.00
+661,"what is vastu land",n/a,10,n/a,0.00
+662,"what is vastu purusha",n/a,10,n/a,0.00
+663,"what is vastu shastra for house",n/a,10,n/a,0.00
+664,"what is vastu shastra in hindi",n/a,10,n/a,0.00
+665,"what should be the position of bed as per vastu",n/a,10,n/a,0.01
+666,"what to keep in bedroom as per vastu",n/a,10,n/a,0.01
+667,"where should a mirror be placed in a bedroom vastu",n/a,10,n/a,0.00
+668,"where should be the entrance as per vastu",n/a,10,n/a,0.00
+669,"where should be the lift as per vastu",n/a,10,n/a,0.00
+670,"where should be the main door as per vastu",n/a,10,n/a,0.01
+671,"where should mirror be placed as per vastu",n/a,10,n/a,0.01
+672,"where should we keep vastu yantra",n/a,10,n/a,0.00
+673,"where to fix ac in bedroom as per vastu",n/a,10,n/a,0.00
+674,"where to hang horse painting as per vastu",n/a,10,n/a,0.01
+675,"where to keep aquarium according to vastu",n/a,10,n/a,0.00
+676,"where to keep aquarium in house as per vastu",n/a,10,n/a,0.00
+677,"where to keep books as per vastu",n/a,10,n/a,0.00
+678,"where to keep certificates as per vastu",n/a,10,n/a,0.00
+679,"where to keep clothes as per vastu",n/a,10,n/a,0.00
+680,"where to keep cupboard according to vastu",n/a,10,n/a,0.00
+681,"where to keep fish pot as per vastu",n/a,10,n/a,0.00
+682,"where to keep fish tank in home as per vastu",n/a,10,n/a,0.00
+683,"where to keep key holder as per vastu",n/a,10,n/a,0.00
+684,"where to keep mandir as per vastu",n/a,10,n/a,0.01
+685,"where to keep mirror according to vastu",n/a,10,n/a,0.01
+686,"where to keep peace lily as per vastu",n/a,10,n/a,0.00
+687,"where to keep photos as per vastu",n/a,10,n/a,0.00
+688,"where to keep rice as per vastu",n/a,10,n/a,0.00
+689,"where to keep sampurna vastu yantra",n/a,10,n/a,0.00
+690,"where to keep shoe rack in house according to vastu",n/a,10,n/a,0.00
+691,"where to keep snake plant as per vastu",n/a,10,n/a,0.01
+692,"where to keep vastu bhagwan photo",n/a,10,n/a,0.00
+693,"where to keep wall clock according to vastu",n/a,10,n/a,0.00
+694,"where to keep water tank as per vastu",n/a,10,n/a,0.00
+695,"where to place money plant as per vastu",n/a,10,n/a,0.00
+696,"where to place staircase as per vastu",n/a,10,n/a,0.00
+697,"where to place tv as per vastu",n/a,10,n/a,0.00
+698,"where to place vastu dosh nivaran yantra",n/a,10,n/a,0.00
+699,"where to place vastu purusha",n/a,10,n/a,0.00
+700,"where to place vastu pyramid",n/a,10,n/a,0.00
+701,"where to plant neem tree as per vastu",n/a,10,n/a,0.00
+702,"where to plant tulsi at home as per vastu",n/a,10,n/a,0.00
+703,"where to put clock as per vastu",n/a,10,n/a,0.01
+704,"where to put shoe rack according to vastu",n/a,10,n/a,0.00
+705,"which color is good for kitchen according to vastu",n/a,10,n/a,0.00
+706,"which colour is best for hall as per vastu",n/a,10,n/a,0.01
+707,"which colour is best for kitchen as per vastu",n/a,10,n/a,0.00
+708,"which direction house facing is best vastu",n/a,10,n/a,0.00
+709,"which direction should bed face vastu",n/a,10,n/a,0.00
+710,"which direction should the main door face vastu",n/a,10,n/a,0.00
+711,"which direction to face while eating vastu",n/a,10,n/a,0.00
+712,"which direction to sit in office according to vastu",n/a,10,n/a,0.00
+713,"which direction to sleep vastu shastra",n/a,10,n/a,0.00
+714,"which facing is good for house according to vastu",n/a,10,n/a,0.00
+715,"which facing plot is best as per vastu",n/a,10,n/a,0.01
+716,"which side facing house is best as per vastu",n/a,10,n/a,0.01
+717,"which side we need to sleep as per vastu",n/a,10,n/a,0.00
+718,"which side you should sleep as per vastu",n/a,10,n/a,0.00
+719,"which vastu is good for home",n/a,10,n/a,0.00
+720,"why vastu is important",n/a,10,n/a,0.00
+721,"are 3 gas burners good according to vastu",n/a,0,n/a,0.00
+722,"are blue colour for rooms against vastu",n/a,0,n/a,0.00
+723,"are creepers good for home as per vastu",n/a,0,n/a,0.00
+724,"are east facing wc okay as per vastu",n/a,0,n/a,0.00
+725,"are high rise buildings built according to vastu",n/a,0,n/a,0.00
+726,"are ivory items good for vastu",n/a,0,n/a,0.00
+727,"are owl figurines good as per vastu",n/a,0,n/a,0.00
+728,"are pigeons bad for vastu",n/a,0,n/a,0.00
+729,"are the vastu measurement internal or external",n/a,0,n/a,0.00
+730,"are the vastu measurements exterior or interior",n/a,0,n/a,0.00
+731,"are watches good gift items as per vastu shastra",n/a,0,n/a,0.00
+732,"can 2 windows door straight be placed straight per vastu",n/a,0,n/a,0.00
+733,"can a guest room be in south as per vastu",n/a,0,n/a,0.00
+734,"can a house be in differrent levels as per vastu",n/a,0,n/a,0.00
+735,"can a keep areca palm vastu",n/a,0,n/a,0.00
+736,"can a mirror can kept facing a mirror in vastu",n/a,0,n/a,0.00
+737,"can a plots south west corner good vastu",n/a,0,n/a,0.00
+738,"can ac be fitted on saturday vastu",n/a,0,n/a,0.00
+739,"can air conditioner face south side as per vastu",n/a,0,n/a,0.00
+740,"can any red sticker be put for vastu shastra",n/a,0,n/a,0.00
+741,"can babrbed wire be used for fencing vastu",n/a,0,n/a,0.00
+742,"can back door on west vastu",n/a,0,n/a,0.00
+743,"can banana tree remove vastu dosh benufit",n/a,0,n/a,0.00
+744,"can banyan tree be planted at balcony according to vastu",n/a,0,n/a,0.00
+745,"can barbed wire be used for fencing vastu",n/a,0,n/a,0.00
+746,"can be have bathroom under staircase telugu vastu",n/a,0,n/a,0.00
+747,"can beam be visible in room vastu",n/a,0,n/a,0.00
+748,"can bed be placed in north wall as per vastu",n/a,0,n/a,0.00
+749,"can bedroom be above kitchen according to vastu",n/a,0,n/a,0.00
+750,"can birds be pets according to vastu",n/a,0,n/a,0.00
+751,"can blue be used in master room in vastu",n/a,0,n/a,0.00
+752,"can cars park in front of my house vastu tips",n/a,0,n/a,0.00
+753,"can deer head be placed in house as per vastu",n/a,0,n/a,0.00
+754,"can dining area be bathrom facing vastu",n/a,0,n/a,0.00
+755,"can dining room be by front door according to vastu",n/a,0,n/a,0.00
+756,"can door cross each other according vastu",n/a,0,n/a,0.00
+757,"can eastside be extended in apartments according to vastu",n/a,0,n/a,0.00
+758,"can electric meter be placed in southeast as per vastu",n/a,0,n/a,0.00
+759,"can entrance facing south in flat vastu",n/a,0,n/a,0.00
+760,"can false ceiling be made for vastu correction",n/a,0,n/a,0.00
+761,"can foreginers belive in vastu shastra",n/a,0,n/a,0.00
+762,"can fridge be placed under a beam as per vastu",n/a,0,n/a,0.00
+763,"can garlic be given as gift vastu",n/a,0,n/a,0.00
+764,"can head be kept in south in.vastu",n/a,0,n/a,0.00
+765,"can home contain more than 4 corners vastu",n/a,0,n/a,0.00
+766,"can house be in front ofschool as per vastu",n/a,0,n/a,0.00
+767,"can house be named after river's name according to vastu",n/a,0,n/a,0.00
+768,"can house be near school as per vastu",n/a,0,n/a,0.00
+769,"can house face west in.vastu.com",n/a,0,n/a,0.00
+770,"can house facing south in.vastu.com",n/a,0,n/a,0.00
+771,"can house have levels as per vastu",n/a,0,n/a,0.00
+772,"can house vastu gives troubles for children marriage",n/a,0,n/a,0.00
+773,"can i buy flat in 4th floor vastu",n/a,0,n/a,0.00
+774,"can i check the vastu zones of my house online",n/a,0,n/a,0.00
+775,"can i do satyanarayan pooja & vastu puja together",n/a,0,n/a,0.00
+776,"can i do satynarayan pooja & vastu puja together",n/a,0,n/a,0.00
+777,"can i drill in wall according vastu",n/a,0,n/a,0.00
+778,"can i have wc facing west vastu",n/a,0,n/a,0.00
+779,"can i keep 9 fishes with shrimp as per vastu",n/a,0,n/a,0.00
+780,"can i keep glass turtle as per vastu",n/a,0,n/a,0.00
+781,"can i keep plants pots on the roof vastu",n/a,0,n/a,0.00
+782,"can i keep shrimp as per vastu",n/a,0,n/a,0.00
+783,"can i open the knight of the vastu plants",n/a,0,n/a,0.00
+784,"can i open the knoght of the vastu plants",n/a,0,n/a,0.00
+785,"can i paint ganesha on main door vastu",n/a,0,n/a,0.00
+786,"can i place bedroom above kitchen in vastu",n/a,0,n/a,0.00
+787,"can i plant banyan tree at home vastu",n/a,0,n/a,0.00
+788,"can i walk over sump as per vastu",n/a,0,n/a,0.00
+789,"can idols be placed on west as er vastu",n/a,0,n/a,0.00
+790,"can ivory be kept at home as per vastu",n/a,0,n/a,0.00
+791,"can kitchen be south by vastu",n/a,0,n/a,0.00
+792,"can kitchen in southeast direction correct by vastu",n/a,0,n/a,0.00
+793,"can l give my clothes to charity vastu",n/a,0,n/a,0.00
+794,"can l give my clothes to my family vastu",n/a,0,n/a,0.00
+795,"can l give my clothes vastu",n/a,0,n/a,0.00
+796,"can l give my sandal to someone vastu",n/a,0,n/a,0.00
+797,"can lion face lock.be used as per vastu",n/a,0,n/a,0.00
+798,"can locker be placed in front of mirror vastu",n/a,0,n/a,0.00
+799,"can main door have 5 planks wood as per vastu",n/a,0,n/a,0.00
+800,"can marriage hall stage face south side in vastu",n/a,0,n/a,0.00
+801,"can middle floors are good for vastu",n/a,0,n/a,0.00
+802,"can mirror be on side of bed vastu",n/a,0,n/a,0.00
+803,"can mirror be placed in kitchen according to vastu",n/a,0,n/a,0.00
+804,"can mirror face bed sideways vastu",n/a,0,n/a,0.00
+805,"can mirror place west wall facing east as per vastu",n/a,0,n/a,0.00
+806,"can mirror placed at entrance of house per vastu",n/a,0,n/a,0.00
+807,"can money plant causes vastu dosh",n/a,0,n/a,0.00
+808,"can mural painting be done inside house as per vastu",n/a,0,n/a,0.00
+809,"can name plate be gifted vastu",n/a,0,n/a,0.00
+810,"can north east corner extended plot vastu",n/a,0,n/a,0.00
+811,"can northeast be used as store room as per vastu",n/a,0,n/a,0.00
+812,"can office table touch bathroom vastu",n/a,0,n/a,0.00
+813,"can outhouse be built with more height than home vastu",n/a,0,n/a,0.00
+814,"can outside door taken cosideration as per vastu",n/a,0,n/a,0.00
+815,"can owl enter into house vastu shastra",n/a,0,n/a,0.00
+816,"can painting of ardhnarishwar be kept at home vastu",n/a,0,n/a,0.00
+817,"can peepal tree be planted at home as per vastu",n/a,0,n/a,0.00
+818,"can pegion enter into house vastu shastra",n/a,0,n/a,0.00
+819,"can pegionl enter into house vastu shastra",n/a,0,n/a,0.00
+820,"can pomegranate be planted in home as per vastu",n/a,0,n/a,0.00
+821,"can pooja room facing kitchen vastu",n/a,0,n/a,0.00
+822,"can puja room be at ne corner as per vastu",n/a,0,n/a,0.00
+823,"can rented house also needs vastu",n/a,0,n/a,0.00
+824,"can seating be made below stairs as per vastu",n/a,0,n/a,0.00
+825,"can sliding door be considered as per vastu",n/a,0,n/a,0.00
+826,"can southwest cupboard in home as per vastu",n/a,0,n/a,0.00
+827,"can spider plants be kept outside at the entrance vastu",n/a,0,n/a,0.00
+828,"can staircase be in front of the main door vastu",n/a,0,n/a,0.00
+829,"can stairs be build in east according to vastu",n/a,0,n/a,0.00
+830,"can stairs be built in east according to vastu",n/a,0,n/a,0.00
+831,"can stairs be in east south corner according to vastu",n/a,0,n/a,0.00
+832,"can stairs build in east according to vastu",n/a,0,n/a,0.00
+833,"can steel be used in main door according to vastu",n/a,0,n/a,0.00
+834,"can succulents be kept indoors as per vastu",n/a,0,n/a,0.00
+835,"can swastik design be used in flooring as per vastu",n/a,0,n/a,0.00
+836,"can temple be in living room vastu",n/a,0,n/a,0.00
+837,"can the base of temple be black vastu",n/a,0,n/a,0.00
+838,"can the book cupboards face south direction as per vastu",n/a,0,n/a,0.00
+839,"can the book shelfs face south direction as per vastu",n/a,0,n/a,0.00
+840,"can the money locker face south direction as per vastu",n/a,0,n/a,0.00
+841,"can the swing hang from the ceiing according to vastu",n/a,0,n/a,0.00
+842,"can there be toilets in north west as per vastu",n/a,0,n/a,0.00
+843,"can there.be bedroom above kitchen vastu",n/a,0,n/a,0.00
+844,"can three doors be placed as per vastu",n/a,0,n/a,0.00
+845,"can three doors be placed straight per vastu",n/a,0,n/a,0.00
+846,"can tiger pictures be kept in bedroom for vastu",n/a,0,n/a,0.00
+847,"can toilet be in south west according to vastu",n/a,0,n/a,0.00
+848,"can toilet be in south west as per vastu",n/a,0,n/a,0.00
+849,"can tv be kept in bedroom according to vastu",n/a,0,n/a,0.00
+850,"can tv be placed below stairs as per vastu",n/a,0,n/a,0.00
+851,"can tv be placed below stairsas per vastu",n/a,0,n/a,0.00
+852,"can upstairs go from east to north vastu",n/a,0,n/a,0.00
+853,"can upstairs go from southeast to northeast vastu",n/a,0,n/a,0.00
+854,"can vastu clear critical illness",n/a,0,n/a,0.00
+855,"can vastu dosha ruin career and money",n/a,0,n/a,0.00
+856,"can vastu for house be followed in islam",n/a,0,n/a,0.00
+857,"can vastu plant be kept at home",n/a,0,n/a,0.00
+858,"can vastu shanti and satyanarayan puja invitation in marathi",n/a,0,n/a,0.00
+859,"can ve design pop swastik as per vastu shastra",n/a,0,n/a,0.00
+860,"can vyuvyam be opened vastu",n/a,0,n/a,0.00
+861,"can wash basin be in hall as per vastu",n/a,0,n/a,0.00
+862,"can wash basin be on west wall as per vastu",n/a,0,n/a,0.00
+863,"can water be stored in south region of room vastu",n/a,0,n/a,0.00
+864,"can we build house above pillar vastu",n/a,0,n/a,0.00
+865,"can we build house above pillar with vastu",n/a,0,n/a,0.00
+866,"can we build square home as per vastu",n/a,0,n/a,0.00
+867,"can we build vastu room in first floor",n/a,0,n/a,0.00
+868,"can we built shop under staircase as per vastu",n/a,0,n/a,0.00
+869,"can we buy broom on friday telugu vastu",n/a,0,n/a,0.00
+870,"can we buy home near school according to vastu",n/a,0,n/a,0.00
+871,"can we buy pillow on friday according to vastu",n/a,0,n/a,0.00
+872,"can we compromise stairs direction as per vastu",n/a,0,n/a,0.00
+873,"can we cook facing north east as per vastu",n/a,0,n/a,0.00
+874,"can we cook food facing west as per vastu",n/a,0,n/a,0.00
+875,"can we cut coconut tree according to vastu",n/a,0,n/a,0.00
+876,"can we do puja on every vastu day",n/a,0,n/a,0.00
+877,"can we exchange rings looking towards north vastu",n/a,0,n/a,0.00
+878,"can we extend north west corner as per the vastu",n/a,0,n/a,0.00
+879,"can we extend portico pillar towsrds northeast according to vastu",n/a,0,n/a,0.00
+880,"can we fix single door window as per vastu",n/a,0,n/a,0.00
+881,"can we give lemon vastu",n/a,0,n/a,0.00
+882,"can we grow methi at home according to vastu",n/a,0,n/a,0.00
+883,"can we grow pomegranate in home according to vastu",n/a,0,n/a,0.00
+884,"can we hang vastu mirror in stairs",n/a,0,n/a,0.00
+885,"can we have bathroom in southeast corner according to vastu",n/a,0,n/a,0.00
+886,"can we have butterfly stickrs in bedroom as per vastu",n/a,0,n/a,0.00
+887,"can we have exhaust fan on west side kitchen vastu",n/a,0,n/a,0.00
+888,"can we have peacock stickers as per vastu",n/a,0,n/a,0.00
+889,"can we have sewarage pipe in nort east wall vastu",n/a,0,n/a,0.00
+890,"can we have sump below living room as per vastu",n/a,0,n/a,0.00
+891,"can we have sump under living room as per vastu",n/a,0,n/a,0.00
+892,"can we have thorns plant vastu",n/a,0,n/a,0.00
+893,"can we have two puja rooms in one house vastu",n/a,0,n/a,0.00
+894,"can we have wardrobes on west wall as per vastu",n/a,0,n/a,0.00
+895,"can we keep 3 fishes in aquarium according to vastu",n/a,0,n/a,0.00
+896,"can we keep 6 fishes in aquarium according to vastu",n/a,0,n/a,0.00
+897,"can we keep almara in northwest as per vastu",n/a,0,n/a,0.00
+898,"can we keep almira at northeast as per vastu",n/a,0,n/a,0.00
+899,"can we keep almirah at northeast as per vastu",n/a,0,n/a,0.00
+900,"can we keep anything on the locker as per vastu",n/a,0,n/a,0.00
+901,"can we keep beerwa in northwest as per vastu",n/a,0,n/a,0.00
+902,"can we keep cat at home as per vastu",n/a,0,n/a,0.00
+903,"can we keep gold in bed as per vastu",n/a,0,n/a,0.00
+904,"can we keep krishna arjun rath as per vastu",n/a,0,n/a,0.00
+905,"can we keep krishna arjun rath idol as per vastu",n/a,0,n/a,0.00
+906,"can we keep kuber idol vastu",n/a,0,n/a,0.00
+907,"can we keep palm plant at home according to vastu",n/a,0,n/a,0.00
+908,"can we keep sofa in bedroom vastu",n/a,0,n/a,0.00
+909,"can we keep trident at home vastu",n/a,0,n/a,0.00
+910,"can we keep tv under stairs as per vastu",n/a,0,n/a,0.00
+911,"can we keep vastu bamboo plant in north east corner",n/a,0,n/a,0.00
+912,"can we keep vastu shanti on ganesh chaturthi",n/a,0,n/a,0.00
+913,"can we keep vastu shanti on ganesh chutarthi",n/a,0,n/a,0.00
+914,"can we pay rent on friday as per vastu",n/a,0,n/a,0.00
+915,"can we place staircase on nw as per vastu",n/a,0,n/a,0.00
+916,"can we provide toilet in south east according to vastu",n/a,0,n/a,0.00
+917,"can we purchase wardrobe with mirror vastu",n/a,0,n/a,0.00
+918,"can we put a clock in toilet as per vastu",n/a,0,n/a,0.00
+919,"can we put a mirror in front of bed vastu",n/a,0,n/a,0.00
+920,"can we put grey color in home vastu",n/a,0,n/a,0.00
+921,"can we put grey colours in home vastu",n/a,0,n/a,0.00
+922,"can we put li point vastu west",n/a,0,n/a,0.00
+923,"can we put money plant in east or north vastu",n/a,0,n/a,0.00
+924,"can we put sapota tree in factory as per vastu",n/a,0,n/a,0.00
+925,"can we put vastu yantra at home",n/a,0,n/a,0.00
+926,"can we sell gold fish as per vastu",n/a,0,n/a,0.00
+927,"can we sell vastu vihar",n/a,0,n/a,0.00
+928,"can we sleep in the office as per vastu",n/a,0,n/a,0.00
+929,"can we stick pyra vastu pyramid near the entrance",n/a,0,n/a,0.00
+930,"can we store above the headrest according to vastu",n/a,0,n/a,0.00
+931,"can we take red chillys from some one vastu",n/a,0,n/a,0.00
+932,"can we use apple green granite countertops in kitchen vastu",n/a,0,n/a,0.00
+933,"can we use clock and photo as per vastu",n/a,0,n/a,0.00
+934,"can we use glass for home according to vastu",n/a,0,n/a,0.00
+935,"can we use gopurams pooja room accordi g to vastu",n/a,0,n/a,0.00
+936,"can we use granite on kitchen slab in vastu",n/a,0,n/a,0.00
+937,"can we use maroon curtains in bedroom according to vastu",n/a,0,n/a,0.00
+938,"can we use open to sky in vastu",n/a,0,n/a,0.00
+939,"can we use ots in vastu",n/a,0,n/a,0.00
+940,"can window door window be placed straight per vastu",n/a,0,n/a,0.00
+941,"can window present in south west corner vastu",n/a,0,n/a,0.00
+942,"can you grow echeveria as per vastu",n/a,0,n/a,0.00
+943,"can you grow livistona as per vastu",n/a,0,n/a,0.00
+944,"can you have toilet in south weat part vastu",n/a,0,n/a,0.00
+945,"can you put bed under window according to vastu",n/a,0,n/a,0.00
+946,"do americans beleive in vastu",n/a,0,n/a,0.00
+947,"do americans check vastu shastra before making home",n/a,0,n/a,0.00
+948,"do bohras follow vastu shashtra",n/a,0,n/a,0.00
+949,"do crystal help in vastu",n/a,0,n/a,0.00
+950,"do hanso ka joda vastu",n/a,0,n/a,0.00
+951,"do mukhi ghar vastu pashchim",n/a,0,n/a,0.00
+952,"do muslims see vastu",n/a,0,n/a,0.00
+953,"do punjabis believe in vastu",n/a,0,n/a,0.00
+954,"do sikhs believe in vastu shastra",n/a,0,n/a,0.00
+955,"do vastu complaints in ground floor affects first floor",n/a,0,n/a,0.00
+956,"do vastu required for office employer seat",n/a,0,n/a,0.00
+957,"do we consider bathroom door as door in vastu",n/a,0,n/a,0.00
+958,"do we need an exit door as per vastu",n/a,0,n/a,0.00
+959,"do we need to follow 100 percent vastu",n/a,0,n/a,0.00
+960,"do we.need to put something on a wall.as.per vastu",n/a,0,n/a,0.00
+961,"do westerners follow vastu",n/a,0,n/a,0.00
+962,"do ya do se adhik kisi vyakti vastu",n/a,0,n/a,0.00
+963,"do you believe in vastu",n/a,0,n/a,0.00
+964,"do you believe in vastu shastra",n/a,0,n/a,0.00
+965,"does a kitchen room be big according to vastu shastra",n/a,0,n/a,0.00
+966,"does americans follow vastu shastra",n/a,0,n/a,0.00
+967,"does bad vastu affect house owner",n/a,0,n/a,0.00
+968,"does bird affect vastu",n/a,0,n/a,0.00
+969,"does changing room of sleeping make a difference in vastu",n/a,0,n/a,0.00
+970,"does christians believe in vastu",n/a,0,n/a,0.00
+971,"does colors has any value in vastu",n/a,0,n/a,0.00
+972,"does colour has any value in vastu",n/a,0,n/a,0.00
+973,"does cow and calf pooja help in overcoming vastu challenges",n/a,0,n/a,0.00
+974,"does crystal ball work in vastu shastra",n/a,0,n/a,0.00
+975,"does csm vastu sagralaya mumbai have section on kurla history",n/a,0,n/a,0.00
+976,"does dwarf coconut variety good to plant according to vastu",n/a,0,n/a,0.00
+977,"does facing west in an office bring bad luck vastu",n/a,0,n/a,0.00
+978,"does fatherinlaw house vastu effect son inlaw",n/a,0,n/a,0.00
+979,"does feng shui and vastu work",n/a,0,n/a,0.00
+980,"does following vastu at home makes any difference",n/a,0,n/a,0.00
+981,"does gravity effect vastu",n/a,0,n/a,0.00
+982,"does home vastu reflects business",n/a,0,n/a,0.00
+983,"does house vastu matter",n/a,0,n/a,0.00
+984,"does no of corners affect vastu",n/a,0,n/a,0.00
+985,"does north west gateway for house good as per vastu",n/a,0,n/a,0.00
+986,"does old vastu required vastupuja",n/a,0,n/a,0.00
+987,"does people see vastu in rent houses",n/a,0,n/a,0.00
+988,"does prestige lakeside follow vastu",n/a,0,n/a,0.00
+989,"does red color help in south east vastu dosh",n/a,0,n/a,0.00
+990,"does sikhism believe in vastu shastra",n/a,0,n/a,0.00
+991,"does spiral staircase good or bad for vastu",n/a,0,n/a,0.00
+992,"does vastu affect daily life",n/a,0,n/a,0.00
+993,"does vastu affect on 2nd floor",n/a,0,n/a,0.00
+994,"does vastu apllies to rented house",n/a,0,n/a,0.00
+995,"does vastu dosha apply to tenants",n/a,0,n/a,0.00
+996,"does vastu faults affect the b",n/a,0,n/a,0.00
+997,"does vastu faults affect the owner or tenants",n/a,0,n/a,0.00
+998,"does vastu hfc have office in pune",n/a,0,n/a,0.00
+999,"does vastu permit growing a chilie plant at home",n/a,0,n/a,0.00
+1000,"does vastu puja for buying old home",n/a,0,n/a,0.00
+1001,"does vastu puja remedies vastu",n/a,0,n/a,0.00
+1002,"does vastu really exists",n/a,0,n/a,0.00
+1003,"does vastu really matters",n/a,0,n/a,0.00
+1004,"does vastu remedies work",n/a,0,n/a,0.00
+1005,"does vastu tell you not to use marble in reception",n/a,0,n/a,0.00
+1006,"does vastu work above ground floor",n/a,0,n/a,0.00
+1007,"does vastu yantra work",n/a,0,n/a,0.00
+1008,"don't believe vastu",n/a,0,n/a,0.00
+1009,"don't give red chilli to any one vastu",n/a,0,n/a,0.00
+1010,"don't keep salt and turmeric together vastu",n/a,0,n/a,0.00
+1011,"don't leave your footwear here vastu shastra",n/a,0,n/a,0.00
+1012,"has vastu to be followed for firstfloor building",n/a,0,n/a,0.00
+1013,"have also knowledge about vastu",n/a,0,n/a,0.00
+1014,"how ancient temples built with vastu",n/a,0,n/a,0.00
+1015,"how and where to keep live vastu tortoise at home",n/a,0,n/a,0.00
+1016,"how bad time can be removed by vastu",n/a,0,n/a,0.00
+1017,"how big of a role do colours play in vastu",n/a,0,n/a,0.00
+1018,"how book a flat in vastu bihar",n/a,0,n/a,0.00
+1019,"how brahmasthan be decorated according to vastu",n/a,0,n/a,0.00
+1020,"how can find it flat rooms which sides in vastu",n/a,0,n/a,0.00
+1021,"how can home facein diside for best vastu",n/a,0,n/a,0.00
+1022,"how can i check my name thru vastu",n/a,0,n/a,0.00
+1023,"how can i clear vastu dosh of dark room",n/a,0,n/a,0.00
+1024,"how can i found the true direction according vastu",n/a,0,n/a,0.00
+1025,"how can increase memory according vastu",n/a,0,n/a,0.00
+1026,"how can sleep as per vastu shastra",n/a,0,n/a,0.00
+1027,"how can we name of our house vastu shastra",n/a,0,n/a,0.00
+1028,"how check vastu of home 25 21",n/a,0,n/a,0.00
+1029,"how copperwire used to vastu",n/a,0,n/a,0.00
+1030,"how do i know my house vastu",n/a,0,n/a,0.00
+1031,"how do successful people look at vastu",n/a,0,n/a,0.00
+1032,"how do we consider vastu directions",n/a,0,n/a,0.00
+1033,"how do you calculate center of house in vastu",n/a,0,n/a,0.00
+1034,"how do you determine vastu for an apartment",n/a,0,n/a,0.00
+1035,"how do you say vastu shilpi in english",n/a,0,n/a,0.00
+1036,"how does one understand the vastu of an apartment",n/a,0,n/a,0.00
+1037,"how does pyramid vastu work",n/a,0,n/a,0.00
+1038,"how does vastu defect can affect one's life",n/a,0,n/a,0.00
+1039,"how does vastu delay a daughter's marriage",n/a,0,n/a,0.00
+1040,"how does vastu in room work",n/a,0,n/a,0.00
+1041,"how effective it is to keep a aquarium in vastu",n/a,0,n/a,0.00
+1042,"how good vastu waking days",n/a,0,n/a,0.00
+1043,"how is 8 grid measured for vastu direction",n/a,0,n/a,0.00
+1044,"how is buddha connected to vastu",n/a,0,n/a,0.00
+1045,"how is extension calculated as per vastu",n/a,0,n/a,0.00
+1046,"how is extension in nnw as per vastu",n/a,0,n/a,0.00
+1047,"how is extension in north north west as per vastu",n/a,0,n/a,0.00
+1048,"how is flat entry direction decided vastu",n/a,0,n/a,0.00
+1049,"how is flat no 104 as per vastu",n/a,0,n/a,0.00
+1050,"how is house placement dedicded by vastu",n/a,0,n/a,0.00
+1051,"how is kerala vastu different",n/a,0,n/a,0.00
+1052,"how is north west balcony vastu",n/a,0,n/a,0.00
+1053,"how is south east door as per vastu",n/a,0,n/a,0.00
+1054,"how is south east facing in vastu",n/a,0,n/a,0.00
+1055,"how is south east facing office as per vastu",n/a,0,n/a,0.00
+1056,"how is south west facing flat vastu",n/a,0,n/a,0.00
+1057,"how is southeast facing house in vastu",n/a,0,n/a,0.00
+1058,"how is the vastu of a home malayalam",n/a,0,n/a,0.00
+1059,"how is vastu and astrology connected",n/a,0,n/a,0.00
+1060,"how is vastu as per astrological chart calculated",n/a,0,n/a,0.00
+1061,"how is vastu if south east is extended",n/a,0,n/a,0.00
+1062,"how is vastu important in one's life",n/a,0,n/a,0.00
+1063,"how is vastu kala academy for b arch",n/a,0,n/a,0.00
+1064,"how is vastu purusha mandala and five elements related",n/a,0,n/a,0.00
+1065,"how is vastu vihar bungalow",n/a,0,n/a,0.00
+1066,"how long does it take to perform vastu shastra",n/a,0,n/a,0.00
+1067,"how long will take effect vastu remedy",n/a,0,n/a,0.00
+1068,"how maney drawings can be made as per vastu",n/a,0,n/a,0.00
+1069,"how maney pillars vastu",n/a,0,n/a,0.00
+1070,"how many children i will have in future vastu",n/a,0,n/a,0.00
+1071,"how many days after effect of vastu piramid",n/a,0,n/a,0.00
+1072,"how many days to hang ash gourd from vastu puja",n/a,0,n/a,0.00
+1073,"how many divisions of house according to vastu",n/a,0,n/a,0.00
+1074,"how many door in vastu",n/a,0,n/a,0.00
+1075,"how many door vastu",n/a,0,n/a,0.00
+1076,"how many doors are good for house in vastu",n/a,0,n/a,0.00
+1077,"how many doors as per vastu telugu",n/a,0,n/a,0.00
+1078,"how many doors in a house vastu",n/a,0,n/a,0.00
+1079,"how many doors in vastu shastram",n/a,0,n/a,0.00
+1080,"how many doors vastu",n/a,0,n/a,0.00
+1081,"how many earn vastu",n/a,0,n/a,0.00
+1082,"how many earn vastu in india",n/a,0,n/a,0.00
+1083,"how many entrances are good in home according to vastu",n/a,0,n/a,0.00
+1084,"how many fish good in tank as per vastu",n/a,0,n/a,0.00
+1085,"how many fishes according to vastu",n/a,0,n/a,0.00
+1086,"how many fishes according to vastu less than 6",n/a,0,n/a,0.00
+1087,"how many fishes in small aquarium according to vastu",n/a,0,n/a,0.00
+1088,"how many flutes on beam for vastu",n/a,0,n/a,0.00
+1089,"how many gadapa in house as per vastu",n/a,0,n/a,0.00
+1090,"how many gods are in outer part of vastu purusha",n/a,0,n/a,0.00
+1091,"how many goldfish are required according to vastu",n/a,0,n/a,0.00
+1092,"how many goldfish are required for good vastu",n/a,0,n/a,0.00
+1093,"how many goldfish can drop in tank according to vastu",n/a,0,n/a,0.00
+1094,"how many horses in vastu",n/a,0,n/a,0.00
+1095,"how many minnows as per vastu",n/a,0,n/a,0.00
+1096,"how many no of column as per vastu",n/a,0,n/a,0.00
+1097,"how many number of doors and windows as per vastu",n/a,0,n/a,0.00
+1098,"how many sides in a room as per vastu",n/a,0,n/a,0.00
+1099,"how many stairs in house vastu sastra",n/a,0,n/a,0.00
+1100,"how many steps add nober as per vastu",n/a,0,n/a,0.00
+1101,"how many steps add number or as per vastu",n/a,0,n/a,0.00
+1102,"how many steps are good for business vastu",n/a,0,n/a,0.00
+1103,"how many steps entrance as per vastu",n/a,0,n/a,0.00
+1104,"how many steps entrance of a house vastu malayalam",n/a,0,n/a,0.00
+1105,"how many steps front entrance as per vastu",n/a,0,n/a,0.00
+1106,"how many steps in entrance are good for business vastu",n/a,0,n/a,0.00
+1107,"how many steps in pati vastu",n/a,0,n/a,0.00
+1108,"how many steps staircase for home vastu",n/a,0,n/a,0.00
+1109,"how many steps to keep in staircase as per vastu",n/a,0,n/a,0.00
+1110,"how many stick in vastu bamboo plant",n/a,0,n/a,0.00
+1111,"how many swastiks in main gate vastu",n/a,0,n/a,0.00
+1112,"how many types of vedhe pottu in telugu vastu",n/a,0,n/a,0.00
+1113,"how many windows in a room as per vastu",n/a,0,n/a,0.00
+1114,"how many windows required as vastu",n/a,0,n/a,0.00
+1115,"how many windows vastu",n/a,0,n/a,0.00
+1116,"how morepankh helps in vastu",n/a,0,n/a,0.00
+1117,"how much deepth should i keep for vasakal vastu",n/a,0,n/a,0.00
+1118,"how much depth should i keep for vasakal vastu",n/a,0,n/a,0.00
+1119,"how much does vastu matter",n/a,0,n/a,0.00
+1120,"how much fate of person depends on vastu shastra",n/a,0,n/a,0.00
+1121,"how much feet good for vastu entrance",n/a,0,n/a,0.00
+1122,"how much is vastu shastra is real",n/a,0,n/a,0.00
+1123,"how much time vastu puja",n/a,0,n/a,0.00
+1124,"how much to believe in vastu shastra",n/a,0,n/a,0.00
+1125,"how much to rely on vastu",n/a,0,n/a,0.00
+1126,"how my bedroom should be according to vastu",n/a,0,n/a,0.00
+1127,"how north facing toilet vastu",n/a,0,n/a,0.00
+1128,"how place temple according to vastu",n/a,0,n/a,0.00
+1129,"how protect house through vastu dosh",n/a,0,n/a,0.00
+1130,"how protect house through vastu dosh in hindi",n/a,0,n/a,0.00
+1131,"how real is vastu shastra",n/a,0,n/a,0.00
+1132,"how reliable is vastu shastra",n/a,0,n/a,0.00
+1133,"how ro check vastu directions of a flat",n/a,0,n/a,0.00
+1134,"how set bed room by vastu",n/a,0,n/a,0.00
+1135,"how set kitchen room by vastu",n/a,0,n/a,0.00
+1136,"how set room by vastu",n/a,0,n/a,0.00
+1137,"how should a room be decorated according to vastu",n/a,0,n/a,0.00
+1138,"how should bathroom in vastu",n/a,0,n/a,0.00
+1139,"how should be a house according to vastu",n/a,0,n/a,0.00
+1140,"how should be a signaure according to vastu",n/a,0,n/a,0.00
+1141,"how should be a three room house on vastu basis",n/a,0,n/a,0.00
+1142,"how should be bathroom and bedroom as per vastu",n/a,0,n/a,0.00
+1143,"how should be mandir odil be placed as per vastu",n/a,0,n/a,0.00
+1144,"how should be our shop front by vastu",n/a,0,n/a,0.00
+1145,"how should be the flat according to vastu",n/a,0,n/a,0.00
+1146,"how should broom vastu be kept",n/a,0,n/a,0.00
+1147,"how should door open vastu video",n/a,0,n/a,0.00
+1148,"how should the flat be as per vastu",n/a,0,n/a,0.00
+1149,"how should vastu purush installed and in which cornee",n/a,0,n/a,0.00
+1150,"how sleep vastu shastra in telugu",n/a,0,n/a,0.00
+1151,"how the planets affects vastu directions",n/a,0,n/a,0.00
+1152,"how the vastu for kitchen and bedroom",n/a,0,n/a,0.00
+1153,"how the vastu for two rooms",n/a,0,n/a,0.00
+1154,"how ti make vastu yantram at home telugu",n/a,0,n/a,0.00
+1155,"how to activate 45 energy fields of vastu purush mandal",n/a,0,n/a,0.00
+1156,"how to activate power of 45 devta in vastu",n/a,0,n/a,0.00
+1157,"how to add vastu to cad",n/a,0,n/a,0.00
+1158,"how to apply for job in austrelia as vastu condultant",n/a,0,n/a,0.00
+1159,"how to apply for vastu kala academy admission",n/a,0,n/a,0.00
+1160,"how to apply vastu stala certificate",n/a,0,n/a,0.00
+1161,"how to arrange drawing room furniture as per vastu",n/a,0,n/a,0.00
+1162,"how to arrange house according to vastu",n/a,0,n/a,0.00
+1163,"how to arrange house as per vastu",n/a,0,n/a,0.00
+1164,"how to arrange your room vastu",n/a,0,n/a,0.00
+1165,"how to attange things in house by vastu",n/a,0,n/a,0.00
+1166,"how to attract money by vastu",n/a,0,n/a,0.00
+1167,"how to avoid bad dreams at night according to vastu",n/a,0,n/a,0.00
+1168,"how to avoid fighting at home according to vastu",n/a,0,n/a,0.00
+1169,"how to balance earth zone in vastu",n/a,0,n/a,0.00
+1170,"how to balance nairuthi moola cut in vastu",n/a,0,n/a,0.00
+1171,"how to balance your vastu zone",n/a,0,n/a,0.00
+1172,"how to become a vastu expert",n/a,0,n/a,0.00
+1173,"how to become rich vastu",n/a,0,n/a,0.00
+1174,"how to become vastu specialist",n/a,0,n/a,0.00
+1175,"how to bed room cot arrange as per vastu",n/a,0,n/a,0.00
+1176,"how to block negative energy from bathrooms as per vastu",n/a,0,n/a,0.00
+1177,"how to block wrong entrance in vastu shastra",n/a,0,n/a,0.00
+1178,"how to born a baby boy vastu",n/a,0,n/a,0.00
+1179,"how to build a vastu house",n/a,0,n/a,0.00
+1180,"how to build house according to vastu shastra in telugu",n/a,0,n/a,0.00
+1181,"how to build house with vastu shashtra",n/a,0,n/a,0.00
+1182,"how to build new house as per vastu",n/a,0,n/a,0.00
+1183,"how to bury vastu purusha",n/a,0,n/a,0.00
+1184,"how to buy land vastu",n/a,0,n/a,0.00
+1185,"how to buy land vastu tamil",n/a,0,n/a,0.00
+1186,"how to buy vastu wind chimes",n/a,0,n/a,0.00
+1187,"how to cakculate padhas in house vastu",n/a,0,n/a,0.00
+1188,"how to calculate 16 directions in vastu",n/a,0,n/a,0.00
+1189,"how to calculate 4th pada in vastu",n/a,0,n/a,0.00
+1190,"how to calculate aaya for vastu",n/a,0,n/a,0.00
+1191,"how to calculate aaya vyaya according to vastu",n/a,0,n/a,0.00
+1192,"how to calculate aaya vyaya according to vastu free online",n/a,0,n/a,0.00
+1193,"how to calculate aya for vastu",n/a,0,n/a,0.00
+1194,"how to calculate ayadi for vastu",n/a,0,n/a,0.00
+1195,"how to calculate best date for delivery as per vastu",n/a,0,n/a,0.00
+1196,"how to calculate brahmasthan of rectangular plot in vastu",n/a,0,n/a,0.00
+1197,"how to calculate centre point of a triangle plane vastu",n/a,0,n/a,0.00
+1198,"how to calculate directions in vastu",n/a,0,n/a,0.00
+1199,"how to calculate pada in vastu shastra",n/a,0,n/a,0.00
+1200,"how to calculate perimeter of a building as per vastu",n/a,0,n/a,0.00
+1201,"how to calculate room size as per vastu in malayalam",n/a,0,n/a,0.00
+1202,"how to calculate room size as per vastu in tamil",n/a,0,n/a,0.00
+1203,"how to calculate room size as per vastu pdf",n/a,0,n/a,0.00
+1204,"how to calculate the cardinal directions in vastu with degrees",n/a,0,n/a,0.00
+1205,"how to calculate the stage of veedu in vastu",n/a,0,n/a,0.00
+1206,"how to calculate vastu consultancy fees",n/a,0,n/a,0.00
+1207,"how to calculate vastu direction in telugu",n/a,0,n/a,0.00
+1208,"how to calculate yama sutra as per vastu",n/a,0,n/a,0.00
+1209,"how to calculation vastu aya in kannada",n/a,0,n/a,0.00
+1210,"how to calculation vastu perimeter",n/a,0,n/a,0.00
+1211,"how to change vastu of oval shape dining table",n/a,0,n/a,0.00
+1212,"how to change vastu of shop",n/a,0,n/a,0.00
+1213,"how to change wrong vastu to right",n/a,0,n/a,0.00
+1214,"how to check basic vastu of a flat",n/a,0,n/a,0.00
+1215,"how to check direction in vastu",n/a,0,n/a,0.00
+1216,"how to check direction of flat vastu",n/a,0,n/a,0.00
+1217,"how to check directions as per vastu",n/a,0,n/a,0.00
+1218,"how to check flat vastu energy before buying",n/a,0,n/a,0.00
+1219,"how to check history of plot in vastu shastra",n/a,0,n/a,0.00
+1220,"how to check house number as per vastu",n/a,0,n/a,0.00
+1221,"how to check office vastu",n/a,0,n/a,0.00
+1222,"how to check room vastu directions in a flat",n/a,0,n/a,0.00
+1223,"how to check the directions in vastu using computer",n/a,0,n/a,0.00
+1224,"how to check the vastu for main door",n/a,0,n/a,0.00
+1225,"how to check the vastu is positive or not",n/a,0,n/a,0.00
+1226,"how to check vastu direction for kitchen",n/a,0,n/a,0.00
+1227,"how to check vastu energy",n/a,0,n/a,0.00
+1228,"how to check vastu for house agni moole",n/a,0,n/a,0.00
+1229,"how to check vastu of my flat",n/a,0,n/a,0.00
+1230,"how to check vastu of ur room",n/a,0,n/a,0.00
+1231,"how to check vastu score card",n/a,0,n/a,0.00
+1232,"how to check what is my vastu shastra",n/a,0,n/a,0.00
+1233,"how to choose a house with good vastu",n/a,0,n/a,0.00
+1234,"how to choose agricultural land as per vastu",n/a,0,n/a,0.00
+1235,"how to choose colour for home vastu",n/a,0,n/a,0.00
+1236,"how to choose kitchen stone for vastu shadtra",n/a,0,n/a,0.00
+1237,"how to choose the best colors for drawing room vastu",n/a,0,n/a,0.00
+1238,"how to choose vastu colors",n/a,0,n/a,0.00
+1239,"how to choose wallet as per vastu",n/a,0,n/a,0.00
+1240,"how to chrge for vastu visit",n/a,0,n/a,0.00
+1241,"how to clean home with mop in vastu",n/a,0,n/a,0.00
+1242,"how to clear out debts according to vastu",n/a,0,n/a,0.00
+1243,"how to clear vastu dosh by rudraksha",n/a,0,n/a,0.00
+1244,"how to clear vastu dosh in hindi",n/a,0,n/a,0.00
+1245,"how to clear vastu dosh with rudraksha",n/a,0,n/a,0.00
+1246,"how to collect clinet for vastu client tips",n/a,0,n/a,0.00
+1247,"how to color use in vastu",n/a,0,n/a,0.00
+1248,"how to combine family according to vastu",n/a,0,n/a,0.00
+1249,"how to compensate vastu dosh of a toilet",n/a,0,n/a,0.00
+1250,"how to compound wall height vastu",n/a,0,n/a,0.00
+1251,"how to construct a house as per vastu",n/a,0,n/a,0.00
+1252,"how to construct a house with vastu",n/a,0,n/a,0.00
+1253,"how to construct a north facing plot as per vastu",n/a,0,n/a,0.00
+1254,"how to construct home with vastu",n/a,0,n/a,0.00
+1255,"how to contact machiraju venugopal vastu",n/a,0,n/a,0.00
+1256,"how to control hot tempered husband through vastu tips",n/a,0,n/a,0.00
+1257,"how to control husband by vastu shastra",n/a,0,n/a,0.00
+1258,"how to control vastu dosh",n/a,0,n/a,0.00
+1259,"how to control vastu dosh in house",n/a,0,n/a,0.00
+1260,"how to convert bill land to vastu land",n/a,0,n/a,0.00
+1261,"how to convert land from danga to vastu",n/a,0,n/a,0.00
+1262,"how to convert land title from danga to vastu",n/a,0,n/a,0.00
+1263,"how to convert sali land to vastu land",n/a,0,n/a,0.00
+1264,"how to convert vastu from danga",n/a,0,n/a,0.00
+1265,"how to correct 24 feet vastu",n/a,0,n/a,0.00
+1266,"how to correct bhallat dev in vastu",n/a,0,n/a,0.00
+1267,"how to correct even number of steps as per vastu",n/a,0,n/a,0.00
+1268,"how to correct fault vastu",n/a,0,n/a,0.00
+1269,"how to correct irregular interior space as per vastu",n/a,0,n/a,0.00
+1270,"how to correct irregular interior space asper vastu",n/a,0,n/a,0.00
+1271,"how to correct missing north in vastu",n/a,0,n/a,0.00
+1272,"how to correct room size as per vastu",n/a,0,n/a,0.00
+1273,"how to correct the extended corner of the vastu",n/a,0,n/a,0.00
+1274,"how to correct vastu defect of bathroom in north east",n/a,0,n/a,0.00
+1275,"how to correct vastu defects for bathrooms",n/a,0,n/a,0.00
+1276,"how to correct vastu dosh of north east corner",n/a,0,n/a,0.00
+1277,"how to correct vastu dosh with braking house youtube hindi",n/a,0,n/a,0.00
+1278,"how to correct vastu if your door is facing west",n/a,0,n/a,0.00
+1279,"how to correct vastu kitchen in north east",n/a,0,n/a,0.00
+1280,"how to correct vastu of office",n/a,0,n/a,0.00
+1281,"how to correct vastu without physical changes",n/a,0,n/a,0.00
+1282,"how to correlate household items with vastu",n/a,0,n/a,0.00
+1283,"how to count number of windows as per vastu",n/a,0,n/a,0.00
+1284,"how to count steps in vastu",n/a,0,n/a,0.00
+1285,"how to count vastu pada",n/a,0,n/a,0.00
+1286,"how to cover up a mirror vastu",n/a,0,n/a,0.00
+1287,"how to crate bhrama sky open space vastu",n/a,0,n/a,0.00
+1288,"how to create a good energy space according to vastu",n/a,0,n/a,0.00
+1289,"how to create creative design in wordpress for vastu",n/a,0,n/a,0.00
+1290,"how to create invitationcard for vastu pujan",n/a,0,n/a,0.00
+1291,"how to create space tatya vastu",n/a,0,n/a,0.00
+1292,"how to cure kitchen vastu with colored stripes",n/a,0,n/a,0.00
+1293,"how to cure kitchen vastu with patti",n/a,0,n/a,0.00
+1294,"how to cure roof vastu",n/a,0,n/a,0.00
+1295,"how to cure vastu dosh for machine",n/a,0,n/a,0.00
+1296,"how to cure vastu dosh for mechic",n/a,0,n/a,0.00
+1297,"how to cure vastu dosh for mechine",n/a,0,n/a,0.00
+1298,"how to cut leaves of money plant based on vastu",n/a,0,n/a,0.00
+1299,"how to decide vastu by plot area or construction",n/a,0,n/a,0.00
+1300,"how to decor the south direction wall following vastu",n/a,0,n/a,0.00
+1301,"how to decorate bedroom as per vastu",n/a,0,n/a,0.00
+1302,"how to decorate house based on vastu",n/a,0,n/a,0.00
+1303,"how to decorate house by vastu",n/a,0,n/a,0.00
+1304,"how to decorate main door according to vastu",n/a,0,n/a,0.00
+1305,"how to decorate pregnant room vastu",n/a,0,n/a,0.00
+1306,"how to decorate south walls of a house vastu",n/a,0,n/a,0.00
+1307,"how to decorate temple as per vastu",n/a,0,n/a,0.00
+1308,"how to decorate the entrance main door as per vastu",n/a,0,n/a,0.00
+1309,"how to decorate your room as vastu shastra",n/a,0,n/a,0.00
+1310,"how to design posters according to vastu",n/a,0,n/a,0.00
+1311,"how to design vastu desgn in web spage",n/a,0,n/a,0.00
+1312,"how to design vastu desgn in web spage i wordpress",n/a,0,n/a,0.00
+1313,"how to design with constraints of vastu shastra",n/a,0,n/a,0.00
+1314,"how to destroy vastu dosa",n/a,0,n/a,0.00
+1315,"how to destroy vastu dosh",n/a,0,n/a,0.00
+1316,"how to detach cut in flat vastu",n/a,0,n/a,0.00
+1317,"how to detach cut vastu",n/a,0,n/a,0.00
+1318,"how to detach extra land in vastu",n/a,0,n/a,0.00
+1319,"how to detect direction vastu by puneet chawla",n/a,0,n/a,0.00
+1320,"how to determine direction of flat as per vastu",n/a,0,n/a,0.00
+1321,"how to devide plot according to vastu vastu shastra",n/a,0,n/a,0.00
+1322,"how to display awards on a wall vastu",n/a,0,n/a,0.00
+1323,"how to dispose old clothes and shoes according to vastu",n/a,0,n/a,0.00
+1324,"how to distribute brothers place according to vastu",n/a,0,n/a,0.00
+1325,"how to divide house into 9 parts vastu",n/a,0,n/a,0.00
+1326,"how to divide plot according to vastu vastu shastra",n/a,0,n/a,0.00
+1327,"how to divide the flat into vastu padas",n/a,0,n/a,0.00
+1328,"how to do bank reconciliation in vastu soft",n/a,0,n/a,0.00
+1329,"how to do bank reconciliation in vastu software",n/a,0,n/a,0.00
+1330,"how to do bunglow vastu",n/a,0,n/a,0.00
+1331,"how to do digital marketing for vastu consultants",n/a,0,n/a,0.00
+1332,"how to do master in vastu",n/a,0,n/a,0.00
+1333,"how to do vastu consultancy",n/a,0,n/a,0.00
+1334,"how to do vastu consultant",n/a,0,n/a,0.00
+1335,"how to do vastu consultantcy",n/a,0,n/a,0.00
+1336,"how to do vastu in one bedroom",n/a,0,n/a,0.00
+1337,"how to do vastu in one room",n/a,0,n/a,0.00
+1338,"how to do vastu pooja for building",n/a,0,n/a,0.00
+1339,"how to draw a house plan as per vastu",n/a,0,n/a,0.00
+1340,"how to draw house plan in vastu in tamil",n/a,0,n/a,0.00
+1341,"how to draw pada for east facing house in vastu",n/a,0,n/a,0.00
+1342,"how to draw pada in vastu",n/a,0,n/a,0.00
+1343,"how to draw vastu house in autocad fusion 360",n/a,0,n/a,0.00
+1344,"how to draw vastu mandala",n/a,0,n/a,0.00
+1345,"how to draw vastu purusha",n/a,0,n/a,0.00
+1346,"how to draw zones for vastu",n/a,0,n/a,0.00
+1347,"how to earn money fast through vastu tips",n/a,0,n/a,0.00
+1348,"how to earn money fast through vastu tips in hindi",n/a,0,n/a,0.00
+1349,"how to effect spider trap in vastu shastra",n/a,0,n/a,0.00
+1350,"how to eliminate vastu defects in the house",n/a,0,n/a,0.00
+1351,"how to eliminate vastu dosh",n/a,0,n/a,0.00
+1352,"how to eliminate vastu dosh of a office cubicle",n/a,0,n/a,0.00
+1353,"how to empower ishan kon vastu",n/a,0,n/a,0.00
+1354,"how to energise home vastu",n/a,0,n/a,0.00
+1355,"how to energize south east sector as per vastu",n/a,0,n/a,0.00
+1356,"how to energize your workplace via vastu shastra",n/a,0,n/a,0.00
+1357,"how to enhance jo related corner as per vastu shastra",n/a,0,n/a,0.00
+1358,"how to enhance sourh east main door as per vastu",n/a,0,n/a,0.00
+1359,"how to escape from vastu dosha",n/a,0,n/a,0.00
+1360,"how to find good place in the house according vastu",n/a,0,n/a,0.00
+1361,"how to find out brahmasthan in plot vastu",n/a,0,n/a,0.00
+1362,"how to find out if vastu is not good",n/a,0,n/a,0.00
+1363,"how to find out vastu directions",n/a,0,n/a,0.00
+1364,"how to find the best apartment acording to vastu",n/a,0,n/a,0.00
+1365,"how to find vastu direction in visiting card",n/a,0,n/a,0.00
+1366,"how to find vastu dosha at home",n/a,0,n/a,0.00
+1367,"how to find vastu for building",n/a,0,n/a,0.00
+1368,"how to fix a photo in shop according to vastu",n/a,0,n/a,0.00
+1369,"how to fix vastu nabhi",n/a,0,n/a,0.00
+1370,"how to fix vastu pyramid in main door",n/a,0,n/a,0.00
+1371,"how to follow vastu in flats",n/a,0,n/a,0.00
+1372,"how to gain by computer institute by vastu",n/a,0,n/a,0.00
+1373,"how to gain wealth and prosperity using vastu",n/a,0,n/a,0.00
+1374,"how to get answer related vastu related questions",n/a,0,n/a,0.00
+1375,"how to get business using vastu tips",n/a,0,n/a,0.00
+1376,"how to get good friends with vastu",n/a,0,n/a,0.00
+1377,"how to get good job by correcting vastu",n/a,0,n/a,0.00
+1378,"how to get good job through vastu",n/a,0,n/a,0.00
+1379,"how to get good maids as per vastu",n/a,0,n/a,0.00
+1380,"how to get good sleep vastu telugu videos",n/a,0,n/a,0.00
+1381,"how to get govt job with vastu",n/a,0,n/a,0.00
+1382,"how to get job by vastu",n/a,0,n/a,0.00
+1383,"how to get money according vastu hindi",n/a,0,n/a,0.00
+1384,"how to get respect in society through vastu",n/a,0,n/a,0.00
+1385,"how to get rid of any vastu dosha in bedroom",n/a,0,n/a,0.00
+1386,"how to get rid of chronic illness vastu shastra",n/a,0,n/a,0.00
+1387,"how to get rid of financial dept as per vastu",n/a,0,n/a,0.00
+1388,"how to get rid of financial loan vastu tips",n/a,0,n/a,0.00
+1389,"how to get rid of negativity according to vastu",n/a,0,n/a,0.00
+1390,"how to get rid of vastu dosh nd negwtive energe",n/a,0,n/a,0.00
+1391,"how to get success by vastu",n/a,0,n/a,0.00
+1392,"how to get success in business vastu tips",n/a,0,n/a,0.00
+1393,"how to get the dimension of pada in vastu",n/a,0,n/a,0.00
+1394,"how to get vastu related question s",n/a,0,n/a,0.00
+1395,"how to get what you want using vastu",n/a,0,n/a,0.00
+1396,"how to gfulfill vastu dosh of living room",n/a,0,n/a,0.00
+1397,"how to gift a tamba vastu",n/a,0,n/a,0.00
+1398,"how to gift a tamba vastu in dhonda",n/a,0,n/a,0.00
+1399,"how to gift watch according to vastu",n/a,0,n/a,0.00
+1400,"how to give vastu for house plan in autocad",n/a,0,n/a,0.00
+1401,"how to go to chhatrapati shivaji maharaj vastu sangrahalaya",n/a,0,n/a,0.00
+1402,"how to grid in vastu shastra",n/a,0,n/a,0.00
+1403,"how to grid map in vastu",n/a,0,n/a,0.00
+1404,"how to grow my vastu business",n/a,0,n/a,0.00
+1405,"how to grow vastu bamboo",n/a,0,n/a,0.00
+1406,"how to hang wallclock accodnig vastu",n/a,0,n/a,0.00
+1407,"how to have a happy married life according ti vastu",n/a,0,n/a,0.00
+1408,"how to have a peaceful mind through vastu",n/a,0,n/a,0.00
+1409,"how to help old boat nail as per vastu dosh",n/a,0,n/a,0.00
+1410,"how to help old boats nail as per vastu dosh",n/a,0,n/a,0.00
+1411,"how to hold money at home through vastu advice",n/a,0,n/a,0.00
+1412,"how to home plan vastu shastra in hindi",n/a,0,n/a,0.00
+1413,"how to home vastu",n/a,0,n/a,0.00
+1414,"how to improve a salon business vastu in video",n/a,0,n/a,0.00
+1415,"how to improve a saloon business vastu in video",n/a,0,n/a,0.00
+1416,"how to improve business by vastu",n/a,0,n/a,0.00
+1417,"how to improve career by vastu experts",n/a,0,n/a,0.00
+1418,"how to improve cash flow in vastu",n/a,0,n/a,0.00
+1419,"how to improve chances of getting good job by vastu",n/a,0,n/a,0.00
+1420,"how to improve home vastu without any damage",n/a,0,n/a,0.00
+1421,"how to improve luck i business by vastu",n/a,0,n/a,0.00
+1422,"how to improve married life through vastu",n/a,0,n/a,0.00
+1423,"how to improve responsiblity in vastu",n/a,0,n/a,0.00
+1424,"how to improve vastu for home",n/a,0,n/a,0.00
+1425,"how to improve vastu of office",n/a,0,n/a,0.00
+1426,"how to improve vastu of office room",n/a,0,n/a,0.00
+1427,"how to improve your south east vastu",n/a,0,n/a,0.00
+1428,"how to increase earnings vastu",n/a,0,n/a,0.00
+1429,"how to increase finance in shop using vastu",n/a,0,n/a,0.00
+1430,"how to increase good luck in home vastu geng shui",n/a,0,n/a,0.00
+1431,"how to increase income by vastu",n/a,0,n/a,0.00
+1432,"how to increase money as per vastu",n/a,0,n/a,0.00
+1433,"how to increase our business according to vastu",n/a,0,n/a,0.00
+1434,"how to increase our business according to vastu shastra",n/a,0,n/a,0.00
+1435,"how to increase positivity ay home vastu",n/a,0,n/a,0.00
+1436,"how to increase sales in grocery store by vastu",n/a,0,n/a,0.00
+1437,"how to increase the house life as per vastu",n/a,0,n/a,0.00
+1438,"how to increase wealth in shop vastu",n/a,0,n/a,0.00
+1439,"how to increase wealth luck by vastu",n/a,0,n/a,0.00
+1440,"how to inherit by vastu",n/a,0,n/a,0.00
+1441,"how to install door stand as per vastu",n/a,0,n/a,0.00
+1442,"how to install door stand as per vastu muhurtham",n/a,0,n/a,0.00
+1443,"how to install siddha vastu kalash",n/a,0,n/a,0.00
+1444,"how to install vastu pyramid auspicious",n/a,0,n/a,0.00
+1445,"how to install vastu pyramid auspicious time",n/a,0,n/a,0.00
+1446,"how to kbow if vastu is wrong",n/a,0,n/a,0.00
+1447,"how to keep almirah as er vastu in home",n/a,0,n/a,0.00
+1448,"how to keep aquarium with vastu shastra",n/a,0,n/a,0.00
+1449,"how to keep away from bad spirits vastu",n/a,0,n/a,0.00
+1450,"how to keep beuro as per vastu",n/a,0,n/a,0.00
+1451,"how to keep broken mirror without vastu effwct",n/a,0,n/a,0.00
+1452,"how to keep broom in house by vastu",n/a,0,n/a,0.00
+1453,"how to keep house in vastu",n/a,0,n/a,0.00
+1454,"how to keep iron store case as per vastu",n/a,0,n/a,0.00
+1455,"how to keep lemon in glass of water vastu",n/a,0,n/a,0.00
+1456,"how to keep lord kuber idol at home vastu",n/a,0,n/a,0.00
+1457,"how to keep man calm using vastu shastra",n/a,0,n/a,0.00
+1458,"how to keep mirror by vastu",n/a,0,n/a,0.00
+1459,"how to keep money as per vastu",n/a,0,n/a,0.00
+1460,"how to keep money safe at home as per vastu",n/a,0,n/a,0.00
+1461,"how to keep things in home according to vastu",n/a,0,n/a,0.00
+1462,"how to keep things in home as per vastu",n/a,0,n/a,0.00
+1463,"how to keep things in home as per vastu tamil",n/a,0,n/a,0.00
+1464,"how to keep tortoise in home to solve vastu dosa",n/a,0,n/a,0.00
+1465,"how to keep vastu copper srip in a shop",n/a,0,n/a,0.00
+1466,"how to keep vastu pyramids n apartment",n/a,0,n/a,0.00
+1467,"how to keep wardrobe as per vastu",n/a,0,n/a,0.00
+1468,"how to keep washing machine as per vastu",n/a,0,n/a,0.00
+1469,"how to keep wealth and health using vastu",n/a,0,n/a,0.00
+1470,"how to know about house vastu is perfect",n/a,0,n/a,0.00
+1471,"how to know about number of child in vastu",n/a,0,n/a,0.00
+1472,"how to know directions of home room for vastu",n/a,0,n/a,0.00
+1473,"how to know house vastu",n/a,0,n/a,0.00
+1474,"how to know if vastu is wrong",n/a,0,n/a,0.00
+1475,"how to know vastu",n/a,0,n/a,0.00
+1476,"how to know vastu by date of birth",n/a,0,n/a,0.00
+1477,"how to know vastu dosh in home in telugu",n/a,0,n/a,0.00
+1478,"how to know vastu for doing puja",n/a,0,n/a,0.00
+1479,"how to know vastu of house online",n/a,0,n/a,0.00
+1480,"how to know vastu of land",n/a,0,n/a,0.00
+1481,"how to know who is the owner of vastu",n/a,0,n/a,0.00
+1482,"how to learn house vastu in telugu",n/a,0,n/a,0.00
+1483,"how to learn vastu defects from horoscope",n/a,0,n/a,0.00
+1484,"how to learn vastu for home plan",n/a,0,n/a,0.00
+1485,"how to learn vastu shastra for tamil",n/a,0,n/a,0.00
+1486,"how to learn vastu shastra in kannada",n/a,0,n/a,0.00
+1487,"how to learn vastu shastra in malayalam",n/a,0,n/a,0.00
+1488,"how to maintain vastu plant at home",n/a,0,n/a,0.00
+1489,"how to make 12 12 according to vastu",n/a,0,n/a,0.00
+1490,"how to make 1st floor vastu",n/a,0,n/a,0.00
+1491,"how to make 360 degree grid vastu",n/a,0,n/a,0.00
+1492,"how to make a house woman friendly as per vastu",n/a,0,n/a,0.00
+1493,"how to make a invitation card for vastu",n/a,0,n/a,0.00
+1494,"how to make a invitation card for vastu in marathi",n/a,0,n/a,0.00
+1495,"how to make a vastu pyramid",n/a,0,n/a,0.00
+1496,"how to make architectural plan according to vastu",n/a,0,n/a,0.00
+1497,"how to make bedroom wall colour with vastu",n/a,0,n/a,0.00
+1498,"how to make bussines improve by vastu kannada",n/a,0,n/a,0.00
+1499,"how to make card for vastu pujan",n/a,0,n/a,0.00
+1500,"how to make diagram of vastu map for a house",n/a,0,n/a,0.00
+1501,"how to make door in vastu on odia",n/a,0,n/a,0.00
+1502,"how to make home according to vastu shastra in hindi",n/a,0,n/a,0.00
+1503,"how to make home according to vastu shastra in marathi",n/a,0,n/a,0.00
+1504,"how to make home as per vastu shastra",n/a,0,n/a,0.00
+1505,"how to make home by vastu shastra in hindi",n/a,0,n/a,0.00
+1506,"how to make home plan as vastu",n/a,0,n/a,0.00
+1507,"how to make house according to vastu shastra in hindi",n/a,0,n/a,0.00
+1508,"how to make house vastu compliant",n/a,0,n/a,0.00
+1509,"how to make kuli kanakku in vastu shastra",n/a,0,n/a,0.00
+1510,"how to make logo as vastu",n/a,0,n/a,0.00
+1511,"how to make luck in your favour through vastu shastra",n/a,0,n/a,0.00
+1512,"how to make main door in vastu",n/a,0,n/a,0.00
+1513,"how to make map of vastu pujan",n/a,0,n/a,0.00
+1514,"how to make my home as per vastu",n/a,0,n/a,0.00
+1515,"how to make pyramid for vastu",n/a,0,n/a,0.00
+1516,"how to make southwest heavy vastu",n/a,0,n/a,0.00
+1517,"how to make vastu home",n/a,0,n/a,0.00
+1518,"how to make visiting card according to vastu",n/a,0,n/a,0.00
+1519,"how to make visiting card according vastu",n/a,0,n/a,0.00
+1520,"how to make your business grow by vastu",n/a,0,n/a,0.00
+1521,"how to mapping in vastu shastra",n/a,0,n/a,0.00
+1522,"how to measure degree of door in vastu",n/a,0,n/a,0.00
+1523,"how to measure home for vastu shashtra",n/a,0,n/a,0.00
+1524,"how to measure home for vastu shastra in hindi",n/a,0,n/a,0.00
+1525,"how to measure main door direction using vastu shastra",n/a,0,n/a,0.00
+1526,"how to measure room size as per vastu",n/a,0,n/a,0.00
+1527,"how to measure room size for vastu",n/a,0,n/a,0.00
+1528,"how to measure room size for vastu with wardrobe",n/a,0,n/a,0.00
+1529,"how to measure the direction in vastu shastra",n/a,0,n/a,0.00
+1530,"how to mend chilren vastu",n/a,0,n/a,0.00
+1531,"how to open vastu product shop",n/a,0,n/a,0.00
+1532,"how to over come eesanyam vastu",n/a,0,n/a,0.00
+1533,"how to overcome enemy problems thro vastu",n/a,0,n/a,0.00
+1534,"how to overcome the veedhi potu in vastu",n/a,0,n/a,0.00
+1535,"how to paint house acc to vastu",n/a,0,n/a,0.00
+1536,"how to pass govt exam vastu tips",n/a,0,n/a,0.00
+1537,"how to perform vastu homam",n/a,0,n/a,0.00
+1538,"how to place 2 vastu turtles in house",n/a,0,n/a,0.00
+1539,"how to place a buffalo image as per vastu",n/a,0,n/a,0.00
+1540,"how to place a buffalo ss per vastu",n/a,0,n/a,0.00
+1541,"how to place beruvia in the house vastu",n/a,0,n/a,0.00
+1542,"how to place flute on beam for vastu",n/a,0,n/a,0.00
+1543,"how to place globe as per vastu",n/a,0,n/a,0.00
+1544,"how to place ladder as per vastu",n/a,0,n/a,0.00
+1545,"how to place material in shops according to vastu shastra",n/a,0,n/a,0.00
+1546,"how to place mirror for wealth as per vastu",n/a,0,n/a,0.00
+1547,"how to place mirror in the house as per vastu",n/a,0,n/a,0.00
+1548,"how to place overhead tank àccording to vastu",n/a,0,n/a,0.00
+1549,"how to place picture of death person in vastu shastra",n/a,0,n/a,0.00
+1550,"how to place vastu bagwan photo",n/a,0,n/a,0.00
+1551,"how to place vastu brass pyramid",n/a,0,n/a,0.00
+1552,"how to place vastu dosh nivaran yantra",n/a,0,n/a,0.00
+1553,"how to place vastu maha yantra at home",n/a,0,n/a,0.00
+1554,"how to place vastu pyramid in south west bedroom",n/a,0,n/a,0.00
+1555,"how to place vastu pyramid in the entrance of door",n/a,0,n/a,0.00
+1556,"how to place vastu vilakku",n/a,0,n/a,0.00
+1557,"how to place vastu yantra",n/a,0,n/a,0.00
+1558,"how to place vastu yantra in temple",n/a,0,n/a,0.00
+1559,"how to place work place in office according to vastu",n/a,0,n/a,0.00
+1560,"how to placed artificial plants and floweraccording indian vastu",n/a,0,n/a,0.00
+1561,"how to plan a house according to vastu in tamil",n/a,0,n/a,0.00
+1562,"how to plan according to vastu shastra",n/a,0,n/a,0.00
+1563,"how to please vastu purush",n/a,0,n/a,0.00
+1564,"how to prepare vastu for existing plan",n/a,0,n/a,0.00
+1565,"how to prepare vastu map of a flat",n/a,0,n/a,0.00
+1566,"how to present scientific vastu",n/a,0,n/a,0.00
+1567,"how to programme vastu in malayalam",n/a,0,n/a,0.00
+1568,"how to promote vastu business",n/a,0,n/a,0.00
+1569,"how to promote vastu consultant business",n/a,0,n/a,0.00
+1570,"how to protect fromevil eye as per vastu",n/a,0,n/a,0.00
+1571,"how to provide doors & windows according to vastu",n/a,0,n/a,0.00
+1572,"how to purchase a wolet according to vastu",n/a,0,n/a,0.00
+1573,"how to put bed according to vastu",n/a,0,n/a,0.00
+1574,"how to put vastu pyramid",n/a,0,n/a,0.00
+1575,"how to read a compass for vastu",n/a,0,n/a,0.00
+1576,"how to read vastu compass ad",n/a,0,n/a,0.00
+1577,"how to read vastu purush",n/a,0,n/a,0.00
+1578,"how to rectify bookshelf vastu dosh",n/a,0,n/a,0.00
+1579,"how to rectify bookshelf vastu position",n/a,0,n/a,0.00
+1580,"how to rectify south facin duplex through vastu",n/a,0,n/a,0.00
+1581,"how to rectify vastu defects without altering the room",n/a,0,n/a,0.00
+1582,"how to rectify vastu dosh of toilet",n/a,0,n/a,0.00
+1583,"how to rectify vastu dpsh of south east toilet",n/a,0,n/a,0.00
+1584,"how to rectify vastu problem of south west kitchen",n/a,0,n/a,0.00
+1585,"how to rectify vastu remedy of oval shape dining table",n/a,0,n/a,0.00
+1586,"how to rectify vastu remedy of oval shaped dining table",n/a,0,n/a,0.00
+1587,"how to reduce effect of saturn through vastu",n/a,0,n/a,0.00
+1588,"how to reduce finance cost through vastu",n/a,0,n/a,0.00
+1589,"how to register vastu shilpi in corporation in karnataka",n/a,0,n/a,0.00
+1590,"how to remove bad effect in business as per vastu",n/a,0,n/a,0.00
+1591,"how to remove defects in vastu",n/a,0,n/a,0.00
+1592,"how to remove distractions vastu tips",n/a,0,n/a,0.00
+1593,"how to remove money crisis from home by vastu",n/a,0,n/a,0.00
+1594,"how to remove negativity from home vastu",n/a,0,n/a,0.00
+1595,"how to remove vastu dosh if toilet is in ne",n/a,0,n/a,0.00
+1596,"how to remove vastu dosh of cabin in-between plant",n/a,0,n/a,0.00
+1597,"how to remove vastu dosh of flat",n/a,0,n/a,0.00
+1598,"how to remove vastu dosh of kids room",n/a,0,n/a,0.00
+1599,"how to remove vastu dosh of kitchen new",n/a,0,n/a,0.00
+1600,"how to remove vastu dosh of south west toilet",n/a,0,n/a,0.00
+1601,"how to remove vastu dosh of toilet",n/a,0,n/a,0.00
+1602,"how to remove vastu dosh related to illness",n/a,0,n/a,0.00
+1603,"how to remove vastu dosha from home",n/a,0,n/a,0.00
+1604,"how to remove vastu dosha if cabin in-between plant",n/a,0,n/a,0.00
+1605,"how to remove west facing house vastu defect",n/a,0,n/a,0.00
+1606,"how to repay debt as per vastu",n/a,0,n/a,0.00
+1607,"how to save money vastu",n/a,0,n/a,0.00
+1608,"how to search vastu compliance flat in kolkata",n/a,0,n/a,0.00
+1609,"how to see karna in aaya vastu",n/a,0,n/a,0.00
+1610,"how to see the directon of house as per vastu",n/a,0,n/a,0.00
+1611,"how to see vastu for apartments in telugu",n/a,0,n/a,0.00
+1612,"how to see vastu for field",n/a,0,n/a,0.00
+1613,"how to see vastu for field telugu",n/a,0,n/a,0.00
+1614,"how to see vastu if land is cross",n/a,0,n/a,0.00
+1615,"how to see vastu of a house",n/a,0,n/a,0.00
+1616,"how to select color in hall as per vastu",n/a,0,n/a,0.00
+1617,"how to select house facing dirrection vastu",n/a,0,n/a,0.00
+1618,"how to select house nakshatra vastu",n/a,0,n/a,0.00
+1619,"how to select land for house as per vastu",n/a,0,n/a,0.00
+1620,"how to select land with vastu perfect flat",n/a,0,n/a,0.00
+1621,"how to select plot as per vastu requirments",n/a,0,n/a,0.00
+1622,"how to select vastu perfect land subhvastu",n/a,0,n/a,0.00
+1623,"how to sell property in profit vastu and slogans",n/a,0,n/a,0.00
+1624,"how to sell your house quickly by vastu",n/a,0,n/a,0.00
+1625,"how to set a salon according vastu",n/a,0,n/a,0.00
+1626,"how to set bed as per vastu",n/a,0,n/a,0.00
+1627,"how to set company according to vastu shastra",n/a,0,n/a,0.00
+1628,"how to set ganesh ji idol as per vastu",n/a,0,n/a,0.00
+1629,"how to set vastu",n/a,0,n/a,0.00
+1630,"how to sit in office chair as per vastu",n/a,0,n/a,0.00
+1631,"how to sit in toilet seat vastu",n/a,0,n/a,0.00
+1632,"how to sleep according to vastu shastra in hindi",n/a,0,n/a,0.00
+1633,"how to sleep as per vastu in marathi",n/a,0,n/a,0.00
+1634,"how to sleep at home in night by vastu",n/a,0,n/a,0.00
+1635,"how to sleep direction vastu",n/a,0,n/a,0.00
+1636,"how to solve debt problems vastu",n/a,0,n/a,0.00
+1637,"how to solve financial vastu problem",n/a,0,n/a,0.00
+1638,"how to solve money problems vastu",n/a,0,n/a,0.00
+1639,"how to solve vastu defects",n/a,0,n/a,0.00
+1640,"how to solve vastu problem in your home",n/a,0,n/a,0.00
+1641,"how to spread positive energy at work through vastu",n/a,0,n/a,0.00
+1642,"how to start a vastu shastra centre in india",n/a,0,n/a,0.00
+1643,"how to start commercial construction as per vastu",n/a,0,n/a,0.00
+1644,"how to start coomercial house as per vastu",n/a,0,n/a,0.00
+1645,"how to start hotel construction as per vastu",n/a,0,n/a,0.00
+1646,"how to start house construction as per vastu",n/a,0,n/a,0.00
+1647,"how to start vastu business",n/a,0,n/a,0.00
+1648,"how to stop south east vastu dosh",n/a,0,n/a,0.00
+1649,"how to strengthen space in vastu",n/a,0,n/a,0.00
+1650,"how to study directions n zones in vastu",n/a,0,n/a,0.00
+1651,"how to suggest vastu remedies considering bar charts",n/a,0,n/a,0.00
+1652,"how to table office in vastu shastra",n/a,0,n/a,0.00
+1653,"how to take direction in vastu",n/a,0,n/a,0.00
+1654,"how to the vastu vihar ragistry prosigar",n/a,0,n/a,0.00
+1655,"how to treat vastu dosha of toilets",n/a,0,n/a,0.00
+1656,"how to understand vastu facing house",n/a,0,n/a,0.00
+1657,"how to use 7horses picture in vastu",n/a,0,n/a,0.00
+1658,"how to use camphor for vastu",n/a,0,n/a,0.00
+1659,"how to use chinese vastu copper wire at home",n/a,0,n/a,0.00
+1660,"how to use compass in home vastu",n/a,0,n/a,0.00
+1661,"how to use conch shells for vastu correction",n/a,0,n/a,0.00
+1662,"how to use copper patti for vastu dosha",n/a,0,n/a,0.00
+1663,"how to use copper wire in vastu at home",n/a,0,n/a,0.00
+1664,"how to use energy meter vastu",n/a,0,n/a,0.00
+1665,"how to use glass tortoise for vastu at office",n/a,0,n/a,0.00
+1666,"how to use helix vastu shastra",n/a,0,n/a,0.00
+1667,"how to use natural conch shells for vastu dosh",n/a,0,n/a,0.00
+1668,"how to use panchamrita in vastu shastra",n/a,0,n/a,0.00
+1669,"how to use panchamrita used in vastu shastra",n/a,0,n/a,0.00
+1670,"how to use samundari namak to cure vastu dosh",n/a,0,n/a,0.00
+1671,"how to use space under stairs according to vastu",n/a,0,n/a,0.00
+1672,"how to use stainless steel vastu strip",n/a,0,n/a,0.00
+1673,"how to use steel strip in toilet for vastu dosh",n/a,0,n/a,0.00
+1674,"how to use vastu brass helix",n/a,0,n/a,0.00
+1675,"how to use vastu shastra",n/a,0,n/a,0.00
+1676,"how to use vastu software",n/a,0,n/a,0.00
+1677,"how to use vastu strips",n/a,0,n/a,0.00
+1678,"how to use vastu tapes in toilet",n/a,0,n/a,0.00
+1679,"how to use yellow tape in vastu view",n/a,0,n/a,0.00
+1680,"how to vastu bhagwan photo",n/a,0,n/a,0.00
+1681,"how to vastu dos remove at house",n/a,0,n/a,0.00
+1682,"how to vastu dosh remove at house",n/a,0,n/a,0.00
+1683,"how to vastu formalities",n/a,0,n/a,0.00
+1684,"how to vastu formalities in telgu",n/a,0,n/a,0.00
+1685,"how to vastu formalities in telgu map",n/a,0,n/a,0.00
+1686,"how to vastu formalities in telugu map",n/a,0,n/a,0.00
+1687,"how to vastu landing staircase formalities in telugu map",n/a,0,n/a,0.00
+1688,"how to vastu map draw",n/a,0,n/a,0.00
+1689,"how to vastu map draw software",n/a,0,n/a,0.00
+1690,"how to vastu your home",n/a,0,n/a,0.00
+1691,"how to verify calculation in vastu shastra",n/a,0,n/a,0.00
+1692,"how to view reception table as per vastu",n/a,0,n/a,0.00
+1693,"how to view reception table as per vastu for fitness",n/a,0,n/a,0.00
+1694,"how to win big lottery in vastu",n/a,0,n/a,0.00
+1695,"how to win court case vastu",n/a,0,n/a,0.00
+1696,"how to write invitation for vastu puja",n/a,0,n/a,0.00
+1697,"how to writw name of bunglow on itas per vastu",n/a,0,n/a,0.00
+1698,"how to.rectify vastu dish of south east bedroom",n/a,0,n/a,0.00
+1699,"how tomake vastu satra",n/a,0,n/a,0.00
+1700,"how tortorise is placed in house as per vastu",n/a,0,n/a,0.00
+1701,"how tulsi plant will grow vastu",n/a,0,n/a,0.00
+1702,"how turtles should be kept as per vastu",n/a,0,n/a,0.00
+1703,"how vastu can affect stress",n/a,0,n/a,0.00
+1704,"how vastu can effect stres",n/a,0,n/a,0.00
+1705,"how vastu dosheffects relationships",n/a,0,n/a,0.00
+1706,"how vastu is helpful",n/a,0,n/a,0.00
+1707,"how vastu shastra avolved",n/a,0,n/a,0.00
+1708,"how vastu shastra evolved",n/a,0,n/a,0.00
+1709,"how vastu shastra help desingning & palnning of space",n/a,0,n/a,0.00
+1710,"how vastu shastra help planning & designing of space",n/a,0,n/a,0.00
+1711,"how vastu shastra helps desingning & planning of space",n/a,0,n/a,0.00
+1712,"how vastu shastra works for flat",n/a,0,n/a,0.00
+1713,"how water should flow in house vastu",n/a,0,n/a,0.00
+1714,"how we can divide padas in west vastu",n/a,0,n/a,0.00
+1715,"how will be apartment vastu consider in single plot",n/a,0,n/a,0.00
+1716,"how will be land for business vastu acording",n/a,0,n/a,0.00
+1717,"how.crying everyday effects the vastu of the house",n/a,0,n/a,0.00
+1718,"how.to.calculate hoise.nymner.for.vastu",n/a,0,n/a,0.00
+1719,"is 10 feet by 20feet house allowed in vastu",n/a,0,n/a,0.00
+1720,"is 5 ft a vastu diemension",n/a,0,n/a,0.00
+1721,"is 5 stairs good as per vastu",n/a,0,n/a,0.00
+1722,"is 6 fishes lucky accoding to vastu",n/a,0,n/a,0.00
+1723,"is 8.5 feet is vastu",n/a,0,n/a,0.00
+1724,"is a plot with road on east good vastu",n/a,0,n/a,0.00
+1725,"is adreno flat in amanora are vastu compliant",n/a,0,n/a,0.00
+1726,"is aerica palm tree good for vastu",n/a,0,n/a,0.00
+1727,"is aloe vera a vastu plant",n/a,0,n/a,0.00
+1728,"is altamonte malad east vastu compliant",n/a,0,n/a,0.00
+1729,"is animal painting according to vastu in homes",n/a,0,n/a,0.00
+1730,"is animals are also affected according to vastu",n/a,0,n/a,0.00
+1731,"is anticlockwise staircase good for vastu",n/a,0,n/a,0.00
+1732,"is arecca palm vastu plant",n/a,0,n/a,0.00
+1733,"is attach bathroom good vastu",n/a,0,n/a,0.00
+1734,"is babool good according vastu",n/a,0,n/a,0.00
+1735,"is balcony portion of house as per vastu",n/a,0,n/a,0.00
+1736,"is bathroom attached with kichen in correct as per vastu",n/a,0,n/a,0.00
+1737,"is beagle dog good for vastu shastra",n/a,0,n/a,0.00
+1738,"is bed room size11ft x13.5 ft fit as per vastu",n/a,0,n/a,0.00
+1739,"is bed with storage good for vastu",n/a,0,n/a,0.00
+1740,"is black color wood good for temple vastu",n/a,0,n/a,0.00
+1741,"is black wall clock correct as per vastu",n/a,0,n/a,0.00
+1742,"is blue color good for living room vastu",n/a,0,n/a,0.00
+1743,"is bonsai good for room as per vastu",n/a,0,n/a,0.00
+1744,"is bunck bed is good according to vastu",n/a,0,n/a,0.00
+1745,"is butterfly sticker is bad according to vastu",n/a,0,n/a,0.00
+1746,"is buying second hand house good as per vastu",n/a,0,n/a,0.00
+1747,"is carrying milk to work wrong as per vastu shastra",n/a,0,n/a,0.00
+1748,"is cat good for home vastu",n/a,0,n/a,0.00
+1749,"is chembakam tree for vastu dosha",n/a,0,n/a,0.00
+1750,"is chiili plant good in home as per vastu",n/a,0,n/a,0.00
+1751,"is chilli plant good in home as per vastu",n/a,0,n/a,0.00
+1752,"is cleaning of office in evening wrong vastu",n/a,0,n/a,0.00
+1753,"is colour of home as per vastu",n/a,0,n/a,0.00
+1754,"is concrete bed good according to vastu",n/a,0,n/a,0.00
+1755,"is creeper not good for home as per vastu",n/a,0,n/a,0.00
+1756,"is degree calculation must in vastu",n/a,0,n/a,0.00
+1757,"is dog good for vastu in hindi",n/a,0,n/a,0.00
+1758,"is door intersect each other is good as per vastu",n/a,0,n/a,0.00
+1759,"is double door flats right as per vastu",n/a,0,n/a,0.00
+1760,"is dwarf banyan tree good according to vastu shastra",n/a,0,n/a,0.00
+1761,"is dwarf coconut good to plant according to vastu",n/a,0,n/a,0.00
+1762,"is dwarf date palm good for homes according to vastu",n/a,0,n/a,0.00
+1763,"is east facing house good according to vastu",n/a,0,n/a,0.00
+1764,"is east facing house good in vastu",n/a,0,n/a,0.00
+1765,"is east of south east entrance as per vastu",n/a,0,n/a,0.00
+1766,"is east of south east entrance for as per vastu",n/a,0,n/a,0.00
+1767,"is east south east facing house in vastu",n/a,0,n/a,0.00
+1768,"is fish good for hoem vastu",n/a,0,n/a,0.00
+1769,"is french door considered as door as per vastu",n/a,0,n/a,0.00
+1770,"is galloping horse with sunset good as per vastu",n/a,0,n/a,0.00
+1771,"is gifting rabbit good for vastu",n/a,0,n/a,0.00
+1772,"is green colour in bedroom as vastu",n/a,0,n/a,0.00
+1773,"is green on study table good as per vastu",n/a,0,n/a,0.00
+1774,"is gudhal flower plant is good for house vastu",n/a,0,n/a,0.00
+1775,"is gudhal plant is good for house vastu",n/a,0,n/a,0.00
+1776,"is guest bedroom in north side ok as per vastu",n/a,0,n/a,0.00
+1777,"is hibiscus flower plant is good for house vastu",n/a,0,n/a,0.00
+1778,"is horse doll for vastu",n/a,0,n/a,0.00
+1779,"is horse vastu good",n/a,0,n/a,0.00
+1780,"is iron gate in good main door for vastu",n/a,0,n/a,0.00
+1781,"is iron gate included in vastu shastra",n/a,0,n/a,0.00
+1782,"is it good falcon entering the house as per vastu",n/a,0,n/a,0.00
+1783,"is it good to gift lamp according to vastu",n/a,0,n/a,0.00
+1784,"is it good to have sex on birthday in vastu",n/a,0,n/a,0.00
+1785,"is it good to.play pagade at home vastu",n/a,0,n/a,0.00
+1786,"is it important to check vastu for flats",n/a,0,n/a,0.00
+1787,"is it mandatory to fallow vastu while building house",n/a,0,n/a,0.00
+1788,"is it necessary to see vastu for rented houses",n/a,0,n/a,0.00
+1789,"is it ok 3 burner stove vastu",n/a,0,n/a,0.00
+1790,"is it ok to construct house at tiraha by vastu",n/a,0,n/a,0.00
+1791,"is it ok to construct house at tiraha from vastu",n/a,0,n/a,0.00
+1792,"is it ok to have storage above bed vastu",n/a,0,n/a,0.00
+1793,"is it ok to put vastu purusha photo at home",n/a,0,n/a,0.00
+1794,"is it possible to have vastu consulted houses",n/a,0,n/a,0.00
+1795,"is it right to have vastu on new moon days",n/a,0,n/a,0.00
+1796,"is it right to study on bed as per vastu",n/a,0,n/a,0.00
+1797,"is it vastu exist",n/a,0,n/a,0.00
+1798,"is jain vastu different from others",n/a,0,n/a,0.00
+1799,"is jhulelal god of vastu",n/a,0,n/a,0.00
+1800,"is kitchen cooking counter facing north direction vastu",n/a,0,n/a,0.00
+1801,"is magarpatta annexe vastu compliant",n/a,0,n/a,0.00
+1802,"is magarpatta vastu compliant",n/a,0,n/a,0.00
+1803,"is mahindra windchimes vastu compliant",n/a,0,n/a,0.00
+1804,"is mandatory of vastu conversion for bank loan",n/a,0,n/a,0.00
+1805,"is mandatory of vastu for bank loan",n/a,0,n/a,0.00
+1806,"is mango tree good for vastu",n/a,0,n/a,0.00
+1807,"is mango tree good for vastu in tamil",n/a,0,n/a,0.00
+1808,"is marua plant good for home vastu ke dreshti se",n/a,0,n/a,0.00
+1809,"is mirror suitable on south wall according to vastu",n/a,0,n/a,0.00
+1810,"is my date of birth important to get hired vastu",n/a,0,n/a,0.00
+1811,"is name plate important in vastu",n/a,0,n/a,0.00
+1812,"is nanu spana habita is vastu compliance",n/a,0,n/a,0.00
+1813,"is negative vastu a reason for cancer",n/a,0,n/a,0.00
+1814,"is north east directiongood for master bedroom as per vastu",n/a,0,n/a,0.00
+1815,"is north east facing of toilet good as per vastu",n/a,0,n/a,0.00
+1816,"is north east is good vastu direction for cooking gas",n/a,0,n/a,0.00
+1817,"is north east kitchen is good as per vastu",n/a,0,n/a,0.00
+1818,"is north east vastu elongation good",n/a,0,n/a,0.00
+1819,"is north west kitchen good for vastu",n/a,0,n/a,0.00
+1820,"is northeast facing plot vastu compliant",n/a,0,n/a,0.00
+1821,"is numerology and vastu same",n/a,0,n/a,0.00
+1822,"is olive cressida vastu compliant",n/a,0,n/a,0.00
+1823,"is out door stair case has to comes under vastu",n/a,0,n/a,0.00
+1824,"is painting of running horses vastu",n/a,0,n/a,0.00
+1825,"is patabahari tree auspicious for vastu",n/a,0,n/a,0.00
+1826,"is pebbles on home garden good according to vastu",n/a,0,n/a,0.00
+1827,"is pebbles on home good according to vastu",n/a,0,n/a,0.00
+1828,"is photo 6 vastu nayi h",n/a,0,n/a,0.00
+1829,"is photo m 6 vastu aisi h",n/a,0,n/a,0.00
+1830,"is photo me 6 aisi vastu he jo purane jamane",n/a,0,n/a,0.00
+1831,"is photo me 6 vastu aisi",n/a,0,n/a,0.00
+1832,"is pigeon eating food bad as per vastu",n/a,0,n/a,0.00
+1833,"is pink color vastu",n/a,0,n/a,0.00
+1834,"is planten tree bad for vastu",n/a,0,n/a,0.00
+1835,"is plot vastu beluef or science",n/a,0,n/a,0.00
+1836,"is purple color good for bedroom as per vastu",n/a,0,n/a,0.00
+1837,"is putting roaring tiger pic heals vastu defect of toilet",n/a,0,n/a,0.00
+1838,"is raat ki rani a bad vastu plant",n/a,0,n/a,0.00
+1839,"is rabbit good for vastu in hindi",n/a,0,n/a,0.00
+1840,"is radha krishna photo good in bedroom vastu",n/a,0,n/a,0.00
+1841,"is rakta chandan ised for vastu",n/a,0,n/a,0.00
+1842,"is red light good for bedroom as per vastu",n/a,0,n/a,0.00
+1843,"is rubber plant lucky as per vastu",n/a,0,n/a,0.00
+1844,"is runt pegion is good for vastu",n/a,0,n/a,0.00
+1845,"is sahjan tree vastu",n/a,0,n/a,0.00
+1846,"is sahjana tree is good as per vastu",n/a,0,n/a,0.00
+1847,"is saral vastu fake",n/a,0,n/a,0.00
+1848,"is sarala vastu works",n/a,0,n/a,0.00
+1849,"is sissoo wood vastu wise ok",n/a,0,n/a,0.00
+1850,"is skull decor good as per vastu",n/a,0,n/a,0.00
+1851,"is slanted pop good for children as per vastu",n/a,0,n/a,0.00
+1852,"is sleeping on iron containing bed related with vastu dosh",n/a,0,n/a,0.00
+1853,"is slope towards south considered inauspicious in vastu shastra",n/a,0,n/a,0.00
+1854,"is snail is not good according to vastu for home",n/a,0,n/a,0.00
+1855,"is snn raj serenity vastu compliant",n/a,0,n/a,0.00
+1856,"is south bedroom vastu good",n/a,0,n/a,0.00
+1857,"is south bedroom vastu good as per vastu",n/a,0,n/a,0.00
+1858,"is south east balcony good according to vastu",n/a,0,n/a,0.00
+1859,"is south east facing propert good according to vastu",n/a,0,n/a,0.00
+1860,"is south east toilet good as per vastu",n/a,0,n/a,0.00
+1861,"is south east toilet good as per vastu for office",n/a,0,n/a,0.00
+1862,"is south exit from house in vastu",n/a,0,n/a,0.00
+1863,"is south facing flat vastu compliant",n/a,0,n/a,0.00
+1864,"is south facing house entry good according to vastu",n/a,0,n/a,0.00
+1865,"is south side main entrance is good as per vastu",n/a,0,n/a,0.00
+1866,"is southfacing house good as per vastu",n/a,0,n/a,0.00
+1867,"is spiral staircase good in the house according to vastu",n/a,0,n/a,0.00
+1868,"is square wall clock is good according to vastu",n/a,0,n/a,0.00
+1869,"is staircase in front of main door vastu",n/a,0,n/a,0.00
+1870,"is sukur enclave c kasarvadavali is vastu compliant",n/a,0,n/a,0.00
+1871,"is sunday is good for vastu",n/a,0,n/a,0.00
+1872,"is sunset poster good for vastu",n/a,0,n/a,0.00
+1873,"is teady bear good for home as per vastu",n/a,0,n/a,0.00
+1874,"is temple in front of main door vastu compliant",n/a,0,n/a,0.00
+1875,"is the any vastu effect of mastubation",n/a,0,n/a,0.00
+1876,"is the swimming pool inside the house good for vastu",n/a,0,n/a,0.00
+1877,"is the vastu shastra benefits for new home",n/a,0,n/a,0.00
+1878,"is there a temple for vastu in south india",n/a,0,n/a,0.00
+1879,"is there a vastu place to keep coconut tree",n/a,0,n/a,0.00
+1880,"is there an alternative to vastu shanta pooja",n/a,0,n/a,0.00
+1881,"is there an alternative to vastu shanti pooja",n/a,0,n/a,0.00
+1882,"is there any importance for trees in vastu",n/a,0,n/a,0.00
+1883,"is there any reason for arthritis due to vastu dos",n/a,0,n/a,0.00
+1884,"is there any remedy.for north radt elevation under vastu",n/a,0,n/a,0.00
+1885,"is there any requirement for room vastu sizes",n/a,0,n/a,0.00
+1886,"is there any truth in vastu shastra",n/a,0,n/a,0.00
+1887,"is there any vastu for main door in cross",n/a,0,n/a,0.00
+1888,"is there any vastu shastra for america",n/a,0,n/a,0.00
+1889,"is there vastu of property",n/a,0,n/a,0.00
+1890,"is there vastu of property towards south",n/a,0,n/a,0.00
+1891,"is three fold main gate vastu compliant",n/a,0,n/a,0.00
+1892,"is tiger pictures kept in bedroom for vastu",n/a,0,n/a,0.00
+1893,"is tijori perfect in south east corner acc to vastu",n/a,0,n/a,0.00
+1894,"is to good to buy 6.5 cents land vastu",n/a,0,n/a,0.00
+1895,"is toilet in east good as per vastu",n/a,0,n/a,0.00
+1896,"is turtle good for vastu at home",n/a,0,n/a,0.00
+1897,"is tv in dining room good vastu",n/a,0,n/a,0.00
+1898,"is using pure leather purse advisable as per vastu",n/a,0,n/a,0.00
+1899,"is vastu a proven science",n/a,0,n/a,0.00
+1900,"is vastu a science or superstition",n/a,0,n/a,0.00
+1901,"is vastu a superstition",n/a,0,n/a,0.00
+1902,"is vastu applicable for agricultural land also",n/a,0,n/a,0.00
+1903,"is vastu applicable for flat for rent",n/a,0,n/a,0.00
+1904,"is vastu applicable for tenants",n/a,0,n/a,0.00
+1905,"is vastu applicable in uk",n/a,0,n/a,0.00
+1906,"is vastu apply for square shape or rectangle shape",n/a,0,n/a,0.00
+1907,"is vastu as per name real",n/a,0,n/a,0.00
+1908,"is vastu bigger than god",n/a,0,n/a,0.00
+1909,"is vastu bogus",n/a,0,n/a,0.00
+1910,"is vastu considered for individual rooms or the whole house",n/a,0,n/a,0.00
+1911,"is vastu consultancy service a tax deductible exoense",n/a,0,n/a,0.00
+1912,"is vastu courses offered by aifas are put for legally",n/a,0,n/a,0.00
+1913,"is vastu different for different people",n/a,0,n/a,0.00
+1914,"is vastu dimension measured from main door",n/a,0,n/a,0.00
+1915,"is vastu followed in bhagavad gita",n/a,0,n/a,0.00
+1916,"is vastu for tenants or owners",n/a,0,n/a,0.00
+1917,"is vastu imp sadhguru",n/a,0,n/a,0.00
+1918,"is vastu important before purchasing a flat",n/a,0,n/a,0.00
+1919,"is vastu items liable for gst",n/a,0,n/a,0.00
+1920,"is vastu kala academy government",n/a,0,n/a,0.00
+1921,"is vastu kala academy govt",n/a,0,n/a,0.00
+1922,"is vastu necessary for rented houses",n/a,0,n/a,0.00
+1923,"is vastu necessary for septic tank",n/a,0,n/a,0.00
+1924,"is vastu pada calculation",n/a,0,n/a,0.00
+1925,"is vastu pada of house length or plot length",n/a,0,n/a,0.00
+1926,"is vastu practiced in modern architecture",n/a,0,n/a,0.00
+1927,"is vastu product give result",n/a,0,n/a,0.00
+1928,"is vastu really important in usa",n/a,0,n/a,0.00
+1929,"is vastu sashtra relevant",n/a,0,n/a,0.00
+1930,"is vastu scientific or stpud",n/a,0,n/a,0.00
+1931,"is vastu scientific or stud",n/a,0,n/a,0.00
+1932,"is vastu shanta done in a flat",n/a,0,n/a,0.00
+1933,"is vastu shastra a myth",n/a,0,n/a,0.00
+1934,"is vastu shastra dravidian",n/a,0,n/a,0.00
+1935,"is vastu shastra in southern hemisphere",n/a,0,n/a,0.00
+1936,"is vastu shastra link with maths",n/a,0,n/a,0.00
+1937,"is vastu shastra relevant",n/a,0,n/a,0.00
+1938,"is vastu shastra required",n/a,0,n/a,0.00
+1939,"is vastu shastra required for small plots",n/a,0,n/a,0.00
+1940,"is vastu the traditional architecture",n/a,0,n/a,0.00
+1941,"is vastu true for flata",n/a,0,n/a,0.00
+1942,"is vastu true for flats",n/a,0,n/a,0.00
+1943,"is vastu true for rented houses",n/a,0,n/a,0.00
+1944,"is vastu true quora",n/a,0,n/a,0.00
+1945,"is vastu very important",n/a,0,n/a,0.00
+1946,"is vastu vihar apartment is good",n/a,0,n/a,0.00
+1947,"is vastu vihar give best house",n/a,0,n/a,0.00
+1948,"is wall behind working table good as per vastu",n/a,0,n/a,0.00
+1949,"is water feature in south west corner acceptable according vastu",n/a,0,n/a,0.00
+1950,"is water turtle good as per vastu",n/a,0,n/a,0.00
+1951,"is wenge color good for temple vastu",n/a,0,n/a,0.00
+1952,"is west entrance good as per vastu for office",n/a,0,n/a,0.00
+1953,"is west facing house good per indian vastu",n/a,0,n/a,0.00
+1954,"is white paint inside house good as per vastu",n/a,0,n/a,0.00
+1955,"is wood good as per vastu",n/a,0,n/a,0.00
+1956,"is your home interior free from vastu complaints",n/a,0,n/a,0.00
+1957,"must have trees at home indian vastu",n/a,0,n/a,0.00
+1958,"must read books for vastu",n/a,0,n/a,0.00
+1959,"should a house have a basement vastu",n/a,0,n/a,0.00
+1960,"should a plot be a square according to vastu",n/a,0,n/a,0.00
+1961,"should all doors move clockwise as per vastu",n/a,0,n/a,0.00
+1962,"should any door be anti clockwise as per vastu",n/a,0,n/a,0.00
+1963,"should bathroom door be kept closed according to vastu",n/a,0,n/a,0.00
+1964,"should be toilet in northeast in vastu",n/a,0,n/a,0.00
+1965,"should bed room b in black colour acc to vastu",n/a,0,n/a,0.00
+1966,"should boyfriend not buy wig vastu",n/a,0,n/a,0.00
+1967,"should christians follow vastu",n/a,0,n/a,0.00
+1968,"should fighter fish be kept at home vastu",n/a,0,n/a,0.00
+1969,"should flying hanumanji be at home vastu",n/a,0,n/a,0.00
+1970,"should head be against a wall vastu",n/a,0,n/a,0.00
+1971,"should house owner stay on top floor vastu",n/a,0,n/a,0.00
+1972,"should i believe in vastu sadhguru",n/a,0,n/a,0.00
+1973,"should i follow vastu sastra for my new home",n/a,0,n/a,0.00
+1974,"should i have a sex in the lake vastu",n/a,0,n/a,0.00
+1975,"should i look for vastu before purchasing a flat",n/a,0,n/a,0.00
+1976,"should i plant banana tree at home vastu",n/a,0,n/a,0.00
+1977,"should internal opposite doors be aligned as per vastu",n/a,0,n/a,0.00
+1978,"should not sleep keeping your hand over heart vastu",n/a,0,n/a,0.00
+1979,"should south be at vastu",n/a,0,n/a,0.00
+1980,"should the be clock in bathroom as per vastu",n/a,0,n/a,0.00
+1981,"should toilet tank beneath stair vastu",n/a,0,n/a,0.00
+1982,"should use glass or acrylic in windows as per vastu",n/a,0,n/a,0.00
+1983,"should we consider vastu in usa",n/a,0,n/a,0.00
+1984,"should we consider vastu shastra for farmhouse",n/a,0,n/a,0.00
+1985,"should we gift watch as per vastu",n/a,0,n/a,0.00
+1986,"should we keep main entrance under staircase vastu",n/a,0,n/a,0.00
+1987,"should we put stair at center of house vastu",n/a,0,n/a,0.00
+1988,"should we use bamboo utensils in kitchen vastu",n/a,0,n/a,0.00
+1989,"should you sleep in front of bedroom door vastu",n/a,0,n/a,0.00
+1990,"was singapore built on vastu",n/a,0,n/a,0.00
+1991,"were to keep images of dolls according to vastu",n/a,0,n/a,0.00
+1992,"were to place vastu show piece fish statue at home",n/a,0,n/a,0.00
+1993,"were toputdolls images according to vastu",n/a,0,n/a,0.00
+1994,"were waste water can go according to vastu",n/a,0,n/a,0.00
+1995,"what about andal vastu p.chockalingam",n/a,0,n/a,0.00
+1996,"what about north west facing plot vastu",n/a,0,n/a,0.00
+1997,"what all vastu fish aquarium at home in hindi",n/a,0,n/a,0.00
+1998,"what are basic vastu tips",n/a,0,n/a,0.00
+1999,"what are earth elements in vastu",n/a,0,n/a,0.00
+2000,"what are sleeping positions as per vastu",n/a,0,n/a,0.00
+2001,"what are sleeping postions as per vastu",n/a,0,n/a,0.00
+2002,"what are some good posters for prosperity according to vastu",n/a,0,n/a,0.00
+2003,"what are the basic things to learn vastu",n/a,0,n/a,0.00
+2004,"what are the basic vastu for east facing house",n/a,0,n/a,0.00
+2005,"what are the basic vastu principles",n/a,0,n/a,0.00
+2006,"what are the good perimeters in kerala vastu perimeter",n/a,0,n/a,0.00
+2007,"what are the main points of vastu",n/a,0,n/a,0.00
+2008,"what are the moolas in vastu",n/a,0,n/a,0.00
+2009,"what are the remedies for south west toilet vastu",n/a,0,n/a,0.00
+2010,"what are the rules to buy car as per vastu",n/a,0,n/a,0.00
+2011,"what are the standards for pyramids as per vastu",n/a,0,n/a,0.00
+2012,"what are the vastu fishes",n/a,0,n/a,0.00
+2013,"what are the vastu for 26x42 west facing house",n/a,0,n/a,0.00
+2014,"what are the vastu idols in office desk",n/a,0,n/a,0.00
+2015,"what are the vastu rules for balcony",n/a,0,n/a,0.00
+2016,"what are the vastu tips for tower in the building",n/a,0,n/a,0.00
+2017,"what are vastu dosh",n/a,0,n/a,0.00
+2018,"what are vastu tips for good performance of classifiers",n/a,0,n/a,0.00
+2019,"what can be above pooja as per vastu",n/a,0,n/a,0.00
+2020,"what can be kept in kanimulai as per vastu",n/a,0,n/a,0.00
+2021,"what can be kept under stairs vastu",n/a,0,n/a,0.00
+2022,"what can be placed above door according to vastu",n/a,0,n/a,0.00
+2023,"what can be placed above inside door according to vastu",n/a,0,n/a,0.00
+2024,"what can be placed above kitchen door according to vastu",n/a,0,n/a,0.00
+2025,"what can be stored under staircase as per vastu",n/a,0,n/a,0.00
+2026,"what can be vastu dosh for having cold",n/a,0,n/a,0.00
+2027,"what color for day girls according to vastu",n/a,0,n/a,0.00
+2028,"what color kitchen should i get as per vastu",n/a,0,n/a,0.00
+2029,"what color wall paper is vastu compliant for kids room",n/a,0,n/a,0.00
+2030,"what color wallet attracts money according to vastu",n/a,0,n/a,0.00
+2031,"what color wallet is lucky anandi vastu",n/a,0,n/a,0.00
+2032,"what colors good for kitchen vastu",n/a,0,n/a,0.00
+2033,"what colors to avoid in home as per vastu",n/a,0,n/a,0.00
+2034,"what colour is suitable for fitness as per vastu",n/a,0,n/a,0.00
+2035,"what colour is sutible for fitess as per vastu",n/a,0,n/a,0.00
+2036,"what colour to wear on saturday according to vastu",n/a,0,n/a,0.00
+2037,"what colours shud b in master bedroom acc to vastu",n/a,0,n/a,0.00
+2038,"what did vastu housing finance do before 2015",n/a,0,n/a,0.00
+2039,"what direction entrance of house according to vastu",n/a,0,n/a,0.00
+2040,"what direction of computer as per vastu",n/a,0,n/a,0.00
+2041,"what direction should your bed face vastu",n/a,0,n/a,0.00
+2042,"what do vastu says about the location of stp tank",n/a,0,n/a,0.00
+2043,"what do you mean by vastu compliant",n/a,0,n/a,0.00
+2044,"what does bible tells about vastu shastra",n/a,0,n/a,0.00
+2045,"what does black colour signify as per vastu",n/a,0,n/a,0.00
+2046,"what does brahma sthan means in vastu",n/a,0,n/a,0.00
+2047,"what does fire related problems means as per vastu",n/a,0,n/a,0.00
+2048,"what does green red yellow light in office in vastu",n/a,0,n/a,0.00
+2049,"what does house facing mean in vastu",n/a,0,n/a,0.00
+2050,"what does implies north-east corner in vastu",n/a,0,n/a,0.00
+2051,"what does it mean by nikshep or vastu purush",n/a,0,n/a,0.00
+2052,"what does red roses symbolize as per vastu",n/a,0,n/a,0.00
+2053,"what does round door means in vastu shastra",n/a,0,n/a,0.00
+2054,"what does vastu stand for",n/a,0,n/a,0.00
+2055,"what dress would be worn in vastu poojan",n/a,0,n/a,0.00
+2056,"what face cashbox vastu tamil",n/a,0,n/a,0.00
+2057,"what facing of toilet seat as per vastu",n/a,0,n/a,0.00
+2058,"what facing should be the pooja room as per vastu",n/a,0,n/a,0.00
+2059,"what fish should be kept in aquarium as per vastu",n/a,0,n/a,0.00
+2060,"what geopathic vastu services in delhi",n/a,0,n/a,0.00
+2061,"what happen if wardrobe in east as per vastu",n/a,0,n/a,0.00
+2062,"what happens at 930 am in vastu shastra",n/a,0,n/a,0.00
+2063,"what happens if vastu purush is removed",n/a,0,n/a,0.00
+2064,"what happens if we dint build house without proper vastu",n/a,0,n/a,0.00
+2065,"what happens in west facing cooking in vastu",n/a,0,n/a,0.00
+2066,"what happens when we do not go by vastu",n/a,0,n/a,0.00
+2067,"what if dining table shape is round vastu",n/a,0,n/a,0.00
+2068,"what if garden in south facing as per vastu",n/a,0,n/a,0.00
+2069,"what if milk ll b poured on floor vastu",n/a,0,n/a,0.00
+2070,"what if roof of south east not closed vastu",n/a,0,n/a,0.00
+2071,"what if south east not closed vastu",n/a,0,n/a,0.00
+2072,"what if the house facing toward south as per vastu",n/a,0,n/a,0.00
+2073,"what if the house facing toward west as per vastu",n/a,0,n/a,0.00
+2074,"what if the house is east facing house vastu",n/a,0,n/a,0.00
+2075,"what if the master bed room is small vastu",n/a,0,n/a,0.00
+2076,"what if tree is on property according to vastu",n/a,0,n/a,0.00
+2077,"what if wall clock broke vastu",n/a,0,n/a,0.00
+2078,"what if we have kitchen under stairs according vastu",n/a,0,n/a,0.00
+2079,"what is 2 meaning in vastu shastra",n/a,0,n/a,0.00
+2080,"what is 2 meaning in vastu shastra in hindi",n/a,0,n/a,0.00
+2081,"what is a good vastu",n/a,0,n/a,0.00
+2082,"what is a good vastu shop entrance as per",n/a,0,n/a,0.00
+2083,"what is according to vastu shastra",n/a,0,n/a,0.00
+2084,"what is aimula as per vastu",n/a,0,n/a,0.00
+2085,"what is aura vastu",n/a,0,n/a,0.00
+2086,"what is ayam in vastu",n/a,0,n/a,0.00
+2087,"what is ayay for vastu",n/a,0,n/a,0.00
+2088,"what is bad main main door as per vastu",n/a,0,n/a,0.00
+2089,"what is bagua in vastu",n/a,0,n/a,0.00
+2090,"what is benifit garlic live in room vastu",n/a,0,n/a,0.00
+2091,"what is best cooking direction according vastu",n/a,0,n/a,0.00
+2092,"what is best place for toilet as per vastu",n/a,0,n/a,0.00
+2093,"what is best place for water sump as per vastu",n/a,0,n/a,0.00
+2094,"what is bhojraj in vastu shastra",n/a,0,n/a,0.00
+2095,"what is bhramasootm and yamasootram according to vastu",n/a,0,n/a,0.00
+2096,"what is called agney in vastu shastra",n/a,0,n/a,0.00
+2097,"what is called east facing house in vastu",n/a,0,n/a,0.00
+2098,"what is center of vastu",n/a,0,n/a,0.00
+2099,"what is colour vastu",n/a,0,n/a,0.00
+2100,"what is commercial vastu",n/a,0,n/a,0.00
+2101,"what is cp in vastu",n/a,0,n/a,0.00
+2102,"what is cut as per vastu",n/a,0,n/a,0.00
+2103,"what is cut or low in vastu",n/a,0,n/a,0.00
+2104,"what is deflated north in vastu",n/a,0,n/a,0.00
+2105,"what is door according to vastu",n/a,0,n/a,0.00
+2106,"what is earth element in vastu",n/a,0,n/a,0.00
+2107,"what is effects of south west entrance vastu",n/a,0,n/a,0.00
+2108,"what is emerald good for as per vastu",n/a,0,n/a,0.00
+2109,"what is energy vastu",n/a,0,n/a,0.00
+2110,"what is fee for vastu consultation",n/a,0,n/a,0.00
+2111,"what is fhen shui vastu",n/a,0,n/a,0.00
+2112,"what is four corner in vastu",n/a,0,n/a,0.00
+2113,"what is fourth pada of a wall.as per vastu",n/a,0,n/a,0.00
+2114,"what is gajaaya in vastu",n/a,0,n/a,0.00
+2115,"what is garnet crystal in vastu used for",n/a,0,n/a,0.00
+2116,"what is geopathic vastu",n/a,0,n/a,0.00
+2117,"what is good for job in vastu shastra",n/a,0,n/a,0.00
+2118,"what is haya in vastu",n/a,0,n/a,0.00
+2119,"what is kalyan vastu pooja for marriage",n/a,0,n/a,0.00
+2120,"what is known as brahma sutra in vastu",n/a,0,n/a,0.00
+2121,"what is known as yama suta in vastu",n/a,0,n/a,0.00
+2122,"what is kuber mula in vastu shastra",n/a,0,n/a,0.00
+2123,"what is lucky symbol according to vastu",n/a,0,n/a,0.00
+2124,"what is master bedroom in vastu",n/a,0,n/a,0.00
+2125,"what is matrangulam in vastu",n/a,0,n/a,0.00
+2126,"what is meaning of seven horses painting according to vastu",n/a,0,n/a,0.00
+2127,"what is meant by south east corner in vastu",n/a,0,n/a,0.00
+2128,"what is most important part in home as per vastu",n/a,0,n/a,0.00
+2129,"what is natural slope regarding vastu direction",n/a,0,n/a,0.00
+2130,"what is on nadi vastu",n/a,0,n/a,0.00
+2131,"what is parama sayika manadala in temple vastu",n/a,0,n/a,0.00
+2132,"what is place of kitchen according to vastu",n/a,0,n/a,0.00
+2133,"what is place of kitchen according to vastu in telugu",n/a,0,n/a,0.00
+2134,"what is problem with south facing house as per vastu",n/a,0,n/a,0.00
+2135,"what is problem with t facing house as per vastu",n/a,0,n/a,0.00
+2136,"what is problem with tee facing house as per vastu",n/a,0,n/a,0.00
+2137,"what is proportionate measurement in vastu",n/a,0,n/a,0.00
+2138,"what is running horse direction as per vastu",n/a,0,n/a,0.00
+2139,"what is s1 s2 in vastu",n/a,0,n/a,0.00
+2140,"what is science behind vastu shastra",n/a,0,n/a,0.00
+2141,"what is second best vastu direction for house entrance",n/a,0,n/a,0.00
+2142,"what is second vastu",n/a,0,n/a,0.00
+2143,"what is second vastu dosham",n/a,0,n/a,0.00
+2144,"what is second vastu shastra",n/a,0,n/a,0.00
+2145,"what is simha yoni in vastu shastra",n/a,0,n/a,0.00
+2146,"what is slope direction regarding vastu",n/a,0,n/a,0.00
+2147,"what is south west corner in house vastu",n/a,0,n/a,0.00
+2148,"what is southwest corner called in vastu",n/a,0,n/a,0.00
+2149,"what is street focus in vastu",n/a,0,n/a,0.00
+2150,"what is talamanam in vastu",n/a,0,n/a,0.00
+2151,"what is the 9 pada in vastu shastra",n/a,0,n/a,0.00
+2152,"what is the best color for stairs according to vastu",n/a,0,n/a,0.00
+2153,"what is the best day to purchase electronics by vastu",n/a,0,n/a,0.00
+2154,"what is the best vastu",n/a,0,n/a,0.00
+2155,"what is the definition of vastu agriculture",n/a,0,n/a,0.00
+2156,"what is the dimension for a vastu pyramid",n/a,0,n/a,0.00
+2157,"what is the direction of kitchen in vastu",n/a,0,n/a,0.00
+2158,"what is the direction of toilet according vastu",n/a,0,n/a,0.00
+2159,"what is the energy of jyoti according to vastu",n/a,0,n/a,0.00
+2160,"what is the favorite offerings for bhujaga devta in vastu",n/a,0,n/a,0.00
+2161,"what is the fire direction in vastu",n/a,0,n/a,0.00
+2162,"what is the good vastu structure of west faces building",n/a,0,n/a,0.00
+2163,"what is the house vastu of house in india",n/a,0,n/a,0.00
+2164,"what is the importance of northeast in vastu",n/a,0,n/a,0.00
+2165,"what is the importance of waterfall paintingaccording to vastu shashtra",n/a,0,n/a,0.00
+2166,"what is the lucky number according to vastu for home",n/a,0,n/a,0.00
+2167,"what is the meaning fish in vastu",n/a,0,n/a,0.00
+2168,"what is the meaning for vastu",n/a,0,n/a,0.00
+2169,"what is the meaning of facing in vastu",n/a,0,n/a,0.00
+2170,"what is the meaning of shukrasta in vastu",n/a,0,n/a,0.00
+2171,"what is the meaning of vastu shanti in english",n/a,0,n/a,0.00
+2172,"what is the meaning of vastu shastra in english",n/a,0,n/a,0.00
+2173,"what is the meaning of vastu shastra in hindi",n/a,0,n/a,0.00
+2174,"what is the meaning of vishti in vastu animal",n/a,0,n/a,0.00
+2175,"what is the measurement for vastu house",n/a,0,n/a,0.00
+2176,"what is the measurement for vastu house pdf",n/a,0,n/a,0.00
+2177,"what is the north direction.of a house as per vastu",n/a,0,n/a,0.00
+2178,"what is the perfect colour for south as per vastu",n/a,0,n/a,0.00
+2179,"what is the rate of 2bhk flate in vastu vihar",n/a,0,n/a,0.00
+2180,"what is the sign of vastu snake in house garden",n/a,0,n/a,0.00
+2181,"what is the significance of brahma brahmasthan in vastu",n/a,0,n/a,0.00
+2182,"what is the size of mai get as per vastu",n/a,0,n/a,0.00
+2183,"what is the solution of non vastu",n/a,0,n/a,0.00
+2184,"what is the special of rog in vastu",n/a,0,n/a,0.00
+2185,"what is the use of citrine tree in vastu",n/a,0,n/a,0.00
+2186,"what is the vastu in hindi",n/a,0,n/a,0.00
+2187,"what is the vastu padam in house in telugu",n/a,0,n/a,0.00
+2188,"what is tortoise family in vastu",n/a,0,n/a,0.00
+2189,"what is vastu dosh nivaran yantra",n/a,0,n/a,0.00
+2190,"what is vastu in tamil",n/a,0,n/a,0.00
+2191,"what is vastu mantra",n/a,0,n/a,0.00
+2192,"what is vastu nall",n/a,0,n/a,0.00
+2193,"what is vastu preferred door facing in house",n/a,0,n/a,0.00
+2194,"what is vastu purush mahayantram",n/a,0,n/a,0.00
+2195,"what is vastu quora",n/a,0,n/a,0.00
+2196,"what is vastu remidies for girls delaying her marriege",n/a,0,n/a,0.00
+2197,"what is vastu sadhguru",n/a,0,n/a,0.00
+2198,"what is vastu says about your home design",n/a,0,n/a,0.00
+2199,"what is vastu shanti pooja exactly",n/a,0,n/a,0.00
+2200,"what is vastu shastra for house in hindi",n/a,0,n/a,0.00
+2201,"what is vastu shastra in architecture",n/a,0,n/a,0.00
+2202,"what is vastu shastra in hindi mytahelka",n/a,0,n/a,0.00
+2203,"what is vastu shastra in malayalam",n/a,0,n/a,0.00
+2204,"what is vastu shastra in marathi",n/a,0,n/a,0.00
+2205,"what is vastu shastra in tamil",n/a,0,n/a,0.00
+2206,"what is vastu shastra in telugu",n/a,0,n/a,0.00
+2207,"what is vastu shastra or science of vastu",n/a,0,n/a,0.00
+2208,"what is vastu shastra pdf",n/a,0,n/a,0.00
+2209,"what is vastu significance of 7 horses painting at home",n/a,0,n/a,0.00
+2210,"what is vastu solution on home",n/a,0,n/a,0.00
+2211,"what is vastu solution on home inauguration",n/a,0,n/a,0.00
+2212,"what is vastu zone for keeping plants",n/a,0,n/a,0.00
+2213,"what is veedhipotu for plots as per vastu",n/a,0,n/a,0.00
+2214,"what is wc in vastu",n/a,0,n/a,0.00
+2215,"what is yama sutra vastu",n/a,0,n/a,0.00
+2216,"what is zone gold horse in vastu shastra",n/a,0,n/a,0.00
+2217,"what is zones gold horse in vastu shastra",n/a,0,n/a,0.00
+2218,"what items should in bathroom in vastu",n/a,0,n/a,0.00
+2219,"what kind of paintings hang in west direction in vastu",n/a,0,n/a,0.00
+2220,"what kind of sofa to be used inliving room vastu",n/a,0,n/a,0.00
+2221,"what makes money as per vastu",n/a,0,n/a,0.00
+2222,"what makes prosperity as per vastu",n/a,0,n/a,0.00
+2223,"what meant 112 east in vastu",n/a,0,n/a,0.00
+2224,"what not to do in office as per vastu",n/a,0,n/a,0.00
+2225,"what not to place on lockers as per vastu",n/a,0,n/a,0.00
+2226,"what one can achieve from vastu",n/a,0,n/a,0.00
+2227,"what painting to put in south wall vastu",n/a,0,n/a,0.00
+2228,"what pictures can be placed at-home as per vastu",n/a,0,n/a,0.00
+2229,"what pictures need to put as per vastu",n/a,0,n/a,0.00
+2230,"what plants should be outside gate vastu",n/a,0,n/a,0.00
+2231,"what plants trees should be outside gate vastu",n/a,0,n/a,0.00
+2232,"what position the staircase in home as per vastu",n/a,0,n/a,0.00
+2233,"what postion the sraircase in home as per vastu",n/a,0,n/a,0.00
+2234,"what postion wc should be according to vastu",n/a,0,n/a,0.00
+2235,"what rhings can fixed in foyer as per vastu",n/a,0,n/a,0.00
+2236,"what room in north east corner if house vastu",n/a,0,n/a,0.00
+2237,"what shape of dining table is best according to vastu",n/a,0,n/a,0.00
+2238,"what shf be on west facing as per vastu",n/a,0,n/a,0.00
+2239,"what shoud be bedroom vastu if 2 persons are earning",n/a,0,n/a,0.00
+2240,"what should b the walpaper of pc according to vastu",n/a,0,n/a,0.00
+2241,"what should be aquarium soil colour per vastu",n/a,0,n/a,0.00
+2242,"what should be bed position according to vastu",n/a,0,n/a,0.00
+2243,"what should be facing of house according to vastu shastra",n/a,0,n/a,0.00
+2244,"what should be hall size in house as per vastu",n/a,0,n/a,0.00
+2245,"what should be in wall poster as per vastu",n/a,0,n/a,0.00
+2246,"what should be kept in north vastu",n/a,0,n/a,0.00
+2247,"what should be kept on pc desktop wallpaper vastu",n/a,0,n/a,0.00
+2248,"what should be position of bed according to vastu",n/a,0,n/a,0.00
+2249,"what should be the apartment number according to vastu shastra",n/a,0,n/a,0.00
+2250,"what should be the built up area as per vastu",n/a,0,n/a,0.00
+2251,"what should be the color of kitchen according vastu",n/a,0,n/a,0.00
+2252,"what should be the colour of door according to vastu",n/a,0,n/a,0.00
+2253,"what should be the colout of furnitire according to vastu",n/a,0,n/a,0.00
+2254,"what should be the placement of mandir as per vastu",n/a,0,n/a,0.00
+2255,"what should be vastu for kids",n/a,0,n/a,0.00
+2256,"what should be written on main door according to vastu",n/a,0,n/a,0.00
+2257,"what should be written on main entrance according to vastu",n/a,0,n/a,0.00
+2258,"what should br placed at the door for vastu",n/a,0,n/a,0.00
+2259,"what should not be done in vastu shastra",n/a,0,n/a,0.00
+2260,"what should not visible in mirror as per vastu",n/a,0,n/a,0.00
+2261,"what should we put in the room according to vastu",n/a,0,n/a,0.00
+2262,"what should.kept at entrance lobby according to.vastu",n/a,0,n/a,0.00
+2263,"what side placed vastu horse images",n/a,0,n/a,0.00
+2264,"what sign when purse fall in vastu zastra",n/a,0,n/a,0.00
+2265,"what statue can we keep at home vastu",n/a,0,n/a,0.00
+2266,"what statue to place in northwest vastu",n/a,0,n/a,0.00
+2267,"what the cost of yamuna bungalow vastu vihar",n/a,0,n/a,0.00
+2268,"what the fuck is vastu",n/a,0,n/a,0.00
+2269,"what the vastu points",n/a,0,n/a,0.00
+2270,"what things attract negative energy vastu shastra",n/a,0,n/a,0.00
+2271,"what things to buy on dhanteras according to vastu",n/a,0,n/a,0.00
+2272,"what time brick issued in sevalur vastu temple",n/a,0,n/a,0.00
+2273,"what tipsare basic vastu",n/a,0,n/a,0.00
+2274,"what to cook on friday related to vastu",n/a,0,n/a,0.00
+2275,"what to do during solar eclipse as per vastu",n/a,0,n/a,0.00
+2276,"what to do for career success in house vastu",n/a,0,n/a,0.00
+2277,"what to do for rent a flat as per vastu",n/a,0,n/a,0.00
+2278,"what to do if a vastu fish is swollen",n/a,0,n/a,0.00
+2279,"what to do if bedroom in agni moola vastu",n/a,0,n/a,0.00
+2280,"what to do if cat comes on the way vastu",n/a,0,n/a,0.00
+2281,"what to do if kitchen direction is not according vastu",n/a,0,n/a,0.00
+2282,"what to do if my shop is not vastu compliant",n/a,0,n/a,0.00
+2283,"what to do if the master bedroom is vastu compliant",n/a,0,n/a,0.00
+2284,"what to do on a vastu day",n/a,0,n/a,0.00
+2285,"what to do on diwali day as per vastu",n/a,0,n/a,0.00
+2286,"what to do on wednesday according to vastu",n/a,0,n/a,0.00
+2287,"what to do with the spatik given by sarala vastu",n/a,0,n/a,0.00
+2288,"what to do with the sphatik given by sarala vastu",n/a,0,n/a,0.00
+2289,"what to do with tulsi tree as per vastu",n/a,0,n/a,0.00
+2290,"what to do with tulsi tree at home by vastu",n/a,0,n/a,0.00
+2291,"what to do with yellow kauri for vastu",n/a,0,n/a,0.00
+2292,"what to do wth old photo of god in vastu",n/a,0,n/a,0.00
+2293,"what to have in southwest vastu",n/a,0,n/a,0.00
+2294,"what to see while buying an appartment as per vastu",n/a,0,n/a,0.00
+2295,"what to wear to get success according to vastu shashtra",n/a,0,n/a,0.00
+2296,"what to write on nameplate vastu",n/a,0,n/a,0.00
+2297,"what type of clock should hang according to vastu",n/a,0,n/a,0.00
+2298,"what type trunk elephant should be there as vastu",n/a,0,n/a,0.00
+2299,"what vastu causes health issues for women",n/a,0,n/a,0.00
+2300,"what vastu causes health issues for women telugu",n/a,0,n/a,0.00
+2301,"what vastu causes marriage to not happen",n/a,0,n/a,0.00
+2302,"what vastu compliant",n/a,0,n/a,0.00
+2303,"what vastu issues occur if u face west in office",n/a,0,n/a,0.00
+2304,"what vastu say about banana tree at home",n/a,0,n/a,0.00
+2305,"what vastu thing to keep in office to generate moey",n/a,0,n/a,0.00
+2306,"what vastu tips should be followed for health",n/a,0,n/a,0.00
+2307,"what wall painting should be used according to vastu",n/a,0,n/a,0.00
+2308,"what we call vastu in englisj",n/a,0,n/a,0.00
+2309,"what we call vastu sastra in islam",n/a,0,n/a,0.00
+2310,"what we can do to finish vastu dosh",n/a,0,n/a,0.00
+2311,"what we should do for vastu interiors",n/a,0,n/a,0.00
+2312,"what would be the toilet position according to vastu",n/a,0,n/a,0.00
+2313,"what's money plants vastu kannada",n/a,0,n/a,0.00
+2314,"what's side slip for vastu shastra",n/a,0,n/a,0.00
+2315,"when do we attend to vastu pelli for house",n/a,0,n/a,0.00
+2316,"when fire elements come on air element in vastu shastra",n/a,0,n/a,0.00
+2317,"when north east high vastu remedies",n/a,0,n/a,0.00
+2318,"when not to wash floors with salt vastu",n/a,0,n/a,0.00
+2319,"when pigeon enters house as per vastu",n/a,0,n/a,0.00
+2320,"when to apply oil according to vastu",n/a,0,n/a,0.00
+2321,"when to go in floor mill as per vastu",n/a,0,n/a,0.00
+2322,"when to not shift home vastu months",n/a,0,n/a,0.00
+2323,"when to place vastu maha yantra at home",n/a,0,n/a,0.00
+2324,"when to purchase furniture accirding to vastu",n/a,0,n/a,0.00
+2325,"when to remove brahma kamal plant and vastu",n/a,0,n/a,0.00
+2326,"when to sale iron as per vastu",n/a,0,n/a,0.00
+2327,"when we demolish a old house as per vastu shastra",n/a,0,n/a,0.00
+2328,"when we should we bring bamboo vastu plan",n/a,0,n/a,0.00
+2329,"when your house is not according to vastu",n/a,0,n/a,0.00
+2330,"where a laughing buddha should be kept by vastu shastra",n/a,0,n/a,0.00
+2331,"where a laughing buddha should be kept by vastu shastre",n/a,0,n/a,0.00
+2332,"where add carshed for east facing home vastu telugu",n/a,0,n/a,0.00
+2333,"where ahould the dining room be according to vastu",n/a,0,n/a,0.00
+2334,"where are the saral vastu",n/a,0,n/a,0.00
+2335,"where are the saral vastu address",n/a,0,n/a,0.00
+2336,"where can i have pit as per vastu",n/a,0,n/a,0.00
+2337,"where can the main door be located according to vastu",n/a,0,n/a,0.00
+2338,"where do u keep aquarium as per vastu",n/a,0,n/a,0.00
+2339,"where do we get vastu mirrors",n/a,0,n/a,0.00
+2340,"where do you place gym equipment as per vastu",n/a,0,n/a,0.00
+2341,"where drill bore in home as per vastu",n/a,0,n/a,0.00
+2342,"where dwarkadheesh vastu book is available",n/a,0,n/a,0.00
+2343,"where eagle idol can be placed at home vastu",n/a,0,n/a,0.00
+2344,"where fountain to be kept in home vastu",n/a,0,n/a,0.00
+2345,"where i hang family pic according to vastu",n/a,0,n/a,0.00
+2346,"where is bhramasthana in vastu shastra",n/a,0,n/a,0.00
+2347,"where is kennel placed in house boundary according to vastu",n/a,0,n/a,0.00
+2348,"where is location of gas in kichen as per vastu",n/a,0,n/a,0.00
+2349,"where is mathiapur vastu vihar project in patna map",n/a,0,n/a,0.00
+2350,"where is mirror put in house as per vastu",n/a,0,n/a,0.00
+2351,"where is parking appropriate as per vastu",n/a,0,n/a,0.00
+2352,"where is pooja room vastu fo rhome",n/a,0,n/a,0.00
+2353,"where is red light used in homes as per vastu",n/a,0,n/a,0.00
+2354,"where is the metal element according to vastu",n/a,0,n/a,0.00
+2355,"where is the place to keep water tank in vastu",n/a,0,n/a,0.00
+2356,"where is the seating in offce by vastu shastra",n/a,0,n/a,0.00
+2357,"where is waterfall in home auspicious acc to vastu",n/a,0,n/a,0.00
+2358,"where is windows in home as per vastu",n/a,0,n/a,0.00
+2359,"where kitchen should be located as per vastu",n/a,0,n/a,0.00
+2360,"where mirror can be placed as per vastu",n/a,0,n/a,0.00
+2361,"where place bed on vastu",n/a,0,n/a,0.00
+2362,"where place god on vastu",n/a,0,n/a,0.00
+2363,"where power should sleep in home as per vastu",n/a,0,n/a,0.00
+2364,"where put light in vastu",n/a,0,n/a,0.00
+2365,"where put watch in vastu",n/a,0,n/a,0.00
+2366,"where rasoi ghar bartan set vastu",n/a,0,n/a,0.00
+2367,"where rasoi ghar set vastu",n/a,0,n/a,0.00
+2368,"where should a mirror be placed for good vastu",n/a,0,n/a,0.00
+2369,"where should aloe vera be kept in house vastu",n/a,0,n/a,0.00
+2370,"where should bathroom be as per vastu in kitchen",n/a,0,n/a,0.00
+2371,"where should be basin according to vastu sastra",n/a,0,n/a,0.00
+2372,"where should be counter as ber vastu",n/a,0,n/a,0.00
+2373,"where should be heavy objects in bedroom as per vastu",n/a,0,n/a,0.00
+2374,"where should be kitchten as per vastu",n/a,0,n/a,0.00
+2375,"where should be lord buddha kept according to vastu",n/a,0,n/a,0.00
+2376,"where should be place the tree according to vastu",n/a,0,n/a,0.00
+2377,"where should be septic tank as per vastu in punjab",n/a,0,n/a,0.00
+2378,"where should be the cooking range according to vastu",n/a,0,n/a,0.00
+2379,"where should be the master bedroom according to vastu",n/a,0,n/a,0.00
+2380,"where should be the syntax put as per vastu",n/a,0,n/a,0.00
+2381,"where should be the toilet according to indian vastu",n/a,0,n/a,0.00
+2382,"where should be tree install according to vastu",n/a,0,n/a,0.00
+2383,"where should be window placed according to vastu",n/a,0,n/a,0.00
+2384,"where should be window placed in bedroom according to vastu",n/a,0,n/a,0.00
+2385,"where should be window placed in bedrooms according to vastu",n/a,0,n/a,0.00
+2386,"where should boring well be according to vastu shanti",n/a,0,n/a,0.00
+2387,"where should bothroom be as per vastu in kitchen",n/a,0,n/a,0.00
+2388,"where should dhanavantri statue be located acc to vastu",n/a,0,n/a,0.00
+2389,"where should doctors sit on chamber as per vastu",n/a,0,n/a,0.00
+2390,"where should fridge go in kitchen vastu",n/a,0,n/a,0.00
+2391,"where should i keep my computer according to vastu",n/a,0,n/a,0.00
+2392,"where should i place vastu kachua",n/a,0,n/a,0.00
+2393,"where should i place vastu purusha in house",n/a,0,n/a,0.00
+2394,"where should i put my keys according to vastu",n/a,0,n/a,0.00
+2395,"where should keep tv as per vastu",n/a,0,n/a,0.00
+2396,"where should kubera face in shop as per vastu",n/a,0,n/a,0.00
+2397,"where should mirror be placed as per vastu in bedroom",n/a,0,n/a,0.00
+2398,"where should one grow cactus according to vastu",n/a,0,n/a,0.00
+2399,"where should one keep plants according to vastu",n/a,0,n/a,0.00
+2400,"where should picture of ship placed as per vastu",n/a,0,n/a,0.00
+2401,"where should place vastu pyramid",n/a,0,n/a,0.00
+2402,"where should pooja room come in an apartment vastu",n/a,0,n/a,0.00
+2403,"where should study room be according to vastu",n/a,0,n/a,0.00
+2404,"where should study table be according to vastu",n/a,0,n/a,0.00
+2405,"where should the altar be placed as per vastu",n/a,0,n/a,0.00
+2406,"where should the boss seat as per vastu in office",n/a,0,n/a,0.00
+2407,"where should the master bedroom be as per vastu",n/a,0,n/a,0.00
+2408,"where should the medicine kept according to vastu",n/a,0,n/a,0.00
+2409,"where should water outlet go according to vastu",n/a,0,n/a,0.00
+2410,"where should water tap at outside keep as per vastu",n/a,0,n/a,0.00
+2411,"where should water tap keep as per vastu",n/a,0,n/a,0.00
+2412,"where should waterfall wallpaper plug in home as per vastu",n/a,0,n/a,0.00
+2413,"where should we keep 7 horses as per vastu",n/a,0,n/a,0.00
+2414,"where should we keep clock according to vastu",n/a,0,n/a,0.00
+2415,"where should we keep vastu nivarana yantra",n/a,0,n/a,0.00
+2416,"where should we looking in temple in vastu shastra",n/a,0,n/a,0.00
+2417,"where should we place mirror in office as per vastu",n/a,0,n/a,0.00
+2418,"where should we plant ashoka tree according to vastu",n/a,0,n/a,0.00
+2419,"where should we put muncipal water tap as per vastu",n/a,0,n/a,0.00
+2420,"where should we put water tap as per vastu",n/a,0,n/a,0.00
+2421,"where should you not place the puja in vastu",n/a,0,n/a,0.00
+2422,"where should you store your shoes by vastu",n/a,0,n/a,0.00
+2423,"where shouldriver be near a plot as per vastu",n/a,0,n/a,0.00
+2424,"where t o plant drumstick plant as per vastu",n/a,0,n/a,0.00
+2425,"where the clock should be facing acc to vastu",n/a,0,n/a,0.00
+2426,"where the main entrance of house according to vastu",n/a,0,n/a,0.00
+2427,"where the toilet in vastu if north facing house",n/a,0,n/a,0.00
+2428,"where tk pout dustbin vastu",n/a,0,n/a,0.00
+2429,"where to arrange the dressing table vastu",n/a,0,n/a,0.00
+2430,"where to avoid temple according to vastu",n/a,0,n/a,0.00
+2431,"where to be store house as per vastu",n/a,0,n/a,0.00
+2432,"where to build overhead water tank vastu",n/a,0,n/a,0.00
+2433,"where to buy vastu products in old delhi",n/a,0,n/a,0.00
+2434,"where to cook as per vastu",n/a,0,n/a,0.00
+2435,"where to dig borewell as per vastu",n/a,0,n/a,0.00
+2436,"where to dig borewell as per vastu in telugu",n/a,0,n/a,0.00
+2437,"where to dig septic tank telugu vastu",n/a,0,n/a,0.00
+2438,"where to dinning table according to vastu",n/a,0,n/a,0.00
+2439,"where to do boring as per vastu",n/a,0,n/a,0.00
+2440,"where to do stone erection as per vastu",n/a,0,n/a,0.00
+2441,"where to drain water fromm plot according to vastu",n/a,0,n/a,0.00
+2442,"where to dug latrine well as vastu shastra",n/a,0,n/a,0.00
+2443,"where to fix main door in vastu",n/a,0,n/a,0.00
+2444,"where to fix main door in vastu in tamil",n/a,0,n/a,0.00
+2445,"where to get vastu pyramid in chennai",n/a,0,n/a,0.00
+2446,"where to grow bael plant as per vastu",n/a,0,n/a,0.00
+2447,"where to hang artificial plant vastu",n/a,0,n/a,0.00
+2448,"where to hang elders photos as per vastu",n/a,0,n/a,0.00
+2449,"where to hang krishan ji with cow picture vastu",n/a,0,n/a,0.00
+2450,"where to hang mirror according to vastu",n/a,0,n/a,0.00
+2451,"where to hang om symbol as per vastu",n/a,0,n/a,0.00
+2452,"where to hang sunrise and mountains as per vastu",n/a,0,n/a,0.00
+2453,"where to hang tree of life in vastu shastra",n/a,0,n/a,0.00
+2454,"where to have a fountain in vastu",n/a,0,n/a,0.00
+2455,"where to have bedrooms as per vastu",n/a,0,n/a,0.00
+2456,"where to keep a pond vastu",n/a,0,n/a,0.00
+2457,"where to keep aquarium in home according to vastu",n/a,0,n/a,0.00
+2458,"where to keep bamboo plant according to vastu in home",n/a,0,n/a,0.00
+2459,"where to keep boiler in house bathroom vastu",n/a,0,n/a,0.00
+2460,"where to keep buddha picture in home as per vastu",n/a,0,n/a,0.00
+2461,"where to keep crystal tortoise at home according to vastu",n/a,0,n/a,0.00
+2462,"where to keep documents as per vastu",n/a,0,n/a,0.00
+2463,"where to keep dog cage as per vastu",n/a,0,n/a,0.00
+2464,"where to keep dragon at home vastu",n/a,0,n/a,0.00
+2465,"where to keep drinking water in house as per vastu",n/a,0,n/a,0.00
+2466,"where to keep educatin tower at home vastu",n/a,0,n/a,0.00
+2467,"where to keep emon in water glass vastu in tamil",n/a,0,n/a,0.00
+2468,"where to keep emon in water glass vastu shastra",n/a,0,n/a,0.00
+2469,"where to keep files bureau in office vastu",n/a,0,n/a,0.00
+2470,"where to keep fish aquarium at home by vastu",n/a,0,n/a,0.00
+2471,"where to keep fridge according to vastu and fengshui",n/a,0,n/a,0.00
+2472,"where to keep gas cylinder in kitchen according to vastu",n/a,0,n/a,0.00
+2473,"where to keep god image in office as per vastu",n/a,0,n/a,0.00
+2474,"where to keep god maps in house vastu",n/a,0,n/a,0.00
+2475,"where to keep gods in office as per vastu",n/a,0,n/a,0.00
+2476,"where to keep health reports as per vastu",n/a,0,n/a,0.00
+2477,"where to keep heavy things in vastu",n/a,0,n/a,0.00
+2478,"where to keep lemon in water glass vastu shastra",n/a,0,n/a,0.00
+2479,"where to keep lift according vastu",n/a,0,n/a,0.00
+2480,"where to keep lilli plant in house vastu",n/a,0,n/a,0.00
+2481,"where to keep lillirose plant in house vastu",n/a,0,n/a,0.00
+2482,"where to keep lily rose plant in house vastu",n/a,0,n/a,0.00
+2483,"where to keep lucky bamboo according to vastu",n/a,0,n/a,0.00
+2484,"where to keep main electricity board as per vastu",n/a,0,n/a,0.00
+2485,"where to keep medical documents as per vastu",n/a,0,n/a,0.00
+2486,"where to keep metal tortoise in shop according to vastu",n/a,0,n/a,0.00
+2487,"where to keep money plant vastu",n/a,0,n/a,0.00
+2488,"where to keep my daughter photo according to vastu",n/a,0,n/a,0.00
+2489,"where to keep needle scissors as per vastu",n/a,0,n/a,0.00
+2490,"where to keep needle sewing as per vastu",n/a,0,n/a,0.00
+2491,"where to keep our broom as per vastu",n/a,0,n/a,0.00
+2492,"where to keep outdoor fish tank as per vastu",n/a,0,n/a,0.00
+2493,"where to keep own photos vastu",n/a,0,n/a,0.00
+2494,"where to keep panchmukhi ganesh according to vastu",n/a,0,n/a,0.00
+2495,"where to keep pooja room as per vastu in house",n/a,0,n/a,0.00
+2496,"where to keep pyramid in home vastu dush",n/a,0,n/a,0.00
+2497,"where to keep reports as per vastu",n/a,0,n/a,0.00
+2498,"where to keep rock salt in house according to vastu",n/a,0,n/a,0.00
+2499,"where to keep rose plant in house vastu",n/a,0,n/a,0.00
+2500,"where to keep sampoorna vastu dosh nivaran yantra",n/a,0,n/a,0.00
+2501,"where to keep shoes rack as per vastu",n/a,0,n/a,0.00
+2502,"where to keep showpiece as per vastu",n/a,0,n/a,0.00
+2503,"where to keep snnjjii plant in house vastu",n/a,0,n/a,0.00
+2504,"where to keep steel almirah as per vastu",n/a,0,n/a,0.00
+2505,"where to keep sump vastu",n/a,0,n/a,0.00
+2506,"where to keep tablets vastu",n/a,0,n/a,0.00
+2507,"where to keep the selling stock as per vastu",n/a,0,n/a,0.00
+2508,"where to keep the unsold stock as per vastu",n/a,0,n/a,0.00
+2509,"where to keep tulsi plant in vastu",n/a,0,n/a,0.00
+2510,"where to keep tv according to vastu",n/a,0,n/a,0.00
+2511,"where to keep vastu elephant statue direction in tamil",n/a,0,n/a,0.00
+2512,"where to keep vastu idol",n/a,0,n/a,0.00
+2513,"where to keep vastu kalash",n/a,0,n/a,0.00
+2514,"where to keep vastu plant",n/a,0,n/a,0.00
+2515,"where to keep vastu tree having panchmukhi stones",n/a,0,n/a,0.00
+2516,"where to keep vastu yantra",n/a,0,n/a,0.00
+2517,"where to keep vastu yantra in house",n/a,0,n/a,0.00
+2518,"where to keep washing machine acrding to vastu",n/a,0,n/a,0.00
+2519,"where to keep washing machine direction according to vastu",n/a,0,n/a,0.00
+2520,"where to keepgod maps in house vastu",n/a,0,n/a,0.00
+2521,"where to keeplillirose plant in house vastu",n/a,0,n/a,0.00
+2522,"where to kepp money plant in house as per vastu",n/a,0,n/a,0.00
+2523,"where to kepp rubber plant in house as per vastu",n/a,0,n/a,0.00
+2524,"where to lacate wind chimes according to vastu shashtra",n/a,0,n/a,0.00
+2525,"where to locate the locker in master bedroom vastu",n/a,0,n/a,0.00
+2526,"where to paste 7 horses vastu posters",n/a,0,n/a,0.00
+2527,"where to place ac in bedroom as per vastu",n/a,0,n/a,0.00
+2528,"where to place accounts in our office as per vastu",n/a,0,n/a,0.00
+2529,"where to place aloe vera plant in home vastu malayalam",n/a,0,n/a,0.00
+2530,"where to place amrit kslash in house vastu",n/a,0,n/a,0.00
+2531,"where to place aquarium in living room as per vastu",n/a,0,n/a,0.00
+2532,"where to place ashoka pillar as per vastu",n/a,0,n/a,0.00
+2533,"where to place banana tree as per vastu",n/a,0,n/a,0.00
+2534,"where to place bathroom as per vastu",n/a,0,n/a,0.00
+2535,"where to place book case as per vastu",n/a,0,n/a,0.00
+2536,"where to place bookshelf in living room vastu",n/a,0,n/a,0.00
+2537,"where to place cactus in home according to vastu",n/a,0,n/a,0.00
+2538,"where to place cash box vastu direction",n/a,0,n/a,0.00
+2539,"where to place computer according to vastu",n/a,0,n/a,0.00
+2540,"where to place cooking oil in kitchen as per vastu",n/a,0,n/a,0.00
+2541,"where to place cooking salt in kitchen as per vastu",n/a,0,n/a,0.00
+2542,"where to place creepers according to vastu",n/a,0,n/a,0.00
+2543,"where to place dressing table according to vastu",n/a,0,n/a,0.00
+2544,"where to place fish tank according to vastu",n/a,0,n/a,0.00
+2545,"where to place fish tank at home according to vastu",n/a,0,n/a,0.00
+2546,"where to place flower paintings as per vastu",n/a,0,n/a,0.00
+2547,"where to place flying hanuman image in vastu",n/a,0,n/a,0.00
+2548,"where to place hall according to vastu",n/a,0,n/a,0.00
+2549,"where to place heavy elements vastu",n/a,0,n/a,0.00
+2550,"where to place house name as per vastu",n/a,0,n/a,0.00
+2551,"where to place inverter in flat vastu",n/a,0,n/a,0.00
+2552,"where to place lavatory pit according to vastu",n/a,0,n/a,0.00
+2553,"where to place mirrors in living room as per vastu",n/a,0,n/a,0.00
+2554,"where to place money in the room vastu",n/a,0,n/a,0.00
+2555,"where to place money plant according to vastu in hindi",n/a,0,n/a,0.00
+2556,"where to place money plant according to vastu in tamil",n/a,0,n/a,0.00
+2557,"where to place paintings at home in vastu",n/a,0,n/a,0.00
+2558,"where to place picture of flowers as per vastu",n/a,0,n/a,0.00
+2559,"where to place plants in home according to vastu",n/a,0,n/a,0.00
+2560,"where to place prize at home acco to vastu",n/a,0,n/a,0.00
+2561,"where to place sampuran vastu yantra",n/a,0,n/a,0.00
+2562,"where to place shatawari according to vastu",n/a,0,n/a,0.00
+2563,"where to place slipper as per vastu",n/a,0,n/a,0.00
+2564,"where to place steel almera according to vastu",n/a,0,n/a,0.00
+2565,"where to place the inverter at home vastu",n/a,0,n/a,0.00
+2566,"where to place the inverter at home vastu north direction",n/a,0,n/a,0.00
+2567,"where to place the name plate as per vastu",n/a,0,n/a,0.00
+2568,"where to place tortoise in the house according to vastu",n/a,0,n/a,0.00
+2569,"where to place tv according to vastu",n/a,0,n/a,0.00
+2570,"where to place vastu bamboo plants",n/a,0,n/a,0.00
+2571,"where to place vastu pyramid in house",n/a,0,n/a,0.00
+2572,"where to place vastu shank in house",n/a,0,n/a,0.00
+2573,"where to place vastu shankh in house",n/a,0,n/a,0.00
+2574,"where to place vastu showpiece fish statue at home",n/a,0,n/a,0.00
+2575,"where to place vastu tortoise",n/a,0,n/a,0.00
+2576,"where to place vastu vilakku",n/a,0,n/a,0.00
+2577,"where to place vastu yantra in house",n/a,0,n/a,0.00
+2578,"where to place vastu yantra in office",n/a,0,n/a,0.00
+2579,"where to place wardrobe as per vastu",n/a,0,n/a,0.00
+2580,"where to place wardrobe in hall as per vastu",n/a,0,n/a,0.00
+2581,"where to place waste pipes in vastu",n/a,0,n/a,0.00
+2582,"where to place waste things in vastu",n/a,0,n/a,0.00
+2583,"where to place water tank accordinf to vastu",n/a,0,n/a,0.00
+2584,"where to place waterfall painting in house as per vastu",n/a,0,n/a,0.00
+2585,"where to place wterfall painting in house as per vastu",n/a,0,n/a,0.00
+2586,"where to placed wall clock as per vastu",n/a,0,n/a,0.00
+2587,"where to plant aloe vera plant vastu",n/a,0,n/a,0.00
+2588,"where to plant banana trees according to vastu shastra",n/a,0,n/a,0.00
+2589,"where to plant coconut trees according to vastu shastra",n/a,0,n/a,0.00
+2590,"where to plant curry leaf tree as per vastu",n/a,0,n/a,0.00
+2591,"where to plant genda phool as per vastu",n/a,0,n/a,0.00
+2592,"where to plant gooseberry as per vastu",n/a,0,n/a,0.00
+2593,"where to plant guava tree vastu",n/a,0,n/a,0.00
+2594,"where to plant jathiaccording to vastu",n/a,0,n/a,0.00
+2595,"where to plant money plant according to vastu",n/a,0,n/a,0.00
+2596,"where to plant moringa as per vastu",n/a,0,n/a,0.00
+2597,"where to purchase vastu mirrors",n/a,0,n/a,0.00
+2598,"where to put alum in vastu",n/a,0,n/a,0.00
+2599,"where to put an axe in vastu",n/a,0,n/a,0.00
+2600,"where to put aquarium as per vastu",n/a,0,n/a,0.00
+2601,"where to put aquerium as per vastu",n/a,0,n/a,0.00
+2602,"where to put ax in vastu",n/a,0,n/a,0.00
+2603,"where to put axe in vastu",n/a,0,n/a,0.00
+2604,"where to put books in room vastu",n/a,0,n/a,0.00
+2605,"where to put cot vastu tamil",n/a,0,n/a,0.00
+2606,"where to put dead people photos vastu shastra",n/a,0,n/a,0.00
+2607,"where to put display in showroom according to vastu",n/a,0,n/a,0.00
+2608,"where to put fish tank according to vastu",n/a,0,n/a,0.00
+2609,"where to put light in the home according to vastu",n/a,0,n/a,0.00
+2610,"where to put photos of dead as per vastu",n/a,0,n/a,0.00
+2611,"where to put raw material according to vastu",n/a,0,n/a,0.00
+2612,"where to put shoe rack at per vastu in flat",n/a,0,n/a,0.00
+2613,"where to put show rack at per vastu in flat",n/a,0,n/a,0.00
+2614,"where to put sofa in living room as per vastu",n/a,0,n/a,0.00
+2615,"where to put stairs in house of vastu",n/a,0,n/a,0.00
+2616,"where to put starirs in house of vastu",n/a,0,n/a,0.00
+2617,"where to put swan painting for vastu",n/a,0,n/a,0.00
+2618,"where to put swan picture vastu",n/a,0,n/a,0.00
+2619,"where to put the head as per vastu",n/a,0,n/a,0.00
+2620,"where to put vastu purusha",n/a,0,n/a,0.00
+2621,"where to put vastu turtle",n/a,0,n/a,0.00
+2622,"where to put wardrobe in bedroom as per vastu shastra",n/a,0,n/a,0.00
+2623,"where to put watch in office as per vastu",n/a,0,n/a,0.00
+2624,"where to put water dispenser in office as per vastu",n/a,0,n/a,0.00
+2625,"where to put weapons in vastu",n/a,0,n/a,0.00
+2626,"where to put your bed vastu",n/a,0,n/a,0.00
+2627,"where to sell old vastu books",n/a,0,n/a,0.00
+2628,"where to sit in a room as per vastu",n/a,0,n/a,0.00
+2629,"where to sit in shop according to vastu",n/a,0,n/a,0.00
+2630,"where to sleep if concieved as per vastu",n/a,0,n/a,0.00
+2631,"where to sleep in bedroom as per vastu",n/a,0,n/a,0.00
+2632,"where to store waste pipes in vastu",n/a,0,n/a,0.00
+2633,"where to store waste things in vastu",n/a,0,n/a,0.00
+2634,"where to throw old gods photo according to vastu",n/a,0,n/a,0.00
+2635,"where to.put bureau.and bed using vastu",n/a,0,n/a,0.00
+2636,"where to.put burrau.and bed using vastu",n/a,0,n/a,0.00
+2637,"where tonplace fish picture vastu",n/a,0,n/a,0.00
+2638,"where we keep fingers bird in home vastu",n/a,0,n/a,0.00
+2639,"where we put birds in home vastu",n/a,0,n/a,0.00
+2640,"where we put couple photo in room as per vastu",n/a,0,n/a,0.00
+2641,"where we put cupboard in bedroom according to vastu",n/a,0,n/a,0.00
+2642,"where we put finches bird in home according to vastu",n/a,0,n/a,0.00
+2643,"where we put love birds in home vastu shastra",n/a,0,n/a,0.00
+2644,"where we should have conferance room as per vastu",n/a,0,n/a,0.00
+2645,"where we should keep money in our house vastu tips",n/a,0,n/a,0.00
+2646,"where will be staires against vastu",n/a,0,n/a,0.00
+2647,"where you live snake plant in vastu shui",n/a,0,n/a,0.00
+2648,"where.to keep water tank for animals according to vastu",n/a,0,n/a,0.00
+2649,"where.to.plant.tulsi.vastu",n/a,0,n/a,0.00
+2650,"which advice is correct enginier or vastu shatra",n/a,0,n/a,0.00
+2651,"which all sides can you sleep as per vastu",n/a,0,n/a,0.00
+2652,"which animal photo is good according to vastu",n/a,0,n/a,0.00
+2653,"which are the best vastu direction for cooking",n/a,0,n/a,0.00
+2654,"which are the places to keep gruha vastu yantras",n/a,0,n/a,0.00
+2655,"which area us idle for kitchen as per vastu",n/a,0,n/a,0.00
+2656,"which area will be down in home according to vastu",n/a,0,n/a,0.00
+2657,"which art is highly effective for vastu of students",n/a,0,n/a,0.00
+2658,"which aya to construction by home vastu",n/a,0,n/a,0.00
+2659,"which background is suitable for horse painting according to vastu",n/a,0,n/a,0.00
+2660,"which caing is better east or west as per vastu",n/a,0,n/a,0.00
+2661,"which city as per vastu",n/a,0,n/a,0.00
+2662,"which city as per vastu yoni",n/a,0,n/a,0.00
+2663,"which city as per vastu yoni chakra",n/a,0,n/a,0.00
+2664,"which city is a planned city according to vastu shastra",n/a,0,n/a,0.00
+2665,"which city is planned city according to vastu shastra",n/a,0,n/a,0.00
+2666,"which city planned according vastu",n/a,0,n/a,0.00
+2667,"which city planned according vastu in india",n/a,0,n/a,0.00
+2668,"which clock better round or square vastu",n/a,0,n/a,0.00
+2669,"which color curtain in drawing room according vastu",n/a,0,n/a,0.00
+2670,"which color foor is good for home in vastu",n/a,0,n/a,0.00
+2671,"which color for bedroom in vastu",n/a,0,n/a,0.00
+2672,"which color helps to reduce south east vastu dosh",n/a,0,n/a,0.00
+2673,"which color is best according to vastu for me",n/a,0,n/a,0.00
+2674,"which color is best for master bedroom vastu+ hindi",n/a,0,n/a,0.00
+2675,"which color is best for puja room as per vastu",n/a,0,n/a,0.00
+2676,"which color is good for flowers for vastu",n/a,0,n/a,0.00
+2677,"which color is good for flowers pot for vastu",n/a,0,n/a,0.00
+2678,"which color paint is suitable in vastu shastra",n/a,0,n/a,0.00
+2679,"which color paint is suitable in vastu shastra in hindi",n/a,0,n/a,0.00
+2680,"which color seven running horse painting is good for vastu",n/a,0,n/a,0.00
+2681,"which color should i put in my hall vastu tipe",n/a,0,n/a,0.00
+2682,"which color should i put in my hall vastu tips",n/a,0,n/a,0.00
+2683,"which color to paint bedroom according to vastu",n/a,0,n/a,0.00
+2684,"which color to use in bedroom vastu",n/a,0,n/a,0.00
+2685,"which color woodwork in kitchen as per vastu",n/a,0,n/a,0.00
+2686,"which colorn for north east room vastu",n/a,0,n/a,0.00
+2687,"which colors are bad for career acc to vastu",n/a,0,n/a,0.00
+2688,"which colors are bad to wear acc to vastu",n/a,0,n/a,0.00
+2689,"which colour curtain for west entry vastu",n/a,0,n/a,0.00
+2690,"which colour floor tiles is best as per vastu",n/a,0,n/a,0.00
+2691,"which colour ia good according to vastu for west wall",n/a,0,n/a,0.00
+2692,"which colour in hall is best according to vastu",n/a,0,n/a,0.00
+2693,"which colour is best as per vastu for house",n/a,0,n/a,0.00
+2694,"which colour is best for south west workshop in vastu",n/a,0,n/a,0.00
+2695,"which colour is good for kids room as per vastu",n/a,0,n/a,0.00
+2696,"which colour is good for studyroom as per vastu",n/a,0,n/a,0.00
+2697,"which colour is preferable for home as per vastu",n/a,0,n/a,0.00
+2698,"which colour of kitchen slab according to vastu",n/a,0,n/a,0.00
+2699,"which colour should be used in kitchen according to vastu",n/a,0,n/a,0.00
+2700,"which colour use in kiche n vastu",n/a,0,n/a,0.00
+2701,"which colour will give money as per vastu",n/a,0,n/a,0.00
+2702,"which colours are best for bedroom as per vastu",n/a,0,n/a,0.00
+2703,"which colours are best for living rooms as per vastu",n/a,0,n/a,0.00
+2704,"which corner harsingar should be placed according to vastu",n/a,0,n/a,0.00
+2705,"which corner parijaat should be placed according to vastu",n/a,0,n/a,0.00
+2706,"which corner should be high in vastu",n/a,0,n/a,0.00
+2707,"which country follows vastu shastra",n/a,0,n/a,0.00
+2708,"which cushion colour is good for sofa as per vastu",n/a,0,n/a,0.00
+2709,"which day best for hair wash as vastu shastra",n/a,0,n/a,0.00
+2710,"which day give water on pipal tree in vastu",n/a,0,n/a,0.00
+2711,"which day is auspicious for home appliances indian vastu",n/a,0,n/a,0.00
+2712,"which day is best to wash the clothes vastu shastra",n/a,0,n/a,0.00
+2713,"which day is better for washing the clothes vastu",n/a,0,n/a,0.00
+2714,"which day is good for wearing new shoes vastu",n/a,0,n/a,0.00
+2715,"which day is good to buy a house vastu",n/a,0,n/a,0.00
+2716,"which day is good to investment vastu",n/a,0,n/a,0.00
+2717,"which day north direction travel as vastu",n/a,0,n/a,0.00
+2718,"which day should i remove old items as per vastu",n/a,0,n/a,0.00
+2719,"which day should pay dues as per vastu",n/a,0,n/a,0.00
+2720,"which day to cut hair vastu shastra",n/a,0,n/a,0.00
+2721,"which day to wear horse shoe ring according to vastu",n/a,0,n/a,0.00
+2722,"which decoration is good according to vastu shastra in home",n/a,0,n/a,0.00
+2723,"which decoration pieces are good according to vastu for home",n/a,0,n/a,0.00
+2724,"which deity to worship for vastu pooja",n/a,0,n/a,0.00
+2725,"which dhatu is good as per vastu",n/a,0,n/a,0.00
+2726,"which direcrion facing office is good as per vastu",n/a,0,n/a,0.00
+2727,"which direction according to vastu is best for water supply",n/a,0,n/a,0.00
+2728,"which direction can we plant lemon tree as per vastu",n/a,0,n/a,0.00
+2729,"which direction flats r vastu complient",n/a,0,n/a,0.00
+2730,"which direction gas in kitchen vastu",n/a,0,n/a,0.00
+2731,"which direction i should not sleep vastu",n/a,0,n/a,0.00
+2732,"which direction i shud not sleep vastu",n/a,0,n/a,0.00
+2733,"which direction is best for borewell according to vastu",n/a,0,n/a,0.00
+2734,"which direction is best for septic tank according to vastu",n/a,0,n/a,0.00
+2735,"which direction is best for vastu yantra in floor",n/a,0,n/a,0.00
+2736,"which direction is best to meditate according to vastu shastra",n/a,0,n/a,0.00
+2737,"which direction is for kitchen according to vastu in hindi",n/a,0,n/a,0.00
+2738,"which direction is good as per vastu for swati nakshatra",n/a,0,n/a,0.00
+2739,"which direction is good vastu for u shape construction",n/a,0,n/a,0.00
+2740,"which direction is not good for bedroom for men vastu",n/a,0,n/a,0.00
+2741,"which direction is not good for bedroom vastu",n/a,0,n/a,0.00
+2742,"which direction is right for toilet in vastu",n/a,0,n/a,0.00
+2743,"which direction is right for toilet on vastu",n/a,0,n/a,0.00
+2744,"which direction kitchen should be as per vastu",n/a,0,n/a,0.00
+2745,"which direction mirror to face as per vastu",n/a,0,n/a,0.00
+2746,"which direction money purse can be kept at home vastu",n/a,0,n/a,0.00
+2747,"which direction one should sleep vastu",n/a,0,n/a,0.00
+2748,"which direction put the horse picture for vastu",n/a,0,n/a,0.00
+2749,"which direction put the horse picture for vastu in tamil",n/a,0,n/a,0.00
+2750,"which direction room for homeowner as per vastu",n/a,0,n/a,0.00
+2751,"which direction seven white horse at home for vastu",n/a,0,n/a,0.00
+2752,"which direction shoukd kitchen gate as per vastu",n/a,0,n/a,0.00
+2753,"which direction should a college student sleep according to vastu",n/a,0,n/a,0.00
+2754,"which direction should be of dressing miror in vastu",n/a,0,n/a,0.00
+2755,"which direction should be the front door open towards vastu",n/a,0,n/a,0.00
+2756,"which direction should i sleep vastu as a student",n/a,0,n/a,0.00
+2757,"which direction should the brass tortoise face vastu shatra",n/a,0,n/a,0.00
+2758,"which direction should wc face as per vastu",n/a,0,n/a,0.00
+2759,"which direction shoulld the office be as per vastu",n/a,0,n/a,0.00
+2760,"which direction sidi ghar is proposed ad s per vastu",n/a,0,n/a,0.00
+2761,"which direction suits for sound sleep as.vastu",n/a,0,n/a,0.00
+2762,"which direction suits fr sound sleep as.vastu",n/a,0,n/a,0.00
+2763,"which direction the vastu bamboo plant in home",n/a,0,n/a,0.00
+2764,"which direction to drain rain water from roof per vastu",n/a,0,n/a,0.00
+2765,"which direction to drain rainwater from roof per vastu",n/a,0,n/a,0.00
+2766,"which direction to drain water from roof per vastu",n/a,0,n/a,0.00
+2767,"which direction to eat according vastu",n/a,0,n/a,0.00
+2768,"which direction to face while toilet according to vastu sastr",n/a,0,n/a,0.00
+2769,"which direction to hang the wind chimes for vastu",n/a,0,n/a,0.00
+2770,"which direction to keep peacock feather in home vastu",n/a,0,n/a,0.00
+2771,"which direction to keep peacock in home vastu",n/a,0,n/a,0.00
+2772,"which direction to keep peacock statue in home vastu",n/a,0,n/a,0.00
+2773,"which direction to keep wood peacock showpiece in home vastu",n/a,0,n/a,0.00
+2774,"which direction to place mandir as per vastu",n/a,0,n/a,0.00
+2775,"which direction to sit in dental office as per vastu",n/a,0,n/a,0.00
+2776,"which direction to sleep according to vastu shastra",n/a,0,n/a,0.00
+2777,"which direction to sleep as per vastu shastra",n/a,0,n/a,0.00
+2778,"which direction to sleep at night as per vastu",n/a,0,n/a,0.00
+2779,"which direction to sleep for hypertension and nerve problem vastu",n/a,0,n/a,0.00
+2780,"which direction to study according to vastu shastra",n/a,0,n/a,0.00
+2781,"which direction to study as per vastu in tamil",n/a,0,n/a,0.00
+2782,"which direction to study in india as per vastu shastra",n/a,0,n/a,0.00
+2783,"which directjob eat vastu",n/a,0,n/a,0.00
+2784,"which dog is good as per vastu",n/a,0,n/a,0.00
+2785,"which entrance is best for house as per vastu",n/a,0,n/a,0.00
+2786,"which face home is best as per vastu",n/a,0,n/a,0.00
+2787,"which face is better for business vastu",n/a,0,n/a,0.00
+2788,"which face should be cook as vastu",n/a,0,n/a,0.00
+2789,"which face to sit in office as per vastu",n/a,0,n/a,0.00
+2790,"which facing apartment is good vastu",n/a,0,n/a,0.00
+2791,"which facing good for site with vastu",n/a,0,n/a,0.00
+2792,"which facing house plan is better for vastu",n/a,0,n/a,0.00
+2793,"which facing is best according to vastu",n/a,0,n/a,0.00
+2794,"which facing mandir as per vastu",n/a,0,n/a,0.00
+2795,"which facingis good for kitchen stove acording to vastu",n/a,0,n/a,0.00
+2796,"which finger to use to start work as per vastu",n/a,0,n/a,0.00
+2797,"which fish is good for aquarium for vastu",n/a,0,n/a,0.00
+2798,"which fish is goodfor acqurium as per vastu",n/a,0,n/a,0.00
+2799,"which fish should kept in home as per vastu",n/a,0,n/a,0.00
+2800,"which floor is better to live on vastu",n/a,0,n/a,0.00
+2801,"which floor should puja room be as per vastu",n/a,0,n/a,0.00
+2802,"which floors are prefered as per vastu",n/a,0,n/a,0.00
+2803,"which flower best according to vastu",n/a,0,n/a,0.00
+2804,"which flower is good for vastu",n/a,0,n/a,0.00
+2805,"which frames are good for living room as per vastu",n/a,0,n/a,0.00
+2806,"which ganesh posture should be at home as per vastu",n/a,0,n/a,0.00
+2807,"which ganesha posture should be at home as per vastu",n/a,0,n/a,0.00
+2808,"which ganpati painting as per vastu",n/a,0,n/a,0.00
+2809,"which god photos in bedroom vastu",n/a,0,n/a,0.00
+2810,"which god photos in bedroom vastu kannada",n/a,0,n/a,0.00
+2811,"which hand we should wear watch according to vastu",n/a,0,n/a,0.00
+2812,"which hard wood for pooja vastu",n/a,0,n/a,0.00
+2813,"which home entrance direction as per vastu shastra",n/a,0,n/a,0.00
+2814,"which idol should be kept in car vastu",n/a,0,n/a,0.00
+2815,"which iit has vastu shastra",n/a,0,n/a,0.00
+2816,"which image is for bed room as per vastu",n/a,0,n/a,0.00
+2817,"which images is use for office as per vastu",n/a,0,n/a,0.00
+2818,"which is best clour in interior design vastu",n/a,0,n/a,0.00
+2819,"which is best vastu campas app for android",n/a,0,n/a,0.00
+2820,"which is better feng shui vs vastu",n/a,0,n/a,0.00
+2821,"which is bramsthan as per vastu",n/a,0,n/a,0.00
+2822,"which is correct direction to place the vastu bhagavan photo",n/a,0,n/a,0.00
+2823,"which is costliest vastu items to keep at home",n/a,0,n/a,0.00
+2824,"which is good position to sleep as per vastu",n/a,0,n/a,0.00
+2825,"which is health zone in our house in vastu shashtra",n/a,0,n/a,0.00
+2826,"which is health zone in our house in vastu shastra",n/a,0,n/a,0.00
+2827,"which is ideal vastu for balcony east or northeast",n/a,0,n/a,0.00
+2828,"which is laxmi kubera corner as per vastu",n/a,0,n/a,0.00
+2829,"which is the agni for a restaurant in vastu",n/a,0,n/a,0.00
+2830,"which is the agni sthal for a restaurant in vastu",n/a,0,n/a,0.00
+2831,"which is the agni sthal in vastu",n/a,0,n/a,0.00
+2832,"which is the best metal for vastu purush",n/a,0,n/a,0.00
+2833,"which is the best online vastu expert",n/a,0,n/a,0.00
+2834,"which is the best place as per vastu septic tank",n/a,0,n/a,0.00
+2835,"which is the best place for inner bedroom vastu",n/a,0,n/a,0.00
+2836,"which is the best place for kitchen as per vastu",n/a,0,n/a,0.00
+2837,"which is the best sawaswati ma picture according to vastu",n/a,0,n/a,0.00
+2838,"which is the best vastu apps for android",n/a,0,n/a,0.00
+2839,"which is the best vastu apps for kitchen business",n/a,0,n/a,0.00
+2840,"which is the best vastu fish",n/a,0,n/a,0.00
+2841,"which is the best website for vastu shastra",n/a,0,n/a,0.00
+2842,"which is the carriet place for toilet in vastu",n/a,0,n/a,0.00
+2843,"which is the color of northwest according to maha vastu",n/a,0,n/a,0.00
+2844,"which is the kubera moola in vastu",n/a,0,n/a,0.00
+2845,"which is the wealth direction as per vastu",n/a,0,n/a,0.00
+2846,"which is vastu health zone",n/a,0,n/a,0.00
+2847,"which items bring negetive effect in house as per vastu",n/a,0,n/a,0.00
+2848,"which karanam is best for house vastu",n/a,0,n/a,0.00
+2849,"which kind of creature gets urinated into as per vastu",n/a,0,n/a,0.00
+2850,"which location is best for lift as per vastu",n/a,0,n/a,0.00
+2851,"which location is best for staircase as per vastu",n/a,0,n/a,0.00
+2852,"which location is best for underground watertank according to vastu",n/a,0,n/a,0.00
+2853,"which marble is suitable for kitchen slabs according to vastu",n/a,0,n/a,0.00
+2854,"which marble is suitable for kitchen slabs akording to vastu",n/a,0,n/a,0.00
+2855,"which metal or color good for surya vastu wall hanging",n/a,0,n/a,0.00
+2856,"which metal veena should be kept at home for vastu",n/a,0,n/a,0.00
+2857,"which month vastu good brain baby birth",n/a,0,n/a,0.00
+2858,"which os kuberastana as per vastu",n/a,0,n/a,0.00
+2859,"which painting is best for house as per vastu",n/a,0,n/a,0.00
+2860,"which painting is use for office as per vastu",n/a,0,n/a,0.00
+2861,"which part is high in home by vastu",n/a,0,n/a,0.00
+2862,"which part of building as per vastu",n/a,0,n/a,0.00
+2863,"which part of builing as per vastu",n/a,0,n/a,0.00
+2864,"which people fears of dog as per vastu",n/a,0,n/a,0.00
+2865,"which pet is good for home in vastu",n/a,0,n/a,0.00
+2866,"which photo elephant right for home vastu shastra",n/a,0,n/a,0.00
+2867,"which photo of laxmi hang in home as per vastu",n/a,0,n/a,0.00
+2868,"which picture is best for bedroom according to vastu",n/a,0,n/a,0.00
+2869,"which place child photo should keep by vastu",n/a,0,n/a,0.00
+2870,"which place in bed vastu shastra in tamil",n/a,0,n/a,0.00
+2871,"which place is best for cocking as per indian vastu",n/a,0,n/a,0.00
+2872,"which place is best for sleeping vastu shastra",n/a,0,n/a,0.00
+2873,"which place is considered for vastu of a house",n/a,0,n/a,0.00
+2874,"which place is weight in home by vastu",n/a,0,n/a,0.00
+2875,"which place photo should keep by vastu",n/a,0,n/a,0.00
+2876,"which place the god idol kept at home vastu",n/a,0,n/a,0.00
+2877,"which place the god itol kept at home vastu",n/a,0,n/a,0.00
+2878,"which place to be heavy in house as per vastu",n/a,0,n/a,0.00
+2879,"which place wardrobe should be placed according to the vastu",n/a,0,n/a,0.00
+2880,"which plant in drawing room according to vastu",n/a,0,n/a,0.00
+2881,"which plant is benifit for home according to vastu",n/a,0,n/a,0.00
+2882,"which plant is best for office interior for vastu shastra",n/a,0,n/a,0.00
+2883,"which plant is good to keep on working desk vastu",n/a,0,n/a,0.00
+2884,"which plant is safe to keep in room vastu",n/a,0,n/a,0.00
+2885,"which plant is used for vastu dosh",n/a,0,n/a,0.00
+2886,"which plant to gift according to vastu",n/a,0,n/a,0.00
+2887,"which plant to keep in drawing room according to vastu",n/a,0,n/a,0.00
+2888,"which plants to keep in office as per vastu",n/a,0,n/a,0.00
+2889,"which position is good for sleep in vastu",n/a,0,n/a,0.00
+2890,"which position should one sleep as per vastu",n/a,0,n/a,0.00
+2891,"which puja vastu shanti and satyanarayan",n/a,0,n/a,0.00
+2892,"which pyramid is good for students study as per vastu",n/a,0,n/a,0.00
+2893,"which room for whom as per vastu",n/a,0,n/a,0.00
+2894,"which room is must under vastu",n/a,0,n/a,0.00
+2895,"which room is suitable for newly wed couple vastu",n/a,0,n/a,0.00
+2896,"which room should be clean first according to vastu",n/a,0,n/a,0.00
+2897,"which room should be for couple according to vastu",n/a,0,n/a,0.00
+2898,"which room should i clean first according to vastu",n/a,0,n/a,0.00
+2899,"which said to sit in western vastu",n/a,0,n/a,0.00
+2900,"which shape of wall clock according to vastu",n/a,0,n/a,0.00
+2901,"which shiv pics for vastu dosha",n/a,0,n/a,0.00
+2902,"which should face while cooking vastu",n/a,0,n/a,0.00
+2903,"which side can i plant moringa as per vastu",n/a,0,n/a,0.00
+2904,"which side for new house as per vastu",n/a,0,n/a,0.00
+2905,"which side is bedroom in vastu tamil",n/a,0,n/a,0.00
+2906,"which side is best for conceive baby vastu",n/a,0,n/a,0.00
+2907,"which side is best for siri as per vastu",n/a,0,n/a,0.00
+2908,"which side is best for store room vastu",n/a,0,n/a,0.00
+2909,"which side is better as par vastu",n/a,0,n/a,0.00
+2910,"which side is give more space in vastu",n/a,0,n/a,0.00
+2911,"which side is good for kitchen according to vastu",n/a,0,n/a,0.00
+2912,"which side is good for mirror according vastu shastra",n/a,0,n/a,0.00
+2913,"which side is kitchen in vastu",n/a,0,n/a,0.00
+2914,"which side is kitchen in vastu tamil",n/a,0,n/a,0.00
+2915,"which side is main door vastu tamil",n/a,0,n/a,0.00
+2916,"which side of buildingshould be high as per vastu",n/a,0,n/a,0.00
+2917,"which side should be flush seat as per vastu",n/a,0,n/a,0.00
+2918,"which side should be staircase as per vastu",n/a,0,n/a,0.00
+2919,"which side should be the mirror as per vastu",n/a,0,n/a,0.00
+2920,"which side should i sleep vastu",n/a,0,n/a,0.00
+2921,"which side should place the death photos as per vastu",n/a,0,n/a,0.00
+2922,"which side should we face while cooking according to vastu",n/a,0,n/a,0.00
+2923,"which side should we keep weight as per vastu",n/a,0,n/a,0.00
+2924,"which side should wife sleep as per vastu pictures",n/a,0,n/a,0.00
+2925,"which side spitking tank in vastu hindi",n/a,0,n/a,0.00
+2926,"which side sunflower picture should be placed as per vastu",n/a,0,n/a,0.00
+2927,"which side to be faced in toilet as per vastu",n/a,0,n/a,0.00
+2928,"which side to be heavier as per vastu",n/a,0,n/a,0.00
+2929,"which side to face while sleeping-vastu",n/a,0,n/a,0.00
+2930,"which side to place deer paintong as per vastu",n/a,0,n/a,0.00
+2931,"which side to place head according to vastu",n/a,0,n/a,0.00
+2932,"which side to sit in office as per vastu",n/a,0,n/a,0.00
+2933,"which side to sleep as per vastu in india",n/a,0,n/a,0.00
+2934,"which side to sleep vastu in hindi",n/a,0,n/a,0.00
+2935,"which side under ground spitking tank in vastu hindi",n/a,0,n/a,0.00
+2936,"which side we have to set stove as per vastu",n/a,0,n/a,0.00
+2937,"which side we have to set study table per vastu",n/a,0,n/a,0.00
+2938,"which side you should sit according vastu for office work",n/a,0,n/a,0.00
+2939,"which temple in south india rectify vastu dosha",n/a,0,n/a,0.00
+2940,"which time does the day starts as per vastu",n/a,0,n/a,0.00
+2941,"which time we should clesn our house in vastu",n/a,0,n/a,0.00
+2942,"which tortoise good for vastu",n/a,0,n/a,0.00
+2943,"which tortoise is good for home according to vastu",n/a,0,n/a,0.00
+2944,"which tree should i plant according to vastu",n/a,0,n/a,0.00
+2945,"which type wall clock vastu",n/a,0,n/a,0.00
+2946,"which type wall paper used for room according to vastu",n/a,0,n/a,0.00
+2947,"which vastu book is good in telugu",n/a,0,n/a,0.00
+2948,"which vastu compass best in use",n/a,0,n/a,0.00
+2949,"which vastu direction is best for cooking",n/a,0,n/a,0.00
+2950,"which vastu dosh effect for conceiving",n/a,0,n/a,0.00
+2951,"which vastu facing side is good",n/a,0,n/a,0.00
+2952,"which vastu fault give unemployment",n/a,0,n/a,0.00
+2953,"which vastu fish is best for mithun rashi",n/a,0,n/a,0.00
+2954,"which vastu gem should vishaka nakshatram should wear",n/a,0,n/a,0.00
+2955,"which vastu idol",n/a,0,n/a,0.00
+2956,"which vastu is considered positive",n/a,0,n/a,0.00
+2957,"which vastu is for overcome all hurdles",n/a,0,n/a,0.00
+2958,"which vastu issues affect ladies health",n/a,0,n/a,0.00
+2959,"which vastu plants cure water shortages",n/a,0,n/a,0.00
+2960,"which vastu problem make marriage dificult",n/a,0,n/a,0.00
+2961,"which vastu rules is important",n/a,0,n/a,0.00
+2962,"which vastu wallpapers for sagittarius",n/a,0,n/a,0.00
+2963,"which vastu zone for kidney and heart",n/a,0,n/a,0.00
+2964,"which wall color is good for living room vastu",n/a,0,n/a,0.00
+2965,"which wall is best for tv as per vastu",n/a,0,n/a,0.00
+2966,"which wall paper is bed room as per vastu",n/a,0,n/a,0.00
+2967,"which wall paper is bed room as per vastu sastra",n/a,0,n/a,0.00
+2968,"which wall paper is for bed room as per vastu",n/a,0,n/a,0.00
+2969,"which wall to hang jesus picture vastu",n/a,0,n/a,0.00
+2970,"which wall to put horse according to vastu",n/a,0,n/a,0.00
+2971,"which wall to put vastu",n/a,0,n/a,0.00
+2972,"which wall you should have almira as per vastu",n/a,0,n/a,0.00
+2973,"which wall you should have almirah as per vastu",n/a,0,n/a,0.00
+2974,"which was in north west side inn vastu plan",n/a,0,n/a,0.00
+2975,"which way a door should open according to vastu",n/a,0,n/a,0.00
+2976,"which way should bedroom door open as per vastu",n/a,0,n/a,0.00
+2977,"which weekday to enter house as per indian vastu",n/a,0,n/a,0.00
+2978,"which wood used for main door as per vastu",n/a,0,n/a,0.00
+2979,"which word most searched for vastu in google",n/a,0,n/a,0.00
+2980,"which wrist watch better round or square vastu",n/a,0,n/a,0.00
+2981,"which yantra will help vastu dosh",n/a,0,n/a,0.00
+2982,"who believe in vastu",n/a,0,n/a,0.00
+2983,"who follows vastu",n/a,0,n/a,0.00
+2984,"who gave vastu shastra",n/a,0,n/a,0.00
+2985,"who handles celebrities vastu",n/a,0,n/a,0.00
+2986,"who headed swadeshi vastu pracharini sabha",n/a,0,n/a,0.00
+2987,"who is god for east side vastu",n/a,0,n/a,0.00
+2988,"who is the best author of vastu shastra book",n/a,0,n/a,0.00
+2989,"who is the hero of film vastu prakara",n/a,0,n/a,0.00
+2990,"who is the owbe of shree vastu purti",n/a,0,n/a,0.00
+2991,"who is the vastu of india gate",n/a,0,n/a,0.00
+2992,"who is this vastu simha umajee",n/a,0,n/a,0.00
+2993,"who is vastu supercomputer",n/a,0,n/a,0.00
+2994,"who was inventor of vastu shastra",n/a,0,n/a,0.00
+2995,"why choose vastu shastra",n/a,0,n/a,0.00
+2996,"why choose vastu shstra",n/a,0,n/a,0.00
+2997,"why decorative items hanging vastu shastra",n/a,0,n/a,0.00
+2998,"why divorce happen vastu",n/a,0,n/a,0.00
+2999,"why do we need vastu shastra",n/a,0,n/a,0.00
+3000,"why fights at home vastu",n/a,0,n/a,0.00
+3001,"why follow vastu is important or not",n/a,0,n/a,0.00
+3002,"why goldfish died health vastu",n/a,0,n/a,0.00
+3003,"why goldfish died vastu",n/a,0,n/a,0.00
+3004,"why goldfish died with health problem vastu",n/a,0,n/a,0.00
+3005,"why iit kharagpur is introducing vastu shastra",n/a,0,n/a,0.00
+3006,"why is toilet under staircase as per vastu",n/a,0,n/a,0.00
+3007,"why is vastu shanti done",n/a,0,n/a,0.00
+3008,"why keep lemon in purse as per vastu",n/a,0,n/a,0.00
+3009,"why kitchen should be in south east not vastu",n/a,0,n/a,0.00
+3010,"why lemon on full glass of water vastu",n/a,0,n/a,0.00
+3011,"why main doors should be on north directin per vastu",n/a,0,n/a,0.00
+3012,"why marble flooring is not good in vastu",n/a,0,n/a,0.00
+3013,"why marbles are not used in home as per vastu",n/a,0,n/a,0.00
+3014,"why me content for vastu n astrology",n/a,0,n/a,0.00
+3015,"why me content for vastu shastra",n/a,0,n/a,0.00
+3016,"why me content in astro vastu terms",n/a,0,n/a,0.00
+3017,"why not to sleep in north direction in vastu shastra",n/a,0,n/a,0.00
+3018,"why not vastu in abroad",n/a,0,n/a,0.00
+3019,"why pumpkin not planted in home india vastu",n/a,0,n/a,0.00
+3020,"why radium blue tape is fi o main gate vastu",n/a,0,n/a,0.00
+3021,"why raised ground in south west in vastu",n/a,0,n/a,0.00
+3022,"why raised ground in south west in vastu scientific reason",n/a,0,n/a,0.00
+3023,"why should arch not be in home vastu",n/a,0,n/a,0.00
+3024,"why should we follow vastu",n/a,0,n/a,0.00
+3025,"why should we use arovana vastu fish",n/a,0,n/a,0.00
+3026,"why should we use vastu fish",n/a,0,n/a,0.00
+3027,"why sndra karra used in vastu shastra",n/a,0,n/a,0.00
+3028,"why south west bathroom vastu",n/a,0,n/a,0.00
+3029,"why the flowerhorn fish is called as vastu fish",n/a,0,n/a,0.00
+3030,"why there is no peac3 in home as per vastu",n/a,0,n/a,0.00
+3031,"why to keep fishes according to vastu",n/a,0,n/a,0.00
+3032,"why to oil door hinges as per vastu",n/a,0,n/a,0.00
+3033,"why turtle is used in vastu",n/a,0,n/a,0.00
+3034,"why vastu compliant house",n/a,0,n/a,0.00
+3035,"why vastu gods placed in a same order every time",n/a,0,n/a,0.00
+3036,"why vastu is neccesary for home",n/a,0,n/a,0.00
+3037,"why vastu puja is important",n/a,0,n/a,0.00
+3038,"why vastu shastra is necessary",n/a,0,n/a,0.00
+3039,"why vastu solution is important for home",n/a,0,n/a,0.00
+3040,"why walls of a home impact life as per vastu",n/a,0,n/a,0.00
+3041,"why we do vastu shanti",n/a,0,n/a,0.00
+3042,"why we get electric shok with other person vastu",n/a,0,n/a,0.00
+3043,"why we get hiccups in vastu",n/a,0,n/a,0.00
+3044,"why we improve vastu",n/a,0,n/a,0.00
+3045,"will power vastu",n/a,0,n/a,0.00
+3046,"will vastu shastra help me conceive",n/a,0,n/a,0.00

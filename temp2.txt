@@ -1,0 +1,30 @@
+    .section-title-underline { position: relative; padding-bottom: 0.75rem; display: inline-block; }
+    .section-title-underline::after { content: ''; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 80px; height: 4px; background-color: #f97316; border-radius: 2px; }
+    .gradient-text { background: linear-gradient(45deg, #f97316, #ea580c); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .faq-item .answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; }
+    .faq-item.open .answer { max-height: 800px; }
+    .faq-item .icon { transition: transform 0.3s ease; }
+    .faq-item.open .icon { transform: rotate(45deg); }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+<!-- Top Banner -->
+<div class="w-full bg-gradient-to-r from-yellow-50 to-orange-50 shadow-sm flex items-center justify-center py-3 px-4 text-center border-b border-yellow-200">
+  <span class="text-yellow-400 mr-2 text-xl">★★★★★</span>
+  <span class="text-base md:text-lg font-bold text-gray-700">
+    Bangalore’s #1 Scientific Vastu Consultant • 5-Star Google Rating • 600+ Properties Transformed
+  </span>
+</div>
+
+<!-- Header / Navigation Bar -->
+<header class="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+    <a href="/" class="flex items-center gap-2">
+      <span class="text-2xl font-extrabold text-gray-800 tracking-tight">
+        Vardhini <span class="text-orange-600">Vastu</span>
+      </span>
+    </a>
+    
+    <nav class="hidden md:flex items-center gap-8">

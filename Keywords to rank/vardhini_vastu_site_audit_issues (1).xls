@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>SEMrush Site Audit</Author>
+  <Title>Vardhini Vastu - Site Audit Issues</Title>
+ </DocumentProperties>
+ <Styles>
+  <Style ss:ID="Default">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" ss:Size="10"/>
+  </Style>
+  <Style ss:ID="header">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" ss:Size="11" ss:Bold="1" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#1E3A5F" ss:Pattern="Solid"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#AAAAAA"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="title">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Arial" ss:Size="14" ss:Bold="1" ss:Color="#1E3A5F"/>
+   <Interior ss:Color="#D9E1F2" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="section_error">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" ss:Size="11" ss:Bold="1" ss:Color="#CC0000"/>
+   <Interior ss:Color="#FFD7D7" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="section_warning">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" ss:Size="11" ss:Bold="1" ss:Color="#7D5A00"/>
+   <Interior ss:Color="#FFF0BE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="section_notice">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" ss:Size="11" ss:Bold="1" ss:Color="#1A5E20"/>
+   <Interior ss:Color="#C8EAC9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="error_row">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" ss:Size="10"/>
+   <Interior ss:Color="#FFE8E8" ss:Pattern="Solid"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDDDDD"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDDDDD"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="warning_row">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" ss:Size="10"/>
+   <Interior ss:Color="#FFFDE8" ss:Pattern="Solid"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDDDDD"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDDDDD"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="notice_row">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" ss:Size="10"/>
+   <Interior ss:Color="#F0FFF0" ss:Pattern="Solid"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDDDDD"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDDDDD"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="center">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" ss:Size="10"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDDDDD"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDDDDD"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="center_error">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" ss:Size="10"/>
+   <Interior ss:Color="#FFE8E8" ss:Pattern="Solid"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDDDDD"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDDDDD"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="center_warning">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" ss:Size="10"/>
+   <Interior ss:Color="#FFFDE8" ss:Pattern="Solid"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDDDDD"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDDDDD"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="center_notice">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" ss:Size="10"/>
+   <Interior ss:Color="#F0FFF0" ss:Pattern="Solid"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDDDDD"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDDDDD"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="empty_cell">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" ss:Size="10"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDDDDD"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#DDDDDD"/>
+   </Borders>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Site Audit Issues">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="20" x:FullColumns="1" x:FullRows="1" ss:DefaultRowHeight="18">
+   <Column ss:Width="30"/>
+   <Column ss:Width="70"/>
+   <Column ss:Width="120"/>
+   <Column ss:Width="300"/>
+   <Column ss:Width="90"/>
+   <Column ss:Width="70"/>
+   <Column ss:Width="70"/>
+   <Column ss:Width="80"/>
+   <Column ss:Width="200"/>
+   
+   <!-- Title Row -->
+   <Row ss:Height="28">
+    <Cell ss:MergeAcross="8" ss:StyleID="title"><Data ss:Type="String">Vardhini Vastu (vardhinivastu.in) — SEMrush Site Audit Report | Date: May 29, 2026 | Pages Crawled: 396/500</Data></Cell>
+   </Row>
+   
+   <!-- Header Row -->
+   <Row ss:Height="22">
+    <Cell ss:StyleID="header"><Data ss:Type="String">#</Data></Cell>
+    <Cell ss:StyleID="header"><Data ss:Type="String">Severity</Data></Cell>
+    <Cell ss:StyleID="header"><Data ss:Type="String">Category</Data></Cell>
+    <Cell ss:StyleID="header"><Data ss:Type="String">Issue Description</Data></Cell>
+    <Cell ss:StyleID="header"><Data ss:Type="String">Affected Count</Data></Cell>
+    <Cell ss:StyleID="header"><Data ss:Type="String">Status</Data></Cell>
+    <Cell ss:StyleID="header"><Data ss:Type="String">Priority</Data></Cell>
+    <Cell ss:StyleID="header"><Data ss:Type="String">Fix Status</Data></Cell>
+    <Cell ss:StyleID="header"><Data ss:Type="String">Fix Notes / Actions</Data></Cell>
+   </Row>
+   
+   <!-- ERRORS SECTION -->
+   <Row ss:Height="20">
+    <Cell ss:MergeAcross="8" ss:StyleID="section_error"><Data ss:Type="String">🔴  ERRORS  (1 issue type)</Data></Cell>
+   </Row>
+   
+   <!-- Error 1 -->
+   <Row ss:Height="20">
+    <Cell ss:StyleID="center_error"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="center_error"><Data ss:Type="String">ERROR</Data></Cell>
+    <Cell ss:StyleID="error_row"><Data ss:Type="String">Crawlability / Structured Data</Data></Cell>
+    <Cell ss:StyleID="error_row"><Data ss:Type="String">387 structured data items are invalid</Data></Cell>
+    <Cell ss:StyleID="center_error"><Data ss:Type="Number">387</Data></Cell>
+    <Cell ss:StyleID="center_error"><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:StyleID="center_error"><Data ss:Type="String">HIGH</Data></Cell>
+    <Cell ss:StyleID="center_error"><Data ss:Type="String">To Fix</Data></Cell>
+    <Cell ss:StyleID="error_row"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   
+   <!-- WARNINGS SECTION -->
+   <Row ss:Height="20">
+    <Cell ss:MergeAcross="8" ss:StyleID="section_warning"><Data ss:Type="String">🟡  WARNINGS  (4 issue types)</Data></Cell>
+   </Row>
+   
+   <!-- Warning 2 -->
+   <Row ss:Height="20">
+    <Cell ss:StyleID="center_warning"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="center_warning"><Data ss:Type="String">WARNING</Data></Cell>
+    <Cell ss:StyleID="warning_row"><Data ss:Type="String">Content</Data></Cell>
+    <Cell ss:StyleID="warning_row"><Data ss:Type="String">387 pages have low text-HTML ratio</Data></Cell>
+    <Cell ss:StyleID="center_warning"><Data ss:Type="Number">387</Data></Cell>
+    <Cell ss:StyleID="center_warning"><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:StyleID="center_warning"><Data ss:Type="String">MEDIUM</Data></Cell>
+    <Cell ss:StyleID="center_warning"><Data ss:Type="String">To Fix</Data></Cell>
+    <Cell ss:StyleID="warning_row"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   
+   <!-- Warning 3 -->
+   <Row ss:Height="20">
+    <Cell ss:StyleID="center_warning"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="center_warning"><Data ss:Type="String">WARNING</Data></Cell>
+    <Cell ss:StyleID="warning_row"><Data ss:Type="String">Crawlability / Links</Data></Cell>
+    <Cell ss:StyleID="warning_row"><Data ss:Type="String">387 outgoing internal links contain nofollow attribute</Data></Cell>
+    <Cell ss:StyleID="center_warning"><Data ss:Type="Number">387</Data></Cell>
+    <Cell ss:StyleID="center_warning"><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:StyleID="center_warning"><Data ss:Type="String">MEDIUM</Data></Cell>
+    <Cell ss:StyleID="center_warning"><Data ss:Type="String">To Fix</Data></Cell>
+    <Cell ss:StyleID="warning_row"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   
+   <!-- Warning 4 -->
+   <Row ss:Height="20">
+    <Cell ss:StyleID="center_warning"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="center_warning"><Data ss:Type="String">WARNING</Data></Cell>
+    <Cell ss:StyleID="warning_row"><Data ss:Type="String">Crawlability / HTTP Status</Data></Cell>
+    <Cell ss:StyleID="warning_row"><Data ss:Type="String">125 external links are broken</Data></Cell>
+    <Cell ss:StyleID="center_warning"><Data ss:Type="Number">125</Data></Cell>
+    <Cell ss:StyleID="center_warning"><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:StyleID="center_warning"><Data ss:Type="String">MEDIUM</Data></Cell>
+    <Cell ss:StyleID="center_warning"><Data ss:Type="String">To Fix</Data></Cell>
+    <Cell ss:StyleID="warning_row"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   
+   <!-- Warning 5 -->
+   <Row ss:Height="20">
+    <Cell ss:StyleID="center_warning"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="center_warning"><Data ss:Type="String">WARNING</Data></Cell>
+    <Cell ss:StyleID="warning_row"><Data ss:Type="String">Meta Tags</Data></Cell>
+    <Cell ss:StyleID="warning_row"><Data ss:Type="String">3 pages have too much text within the title tags</Data></Cell>
+    <Cell ss:StyleID="center_warning"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="center_warning"><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:StyleID="center_warning"><Data ss:Type="String">MEDIUM</Data></Cell>
+    <Cell ss:StyleID="center_warning"><Data ss:Type="String">To Fix</Data></Cell>
+    <Cell ss:StyleID="warning_row"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   
+   <!-- NOTICES SECTION -->
+   <Row ss:Height="20">
+    <Cell ss:MergeAcross="8" ss:StyleID="section_notice"><Data ss:Type="String">🟢  NOTICES  (6 issue types)</Data></Cell>
+   </Row>
+   
+   <!-- Notice 6 -->
+   <Row ss:Height="20">
+    <Cell ss:StyleID="center_notice"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">NOTICE</Data></Cell>
+    <Cell ss:StyleID="notice_row"><Data ss:Type="String">Crawlability / Links</Data></Cell>
+    <Cell ss:StyleID="notice_row"><Data ss:Type="String">387 outgoing external links contain nofollow attributes</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="Number">387</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">LOW</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">To Fix</Data></Cell>
+    <Cell ss:StyleID="notice_row"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   
+   <!-- Notice 7 -->
+   <Row ss:Height="20">
+    <Cell ss:StyleID="center_notice"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">NOTICE</Data></Cell>
+    <Cell ss:StyleID="notice_row"><Data ss:Type="String">Crawlability / AI Search / Indexability</Data></Cell>
+    <Cell ss:StyleID="notice_row"><Data ss:Type="String">365 pages have only one incoming internal link</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="Number">365</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">LOW</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">To Fix</Data></Cell>
+    <Cell ss:StyleID="notice_row"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   
+   <!-- Notice 8 -->
+   <Row ss:Height="20">
+    <Cell ss:StyleID="center_notice"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">NOTICE</Data></Cell>
+    <Cell ss:StyleID="notice_row"><Data ss:Type="String">Crawlability / HTTP Status</Data></Cell>
+    <Cell ss:StyleID="notice_row"><Data ss:Type="String">5 URLs with a permanent redirect</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">LOW</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">To Fix</Data></Cell>
+    <Cell ss:StyleID="notice_row"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   
+   <!-- Notice 9 -->
+   <Row ss:Height="20">
+    <Cell ss:StyleID="center_notice"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">NOTICE</Data></Cell>
+    <Cell ss:StyleID="notice_row"><Data ss:Type="String">Content / Meta Tags</Data></Cell>
+    <Cell ss:StyleID="notice_row"><Data ss:Type="String">4 pages have more than one H1 tag</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">LOW</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">To Fix</Data></Cell>
+    <Cell ss:StyleID="notice_row"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   
+   <!-- Notice 10 -->
+   <Row ss:Height="20">
+    <Cell ss:StyleID="center_notice"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">NOTICE</Data></Cell>
+    <Cell ss:StyleID="notice_row"><Data ss:Type="String">Security and HTTPS</Data></Cell>
+    <Cell ss:StyleID="notice_row"><Data ss:Type="String">2 subdomains don&apos;t support HSTS</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">LOW</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">To Fix</Data></Cell>
+    <Cell ss:StyleID="notice_row"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   
+   <!-- Notice 11 -->
+   <Row ss:Height="20">
+    <Cell ss:StyleID="center_notice"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">NOTICE</Data></Cell>
+    <Cell ss:StyleID="notice_row"><Data ss:Type="String">Content / AI Search</Data></Cell>
+    <Cell ss:StyleID="notice_row"><Data ss:Type="String">1 page requires content optimization</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">New</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">LOW</Data></Cell>
+    <Cell ss:StyleID="center_notice"><Data ss:Type="String">To Fix</Data></Cell>
+    <Cell ss:StyleID="notice_row"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>3</SplitHorizontal>
+   <TopRowBottomPane>3</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

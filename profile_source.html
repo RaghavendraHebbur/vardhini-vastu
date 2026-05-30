@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Vardhini Vastu — Company Profile 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@800;900&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 0; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', sans-serif;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .page {
+    width: 210mm;
+    height: 297mm;
+    overflow: hidden;
+    page-break-after: always;
+    position: relative;
+  }
+  .page:last-child { page-break-after: avoid; }
+
+  /* ─── COLOURS ─────────────────────────────────────── */
+  /* Navy #1e3a5f | Orange #ea580c | Cream #fdf9f4 | Sand #f0e9df | White #fff */
+
+  /* ══════════════════════════════════════════════════
+     PAGE 1 — COVER
+  ══════════════════════════════════════════════════ */
+  .p1 { display: flex; flex-direction: column; background: #fff; }
+
+  /* Top hero band — navy */
+  .p1-hero {
+    background: #1e3a5f;
+    flex: 0 0 62%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  /* decorative circle */
+  .p1-hero::after {
+    content: '';
+    position: absolute;
+    width: 320px; height: 320px;
+    border-radius: 50%;
+    border: 60px solid rgba(234,88,12,.1);
+    right: -80px; bottom: -80px;
+  }
+
+  .p1-hero-left {
+    flex: 1;
+    padding: 12mm 10mm 10mm 12mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .p1-logo {
+    font-family: 'Outfit', sans-serif;
+    font-size: 13pt; font-weight: 900;
+    color: #fff; letter-spacing: -.02em;
+  }
+  .p1-logo span { color: #ea580c; }
+
+  .p1-headline {
+    font-family: 'Outfit', sans-serif;
+    font-size: 36pt; font-weight: 900;
+    color: #fff; line-height: 1.05;
+    letter-spacing: -.03em;
+  }
+  .p1-headline em { font-style: normal; color: #ea580c; }
+
+  .p1-sub {
+    font-size: 10pt; color: rgba(255,255,255,.55);
+    line-height: 1.6; margin-top: 10px;
+    max-width: 100mm;
+  }
+
+  .p1-badge {
+    display: inline-flex; align-items: center; gap: 7px;
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 100px;
+    padding: 5px 13px; width: fit-content; margin-bottom: 10mm;
+  }
+  .p1-badge-dot { width: 6px; height: 6px; background: #ea580c; border-radius: 50%; }
+  .p1-badge span { font-size: 7pt; font-weight: 700; color: rgba(255,255,255,.5); text-transform: uppercase; letter-spacing: .09em; }
+
+  /* photo on the right of hero */
+  .p1-hero-right {
+    flex: 0 0 52mm;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 0 0;
+  }
+  .p1-photo {
+    width: 100%; height: 100%;
+    object-fit: cover; object-position: center top;
+    display: block;
+    opacity: .88;
+  }
+
+  /* Bottom info band — cream */
+  .p1-info {
+    flex: 1;
+    background: #fdf9f4;
+    border-top: 4px solid #ea580c;
+    display: flex;
+    align-items: stretch;
+  }
+
+  /* stats */
+  .p1-stats {
+    display: flex;
+    flex: 1;
+    border-right: 1px solid #e8dfd4;
+  }
+  .p1-stat {
+    flex: 1;
+    padding: 0 0 0 10mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid #e8dfd4;
+  }
+  .p1-stat:last-child { border-right: none; }
+  .p1-stat-n {
+    font-family: 'Outfit', sans-serif;
+    font-size: 22pt; font-weight: 900;
+    color: #1e3a5f; letter-spacing: -.03em;
+  }
+  .p1-stat-l { font-size: 7.5pt; font-weight: 600; color: #9e8f80; text-transform: uppercase; letter-spacing: .07em; margin-top: 2px; }
+
+  /* contact block */
+  .p1-contact {
+    flex: 0 0 70mm;
+    padding: 8mm 12mm 8mm 8mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+  }
+  .p1-contact-name {
+    font-family: 'Outfit', sans-serif;
+    font-size: 12pt; font-weight: 900;
+    color: #1e3a5f; letter-spacing: -.02em;
+    margin-bottom: 2px;
+  }
+  .p1-contact-title { font-size: 7.5pt; color: #9e8f80; margin-bottom: 6px; }
+  .p1-contact-row { display: flex; gap: 7px; align-items: flex-start; }
+  .p1-contact-ico { font-size: 9pt; flex-shrink: 0; }
+  .p1-contact-val { font-size: 8pt; color: #4a5568; line-height: 1.5; }
+
+  /* ══════════════════════════════════════════════════
+     INNER PAGES
+  ══════════════════════════════════════════════════ */
+  .inner-page {
+    background: #fdf9f4;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  /* two-tone top bar */
+  .top-bar {
+    height: 5px;
+    background: linear-gradient(90deg, #1e3a5f 55%, #ea580c 55%);
+    flex-shrink: 0;
+  }
+  .page-content {
+    flex: 1;
+    padding: 9mm 12mm 5mm;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    overflow: hidden;
+  }
+  .page-footer {
+    flex-shrink: 0;
+    background: #fff;
+    border-top: 1px solid #e8dfd4;
+    padding: 6px 12mm;
+    display: flex;
+    justify-content: space-between;
+    font-size: 7.5pt;
+    color: #b0a090;
+  }
+
+  .eyebrow {
+    font-size: 7pt; font-weight: 700;
+    color: #ea580c; text-transform: uppercase;
+    letter-spacing: .1em; margin-bottom: 4px;
+  }
+  .sec-h {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20pt; font-weight: 900;
+    color: #1e3a5f; letter-spacing: -.03em;
+    line-height: 1.1; margin-bottom: 4px;
+  }
+  .sec-h em { font-style: normal; color: #ea580c; }
+  .sec-sub { font-size: 9pt; color: #6b7280; line-height: 1.6; margin-bottom: 10px; }
+
+  /* ── PAGE 2 ── */
+  .about-row {
+    display: grid;
+    grid-template-columns: 1fr 88px;
+    gap: 16px;
+    margin-bottom: 12px;
+  }
+  .about-photo {
+    width: 88px; height: 110px;
+    object-fit: cover; object-position: center top;
+    border-radius: 8px;
+    border: 2px solid #e8dfd4;
+    display: block;
+  }
+  .bio { font-size: 9pt; color: #4a5568; line-height: 1.65; }
+  .bio + .bio { margin-top: 7px; }
+
+  /* kpi chips */
+  .kpi-row { display: flex; gap: 8px; margin-top: 10px; }
+  .kpi {
+    background: #1e3a5f;
+    border-radius: 8px; padding: 8px 14px;
+    flex: 1; text-align: center;
+  }
+  .kpi-n { font-family: 'Outfit', sans-serif; font-size: 16pt; font-weight: 900; color: #fff; letter-spacing: -.02em; }
+  .kpi-l { font-size: 6.5pt; font-weight: 600; color: rgba(255,255,255,.45); text-transform: uppercase; letter-spacing: .07em; margin-top: 2px; }
+
+  /* divider */
+  .divider { height: 1px; background: #e8dfd4; margin: 10px 0; }
+
+  /* pillars */
+  .pillars { display: flex; flex-direction: column; gap: 7px; }
+  .pillar {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #e8dfd4;
+    border-left: 3px solid #ea580c;
+    padding: 9px 13px;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .p-num {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18pt; font-weight: 900;
+    color: #f0c99a; line-height: 1;
+    flex-shrink: 0; width: 20px;
+  }
+  .p-title { font-size: 9pt; font-weight: 700; color: #1e3a5f; margin-bottom: 3px; }
+  .p-body  { font-size: 8pt; color: #4a5568; line-height: 1.55; }
+
+  /* ── PAGE 3 ── */
+  .g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+
+  .tool {
+    background: #f0e9df;
+    border: 1px solid #ddd0c0;
+    border-radius: 8px;
+    padding: 10px 12px;
+  }
+  .tool-t { font-size: 8.5pt; font-weight: 700; color: #1e3a5f; margin-bottom: 4px; }
+  .tool-b { font-size: 8pt; color: #4a5568; line-height: 1.55; }
+
+  .svc {
+    background: #fff;
+    border: 1px solid #e8dfd4;
+    border-radius: 8px;
+    padding: 10px 12px;
+    display: flex;
+    gap: 9px;
+    align-items: flex-start;
+  }
+  .svc-ico  { font-size: 16pt; flex-shrink: 0; line-height: 1; }
+  .svc-name { font-size: 9pt; font-weight: 700; color: #1e3a5f; margin-bottom: 3px; }
+  .svc-desc { font-size: 7.5pt; color: #4a5568; line-height: 1.5; }
+  .svc-fee  { font-size: 8pt; font-weight: 700; color: #ea580c; margin-top: 4px; }
+
+  /* address cards */
+  .addr-row { display: grid; grid-template-columns: repeat(3,1fr); gap: 8px; margin-top: 10px; }
+  .addr {
+    background: #fff;
+    border: 1px solid #e8dfd4;
+    border-top: 2px solid #1e3a5f;
+    border-radius: 8px;
+    padding: 9px 11px;
+  }
+  .addr-lbl { font-size: 6.5pt; font-weight: 700; color: #ea580c; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 5px; }
+  .addr-val { font-size: 8.5pt; font-weight: 600; color: #1e3a5f; line-height: 1.5; }
+  .addr-sub { font-size: 7pt; color: #9e8f80; margin-top: 3px; line-height: 1.4; }
+
+  /* CTA */
+  .cta {
+    background: #1e3a5f;
+    border-radius: 8px;
+    padding: 13px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .cta-h { font-family: 'Outfit', sans-serif; font-size: 12pt; font-weight: 900; color: #fff; margin-bottom: 3px; }
+  .cta-s { font-size: 8pt; color: rgba(255,255,255,.45); }
+  .cta-num { font-family: 'Outfit', sans-serif; font-size: 14pt; font-weight: 900; color: #ea580c; text-align: right; }
+  .cta-det { font-size: 7.5pt; color: rgba(255,255,255,.4); text-align: right; margin-top: 3px; }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════ PAGE 1 — COVER ═══════════════ -->
+<div class="page p1">
+
+  <div class="p1-hero">
+    <div class="p1-hero-left">
+      <div class="p1-logo">Vardhini <span>Vastu</span></div>
+      <div>
+        <div class="p1-badge">
+          <div class="p1-badge-dot"></div>
+          <span>VIDS™ — Vastu Integral Diagnostic System</span>
+        </div>
+        <div class="p1-headline">Align Your Space.<br><em>Elevate Your Life.</em></div>
+        <p class="p1-sub">India's leading scientific &amp; non-demolition Vastu consultancy — Bangalore &amp; worldwide.</p>
+      </div>
+    </div>
+    <div class="p1-hero-right">
+      <img src="https://assets.zyrosite.com/mv0DEjQxOGiDlo89/sam_1727-ALpe0v75j3Tjeqpb.JPG" class="p1-photo" alt="Raghavendra Hebbur">
+    </div>
+  </div>
+
+  <div class="p1-info">
+    <div class="p1-stats">
+      <div class="p1-stat"><div class="p1-stat-n">18+</div><div class="p1-stat-l">Years Active</div></div>
+      <div class="p1-stat"><div class="p1-stat-n">3,200+</div><div class="p1-stat-l">Consultations</div></div>
+      <div class="p1-stat"><div class="p1-stat-n">620+</div><div class="p1-stat-l">Properties</div></div>
+      <div class="p1-stat"><div class="p1-stat-n">★ 5.0</div><div class="p1-stat-l">Google Rating</div></div>
+    </div>
+    <div class="p1-contact">
+      <div class="p1-contact-name">Raghavendra Hebbur</div>
+      <div class="p1-contact-title">Certified Geo Master &amp; Lead Vastu Consultant</div>
+      <div class="p1-contact-row"><div class="p1-contact-ico">📞</div><div class="p1-contact-val"><strong>+91 97391 05574</strong></div></div>
+      <div class="p1-contact-row"><div class="p1-contact-ico">✉️</div><div class="p1-contact-val">Info@vardhinivastu.in</div></div>
+      <div class="p1-contact-row"><div class="p1-contact-ico">🌐</div><div class="p1-contact-val">vardhinivastu.in</div></div>
+      <div class="p1-contact-row"><div class="p1-contact-ico">📍</div><div class="p1-contact-val">Ajit Layout, Virgo Nagar, Bengaluru – 560049</div></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ═══════════════ PAGE 2 — ABOUT + PILLARS ═══════════════ -->
+<div class="page">
+  <div class="inner-page">
+    <div class="top-bar"></div>
+    <div class="page-content">
+
+      <p class="eyebrow">About the Consultant</p>
+      <h2 class="sec-h">The Visionary Behind <em>Vardhini Vastu</em></h2>
+
+      <div class="about-row">
+        <div>
+          <p class="bio">As the founder of Vardhini Vastu, <strong>Raghavendra Hebbur</strong> has spent over 18 years helping families, startups, and industrial clients harmonise their spaces. He bridges traditional Vedic wisdom with modern scientific diagnostics to deliver precise, non-demolition energy alignment.</p>
+          <p class="bio">Trained in classical Vastu Shastra with single-degree compass precision, he is also a certified Lecher Antenna practitioner for geopathic stress detection — serving clients across Bangalore, India, and internationally.</p>
+          <div class="kpi-row">
+            <div class="kpi"><div class="kpi-n">18+</div><div class="kpi-l">Years</div></div>
+            <div class="kpi"><div class="kpi-n">3,200+</div><div class="kpi-l">Consults</div></div>
+            <div class="kpi"><div class="kpi-n">620+</div><div class="kpi-l">Properties</div></div>
+            <div class="kpi"><div class="kpi-n">★ 5.0</div><div class="kpi-l">Google</div></div>
+          </div>
+        </div>
+        <img src="https://assets.zyrosite.com/mv0DEjQxOGiDlo89/sam_1727-ALpe0v75j3Tjeqpb.JPG" class="about-photo" alt="Raghavendra Hebbur">
+      </div>
+
+      <div class="divider"></div>
+
+      <p class="eyebrow">Our Framework</p>
+      <h2 class="sec-h">Three <em>Pillars</em> of Practice</h2>
+      <p class="sec-sub">No fear tactics, no expensive renovations — three scientific tenets guide every consultation.</p>
+
+      <div class="pillars">
+        <div class="pillar">
+          <div class="p-num">1</div>
+          <div><div class="p-title">Sanskrit Source Research</div><div class="p-body">Ongoing translation of the 12th-century treatise <em>Aparajitapṛcchā</em> — all techniques derived from classical Indian architectural texts, not folklore.</div></div>
+        </div>
+        <div class="pillar">
+          <div class="p-num">2</div>
+          <div><div class="p-title">VIDS™ 16-Zone Overlay</div><div class="p-body">Proprietary Vastu Integral Diagnostic System — property mapped into 16 directional segments with single-degree compass precision.</div></div>
+        </div>
+        <div class="pillar">
+          <div class="p-num">3</div>
+          <div><div class="p-title">100% Non-Demolition</div><div class="p-body">No walls broken — ever. Imbalances corrected using metal strips, colour therapy, yantras, and elemental energy modulators.</div></div>
+        </div>
+      </div>
+
+    </div>
+    <div class="page-footer">
+      <span>Vardhini Vastu &nbsp;·&nbsp; vardhinivastu.in &nbsp;·&nbsp; +91 97391 05574</span>
+      <span>Page 2 of 3</span>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ PAGE 3 — TOOLS + SERVICES + CTA ═══════════════ -->
+<div class="page">
+  <div class="inner-page">
+    <div class="top-bar"></div>
+    <div class="page-content">
+
+      <p class="eyebrow">Scientific Diagnostics</p>
+      <h2 class="sec-h">Instruments &amp; <em>Methodology</em></h2>
+      <p class="sec-sub" style="margin-bottom:8px;">Certified bio-resonance and geo-detection tools for precise energy field measurement.</p>
+
+      <div class="g2" style="margin-bottom:12px;">
+        <div class="tool"><div class="tool-t">Lecher Antenna</div><div class="tool-b">Bio-resonance instrument that reads biological and environmental frequencies to pinpoint electromagnetic imbalances.</div></div>
+        <div class="tool"><div class="tool-t">Universal Aura Scanner (UAS)</div><div class="tool-b">Identifies spatial energy blockages and verifies remedy compatibility before installation.</div></div>
+        <div class="tool"><div class="tool-t">Geopathic Stress Rods</div><div class="tool-b">Detects Hartmann, Curry, and geological fault lines — a root cause of chronic health issues and business stagnation.</div></div>
+        <div class="tool"><div class="tool-t">16-Zone Compass Analysis</div><div class="tool-b">Single-degree compass-accurate zoning — every directional segment scored against classical Vastu principles.</div></div>
+      </div>
+
+      <p class="eyebrow">Services &amp; Fees</p>
+      <h2 class="sec-h">Professional <em>Services</em></h2>
+
+      <div class="g2" style="margin-top:8px; margin-bottom:0;">
+        <div class="svc"><div class="svc-ico">🏠</div><div><div class="svc-name">Residential Vastu</div><div class="svc-desc">Apartments, villas &amp; homes. 16-zone VIDS™ analysis + written report.</div><div class="svc-fee">From ₹15,000</div></div></div>
+        <div class="svc"><div class="svc-ico">🏢</div><div><div class="svc-name">Commercial Vastu</div><div class="svc-desc">Offices, retail &amp; showrooms. Energy mapping for productivity &amp; cash flow.</div><div class="svc-fee">From ₹51,000</div></div></div>
+        <div class="svc"><div class="svc-ico">🏭</div><div><div class="svc-name">Industrial Vastu</div><div class="svc-desc">Factories, warehouses &amp; IT parks. Prevent machine faults &amp; disruptions.</div><div class="svc-fee">From ₹51,000</div></div></div>
+        <div class="svc"><div class="svc-ico">🌐</div><div><div class="svc-name">Online / NRI Consultation</div><div class="svc-desc">Floor plan + video call. Accurate digital zoning, available worldwide.</div><div class="svc-fee">₹5,000 (Worldwide)</div></div></div>
+      </div>
+
+      <div class="addr-row">
+        <div class="addr"><div class="addr-lbl">📞 Phone &amp; WhatsApp</div><div class="addr-val">+91 97391 05574</div><div class="addr-sub">Mon–Sat, 9 AM–7 PM IST</div></div>
+        <div class="addr"><div class="addr-lbl">✉️ Email &amp; Web</div><div class="addr-val">Info@vardhinivastu.in</div><div class="addr-sub">vardhinivastu.in</div></div>
+        <div class="addr"><div class="addr-lbl">📍 Address</div><div class="addr-val">Virgo Nagar, Bengaluru</div><div class="addr-sub">3rd Cross, Saraswati Road,<br>Ajit Layout – 560049</div></div>
+      </div>
+
+      <div class="cta">
+        <div><div class="cta-h">Ready to Align Your Space?</div><div class="cta-s">Zero-demolition VIDS™ · Written report in 48 hrs · Worldwide</div></div>
+        <div><div class="cta-num">+91 97391 05574</div><div class="cta-det">Info@vardhinivastu.in · vardhinivastu.in</div></div>
+      </div>
+
+    </div>
+    <div class="page-footer">
+      <span>Vardhini Vastu &nbsp;·&nbsp; vardhinivastu.in &nbsp;·&nbsp; +91 97391 05574</span>
+      <span>Page 3 of 3</span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
